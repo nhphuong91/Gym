@@ -1,0 +1,183 @@
+<svg width="100%" viewBox="0 0 680 1450" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Foam rolling — lower body rest day (hEDS / HSD safe)</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Myofascial release only · no joint mobilization · pick areas by what you trained · ~15 min · 6 areas</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Target area</text>
+<rect x="50" y="80" width="10" height="10" rx="2" fill="#5c2d0e"/>
+<text font-size="11" fill="#333" x="66" y="90">Glutes</text>
+<rect x="140" y="80" width="10" height="10" rx="2" fill="#7a1b4e"/>
+<text font-size="11" fill="#333" x="156" y="90">Hamstrings</text>
+<rect x="260" y="80" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="276" y="90">Calves</text>
+<rect x="340" y="80" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="356" y="90">Quads</text>
+<rect x="420" y="80" width="10" height="10" rx="2" fill="#8b1a1a"/>
+<text font-size="11" fill="#333" x="436" y="90">TFL / hip</text>
+<rect x="520" y="80" width="10" height="10" rx="2" fill="#042c53"/>
+<text font-size="11" fill="#333" x="536" y="90">Adductors</text>
+
+<!-- hEDS WARNING -->
+<rect x="30" y="120" width="620" height="56" rx="8" fill="#fff3e0" stroke="#e8a020" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#8b5e00" x="50" y="139">⚠ hEDS / HSD foam rolling rules</text>
+<text font-size="11" fill="#9e6e10" x="50" y="156">Roll on muscle bellies only — never on joints, tendons, or bony prominences. Never roll over</text>
+<text font-size="11" fill="#9e6e10" x="50" y="169">the knee joint or kneecap. Wall-based ball work preferred for pressure control. Tennis ball first.</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PHASE 1: GLUTES + POSTERIOR CHAIN -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="190" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="206">Phase 1 — Glutes + posterior chain  (~6 min)</text>
+
+<!-- 1. Glutes  y=220  h=94 -->
+<rect x="30" y="220" width="8" height="94" rx="2" fill="#5c2d0e"/>
+<rect x="38" y="220" width="612" height="94" rx="4" fill="#faf0e6" stroke="#8b5a2b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="236">1</text>
+<text font-size="12" font-weight="500" fill="#5c2d0e" x="68" y="236">Glutes (seated on roller, crossed-leg)</text>
+<text font-size="11" fill="#7a4a1e" x="68" y="251">Gluteus maximus · gluteus medius — loaded by hip thrusts</text>
+<text font-size="11" fill="#7a4a1e" x="68" y="266">Sit on roller, cross one ankle over opposite knee, lean into elevated side.</text>
+<text font-size="11" fill="#7a4a1e" x="68" y="281">Roll glute belly in small movements. Find 2–3 tender spots per side.</text>
+<text font-size="11" fill="#7a4a1e" x="68" y="296">hEDS: stay on muscle belly — avoid sitting bone and hip joint. Adjust lean for pressure.</text>
+<text font-size="12" font-weight="500" fill="#5c2d0e" x="490" y="236">1–2 min per side</text>
+<text font-size="11" fill="#7a4a1e" x="490" y="251">Foam roller</text>
+<text font-size="11" fill="#7a4a1e" x="490" y="266">~3 min</text>
+
+<!-- 2. Hamstrings  y=320  h=109 -->
+<rect x="30" y="320" width="8" height="109" rx="2" fill="#7a1b4e"/>
+<rect x="38" y="320" width="612" height="109" rx="4" fill="#fce8f2" stroke="#a3286a" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="336">2</text>
+<text font-size="12" font-weight="500" fill="#7a1b4e" x="68" y="336">Hamstrings (seated on roller)</text>
+<text font-size="11" fill="#9e3070" x="68" y="351">Biceps femoris · semimembranosus · semitendinosus</text>
+<text font-size="11" fill="#9e3070" x="68" y="366">— loaded by DB RDLs, prone curls</text>
+<text font-size="11" fill="#9e3070" x="68" y="381">Sit with roller under back of thigh. Rotate foot in/out to hit</text>
+<text font-size="11" fill="#9e3070" x="68" y="396">inner and outer hamstring heads. Pause 20–30s on tender spots.</text>
+<text font-size="11" fill="#9e3070" x="68" y="411">hEDS: stay well above the back of the knee — never roll over the knee joint.</text>
+<text font-size="12" font-weight="500" fill="#7a1b4e" x="490" y="336">1–2 min per side</text>
+<text font-size="11" fill="#9e3070" x="490" y="351">Foam roller</text>
+<text font-size="11" fill="#9e3070" x="490" y="366">~3 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PHASE 2: CALVES + QUADS -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="443" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="459">Phase 2 — Calves + quads  (~6 min)</text>
+
+<!-- 3. Calves  y=473  h=94 -->
+<rect x="30" y="473" width="8" height="94" rx="2" fill="#085041"/>
+<rect x="38" y="473" width="612" height="94" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="489">3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="489">Calves (seated on roller)</text>
+<text font-size="11" fill="#0f6e56" x="68" y="504">Gastrocnemius · soleus — loaded by standing + seated calf raises</text>
+<text font-size="11" fill="#0f6e56" x="68" y="519">Sit with roller under calves. Rotate foot in/out to target</text>
+<text font-size="11" fill="#0f6e56" x="68" y="534">medial and lateral gastrocnemius heads + soleus.</text>
+<text font-size="11" fill="#0f6e56" x="68" y="549">hEDS: stay on muscle belly — avoid Achilles tendon and back of knee.</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="489">1–2 min per side</text>
+<text font-size="11" fill="#0f6e56" x="490" y="504">Foam roller</text>
+<text font-size="11" fill="#0f6e56" x="490" y="519">~3 min</text>
+
+<!-- 4. Quads  y=573  h=109 -->
+<rect x="30" y="573" width="8" height="109" rx="2" fill="#26215c"/>
+<rect x="38" y="573" width="612" height="109" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="589">4</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="68" y="589">Quads (prone on roller)</text>
+<text font-size="11" fill="#3c3489" x="68" y="604">Vastus medialis · vastus lateralis · rectus femoris</text>
+<text font-size="11" fill="#3c3489" x="68" y="619">— loaded by sit-to-stands, wall sits</text>
+<text font-size="11" fill="#3c3489" x="68" y="634">Face down, roller under front of thigh. Rotate leg in/out to hit</text>
+<text font-size="11" fill="#3c3489" x="68" y="649">inner (VMO) and outer (VL) portions. Pause 20–30s on tender spots.</text>
+<text font-size="11" fill="#3c3489" x="68" y="664">hEDS: stop well above the kneecap — never roll over the patella.</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="589">1–2 min per side</text>
+<text font-size="11" fill="#3c3489" x="490" y="604">Foam roller</text>
+<text font-size="11" fill="#3c3489" x="490" y="619">~3 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PHASE 3: TFL + ADDUCTORS -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="696" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="712">Phase 3 — Hip detail  (~3 min)</text>
+
+<!-- 5. TFL  y=726  h=94 -->
+<rect x="30" y="726" width="8" height="94" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="726" width="612" height="94" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="742">5</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="68" y="742">TFL + hip flexor area (ball against wall)</text>
+<text font-size="11" fill="#a83030" x="68" y="757">Tensor fasciae latae — stabilizer for all standing work, feeds into IT band</text>
+<text font-size="11" fill="#a83030" x="68" y="772">Tennis ball on front/side of hip, just below hip bone. Small circles,</text>
+<text font-size="11" fill="#a83030" x="68" y="787">gentle lean. Tight TFL pulls on IT band → affects patellar tracking.</text>
+<text font-size="11" fill="#a83030" x="68" y="802">hEDS: very light pressure — stay on the small muscular area, avoid the hip bone itself.</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="490" y="742">30–40s per side</text>
+<text font-size="11" fill="#a83030" x="490" y="757">Tennis ball</text>
+<text font-size="11" fill="#a83030" x="490" y="772">~2 min</text>
+
+<!-- 6. Adductors  y=826  h=94 -->
+<rect x="30" y="826" width="8" height="94" rx="2" fill="#042c53"/>
+<rect x="38" y="826" width="612" height="94" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="842">6</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="68" y="842">Adductors (prone frog position on roller)</text>
+<text font-size="11" fill="#0c447c" x="68" y="857">Adductor longus · magnus · brevis — stabilizers during all bilateral lower body work</text>
+<text font-size="11" fill="#0c447c" x="68" y="872">Face down, one leg out to side with knee bent, roller along inner thigh.</text>
+<text font-size="11" fill="#0c447c" x="68" y="887">Roll gently from mid-thigh toward groin, stopping short of groin crease.</text>
+<text font-size="11" fill="#0c447c" x="68" y="902">hEDS: very gentle pressure — stay mid-belly, avoid groin attachment and knee.</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="842">40s–1 min per side</text>
+<text font-size="11" fill="#0c447c" x="490" y="857">Foam roller</text>
+<text font-size="11" fill="#0c447c" x="490" y="872">~2 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- QUICK REFERENCE -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="938" width="620" height="172" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="960">Quick reference — exercise ↔ foam rolling map</text>
+
+<text font-size="11" font-weight="500" fill="#5c2d0e" x="50" y="985">Hip thrusts</text>
+<text font-size="11" fill="#444" x="250" y="985">→ Glutes (#1), Hamstrings (#2)</text>
+
+<text font-size="11" font-weight="500" fill="#7a1b4e" x="50" y="1005">DB Romanian deadlift / prone curls</text>
+<text font-size="11" fill="#444" x="250" y="1005">→ Hamstrings (#2), Glutes (#1)</text>
+
+<text font-size="11" font-weight="500" fill="#085041" x="50" y="1025">Standing / seated calf raises</text>
+<text font-size="11" fill="#444" x="250" y="1025">→ Calves (#3)</text>
+
+<text font-size="11" font-weight="500" fill="#26215c" x="50" y="1045">Sit-to-stand / wall sits</text>
+<text font-size="11" fill="#444" x="250" y="1045">→ Quads (#4), TFL (#5)</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1065">All standing lower body work</text>
+<text font-size="11" fill="#444" x="250" y="1065">→ TFL (#5), Adductors (#6)</text>
+
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="1085">Banded lateral walks / clamshells</text>
+<text font-size="11" fill="#444" x="250" y="1085">→ Glutes (#1), TFL (#5), Adductors (#6)</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- GLOBAL RULES -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="1128" width="620" height="168" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1150">hEDS / HSD foam rolling rules — every session</text>
+<rect x="50" y="1160" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1168">Roll on muscle bellies only — never on joints, tendons, bony prominences, or the kneecap</text>
+<rect x="50" y="1180" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1188">Wall-based ball work preferred for TFL — gives you full pressure control vs floor-based</text>
+<rect x="50" y="1200" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1208">Use tennis ball first — upgrade to lacrosse ball only after 3–4 weeks of known tolerance</text>
+<rect x="50" y="1220" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1228">At 58kg no extra loading needed — your bodyweight provides sufficient pressure</text>
+<rect x="50" y="1240" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1248">Never roll over the knee joint — stop well above and below on muscle tissue only</text>
+<rect x="50" y="1260" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1268">If any area feels MORE loose/unstable after rolling — skip it next session and tell your physio</text>
+
+<!-- TIMING -->
+<rect x="30" y="1314" width="620" height="76" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1334">Schedule + equipment</text>
+<text font-size="11" fill="#2272a8" x="50" y="1351">Rest days only (non-gym days) · ideally evening · ~15 min total</text>
+<text font-size="11" fill="#2272a8" x="50" y="1368">Equipment: 1 standard foam roller + 1 tennis ball (upgrade to lacrosse ball after 3–4 weeks)</text>
+<text font-size="11" fill="#2272a8" x="50" y="1385">This is soft tissue work only — your CARs / iso holds / mobility protocol stays on gym days</text>
+
+<!-- VERSION -->
+<text font-size="9" fill="#aaa" x="340" y="1420" text-anchor="middle">v3 — routine links removed: no exercise numbers; areas picked by what the session trained (Stage 2 D-03)</text>
+
+</svg>

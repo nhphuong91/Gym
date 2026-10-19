@@ -1,0 +1,304 @@
+<svg width="100%" viewBox="0 0 680 2298" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Mobility protocol — upper body day (hEDS / HSD safe)</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Pre: neuromuscular activation · Post: active recovery + CARs · NO passive stretching · pick drills by target</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Target area</text>
+<rect x="50" y="80" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="66" y="90">Shoulder / rotator cuff</text>
+<rect x="210" y="80" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="226" y="90">Chest</text>
+<rect x="290" y="80" width="10" height="10" rx="2" fill="#633806"/>
+<text font-size="11" fill="#333" x="306" y="90">Back / lats</text>
+<rect x="380" y="80" width="10" height="10" rx="2" fill="#042c53"/>
+<text font-size="11" fill="#333" x="396" y="90">Biceps / triceps</text>
+<rect x="480" y="80" width="10" height="10" rx="2" fill="#8b1a1a"/>
+<text font-size="11" fill="#333" x="496" y="90">Wrists / t-spine</text>
+
+<!-- hEDS PHILOSOPHY -->
+<rect x="30" y="120" width="620" height="68" rx="8" fill="#fff3e0" stroke="#e8a020" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#8b5e00" x="50" y="139">⚠ Why no passive stretching — hEDS / HSD principle</text>
+<text font-size="11" fill="#9e6e10" x="50" y="156">Your connective tissue already has excessive laxity. Passive stretching bypasses muscles and</text>
+<text font-size="11" fill="#9e6e10" x="50" y="169">loads ligaments/joint capsules instead → more instability. Every drill below keeps muscles ACTIVE</text>
+<text font-size="11" fill="#9e6e10" x="50" y="182">throughout the entire range so joints stay protected while tissue quality improves.</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PRE-WORKOUT: ACTIVATION + PRIMING -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="204" width="620" height="28" rx="6" fill="#2a7a5a" stroke="#1a5a3a" stroke-width="1"/>
+<text font-size="13" font-weight="600" fill="#ffffff" x="340" y="223" text-anchor="middle">PRE-WORKOUT — Activation + Joint Priming  (~14 min · before warmup sets)</text>
+
+<text font-size="10" fill="#888" x="50" y="248">Goal: wake up stabilizers · build joint awareness · prime neuromuscular control · muscles ON throughout</text>
+
+<!-- P1. Shoulder CARs — y=262, h=73 -->
+<rect x="30" y="262" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="262" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="276">P1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="276">Shoulder CARs (controlled articular rotations)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="291">Entire shoulder capsule · rotator cuff · scapular stabilizers</text>
+<text font-size="11" fill="#0f6e56" x="72" y="306">Slow full-circle rotation — create maximum tension through entire body</text>
+<text font-size="11" fill="#0f6e56" x="72" y="321">Fist clenched, brace core, irradiate tension — "move the arm through wet concrete"</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="276">3 each direction</text>
+<text font-size="11" fill="#0f6e56" x="510" y="291">× each arm</text>
+<text font-size="11" fill="#0f6e56" x="510" y="306">~30s per circle</text>
+
+<!-- P2. Wrist CARs — y=341, h=73 -->
+<rect x="30" y="341" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="341" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="355">P2</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="355">Wrist CARs (fist closed, forearm braced with opposite hand)</text>
+<text font-size="11" fill="#a83030" x="72" y="370">Wrist capsule · forearm flexors + extensors</text>
+<text font-size="11" fill="#a83030" x="72" y="385">Lock forearm still with opposite hand — only wrist moves</text>
+<text font-size="11" fill="#a83030" x="72" y="400">Priority joint for you — slow circles, feel for any catching/clicking and note it</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="355">5 each direction</text>
+<text font-size="11" fill="#a83030" x="510" y="370">× each wrist</text>
+<text font-size="11" fill="#a83030" x="510" y="385">~15s per circle</text>
+
+<!-- P3. Scapular push-up — y=420, h=73 -->
+<rect x="30" y="420" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="420" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="434">P3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="434">Scapular push-up isometric holds (protract + hold at top)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="449">Serratus anterior · lower trap · scapular stabilizers</text>
+<text font-size="11" fill="#0f6e56" x="72" y="464">Plank position → push shoulder blades apart maximally → HOLD</text>
+<text font-size="11" fill="#0f6e56" x="72" y="479">Teaches scapulae to "stick" to ribcage — critical before pressing movements</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="434">3 × 10s hold</text>
+<text font-size="11" fill="#0f6e56" x="510" y="449">From knees if needed</text>
+
+<!-- P4. Band isometric ext rotation — y=499, h=73 -->
+<rect x="30" y="499" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="499" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="513">P4</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="513">Band isometric external rotation — 3 angles</text>
+<text font-size="11" fill="#0f6e56" x="72" y="528">Infraspinatus · teres minor · posterior cuff</text>
+<text font-size="11" fill="#0f6e56" x="72" y="543">Elbow pinned to side → hold band at 3 positions: 0°, 45°, 90° external rotation</text>
+<text font-size="11" fill="#0f6e56" x="72" y="558">Builds active control at the ranges where your shoulders are most vulnerable</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="513">8s hold × 3 angles</text>
+<text font-size="11" fill="#0f6e56" x="510" y="528">× 2 rounds · each arm</text>
+<text font-size="11" fill="#0f6e56" x="510" y="543">Light band</text>
+
+<!-- P5. Cat-cow — y=578, h=73 -->
+<rect x="30" y="578" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="578" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="592">P5</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="592">Cat-cow with 3s isometric pause at each end</text>
+<text font-size="11" fill="#a83030" x="72" y="607">Thoracic spine · erector spinae · serratus anterior · deep core</text>
+<text font-size="11" fill="#a83030" x="72" y="622">Pause in cat: push floor away hard (serratus activation)</text>
+<text font-size="11" fill="#a83030" x="72" y="637">Pause in cow: squeeze between shoulder blades (rhomboid activation)</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="592">2 × 6 reps</text>
+<text font-size="11" fill="#a83030" x="510" y="607">3s hold each end</text>
+
+<!-- P6. Wrist loading — y=657, h=73 -->
+<rect x="30" y="657" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="657" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="671">P6</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="671">Wrist isometric loading — 4 directions (tabletop position)</text>
+<text font-size="11" fill="#a83030" x="72" y="686">Wrist flexors · extensors · radial + ulnar deviators</text>
+<text font-size="11" fill="#a83030" x="72" y="701">Hands flat on floor → lean gently into: forward / back / left / right → hold</text>
+<text font-size="11" fill="#a83030" x="72" y="716">Teaches your wrists to handle load in all directions before gripping heavy</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="671">5s hold × 4 dirs</text>
+<text font-size="11" fill="#a83030" x="510" y="686">× 2 rounds</text>
+
+<!-- P7. Active pec opener — y=736, h=73 -->
+<rect x="30" y="736" width="8" height="73" rx="2" fill="#26215c"/>
+<rect x="38" y="736" width="612" height="73" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="750">P7</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="750">Active pec opener — band pull-apart at chest height + hold</text>
+<text font-size="11" fill="#3c3489" x="72" y="765">Pec major · pec minor · rhomboids · posterior delt</text>
+<text font-size="11" fill="#3c3489" x="72" y="780">Pull band apart until mild stretch in chest → HOLD 5s with rhomboids squeezing</text>
+<text font-size="11" fill="#3c3489" x="72" y="795">This "opens" the chest actively — muscles control the range, not passive joint laxity</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="510" y="750">3 × 8 reps</text>
+<text font-size="11" fill="#3c3489" x="510" y="765">5s hold each rep</text>
+<text font-size="11" fill="#3c3489" x="510" y="780">Light band</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- POST-WORKOUT: ACTIVE RECOVERY + CARs -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="829" width="620" height="28" rx="6" fill="#1a5c8a" stroke="#0e3d5c" stroke-width="1"/>
+<text font-size="13" font-weight="600" fill="#ffffff" x="340" y="848" text-anchor="middle">POST-WORKOUT — Active Recovery + CARs  (~16 min · after last set)</text>
+
+<text font-size="10" fill="#888" x="50" y="873">Goal: down-regulate nervous system · restore joint awareness · reduce post-workout clicking · muscles engaged throughout</text>
+
+<!-- S1. Shoulder CARs slow — y=887, h=73 -->
+<rect x="30" y="887" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="887" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="901">S1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="901">Shoulder CARs — slow recovery tempo</text>
+<text font-size="11" fill="#0f6e56" x="72" y="916">Full shoulder capsule assessment + recovery</text>
+<text font-size="11" fill="#0f6e56" x="72" y="931">Same as pre-workout but slower (~45s per circle) — scan for new clicking/catching</text>
+<text font-size="11" fill="#0f6e56" x="72" y="946">Compare feel to pre-workout — if worse, note it for next session planning</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="901">2 each direction</text>
+<text font-size="11" fill="#0f6e56" x="510" y="916">× each arm</text>
+<text font-size="11" fill="#0f6e56" x="510" y="931">~45s per circle</text>
+
+<!-- S2. Eccentric push-up — y=966, h=73 -->
+<rect x="30" y="966" width="8" height="73" rx="2" fill="#26215c"/>
+<rect x="38" y="966" width="612" height="73" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="980">S2</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="980">Slow eccentric push-up — 8s lowering (from knees OK)</text>
+<text font-size="11" fill="#3c3489" x="72" y="995">Pec major · anterior delt · triceps · serratus anterior</text>
+<text font-size="11" fill="#3c3489" x="72" y="1010">Lower yourself over 8 seconds — chest muscles lengthen UNDER LOAD</text>
+<text font-size="11" fill="#3c3489" x="72" y="1025">This is your "chest stretch" — eccentrics lengthen muscle tissue safely with joints protected</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="510" y="980">3 reps</text>
+<text font-size="11" fill="#3c3489" x="510" y="995">8s eccentric each</text>
+<text font-size="11" fill="#3c3489" x="510" y="1010">From knees = fine</text>
+
+<!-- S3. Active hang — y=1045, h=89 -->
+<rect x="30" y="1045" width="8" height="89" rx="2" fill="#633806"/>
+<rect x="38" y="1045" width="612" height="89" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1059">S3</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="1059">Active hang — bent arm (feet on floor for partial weight)</text>
+<text font-size="11" fill="#633806" x="72" y="1074">Lats · teres major · rhomboids · grip + forearm</text>
+<text font-size="11" fill="#633806" x="72" y="1089">Hang from bar with elbows slightly bent, feet on floor taking 30–50% bodyweight</text>
+<text font-size="11" fill="#633806" x="72" y="1104">Keep shoulders ACTIVELY packed down — never relax into a dead hang</text>
+<text font-size="11" fill="#633806" x="72" y="1119">This replaces passive lat stretching — decompresses spine while lats stay engaged</text>
+<text font-size="12" font-weight="500" fill="#412402" x="510" y="1059">2 × 15s hold</text>
+<text font-size="11" fill="#633806" x="510" y="1074">Feet on floor</text>
+<text font-size="11" fill="#633806" x="510" y="1089">Elbows soft</text>
+
+<!-- S4. Isometric biceps — y=1140, h=73 -->
+<rect x="30" y="1140" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="1140" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1154">S4</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1154">Isometric biceps lengthened hold (arm extended, palm on wall, push)</text>
+<text font-size="11" fill="#0c447c" x="72" y="1169">Biceps brachii · brachialis · anterior forearm</text>
+<text font-size="11" fill="#0c447c" x="72" y="1184">Arm at ~160° (NOT locked straight) → push palm into wall with ~30% effort</text>
+<text font-size="11" fill="#0c447c" x="72" y="1199">Muscle is active in lengthened position — gets the "stretch" effect while protecting elbow</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="510" y="1154">2 × 15s</text>
+<text font-size="11" fill="#0c447c" x="510" y="1169">× each arm</text>
+<text font-size="11" fill="#0c447c" x="510" y="1184">~30% effort</text>
+
+<!-- S5. Isometric triceps — y=1219, h=73 -->
+<rect x="30" y="1219" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="1219" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1233">S5</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1233">Isometric triceps overhead hold (towel or band behind back)</text>
+<text font-size="11" fill="#0c447c" x="72" y="1248">Long head of triceps · posterior shoulder</text>
+<text font-size="11" fill="#0c447c" x="72" y="1263">Top hand pulls towel up, bottom hand resists → triceps lengthened under tension</text>
+<text font-size="11" fill="#0c447c" x="72" y="1278">Hold at mild "stretch" position — the 30% push keeps joint centrated</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="510" y="1233">2 × 12s</text>
+<text font-size="11" fill="#0c447c" x="510" y="1248">× each arm</text>
+<text font-size="11" fill="#0c447c" x="510" y="1263">Towel / light band</text>
+
+<!-- S6. Quadruped t-spine — y=1298, h=73 -->
+<rect x="30" y="1298" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="1298" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1312">S6</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="1312">Quadruped t-spine rotation with active reach (hand behind head)</text>
+<text font-size="11" fill="#a83030" x="72" y="1327">Thoracic rotation · obliques · rhomboids · mid-trap</text>
+<text font-size="11" fill="#a83030" x="72" y="1342">Hand behind head → rotate open → at end range PUSH elbow toward ceiling 3s</text>
+<text font-size="11" fill="#a83030" x="72" y="1357">The push at end range makes this active — replaces passive thread-the-needle</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="1312">2 × 5 each side</text>
+<text font-size="11" fill="#a83030" x="510" y="1327">3s push at top</text>
+
+<!-- S7. Wrist CARs slow — y=1377, h=73 -->
+<rect x="30" y="1377" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="1377" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1391">S7</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="1391">Wrist CARs (recovery tempo) + 4-direction isometric press</text>
+<text font-size="11" fill="#a83030" x="72" y="1406">Wrist capsule · forearm flexors + extensors</text>
+<text font-size="11" fill="#a83030" x="72" y="1421">Slow CARs first → then press palm into opposite hand: flex / extend / radial / ulnar</text>
+<text font-size="11" fill="#a83030" x="72" y="1436">Compare clicking to pre-workout — this is your wrist health check</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="1391">3 CARs each way</text>
+<text font-size="11" fill="#a83030" x="510" y="1406">+ 5s × 4 directions</text>
+<text font-size="11" fill="#a83030" x="510" y="1421">× each wrist</text>
+
+<!-- S8. Prone Y-T-W — y=1456, h=73 -->
+<rect x="30" y="1456" width="8" height="73" rx="2" fill="#633806"/>
+<rect x="38" y="1456" width="612" height="73" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1470">S8</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="1470">Prone Y-T-W isometric holds (face down on bench or floor)</text>
+<text font-size="11" fill="#633806" x="72" y="1485">Lower trap · mid-trap · rhomboids · posterior cuff</text>
+<text font-size="11" fill="#633806" x="72" y="1500">Thumbs up → lift arms into Y position 8s → T position 8s → W position 8s</text>
+<text font-size="11" fill="#633806" x="72" y="1515">Low intensity scapular stability — "tucks" your shoulder blades back after all the volume</text>
+<text font-size="12" font-weight="500" fill="#412402" x="510" y="1470">2 rounds</text>
+<text font-size="11" fill="#633806" x="510" y="1485">8s each letter</text>
+<text font-size="11" fill="#633806" x="510" y="1500">Bodyweight only</text>
+
+<!-- S9. Diaphragmatic breathing — y=1535, h=73 -->
+<rect x="30" y="1535" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="1535" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1549">S9</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="1549">90/90 diaphragmatic breathing (feet on bench, knees + hips at 90°)</text>
+<text font-size="11" fill="#a83030" x="72" y="1564">Diaphragm · deep core · ribcage positioning · nervous system downregulation</text>
+<text font-size="11" fill="#a83030" x="72" y="1579">Inhale 4s through nose (ribs expand laterally) → exhale 8s through mouth (ribs drop)</text>
+<text font-size="11" fill="#a83030" x="72" y="1594">Resets ribcage position — especially important for hEDS rib subluxation tendency</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="1549">5 breath cycles</text>
+<text font-size="11" fill="#a83030" x="510" y="1564">4s in / 8s out</text>
+<text font-size="11" fill="#a83030" x="510" y="1579">~60s total</text>
+
+<!-- BREATHING NOTE -->
+<rect x="30" y="1628" width="620" height="44" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1645">Breathing cue for isometric holds: inhale before the hold → slow exhale DURING the hold</text>
+<text font-size="11" fill="#2272a8" x="50" y="1662">Exhaling under tension helps maintain core pressure without breath-holding spikes</text>
+
+<!-- QUICK REFERENCE -->
+<rect x="30" y="1686" width="620" height="220" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1706">Quick reference — muscle ↔ drill map (replaces passive stretching)</text>
+
+<text font-size="11" font-weight="500" fill="#085041" x="50" y="1726">Shoulder capsule / rotator cuff</text>
+<text font-size="11" fill="#444" x="250" y="1726">Pre: Shoulder CARs, Isometric ext. rotation · Post: Slow CARs, Y-T-W holds</text>
+
+<text font-size="11" font-weight="500" fill="#26215c" x="50" y="1746">Pec major / pec minor</text>
+<text font-size="11" fill="#444" x="250" y="1746">Pre: Active band pec opener · Post: Eccentric push-up (8s lowering)</text>
+
+<text font-size="11" font-weight="500" fill="#633806" x="50" y="1766">Lats / rhomboids / mid-trap</text>
+<text font-size="11" fill="#444" x="250" y="1766">Pre: Cat-cow with iso pauses · Post: Active hang, Y-T-W holds</text>
+
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="1786">Biceps</text>
+<text font-size="11" fill="#444" x="250" y="1786">Pre: (warmed by CARs) · Post: Isometric lengthened wall hold</text>
+
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="1806">Triceps</text>
+<text font-size="11" fill="#444" x="250" y="1806">Pre: (warmed by scap push-ups) · Post: Isometric overhead towel hold</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1826">Thoracic spine</text>
+<text font-size="11" fill="#444" x="250" y="1826">Pre: Cat-cow with iso pauses · Post: Quadruped t-spine rotation with push</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1846">Wrists</text>
+<text font-size="11" fill="#444" x="250" y="1846">Pre: Wrist CARs + 4-dir iso loading · Post: Slow CARs + 4-dir iso press</text>
+
+<text font-size="11" font-weight="500" fill="#085041" x="50" y="1866">Serratus anterior</text>
+<text font-size="11" fill="#444" x="250" y="1866">Pre: Scapular push-up holds · Post: Y-T-W holds, 90/90 breathing</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1886">Ribcage / core stability</text>
+<text font-size="11" fill="#444" x="250" y="1886">Pre: Cat-cow pauses · Post: 90/90 diaphragmatic breathing (rib reset)</text>
+
+<!-- SESSION TRACKING -->
+<rect x="30" y="1918" width="620" height="96" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1940">Session self-check — track these over time</text>
+<rect x="50" y="1950" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="11" fill="#444" x="64" y="1958">Shoulder CARs: is the clicking better/worse/same compared to pre-workout?</text>
+<rect x="50" y="1968" width="7" height="7" rx="1" fill="#8b1a1a"/>
+<text font-size="11" fill="#444" x="64" y="1976">Wrist CARs: any new catching or pain points? Compare to pre-workout</text>
+<rect x="50" y="1986" width="7" height="7" rx="1" fill="#633806"/>
+<text font-size="11" fill="#444" x="64" y="1994">Overall joint stability: do joints feel more or less stable than when you walked in?</text>
+
+<!-- hEDS RULES -->
+<rect x="30" y="2026" width="620" height="148" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="2048">hEDS / HSD mobility rules — every session</text>
+<rect x="50" y="2058" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2066">NEVER passively stretch — every "stretch" must have active muscle engagement</text>
+<rect x="50" y="2078" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2086">Isometric holds: 20–30% effort only — goal is neuromuscular control, not strength</text>
+<rect x="50" y="2098" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2106">CARs: if a portion of the circle catches or clicks, slow down there — don't force through</text>
+<rect x="50" y="2118" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2126">No dead hangs — always keep shoulders actively packed, feet assisting</text>
+<rect x="50" y="2138" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2146">If any joint feels MORE unstable after a drill — remove it next session and tell your physio</text>
+
+<!-- TIMING SUMMARY -->
+<rect x="30" y="2186" width="620" height="76" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="2206">Session timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="2223">Pre half (~14 min) → warm-up sets → your gym session → post half (~16 min)</text>
+<text font-size="11" fill="#2272a8" x="50" y="2240">Times are for the full lists; pick drills by the targets of your session</text>
+<text font-size="11" fill="#2272a8" x="50" y="2254">Collagen + Vit C 30–60 min before · Protein + Vit C within 60 min after</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="2282" text-anchor="middle">v3 — routine links removed: drills picked by target; timeline as pre half → your session → post half (Stage 2 D-03)</text>
+
+</svg>

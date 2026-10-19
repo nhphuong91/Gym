@@ -1,0 +1,214 @@
+<svg width="100%" viewBox="0 0 680 1544" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Full upper body routine — balanced volume</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Maintenance volume · hypermobility-safe · ~28 min working · 21 working sets</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Muscle group</text>
+<rect x="50" y="89" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="66" y="98">Shoulder / rotator cuff</text>
+<rect x="208" y="89" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="224" y="98">Chest</text>
+<rect x="267" y="89" width="10" height="10" rx="2" fill="#633806"/>
+<text font-size="11" fill="#333" x="283" y="98">Back</text>
+<rect x="321" y="89" width="10" height="10" rx="2" fill="#042c53"/>
+<text font-size="11" fill="#333" x="337" y="98">Biceps</text>
+<rect x="386" y="89" width="10" height="10" rx="2" fill="#185fa5"/>
+<text font-size="11" fill="#333" x="402" y="98">Triceps</text>
+
+<!-- PRE-WORKOUT NOTE -->
+<rect x="30" y="122" width="620" height="49" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="139">30–60 min before: collagen peptides (10–15g) + vitamin C</text>
+<text font-size="11" fill="#2272a8" x="50" y="152">Maximizes collagen synthesis in tendons loaded during session</text>
+<text font-size="11" fill="#2272a8" x="50" y="165">Warmup activation handled by mobility protocol (P1, P3, P4, P5) — no separate warmup section</text>
+
+<!-- ── A SUPERSET 1 ── -->
+<rect x="30" y="183" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="199">A — Superset 1: Chest + Back compound  (~6.5 min · 2 rounds · 90s rest after each pair)</text>
+
+<!-- A1 — Smith machine flat bench press -->
+<rect x="30" y="217" width="8" height="54" rx="2" fill="#26215c"/>
+<rect x="38" y="217" width="612" height="54" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="233">1</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="233">Smith machine flat bench press (soft elbow lockout)</text>
+<text font-size="11" fill="#3c3489" x="72" y="248">Pec major · anterior delt · triceps</text>
+<text font-size="11" fill="#3c3489" x="72" y="263">Chest · heavy compound</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="233">2 × 6–8</text>
+<text font-size="11" fill="#3c3489" x="490" y="248">Smith</text>
+
+<text font-size="12" fill="#888" x="340" y="285" text-anchor="middle">↕ then immediately</text>
+
+<!-- A2 — Narrow grip seated cable row -->
+<rect x="30" y="295" width="8" height="54" rx="2" fill="#633806"/>
+<rect x="38" y="295" width="612" height="54" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="311">2</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="311">Narrow grip seated cable row (no forward lean on eccentric)</text>
+<text font-size="11" fill="#633806" x="72" y="326">Mid-trap · rhomboids · lats · posterior delt</text>
+<text font-size="11" fill="#633806" x="72" y="341">Back · archery draw power</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="311">2 × 8–10</text>
+<text font-size="11" fill="#633806" x="490" y="326">Cable · 3s ecc</text>
+
+<!-- ── B SUPERSET 2 ── -->
+<rect x="30" y="363" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="379">B — Superset 2: Back + Chest lengthened  (~7 min · 2 rounds · 90s rest after each pair)</text>
+
+<!-- B3 — Lat pulldown — stretch at top -->
+<rect x="30" y="397" width="8" height="54" rx="2" fill="#633806"/>
+<rect x="38" y="397" width="612" height="54" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="413">3</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="413">Lat pulldown — stretch at top</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="428">(let shoulder elevate at top · pull to upper chest · soft elbow)</text>
+<text font-size="11" fill="#633806" x="72" y="443">Lats (upper/stretched portion) · teres major · rhomboids · biceps (synergist)</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="413">2 × 10–12</text>
+<text font-size="11" fill="#633806" x="490" y="428">Cable · 3s ecc</text>
+
+<text font-size="12" fill="#888" x="340" y="465" text-anchor="middle">↕ then immediately</text>
+
+<!-- B4 — Dumbbell chest fly -->
+<rect x="30" y="475" width="8" height="54" rx="2" fill="#26215c"/>
+<rect x="38" y="475" width="612" height="54" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="491">4</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="491">Dumbbell chest fly (flat bench)</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="506">(light weight · slight bend in elbows throughout)</text>
+<text font-size="11" fill="#3c3489" x="72" y="521">Pec major stretch — antagonist balance for archery draw</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="491">2 × 12–15</text>
+<text font-size="11" fill="#3c3489" x="490" y="506">DB · flat bench</text>
+
+<!-- ── C SUPERSET 3 ── -->
+<rect x="30" y="543" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="559">C — Superset 3: Biceps + Triceps  (~9 min · 4 rounds · 60s rest after each pair)</text>
+
+<!-- C5 — Curl variants — alternate across the 4 -->
+<rect x="30" y="577" width="8" height="70" rx="2" fill="#042c53"/>
+<rect x="38" y="577" width="612" height="70" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="593">5</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="593">Curl variants — alternate across the 4 rounds</text>
+<text font-size="11" fill="#0c447c" x="72" y="608">R1, R3: Preacher curl (shortened bias, supported) — 1 × 10–12</text>
+<text font-size="11" fill="#0c447c" x="72" y="623">R2, R4: Spider curl (lengthened bias, face down incline) — 1 × 10–12</text>
+<text font-size="11" fill="#0c447c" x="72" y="637">Biceps · 4 sets total · regional coverage at both ends of ROM</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="593">4 sets total</text>
+<text font-size="11" fill="#0c447c" x="490" y="608">EZ-bar / DB</text>
+
+<text font-size="12" fill="#888" x="340" y="661" text-anchor="middle">↕ then immediately</text>
+
+<!-- C6 — Triceps variants — alternate across the -->
+<rect x="30" y="671" width="8" height="70" rx="2" fill="#185fa5"/>
+<rect x="38" y="671" width="612" height="70" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="687">6</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="687">Triceps variants — alternate across the 4 rounds</text>
+<text font-size="11" fill="#185fa5" x="72" y="702">R1, R3: Cable pushdown (lateral/medial heads · shortened bias) — 1 × 12–15</text>
+<text font-size="11" fill="#185fa5" x="72" y="717">R2, R4: Overhead cable extension (long head · lengthened bias) — 1 × 10–12</text>
+<text font-size="11" fill="#185fa5" x="72" y="731">Triceps · 4 sets total · overhead = badminton smash carryover</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="687">4 sets total</text>
+<text font-size="11" fill="#185fa5" x="490" y="702">Cable · soft lockout</text>
+
+<!-- ── D SUPERSET 4 ── -->
+<rect x="30" y="755" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="771">D — Superset 4: Lateral raise + External rotation  (~5 min · 3 rounds · 60s rest after each pair)</text>
+
+<!-- D7 — Dumbbell lateral raise -->
+<rect x="30" y="789" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="789" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="805">7</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="805">Dumbbell lateral raise</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="820">(both arms simultaneously · cap at 80° — below shoulder height)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="835">Medial delt · 3 sets</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="805">3 × 15</text>
+<text font-size="11" fill="#0f6e56" x="490" y="820">DB</text>
+
+<text font-size="12" fill="#888" x="340" y="857" text-anchor="middle">↕ then immediately</text>
+
+<!-- D8 — Cable external rotation -->
+<rect x="30" y="867" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="867" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="883">8</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="883">Cable external rotation (paired R1+R2 only · skip R3 or repeat lat raise)</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="898">(non-negotiable for hypermobility · very light load)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="913">Infraspinatus · teres minor · 2 sets</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="883">2 × 15–20</text>
+<text font-size="11" fill="#0f6e56" x="490" y="898">Cable</text>
+
+<!-- POST-WORKOUT NOTE -->
+<rect x="30" y="933" width="620" height="36" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="950">Within 60 min after: protein 30–40g + vitamin C</text>
+<text font-size="11" fill="#2272a8" x="50" y="963">Supports muscle + tendon remodeling · aim 1.6–2g protein/kg/day total</text>
+
+<!-- GLOBAL RULES -->
+<rect x="30" y="981" width="620" height="132" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1003">Every rep, every set — hypermobility rules</text>
+<rect x="50" y="1013" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1021">Never lock out elbows or wrists — always keep a soft bend at end range</text>
+<rect x="50" y="1033" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1041">3 sec eccentric on all pulling movements — control the return</text>
+<rect x="50" y="1053" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1061">Skip session if joints feel unusually loose that day — reschedule, don't push</text>
+<rect x="50" y="1073" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1081">Stop set early if any joint feels unstable — prioritize joint feel over rep count</text>
+<rect x="50" y="1093" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1101">Hip abductor/adductor machine: deferred until knee is stable</text>
+
+<!-- TIMING SUMMARY -->
+<rect x="30" y="1125" width="620" height="67" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1145">Session timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="1162">Mobility pre-work (~14 min · separate doc) → Superset B (6.5 min) → C (7 min) → D (9 min) → E (5 min)</text>
+<text font-size="11" fill="#2272a8" x="50" y="1179">Total working session: ~28 min · 21 working sets · then proceed to post-workout mobility protocol</text>
+
+<!-- SET COUNT -->
+<rect x="30" y="1204" width="620" height="74" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1226">Working set count by muscle group — balanced maintenance volume</text>
+<text font-size="11" fill="#26215c" x="50" y="1246">Chest: 4 sets (bench 2 + fly 2)</text>
+<text font-size="11" fill="#633806" x="50" y="1264">Back: 4 sets (cable row 2 + lat pulldown 2)</text>
+<text font-size="11" fill="#042c53" x="300" y="1246">Biceps: 4 sets (preacher 2 + spider 2)</text>
+<text font-size="11" fill="#185fa5" x="300" y="1264">Triceps: 4 sets (pushdown 2 + overhead 2)</text>
+<text font-size="11" fill="#085041" x="530" y="1246">Medial delt: 3 sets</text>
+<text font-size="11" fill="#085041" x="530" y="1264">Rotator cuff: 2 sets</text>
+
+<!-- ALTERNATIVES TABLE -->
+<rect x="30" y="1290" width="620" height="202" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1310">Alternative exercises — if equipment occupied or unavailable</text>
+<line x1="40" y1="1319" x2="640" y2="1319" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" font-weight="500" fill="#666" x="50" y="1332">#  Primary exercise</text>
+<text font-size="10" font-weight="500" fill="#666" x="280" y="1332">Alternative 1</text>
+<text font-size="10" font-weight="500" fill="#666" x="470" y="1332">Alternative 2</text>
+<line x1="40" y1="1337" x2="640" y2="1337" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" fill="#26215c" x="50" y="1352">1  Smith flat bench press</text>
+<text font-size="10" fill="#444" x="280" y="1352">DB flat bench press</text>
+<text font-size="10" fill="#444" x="470" y="1352">Push-ups (feet elevated)</text>
+
+<text font-size="10" fill="#633806" x="50" y="1368">2  Narrow grip cable row</text>
+<text font-size="10" fill="#444" x="280" y="1368">Chest-supported DB row</text>
+<text font-size="10" fill="#444" x="470" y="1368">Bent-over barbell row</text>
+
+<text font-size="10" fill="#633806" x="50" y="1384">3  Lat pulldown (stretch top)</text>
+<text font-size="10" fill="#444" x="280" y="1384">DB pullover on bench</text>
+<text font-size="10" fill="#444" x="470" y="1384">Pull-ups (frame · soft elbow)</text>
+
+<text font-size="10" fill="#26215c" x="50" y="1400">4  DB chest fly</text>
+<text font-size="10" fill="#444" x="280" y="1400">Cable crossover (low to high)</text>
+<text font-size="10" fill="#444" x="470" y="1400">Band chest fly (lying on bench)</text>
+
+<text font-size="10" fill="#042c53" x="50" y="1416">5  Preacher curl</text>
+<text font-size="10" fill="#444" x="280" y="1416">Spider curl (face down incline)</text>
+<text font-size="10" fill="#444" x="470" y="1416">Cable curl behind body</text>
+
+<text font-size="10" fill="#185fa5" x="50" y="1432">6a Cable pushdown</text>
+<text font-size="10" fill="#444" x="280" y="1432">DB kickback</text>
+<text font-size="10" fill="#444" x="470" y="1432">Diamond push-ups</text>
+
+<text font-size="10" fill="#185fa5" x="50" y="1448">6b Overhead cable extension</text>
+<text font-size="10" fill="#444" x="280" y="1448">Skull crusher to forehead</text>
+<text font-size="10" fill="#444" x="470" y="1448">Band overhead extension</text>
+
+<text font-size="10" fill="#085041" x="50" y="1464">7  DB lateral raise</text>
+<text font-size="10" fill="#444" x="280" y="1464">Cable lateral raise</text>
+<text font-size="10" fill="#444" x="470" y="1464">Leaning lateral raise (DB)</text>
+
+<text font-size="10" fill="#085041" x="50" y="1480">8  Cable external rotation</text>
+<text font-size="10" fill="#444" x="280" y="1480">Band external rotation</text>
+<text font-size="10" fill="#444" x="470" y="1480">Side-lying DB ext. rotation</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="1512" text-anchor="middle">v6 — balanced maintenance volume · 4/4/4/4/3/2 across chest/back/biceps/triceps/delt/cuff · warmup A removed (covered by mobility protocol) · alternatives table cleaned</text>
+
+</svg>

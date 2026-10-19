@@ -1,0 +1,156 @@
+<svg width="100%" viewBox="0 0 680 1296" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Lower body routine — knee rehab phase</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Knee-sensitive · hypermobility-safe · clean antagonist pairing · 21 working sets · no single-leg eccentric loading</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Muscle group</text>
+<rect x="50" y="89" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="66" y="98">Quads</text>
+<rect x="109" y="89" width="10" height="10" rx="2" fill="#633806"/>
+<text font-size="11" fill="#333" x="125" y="98">Hamstrings</text>
+<rect x="196" y="89" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="212" y="98">Glutes</text>
+<rect x="261" y="89" width="10" height="10" rx="2" fill="#185fa5"/>
+<text font-size="11" fill="#333" x="277" y="98">Calves</text>
+
+<!-- PRE-WORKOUT NOTE -->
+<rect x="30" y="122" width="620" height="49" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="139">30–60 min before: collagen peptides (10–15g) + vitamin C</text>
+<text font-size="11" fill="#2272a8" x="50" y="152">Supports tendon and cartilage loading during session</text>
+<text font-size="11" fill="#2272a8" x="50" y="165">Warmup activation handled by mobility protocol (banded TKEs · windshield wiper iso · lateral walks)</text>
+
+<!-- ── A SUPERSET 1 ── -->
+<rect x="30" y="183" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="199">A — Superset 1: Hinge + Quad iso  (~8 min · 3 rounds · 90s rest after each pair)</text>
+
+<!-- A1 — Dumbbell Romanian deadlift -->
+<rect x="30" y="217" width="8" height="54" rx="2" fill="#633806"/>
+<rect x="38" y="217" width="612" height="54" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="233">1</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="233">Dumbbell Romanian deadlift (bilateral · soft knee bend throughout)</text>
+<text font-size="11" fill="#633806" x="72" y="248">Hamstrings · glutes · erector spinae</text>
+<text font-size="11" fill="#633806" x="72" y="263">Hip hinge pattern · DBs slide along thighs · stop at mid-shin · 3s eccentric lowering</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="233">3 × 10–12</text>
+<text font-size="11" fill="#633806" x="490" y="248">DB · 3s ecc</text>
+
+<text font-size="12" fill="#888" x="340" y="285" text-anchor="middle">↕ then immediately</text>
+
+<!-- A2 — Wall sit -->
+<rect x="30" y="295" width="8" height="54" rx="2" fill="#26215c"/>
+<rect x="38" y="295" width="612" height="54" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="311">2</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="311">Wall sit (isometric)</text>
+<text font-size="11" fill="#3c3489" x="72" y="326">Quadriceps · VMO (glutes/hamstrings as isometric stabilizers only)</text>
+<text font-size="11" fill="#3c3489" x="72" y="341">Start shallow · only deepen if pain-free · isometric = no concentric fatigue stacking with RDL</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="311">3 × 20s</text>
+<text font-size="11" fill="#3c3489" x="490" y="326">Bodyweight</text>
+
+<!-- ── B SUPERSET 2 ── -->
+<rect x="30" y="363" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="379">B — Superset 2: Hip extension + Knee extension  (~8 min · 3 rounds · 90s rest after each pair)</text>
+
+<!-- B3 — Hip thrust -->
+<rect x="30" y="397" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="397" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="413">3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="413">Hip thrust (bench-supported)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="428">Gluteus maximus · hamstrings</text>
+<text font-size="11" fill="#0f6e56" x="72" y="443">Stop just short of full hip extension · no hyperextension · drive through heels · squeeze at top</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="413">3 × 8–12</text>
+<text font-size="11" fill="#0f6e56" x="490" y="428">Bodyweight / DB</text>
+
+<text font-size="12" fill="#888" x="340" y="465" text-anchor="middle">↕ then immediately</text>
+
+<!-- B4 — Sit-to-stand — box squat variation -->
+<rect x="30" y="475" width="8" height="54" rx="2" fill="#26215c"/>
+<rect x="38" y="475" width="612" height="54" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="491">4</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="491">Sit-to-stand — box squat variation</text>
+<text font-size="11" fill="#3c3489" x="72" y="506">Quadriceps (dominant) · glutes (synergist, modest)</text>
+<text font-size="11" fill="#3c3489" x="72" y="521">Bench at 90° knee · bilateral · 3s lowering · replaces step-downs · no single-leg load</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="491">3 × 10–15</text>
+<text font-size="11" fill="#3c3489" x="490" y="506">Bodyweight</text>
+
+<!-- ── C SUPERSET 3 ── -->
+<rect x="30" y="543" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="559">C — Superset 3: Knee flexion + Ankle  (~6 min · 3 rounds · 60s rest after each pair)</text>
+
+<!-- C5 — Prone hamstring curl -->
+<rect x="30" y="577" width="8" height="54" rx="2" fill="#633806"/>
+<rect x="38" y="577" width="612" height="54" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="593">5</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="593">Prone hamstring curl</text>
+<text font-size="11" fill="#633806" x="72" y="608">Biceps femoris · semimembranosus · semitendinosus</text>
+<text font-size="11" fill="#633806" x="72" y="623">Lying flat · light weight or resistance band · no knee snap at bottom · replaces Nordic curls</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="593">3 × 12</text>
+<text font-size="11" fill="#633806" x="490" y="608">Band / light DB</text>
+
+<text font-size="12" fill="#888" x="340" y="645" text-anchor="middle">↕ then immediately</text>
+
+<!-- C6 — Standing calf raises -->
+<rect x="30" y="655" width="8" height="54" rx="2" fill="#185fa5"/>
+<rect x="38" y="655" width="612" height="54" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="671">6</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="671">Standing calf raises (hold wall or rack for balance · controlled lowering)</text>
+<text font-size="11" fill="#185fa5" x="72" y="686">Gastrocnemius (primary) · soleus (synergist)</text>
+<text font-size="11" fill="#185fa5" x="72" y="701">Use hand support — hypermobility caution</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="671">3 × 10–15</text>
+<text font-size="11" fill="#185fa5" x="490" y="686">Bodyweight</text>
+
+<!-- ── D FINISHER ── -->
+<rect x="30" y="723" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="739">D — Finisher: Soleus  (~3 min · straight sets)</text>
+
+<!-- D7 — Seated calf raise -->
+<rect x="30" y="757" width="8" height="54" rx="2" fill="#185fa5"/>
+<rect x="38" y="757" width="612" height="54" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="773">7</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="773">Seated calf raise</text>
+<text font-size="11" fill="#185fa5" x="72" y="788">Soleus — deeper calf muscle, complements standing raise (gastrocnemius)</text>
+<text font-size="11" fill="#185fa5" x="72" y="803">Seated on bench, weight on knees (DB or plate) · controlled raise and lower · soft lockout</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="773">3 × 12–15</text>
+<text font-size="11" fill="#185fa5" x="490" y="788">DB / plate on knees</text>
+
+<!-- POST-WORKOUT NOTE -->
+<rect x="30" y="823" width="620" height="36" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="840">Within 60 min after: protein 30–40g + vitamin C</text>
+<text font-size="11" fill="#2272a8" x="50" y="853">Supports muscle + tendon remodeling · aim 1.6–2g protein/kg/day total</text>
+
+<!-- GLOBAL RULES -->
+<rect x="30" y="871" width="620" height="172" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="893">Every rep, every set — hypermobility rules</text>
+<rect x="50" y="903" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="911">Never lock out knees — always keep a soft bend at end range</text>
+<rect x="50" y="923" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="931">No single-leg eccentric loading during knee rehab phase</text>
+<rect x="50" y="943" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="951">Skip session if joints feel unusually loose that day — reschedule, don't push</text>
+<rect x="50" y="963" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="971">Stop set early if any joint feels unstable — prioritize joint feel over rep count</text>
+<rect x="50" y="983" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="991">No pain rule — stop immediately if any knee pain or swelling</text>
+<rect x="50" y="1003" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1011">Avoid knee hyperextension on all exercises</text>
+<rect x="50" y="1023" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1031">Hip abductor/adductor machine: deferred until knee is stable</text>
+
+<!-- TIMING SUMMARY -->
+<rect x="30" y="1055" width="620" height="67" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1075">Session timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="1092">Mobility pre-work (~14 min · separate doc) → Superset A (8 min) → B (8 min) → C (6 min) → Finisher D (3 min)</text>
+<text font-size="11" fill="#2272a8" x="50" y="1109">Total working session: ~25 min · 21 working sets · then proceed to post-workout mobility protocol</text>
+
+<!-- SET COUNT -->
+<rect x="30" y="1134" width="620" height="110" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1156">Working set count by muscle group</text>
+<text font-size="11" fill="#26215c" x="50" y="1176">Quads: 3 concentric (sit-to-stand) + 3 isometric (wall sit) — concentric kept low for knee rehab</text>
+<text font-size="11" fill="#085041" x="50" y="1194">Glutes: 3 sets direct (hip thrust) + significant synergist work from RDL — effective volume ~5–6 sets</text>
+<text font-size="11" fill="#633806" x="50" y="1212">Hamstrings: 6 sets (DB Romanian deadlift 3 + prone hamstring curls 3)</text>
+<text font-size="11" fill="#185fa5" x="50" y="1230">Calves: 6 sets (standing raises 3 + seated raises 3)</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="1264" text-anchor="middle">v4 — warmup A removed (covered by mobility protocol) · sections A/B/C/D · exercises renumbered 1–7 · 21 working sets · clean antagonist pairing</text>
+
+</svg>

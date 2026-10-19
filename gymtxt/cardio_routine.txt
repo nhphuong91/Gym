@@ -1,0 +1,346 @@
+<svg width="100%" viewBox="0 0 680 2412" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Cardio day — court &amp; conditioning</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Knee-safe · hypermobility-adapted · ~55–63 min · badminton-focused</text>
+
+<!-- KEY RULES -->
+<rect x="30" y="58" width="300" height="108" rx="6" fill="#fef8e8" stroke="#d4a017" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#8a6d00" x="50" y="76">⚠ Hypermobility rules</text>
+<rect x="50" y="84" width="7" height="7" rx="1" fill="#d4a017"/>
+<text font-size="10.5" fill="#555" x="64" y="92">Never lock out joints — soft bend always</text>
+<rect x="50" y="98" width="7" height="7" rx="1" fill="#d4a017"/>
+<text font-size="10.5" fill="#555" x="64" y="106">No lower body static stretching</text>
+<rect x="50" y="112" width="7" height="7" rx="1" fill="#d4a017"/>
+<text font-size="10.5" fill="#555" x="64" y="120">Stability &amp; control over flexibility</text>
+<rect x="50" y="126" width="7" height="7" rx="1" fill="#d4a017"/>
+<text font-size="10.5" fill="#555" x="64" y="134">Avoid deep lunges, squats, end-range</text>
+<rect x="50" y="140" width="7" height="7" rx="1" fill="#d4a017"/>
+<text font-size="10.5" fill="#555" x="64" y="148">Isometric holds &gt; static stretches</text>
+
+<rect x="350" y="58" width="300" height="108" rx="6" fill="#fef0f0" stroke="#cc4444" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#aa2222" x="370" y="76">🦵 Knee protection rules</text>
+<rect x="370" y="84" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="10.5" fill="#555" x="384" y="92">Minimize high-impact landings</text>
+<rect x="370" y="98" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="10.5" fill="#555" x="384" y="106">No explosive jump-and-land movements</text>
+<rect x="370" y="112" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="10.5" fill="#555" x="384" y="120">Wear knee sleeves if available</text>
+<rect x="370" y="126" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="10.5" fill="#555" x="384" y="134">Pain = STOP immediately</text>
+<rect x="370" y="140" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="10.5" fill="#555" x="384" y="148">Brake with muscles, not joints</text>
+
+<!-- ── PHASE 1 ── -->
+<rect x="30" y="180" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="196">Phase 1 — Activation &amp; warm-up  (~10–12 min)</text>
+
+<!-- Band Activation header -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="222">Band activation circuit — 2 rounds</text>
+
+<!-- 1. Banded clamshells -->
+<rect x="30" y="230" width="8" height="44" rx="2" fill="#085041"/>
+<rect x="38" y="230" width="612" height="44" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="246">1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="246">Banded clamshells</text>
+<text font-size="11" fill="#0f6e56" x="68" y="264">Glute medius — knee stabilizer #1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="246">12 reps/side</text>
+<text font-size="11" fill="#0f6e56" x="490" y="264">Band</text>
+
+<!-- 2. Banded lateral walks -->
+<rect x="30" y="280" width="8" height="44" rx="2" fill="#085041"/>
+<rect x="38" y="280" width="612" height="44" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="296">2</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="296">Banded lateral walks (don't let knees cave)</text>
+<text font-size="11" fill="#0f6e56" x="68" y="314">Hip abductors — lateral knee stability</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="296">10 steps/dir</text>
+<text font-size="11" fill="#0f6e56" x="490" y="314">Band</text>
+
+<!-- 3. Banded terminal knee extensions -->
+<rect x="30" y="330" width="8" height="56" rx="2" fill="#085041"/>
+<rect x="38" y="330" width="612" height="56" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="346">3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="346">Banded terminal knee extensions</text>
+<text font-size="11" fill="#0f6e56" x="68" y="361">(anchor behind knee · extend from slight bend to straight)</text>
+<text font-size="11" fill="#0f6e56" x="68" y="376">VMO — kneecap tracking muscle</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="346">12 reps/leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="361">Band</text>
+
+<!-- 4. Single-leg balance -->
+<rect x="30" y="392" width="8" height="44" rx="2" fill="#085041"/>
+<rect x="38" y="392" width="612" height="44" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="408">4</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="408">Single-leg mini balance hold (slight knee bend)</text>
+<text font-size="11" fill="#0f6e56" x="68" y="426">Proprioception — essential for hypermobile joints</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="408">15s / leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="426">Bodyweight</text>
+
+<!-- Movement prep -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="458">Movement prep — 4–5 min</text>
+<rect x="30" y="466" width="620" height="36" rx="4" fill="#f7f7f7" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="11" fill="#555" x="50" y="482">Walking knee hugs (gentle) → Lateral shuffles (controlled pace) →</text>
+<text font-size="11" fill="#555" x="50" y="496">High knees (reduced height) → Split-step practice (soft landings, absorb with bent knees)</text>
+
+<!-- ── PHASE 2 ── -->
+<rect x="30" y="516" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="532">Phase 2 — Badminton court work  (~25–28 min)</text>
+
+<!-- Block A -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="558">Block A — Modified footwork (7–8 min)</text>
+
+<rect x="30" y="566" width="8" height="68" rx="2" fill="#26215c"/>
+<rect x="38" y="566" width="612" height="68" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="582">5</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="68" y="582">4-corner shadow drill (skip deep net lunges)</text>
+<text font-size="11" fill="#3c3489" x="68" y="597">Move at 70–80% speed · smooth deceleration into each corner</text>
+<text font-size="11" fill="#3c3489" x="68" y="612">Front-right, front-left, back-right, back-left</text>
+<text font-size="11" font-style="italic" fill="#888" x="68" y="627">Cue: "Brake with your muscles, not your joints"</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="582">3 × 1 min</text>
+<text font-size="11" fill="#3c3489" x="490" y="597">45s rest</text>
+
+<rect x="30" y="640" width="8" height="44" rx="2" fill="#26215c"/>
+<rect x="38" y="640" width="612" height="44" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="656">6</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="68" y="656">Multi-shuttle feeding drill (if partner available)</text>
+<text font-size="11" fill="#3c3489" x="68" y="674">Continuous retrieval at pace from center position</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="656">2 × 2 min</text>
+
+<!-- Block B -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="706">Block B — Rally-based conditioning (12–15 min)</text>
+
+<rect x="30" y="714" width="8" height="80" rx="2" fill="#633806"/>
+<rect x="38" y="714" width="612" height="80" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="730">7</text>
+<text font-size="12" font-weight="500" fill="#412402" x="68" y="730">Continuous rallies — clears &amp; drops over full smashes</text>
+<text font-size="11" fill="#633806" x="68" y="745">Limit smashes to 2–3 per rally (heavy landing knee load)</text>
+<text font-size="11" fill="#633806" x="68" y="760">Focus: court positioning &amp; shot placement over raw power</text>
+<text font-size="11" font-style="italic" fill="#888" x="68" y="785">If knees ache → switch to stationary feeding drills from center</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="730">3–4 rounds</text>
+<text font-size="11" fill="#633806" x="490" y="745">3 min on / 1 min rest</text>
+
+<!-- Block C -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="820">Block C — Modified match play (5–6 min)</text>
+
+<rect x="30" y="828" width="8" height="68" rx="2" fill="#633806"/>
+<rect x="38" y="828" width="612" height="68" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="844">8</text>
+<text font-size="12" font-weight="500" fill="#412402" x="68" y="844">Short set at ~80% controlled intensity</text>
+<text font-size="11" fill="#633806" x="68" y="859">No diving · no full split-step lunges to net · no jump smashes</text>
+<text font-size="11" fill="#633806" x="68" y="874">Competitive enough for match stamina — controlled for knee safety</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="844">Race to 11</text>
+<text font-size="11" fill="#633806" x="490" y="859">Full rules</text>
+
+<!-- ── PHASE 3 ── -->
+<rect x="30" y="910" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="926">Phase 3 — Complementary conditioning  (~10–12 min · rotate weekly · pick ONE)</text>
+
+<!-- Cycling -->
+<rect x="30" y="948" width="8" height="68" rx="2" fill="#042c53"/>
+<rect x="38" y="948" width="612" height="68" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="964">A</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="68" y="964">Cycling — stationary or outdoor (DEFAULT)</text>
+<text font-size="11" fill="#0c447c" x="68" y="979">Zero knee impact · builds quad endurance around joint</text>
+<text font-size="11" fill="#0c447c" x="68" y="994">Fully controllable resistance · low-impact aerobic base</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="964">10–12 min</text>
+<text font-size="11" fill="#0c447c" x="490" y="979">Moderate pace</text>
+<rect x="490" y="990" width="110" height="16" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.5"/>
+<text font-size="9" font-weight="500" fill="#185fa5" x="500" y="1001">★ MOST WEEKS</text>
+
+<!-- Swimming -->
+<rect x="30" y="1022" width="8" height="68" rx="2" fill="#042c53"/>
+<rect x="38" y="1022" width="612" height="68" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1038">B</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="68" y="1038">Swimming — freestyle or backstroke only</text>
+<text font-size="11" fill="#0c447c" x="68" y="1053">Zero impact · decompresses joints · full-body aerobic</text>
+<text font-size="11" fill="#cc4444" x="68" y="1068">⚠ Avoid breaststroke kick — stresses inner knee</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="1038">10–12 min</text>
+<text font-size="11" fill="#0c447c" x="490" y="1053">Easy–moderate</text>
+
+<!-- Jump rope -->
+<rect x="30" y="1096" width="8" height="68" rx="2" fill="#042c53"/>
+<rect x="38" y="1096" width="612" height="68" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1112">C</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="68" y="1112">Jump rope — GOOD-KNEE-DAY ONLY</text>
+<text font-size="11" fill="#0c447c" x="68" y="1127">Stay on balls of feet · low jump height · calf/ankle conditioning</text>
+<text font-size="11" fill="#cc4444" x="68" y="1142">⚠ Involves impact — skip if any knee discomfort that day</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="1112">4 × 45s on</text>
+<text font-size="11" fill="#0c447c" x="490" y="1127">45s rest</text>
+
+<!-- ── PHASE 4 ── -->
+<rect x="30" y="1180" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1196">Phase 4 — Stabilization cool-down  (~8–10 min · replaces traditional stretching)</text>
+
+<rect x="30" y="1210" width="620" height="22" rx="4" fill="#fef8e8" stroke="#d4a017" stroke-width="0.5"/>
+<text font-size="10.5" font-style="italic" fill="#8a6d00" x="50" y="1225">Hypermobile joints need control, not more range — isometric holds replace static stretches</text>
+
+<!-- Walk -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="1254">Heart rate recovery — 2 min</text>
+<rect x="30" y="1262" width="620" height="32" rx="4" fill="#f7f7f7" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="11" fill="#555" x="50" y="1282">Walk or slow cycling to bring heart rate down gradually</text>
+
+<!-- Stability circuit -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="1316">Isometric &amp; stability circuit — 6–8 min</text>
+
+<rect x="30" y="1324" width="8" height="44" rx="2" fill="#7a3000"/>
+<rect x="38" y="1324" width="612" height="44" rx="4" fill="#fdf0e6" stroke="#b05010" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1340">9</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="68" y="1340">Wall sit hold (knees at ~90° · don't slide deeper)</text>
+<text font-size="11" fill="#a05020" x="68" y="1358">Quad endurance around knee joint without impact</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="490" y="1340">30s × 2</text>
+
+<rect x="30" y="1374" width="8" height="44" rx="2" fill="#7a3000"/>
+<rect x="38" y="1374" width="612" height="44" rx="4" fill="#fdf0e6" stroke="#b05010" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1390">10</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="68" y="1390">Single-leg stance — eyes closed</text>
+<text font-size="11" fill="#a05020" x="68" y="1408">Proprioception training — critical for hypermobile joints</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="490" y="1390">20s / leg</text>
+
+<rect x="30" y="1424" width="8" height="44" rx="2" fill="#7a3000"/>
+<rect x="38" y="1424" width="612" height="44" rx="4" fill="#fdf0e6" stroke="#b05010" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1440">11</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="68" y="1440">Banded glute bridge hold</text>
+<text font-size="11" fill="#a05020" x="68" y="1458">Hip stability · takes stress off knees</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="490" y="1440">20s × 2</text>
+<text font-size="11" fill="#a05020" x="490" y="1458">Band</text>
+
+<rect x="30" y="1474" width="8" height="44" rx="2" fill="#7a3000"/>
+<rect x="38" y="1474" width="612" height="44" rx="4" fill="#fdf0e6" stroke="#b05010" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1490">12</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="68" y="1490">Plank</text>
+<text font-size="11" fill="#a05020" x="68" y="1508">Core stability — supports all movement patterns</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="490" y="1490">30s</text>
+
+<!-- Active upper body cool-down -->
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="1542">Active upper body cool-down — replaces static stretches (~2 min)</text>
+
+<!-- 13. Slow eccentric push-up -->
+<rect x="30" y="1552" width="8" height="56" rx="2" fill="#7a3000"/>
+<rect x="38" y="1552" width="612" height="56" rx="4" fill="#fdf0e6" stroke="#b05010" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1568">13</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="68" y="1568">Slow eccentric push-up — 8s lowering (from knees OK)</text>
+<text font-size="11" fill="#a05020" x="68" y="1583">Pec major · anterior delt · triceps — lengthens chest under load</text>
+<text font-size="11" fill="#a05020" x="68" y="1598">Replaces passive chest doorway stretch · from upper body mobility protocol S2</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="490" y="1568">2 reps</text>
+<text font-size="11" fill="#a05020" x="490" y="1583">8s eccentric each</text>
+
+<!-- 14. Shoulder CARs -->
+<rect x="30" y="1614" width="8" height="56" rx="2" fill="#7a3000"/>
+<rect x="38" y="1614" width="612" height="56" rx="4" fill="#fdf0e6" stroke="#b05010" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1630">14</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="68" y="1630">Shoulder CARs — slow recovery tempo</text>
+<text font-size="11" fill="#a05020" x="68" y="1645">Full shoulder capsule · rotator cuff — active scan replaces passive cross-body stretch</text>
+<text font-size="11" fill="#a05020" x="68" y="1660">From upper body mobility protocol S1 · compare feel to pre-session</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="490" y="1630">2 each direction</text>
+<text font-size="11" fill="#a05020" x="490" y="1645">× each arm</text>
+<text font-size="11" fill="#a05020" x="490" y="1660">~45s per circle</text>
+
+<!-- 15. Active neck isometric -->
+<rect x="30" y="1676" width="8" height="56" rx="2" fill="#7a3000"/>
+<rect x="38" y="1676" width="612" height="56" rx="4" fill="#fdf0e6" stroke="#b05010" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1692">15</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="68" y="1692">Active neck rotation with isometric resistance</text>
+<text font-size="11" fill="#a05020" x="68" y="1707">Upper traps · SCM · cervical stabilizers — replaces passive neck side-bends</text>
+<text font-size="11" fill="#a05020" x="68" y="1722">Hand on side of head · push head into hand ~20% effort · hold 5s</text>
+<text font-size="12" font-weight="500" fill="#7a3000" x="490" y="1692">2 reps/side</text>
+<text font-size="11" fill="#a05020" x="490" y="1707">5s hold each</text>
+
+<!-- Skip notice -->
+<rect x="30" y="1742" width="620" height="30" rx="4" fill="#fef0f0" stroke="#cc4444" stroke-width="0.8"/>
+<text font-size="11" fill="#aa2222" x="50" y="1762">❌ SKIP: All passive stretches — excessive range increases instability risk for hEDS joints</text>
+
+<!-- ── FUELING ── -->
+<rect x="30" y="1800" width="300" height="52" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1820">🍽 Post-session fueling</text>
+<text font-size="11" fill="#2272a8" x="50" y="1838">Shake at venue → light meal at home</text>
+
+<rect x="350" y="1800" width="300" height="52" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="370" y="1820">💡 Lunch tip</text>
+<text font-size="11" fill="#2272a8" x="370" y="1838">Slightly more carbs OK — you'll burn them</text>
+
+<!-- ── PROGRESSION ── -->
+<rect x="30" y="1874" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1890">Progression path — weeks 1–6+</text>
+
+<!-- Week 1-2 -->
+<rect x="30" y="1908" width="196" height="120" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="50" y="1928">Weeks 1–2 · Foundation</text>
+<rect x="50" y="1938" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="64" y="1946">70% court intensity</text>
+<rect x="50" y="1954" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="64" y="1962">Default to cycling</text>
+<rect x="50" y="1970" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="64" y="1978">Learn band activation</text>
+<text font-size="10.5" fill="#555" x="64" y="1992">circuit form</text>
+<rect x="50" y="2000" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="64" y="2008">Build movement habits</text>
+
+<!-- Arrow -->
+<text font-size="14" fill="#aaa" x="232" y="1970">→</text>
+
+<!-- Week 3-4 -->
+<rect x="242" y="1908" width="196" height="120" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="262" y="1928">Weeks 3–4 · Building</text>
+<rect x="262" y="1938" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="276" y="1946">80% court intensity</text>
+<rect x="262" y="1954" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="276" y="1962">Try jump rope on</text>
+<text font-size="10.5" fill="#555" x="276" y="1976">good-knee days</text>
+<rect x="262" y="1984" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="276" y="1992">+5s to wall sits</text>
+<rect x="262" y="2000" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="276" y="2008">More rally duration</text>
+
+<!-- Arrow -->
+<text font-size="14" fill="#aaa" x="444" y="1970">→</text>
+
+<!-- Week 5-6+ -->
+<rect x="454" y="1908" width="196" height="120" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a5c8a" x="474" y="1928">Weeks 5–6+ · Full</text>
+<rect x="474" y="1938" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="488" y="1946">Reintroduce 6-corner</text>
+<text font-size="10.5" fill="#555" x="488" y="1960">if pain-free</text>
+<rect x="474" y="1968" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="488" y="1976">Allow more smashes</text>
+<rect x="474" y="1984" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="488" y="1992">Full intensity if 2+</text>
+<text font-size="10.5" fill="#555" x="488" y="2006">weeks pain-free</text>
+<rect x="474" y="2012" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="10.5" fill="#555" x="488" y="2020">Keep band warm-up</text>
+
+<!-- ── RED FLAGS ── -->
+<rect x="30" y="2050" width="620" height="24" rx="4" fill="#fef0f0" stroke="#cc4444" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#aa2222" x="50" y="2066">🚨 Red flags — stop &amp; reassess</text>
+
+<rect x="30" y="2080" width="620" height="98" rx="6" fill="#fef0f0" stroke="#cc4444" stroke-width="0.5"/>
+<rect x="50" y="2092" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="11" fill="#555" x="64" y="2100">Sharp pain (not dull discomfort) in either knee during or after</text>
+<rect x="50" y="2108" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="11" fill="#555" x="64" y="2116">Knee swelling the day after</text>
+<rect x="50" y="2124" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="11" fill="#555" x="64" y="2132">Feeling of "giving way" or instability mid-movement</text>
+<rect x="50" y="2140" width="7" height="7" rx="1" fill="#cc4444"/>
+<text font-size="11" fill="#555" x="64" y="2148">Pain that gets worse as the session progresses (not better)</text>
+<text font-size="11" font-style="italic" fill="#aa2222" x="50" y="2170">→ Rest that week's cardio · consider physio check-in before resuming</text>
+
+<!-- ── EQUIPMENT REC ── -->
+<rect x="30" y="2192" width="620" height="44" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="2212">💡 Equipment recommendation: knee compression sleeves</text>
+<text font-size="11" fill="#2272a8" x="50" y="2228">Proprioceptive feedback helps hypermobile joints know where they are in space</text>
+
+<!-- ── GLOBAL RULES ── -->
+<rect x="30" y="2250" width="620" height="108" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="2270">Every session — remember</text>
+<rect x="50" y="2278" width="7" height="7" rx="1" fill="#633806"/>
+<text font-size="11" fill="#444" x="64" y="2286">Band warm-up is permanent maintenance — not just rehab</text>
+<rect x="50" y="2294" width="7" height="7" rx="1" fill="#633806"/>
+<text font-size="11" fill="#444" x="64" y="2302">Foam rolling complements this session</text>
+<rect x="50" y="2310" width="7" height="7" rx="1" fill="#633806"/>
+<text font-size="11" fill="#444" x="64" y="2318">Same post-workout pattern: shake at venue, light meal at home</text>
+<rect x="50" y="2326" width="7" height="7" rx="1" fill="#633806"/>
+<text font-size="11" fill="#444" x="64" y="2334">One cardio day won't interfere with your lifting sessions</text>
+<rect x="50" y="2342" width="7" height="7" rx="1" fill="#633806"/>
+<text font-size="11" fill="#444" x="64" y="2350">No need to add a second day unless recovery supports it</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="2380" text-anchor="middle">v1 — weekdays dropped from the title, the lunch tip and two closing notes: routine files assign no days (Stage 0 §0.1)</text>
+
+</svg>

@@ -1,0 +1,203 @@
+<svg width="100%" viewBox="0 0 680 1692" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Popliteus / calf deceleration prevention protocol</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Post-badminton flare rebuild · hypermobility-safe · 3-phase progressive (~10 wks) · knee rehab phase</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Muscle group</text>
+<rect x="50" y="89" width="10" height="10" rx="2" fill="#185fa5"/>
+<text font-size="11" fill="#333" x="66" y="98">Calves</text>
+<rect x="115" y="89" width="10" height="10" rx="2" fill="#8a3a2e"/>
+<text font-size="11" fill="#333" x="131" y="98">Popliteus</text>
+<rect x="196" y="89" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="212" y="98">Glutes</text>
+
+<!-- PRE-WORKOUT NOTE -->
+<rect x="30" y="122" width="620" height="75" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="139">Why this file exists — and what runs alongside it</text>
+<text font-size="11" fill="#2272a8" x="50" y="152">Rested 2 months to full resolution after a flare here — this rebuilds the load-capacity tier that failed</text>
+<text font-size="11" fill="#2272a8" x="50" y="165">(deceleration/lunge overload), not muscle mass. Run the 5-test baseline battery first to set Phase 1 length.</text>
+<text font-size="11" fill="#2272a8" x="50" y="178">PREREQUISITE: the lower-body mobility protocol is the pre/post wrapper for every session in this file. Its</text>
+<text font-size="11" fill="#2272a8" x="50" y="191">Ankle CARs, clamshells and banded TKEs prime exactly what this file loads — never skip on reactive days.</text>
+
+<!-- ── A PHASE 1 ── -->
+<rect x="30" y="209" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="225">A — Phase 1: Reintroduce  (weeks 1–2 · bilateral only · submaximal)</text>
+
+<!-- A1 — Straight-knee calf isometric hold -->
+<rect x="30" y="243" width="8" height="54" rx="2" fill="#185fa5"/>
+<rect x="38" y="243" width="612" height="54" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="259">1</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="259">Straight-knee calf isometric hold</text>
+<text font-size="11" fill="#185fa5" x="72" y="274">Gastrocnemius — landing shock absorber</text>
+<text font-size="11" fill="#185fa5" x="72" y="289">Re-establish tolerance before loading · knee stays soft</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="259">5 × 30–45s</text>
+<text font-size="11" fill="#185fa5" x="490" y="274">Bodyweight</text>
+
+<text font-size="12" fill="#888" x="340" y="311" text-anchor="middle">↕ then immediately</text>
+
+<!-- A2 — Popliteus banded internal rotation -->
+<rect x="30" y="321" width="8" height="54" rx="2" fill="#8a3a2e"/>
+<rect x="38" y="321" width="612" height="54" rx="4" fill="#fbeee9" stroke="#c97b64" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="337">2</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="337">Popliteus banded internal rotation</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="352">(non-stance foot draws behind support leg · slow controlled return)</text>
+<text font-size="11" fill="#a8503d" x="72" y="367">Popliteus — resists tibial rotation &amp; anterior translation</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="490" y="337">2–3 × 12</text>
+<text font-size="11" fill="#a8503d" x="490" y="352">Band</text>
+
+<!-- A3 — Bent-knee calf isometric hold -->
+<rect x="30" y="381" width="8" height="70" rx="2" fill="#185fa5"/>
+<rect x="38" y="381" width="612" height="70" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="397">3</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="397">Bent-knee calf isometric hold</text>
+<text font-size="11" fill="#185fa5" x="72" y="412">Soleus — primary plantarflexor with knee bent</text>
+<text font-size="11" fill="#185fa5" x="72" y="427">= exact lunge/landing position; deceleration-specific</text>
+<text font-size="11" fill="#185fa5" x="72" y="441">Straight set — Phase 1 hip ER dropped (mobility protocol covers it)</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="397">5 × 30–45s</text>
+<text font-size="11" fill="#185fa5" x="490" y="412">Bodyweight</text>
+
+<!-- ── B PHASE 2 ── -->
+<rect x="30" y="465" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="481">B — Phase 2: Strength base  (weeks ~2–6 · length set by baseline results)</text>
+
+<!-- B4 — Standing calf raise -->
+<rect x="30" y="499" width="8" height="70" rx="2" fill="#185fa5"/>
+<rect x="38" y="499" width="612" height="70" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="515">4</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="515">Standing calf raise (Smith · optional deficit)</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="530">(2s up / 3s down · soft knee · 70–80% range only)</text>
+<text font-size="11" fill="#185fa5" x="72" y="545">Gastrocnemius + soleus synergist — the failed capacity tier</text>
+<text font-size="11" fill="#185fa5" x="72" y="559">Progress to single-leg late-phase — ankle eccentric only, knee stays static</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="515">3–4 × 8–12</text>
+<text font-size="11" fill="#185fa5" x="490" y="530">Smith</text>
+
+<text font-size="12" fill="#888" x="340" y="583" text-anchor="middle">↕ then immediately</text>
+
+<!-- B5 — Popliteus step task -->
+<rect x="30" y="593" width="8" height="86" rx="2" fill="#8a3a2e"/>
+<rect x="38" y="593" width="612" height="86" rx="4" fill="#fbeee9" stroke="#c97b64" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="609">5</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="609">Popliteus step task</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="624">(stance foot on 5–15cm step · knee 20–40° · stays planted)</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="639">(free leg: behind+across → fwd → behind+inside → fwd → out to side)</text>
+<text font-size="11" fill="#a8503d" x="72" y="653">Popliteus — stance leg RESISTS rotation; free leg supplies the torque</text>
+<text font-size="11" fill="#a8503d" x="72" y="668">Controlled tempo to learn the sequence · then swap legs</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="490" y="609">3 × 5 cycles/leg</text>
+<text font-size="11" fill="#a8503d" x="490" y="624">Low step</text>
+
+<!-- B6 — Seated calf raise -->
+<rect x="30" y="685" width="8" height="54" rx="2" fill="#185fa5"/>
+<rect x="38" y="685" width="612" height="54" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="701">6</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="701">Seated calf raise (plate / DB on knees)</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="716">(knee ~80° · 2s up / 3s down · soft lockout)</text>
+<text font-size="11" fill="#185fa5" x="72" y="731">Soleus — non-negotiable slot; this is your deceleration muscle</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="701">3–4 × 10–15</text>
+<text font-size="11" fill="#185fa5" x="490" y="716">Plate / DB</text>
+
+<text font-size="12" fill="#888" x="340" y="753" text-anchor="middle">↕ then immediately</text>
+
+<!-- B7 — Standing banded hip ER / lateral step -->
+<rect x="30" y="763" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="763" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="779">7</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="779">Standing banded hip ER / lateral step</text>
+<text font-size="11" fill="#0f6e56" x="72" y="794">Glute med/max — controls valgus &amp; tibial-rotation overflow</text>
+<text font-size="11" fill="#0f6e56" x="72" y="809">LOADED dose — activation dose is covered pre-session by the mobility protocol</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="779">2–3 × 12–15</text>
+<text font-size="11" fill="#0f6e56" x="490" y="794">Band</text>
+
+<!-- ── C PHASE 3 ── -->
+<rect x="30" y="831" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="847">C — Phase 3: Reactive / deceleration  (weeks ~6–10 · enter only once Phase 2 is pain-free)</text>
+
+<!-- C8 — Bilateral pogo hops -->
+<rect x="30" y="865" width="8" height="54" rx="2" fill="#185fa5"/>
+<rect x="38" y="865" width="612" height="54" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="881">8</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="881">Bilateral pogo hops</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="896">(low amplitude · ankle-stiff · done fresh, before calf loading)</text>
+<text font-size="11" fill="#185fa5" x="72" y="911">Gastroc / soleus / Achilles — reactive energy-storage capacity</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="881">3–4 × 20–30s</text>
+<text font-size="11" fill="#185fa5" x="490" y="896">Bodyweight</text>
+
+<text font-size="12" fill="#888" x="340" y="933" text-anchor="middle">↕ then immediately</text>
+
+<!-- C9 — Popliteus step task — at speed -->
+<rect x="30" y="943" width="8" height="86" rx="2" fill="#8a3a2e"/>
+<rect x="38" y="943" width="612" height="86" rx="4" fill="#fbeee9" stroke="#c97b64" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="959">9</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="959">Popliteus step task — at speed</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="974">(same 5-position sequence · quick loading-unloading, max speed)</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="72" y="989">(form holds first · then progress onto unstable surface)</text>
+<text font-size="11" fill="#a8503d" x="72" y="1003">Popliteus — rotatory control under speed, not just under load</text>
+<text font-size="12" font-weight="500" fill="#8a3a2e" x="490" y="959">3 × 5 cycles/leg</text>
+<text font-size="11" fill="#a8503d" x="490" y="974">Low step</text>
+
+<!-- C10 — Sub-max lunge landing -->
+<rect x="30" y="1035" width="8" height="70" rx="2" fill="#085041"/>
+<rect x="38" y="1035" width="612" height="70" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1051">10</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="1051">Sub-max lunge landing (step-in → hold)</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="1066">(step in slow · no absorb · hold 2–3s at moderate depth)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1081">GATED: add the absorb/landing phase only once knee clears SL eccentric</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1095">Straight set — protect from fatigue stacking (superset Rule 4)</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="1051">3 × 5/leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="1066">Bodyweight</text>
+
+<!-- POST-WORKOUT NOTE -->
+<rect x="30" y="1117" width="620" height="36" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1134">Return-to-badminton gate</text>
+<text font-size="11" fill="#2272a8" x="50" y="1147">Footwork drills → half-speed rallies → full session — never straight into a heavy one</text>
+
+<!-- GLOBAL RULES -->
+<rect x="30" y="1165" width="620" height="172" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1187">Every session — constraints across all phases</text>
+<rect x="50" y="1197" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1205">Lower-body mobility protocol runs pre + post — every session in this file, no exceptions</text>
+<rect x="50" y="1217" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1225">Soft lockout throughout; ~70–80% ROM only — no end-range loaded stretch</text>
+<rect x="50" y="1237" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1245">No passive stretching — active mobility / isometric holds only</text>
+<rect x="50" y="1257" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1265">Single-leg eccentric restriction is KNEE-only — ankle/calf eccentrics already live in mobility protocol</text>
+<rect x="50" y="1277" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1285">Deep loaded knee/hip flexion stays out — Phase 3 stays bodyweight, low-amplitude</text>
+<rect x="50" y="1297" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1305">Any symptom reproduction during testing or training overrides phase length</text>
+<rect x="50" y="1317" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1325">Hip abductor/adductor machine: still deferred until knee stability improves</text>
+
+<!-- TIMING SUMMARY -->
+<rect x="30" y="1349" width="620" height="101" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1369">Phase length &amp; gating logic</text>
+<text font-size="11" fill="#2272a8" x="50" y="1386">Entry gate: near norms + clean control + no pain → Phase 1 ~2wk. Deficit / asymmetry &gt;10% / poor control /</text>
+<text font-size="11" fill="#2272a8" x="50" y="1403">pain → extend base to ~4–5wk; re-test before advancing. Phase 3 entry requires Phase 2 pain-free AND strong.</text>
+<text font-size="11" fill="#2272a8" x="50" y="1420">Re-test the baseline battery every 2–3 weeks.</text>
+<text font-size="11" fill="#2272a8" x="50" y="1437">Integrates into the split: Phases 1–2 → a lower-body session · Phase 3 reactive → a cardio session.</text>
+
+<!-- SET COUNT -->
+<rect x="30" y="1462" width="620" height="92" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1484">Sets per session, by phase</text>
+<text font-size="11" fill="#8a3a2e" x="50" y="1504">Phase 1: ~12–13 sets (1 pair + 1 straight set · isometric)</text>
+<text font-size="11" fill="#185fa5" x="50" y="1522">Phase 2: ~11–14 sets (2 pairs · strength + control)</text>
+<text font-size="11" fill="#085041" x="50" y="1540">Phase 3: ~9–10 sets (1 pair + 1 straight set · reactive)</text>
+
+<!-- ALTERNATIVES TABLE -->
+<rect x="30" y="1566" width="620" height="74" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1586">Alternative exercises — if Smith machine occupied</text>
+<line x1="40" y1="1595" x2="640" y2="1595" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" font-weight="500" fill="#666" x="50" y="1608">#  Primary exercise</text>
+<text font-size="10" font-weight="500" fill="#666" x="280" y="1608">Alternative 1</text>
+<text font-size="10" font-weight="500" fill="#666" x="470" y="1608">Alternative 2</text>
+<line x1="40" y1="1613" x2="640" y2="1613" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" fill="#185fa5" x="50" y="1628">4  Standing calf raise (Smith)</text>
+<text font-size="10" fill="#444" x="280" y="1628">DB standing calf raise (hold rack)</text>
+<text font-size="10" fill="#444" x="470" y="1628">Deficit calf raise (step edge)</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="1660" text-anchor="middle">v6 — weekdays dropped from the split note: routine files assign no days (Stage 0 §0.1)</text>
+
+</svg>

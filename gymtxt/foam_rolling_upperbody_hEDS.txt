@@ -1,0 +1,226 @@
+<svg width="100%" viewBox="0 0 680 1722" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Foam rolling — upper body rest day (hEDS / HSD safe)</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Myofascial release only · no joint mobilization · pick areas by what you trained · ~14 min · 9 areas</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Target area</text>
+<rect x="50" y="80" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="66" y="90">T-spine / traps</text>
+<rect x="180" y="80" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="196" y="90">Chest / shoulder</text>
+<rect x="320" y="80" width="10" height="10" rx="2" fill="#633806"/>
+<text font-size="11" fill="#333" x="336" y="90">Lats</text>
+<rect x="400" y="80" width="10" height="10" rx="2" fill="#042c53"/>
+<text font-size="11" fill="#333" x="416" y="90">Biceps / triceps</text>
+<rect x="530" y="80" width="10" height="10" rx="2" fill="#8b1a1a"/>
+<text font-size="11" fill="#333" x="546" y="90">Forearms</text>
+
+<!-- hEDS WARNING -->
+<rect x="30" y="120" width="620" height="56" rx="8" fill="#fff3e0" stroke="#e8a020" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#8b5e00" x="50" y="139">⚠ hEDS / HSD foam rolling rules</text>
+<text font-size="11" fill="#9e6e10" x="50" y="156">Roll on muscle bellies only — never on joints, tendons, or bony prominences. Avoid direct rib</text>
+<text font-size="11" fill="#9e6e10" x="50" y="169">pressure (subluxation risk). Wall-based ball work preferred for pressure control. Tennis ball first.</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PHASE 1: THORACIC SPINE & SCAPULAR -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="190" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="206">Phase 1 — Thoracic spine + scapular region  (~5 min)</text>
+
+<!-- 1. Upper back  y=220  h=94 -->
+<rect x="30" y="220" width="8" height="94" rx="2" fill="#085041"/>
+<rect x="38" y="220" width="612" height="94" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="236">1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="236">Upper back — thoracic extensors</text>
+<text font-size="11" fill="#0f6e56" x="68" y="251">Erector spinae · rhomboids · mid/lower traps</text>
+<text font-size="11" fill="#0f6e56" x="68" y="266">Lie on roller across upper back, knees bent, arms crossed.</text>
+<text font-size="11" fill="#0f6e56" x="68" y="281">Roll mid-back to shoulder blades. Pause 5–8s on tight spots.</text>
+<text font-size="11" fill="#0f6e56" x="68" y="296">hEDS: keep core braced — don't hyperextend over roller. Small ROM only.</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="236">45s each dir</text>
+<text font-size="11" fill="#0f6e56" x="490" y="251">Foam roller</text>
+<text font-size="11" fill="#0f6e56" x="490" y="266">~2 min</text>
+
+<!-- 2. Rhomboids & mid-traps  y=320  h=94 -->
+<rect x="30" y="320" width="8" height="94" rx="2" fill="#085041"/>
+<rect x="38" y="320" width="612" height="94" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="336">2</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="336">Rhomboids + mid-traps (ball against wall)</text>
+<text font-size="11" fill="#0f6e56" x="68" y="351">Rhomboids · mid-trap — loaded by rows</text>
+<text font-size="11" fill="#0f6e56" x="68" y="366">Ball between spine and shoulder blade. Lean in gently,</text>
+<text font-size="11" fill="#0f6e56" x="68" y="381">small circles. Find 2–3 tender spots per side.</text>
+<text font-size="11" fill="#0f6e56" x="68" y="396">hEDS: wall-based for pressure control. Never on spine directly.</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="336">30s × 2–3 spots</text>
+<text font-size="11" fill="#0f6e56" x="490" y="351">Tennis ball</text>
+<text font-size="11" fill="#0f6e56" x="490" y="366">~3 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PHASE 2: CHEST, LATS & SHOULDER -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="428" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="444">Phase 2 — Chest, lats + shoulder complex  (~4.5 min)</text>
+
+<!-- 3. Pec major & minor  y=458  h=94 -->
+<rect x="30" y="458" width="8" height="94" rx="2" fill="#26215c"/>
+<rect x="38" y="458" width="612" height="94" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="474">3</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="68" y="474">Pec major + pec minor (ball against wall)</text>
+<text font-size="11" fill="#3c3489" x="68" y="489">Pec major · pec minor — tight from presses</text>
+<text font-size="11" fill="#3c3489" x="68" y="504">Ball below collarbone on pec muscle. Lean in gently,</text>
+<text font-size="11" fill="#3c3489" x="68" y="519">make slow arm movements (raise overhead, sweep out).</text>
+<text font-size="11" fill="#3c3489" x="68" y="534">hEDS: light pressure, stay medial on belly. Stop if shoulder shifts.</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="474">30–40s per side</text>
+<text font-size="11" fill="#3c3489" x="490" y="489">Tennis ball</text>
+<text font-size="11" fill="#3c3489" x="490" y="504">~2 min</text>
+
+<!-- 4. Lats  y=558  h=94 -->
+<rect x="30" y="558" width="8" height="94" rx="2" fill="#633806"/>
+<rect x="38" y="558" width="612" height="94" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="574">4</text>
+<text font-size="12" font-weight="500" fill="#412402" x="68" y="574">Lats (side-lying on roller)</text>
+<text font-size="11" fill="#633806" x="68" y="589">Latissimus dorsi — loaded by all rowing + hang work</text>
+<text font-size="11" fill="#633806" x="68" y="604">Lie on side, roller under armpit on lat. Extend arm overhead.</text>
+<text font-size="11" fill="#633806" x="68" y="619">Roll from armpit to mid-rib slowly. Switch sides.</text>
+<text font-size="11" fill="#633806" x="68" y="634">hEDS: stay on meaty lat behind ribcage — avoid direct rib pressure.</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="574">40s per side</text>
+<text font-size="11" fill="#633806" x="490" y="589">Foam roller</text>
+<text font-size="11" fill="#633806" x="490" y="604">~2 min</text>
+
+<!-- 5. Posterior shoulder  y=658  h=94 -->
+<rect x="30" y="658" width="8" height="94" rx="2" fill="#26215c"/>
+<rect x="38" y="658" width="612" height="94" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="674">5</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="68" y="674">Posterior shoulder + infraspinatus (ball against wall)</text>
+<text font-size="11" fill="#3c3489" x="68" y="689">Infraspinatus · teres minor · post. delt — from CARs + rows</text>
+<text font-size="11" fill="#3c3489" x="68" y="704">Ball on back of shoulder, below scapular spine,</text>
+<text font-size="11" fill="#3c3489" x="68" y="719">on flat muscle area. Gentle lean and small circles.</text>
+<text font-size="11" fill="#3c3489" x="68" y="734">hEDS: very gentle only. Skip next time if shoulder feels unstable.</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="674">20–30s per side</text>
+<text font-size="11" fill="#3c3489" x="490" y="689">Tennis ball</text>
+<text font-size="11" fill="#3c3489" x="490" y="704">~1.5 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PHASE 3: ARMS & FOREARMS -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="766" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="782">Phase 3 — Arms + forearms  (~4 min)</text>
+
+<!-- 6. Triceps  y=796  h=94 -->
+<rect x="30" y="796" width="8" height="94" rx="2" fill="#042c53"/>
+<rect x="38" y="796" width="612" height="94" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="812">6</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="68" y="812">Triceps (ball against wall or on table)</text>
+<text font-size="11" fill="#0c447c" x="68" y="827">All 3 heads — from presses and pushdowns</text>
+<text font-size="11" fill="#0c447c" x="68" y="842">Back of upper arm on ball. Roll from mid-arm</text>
+<text font-size="11" fill="#0c447c" x="68" y="857">toward shoulder. Focus on the meaty mid-portion.</text>
+<text font-size="11" fill="#0c447c" x="68" y="872">hEDS: avoid elbow joint — stay on muscle belly. Light pressure only.</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="812">30s per arm</text>
+<text font-size="11" fill="#0c447c" x="490" y="827">Tennis ball</text>
+<text font-size="11" fill="#0c447c" x="490" y="842">~1.5 min</text>
+
+<!-- 7. Biceps  y=896  h=94 -->
+<rect x="30" y="896" width="8" height="94" rx="2" fill="#042c53"/>
+<rect x="38" y="896" width="612" height="94" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="912">7</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="68" y="912">Biceps (ball on table)</text>
+<text font-size="11" fill="#0c447c" x="68" y="927">Biceps brachii · brachialis — from curls + pulling</text>
+<text font-size="11" fill="#0c447c" x="68" y="942">Front of upper arm on ball on table.</text>
+<text font-size="11" fill="#0c447c" x="68" y="957">Roll mid-arm to below shoulder. Very light pressure.</text>
+<text font-size="11" fill="#0c447c" x="68" y="972">hEDS: biceps tendon is vulnerable — mid-belly only. Skip if elbow loose.</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="912">20–30s per arm</text>
+<text font-size="11" fill="#0c447c" x="490" y="927">Tennis ball</text>
+<text font-size="11" fill="#0c447c" x="490" y="942">~1.5 min</text>
+
+<!-- 8. Forearms  y=996  h=94 -->
+<rect x="30" y="996" width="8" height="94" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="996" width="612" height="94" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1012">8</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="68" y="1012">Forearm extensors + flexors (ball on table)</text>
+<text font-size="11" fill="#a83030" x="68" y="1027">Wrist extensors · flexors — supports wrist CARs + iso loading</text>
+<text font-size="11" fill="#a83030" x="68" y="1042">Forearm on ball: palm up (flexors) then palm down (extensors).</text>
+<text font-size="11" fill="#a83030" x="68" y="1057">Roll mid-forearm to 3cm above wrist. Gentle pressure.</text>
+<text font-size="11" fill="#a83030" x="68" y="1072">hEDS: stay well away from wrist joint. Complements iso loading.</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="490" y="1012">20s per surface</text>
+<text font-size="11" fill="#a83030" x="490" y="1027">Tennis ball</text>
+<text font-size="11" fill="#a83030" x="490" y="1042">~2 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- FINISH: UPPER TRAPS -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="1104" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1120">Finish — Upper trap release  (~1.5 min · always last)</text>
+
+<!-- 9. Upper traps  y=1134  h=94 -->
+<rect x="30" y="1134" width="8" height="94" rx="2" fill="#085041"/>
+<rect x="38" y="1134" width="612" height="94" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1150">9</text>
+<text font-size="12" font-weight="500" fill="#085041" x="68" y="1150">Upper traps + levator scapulae (ball against wall)</text>
+<text font-size="11" fill="#0f6e56" x="68" y="1165">Upper trapezius · levator scapulae — tight from desk + pressing</text>
+<text font-size="11" fill="#0f6e56" x="68" y="1180">Ball on upper trap ridge (between neck and shoulder tip).</text>
+<text font-size="11" fill="#0f6e56" x="68" y="1195">Lean in and breathe slowly. Sustained hold, no active rolling.</text>
+<text font-size="11" fill="#0f6e56" x="68" y="1210">hEDS: never on neck itself. Stay on muscular ridge. Reposition if tingling.</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="1150">30–40s per side</text>
+<text font-size="11" fill="#0f6e56" x="490" y="1165">Tennis ball</text>
+<text font-size="11" fill="#0f6e56" x="490" y="1180">~1.5 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- QUICK REFERENCE -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="1246" width="620" height="192" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1268">Quick reference — exercise ↔ foam rolling map</text>
+
+<text font-size="11" font-weight="500" fill="#26215c" x="50" y="1293">Bench press / incline press</text>
+<text font-size="11" fill="#444" x="250" y="1293">→ Pec release (#3), Triceps (#6), Upper back (#1)</text>
+
+<text font-size="11" font-weight="500" fill="#633806" x="50" y="1313">Cable rows / DB rows</text>
+<text font-size="11" fill="#444" x="250" y="1313">→ Rhomboids (#2), Lats (#4), Biceps (#7)</text>
+
+<text font-size="11" font-weight="500" fill="#085041" x="50" y="1333">Band pull-aparts / ext. rotation</text>
+<text font-size="11" fill="#444" x="250" y="1333">→ Posterior shoulder (#5), Upper traps (#9)</text>
+
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="1353">Curls / pushdowns</text>
+<text font-size="11" fill="#444" x="250" y="1353">→ Biceps (#7), Triceps (#6), Forearms (#8)</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1373">Wrist CARs / iso loading</text>
+<text font-size="11" fill="#444" x="250" y="1373">→ Forearm extensors + flexors (#8)</text>
+
+<text font-size="11" font-weight="500" fill="#085041" x="50" y="1393">Active hang / Y-T-W holds</text>
+<text font-size="11" fill="#444" x="250" y="1393">→ Lats (#4), Posterior shoulder (#5), Rhomboids (#2)</text>
+
+<text font-size="11" font-weight="500" fill="#26215c" x="50" y="1413">Lateral raise / chest fly</text>
+<text font-size="11" fill="#444" x="250" y="1413">→ Posterior shoulder (#5), Pec release (#3)</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- GLOBAL RULES -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="1450" width="620" height="148" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1472">hEDS / HSD foam rolling rules — every session</text>
+<rect x="50" y="1482" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1490">Roll on muscle bellies only — never on joints, tendons, bony prominences, or directly on ribs</text>
+<rect x="50" y="1502" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1510">Wall-based ball work preferred — gives you full pressure control vs floor-based</text>
+<rect x="50" y="1522" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1530">Use tennis ball first — upgrade to lacrosse ball only after 3–4 weeks of known tolerance</text>
+<rect x="50" y="1542" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1550">At 58kg no extra loading needed — your bodyweight provides sufficient pressure</text>
+<rect x="50" y="1562" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1570">If any area feels MORE loose/unstable after rolling — skip it next session and tell your physio</text>
+
+<!-- TIMING -->
+<rect x="30" y="1610" width="620" height="76" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1630">Schedule + equipment</text>
+<text font-size="11" fill="#2272a8" x="50" y="1647">Rest days only (non-gym days) · ideally evening · ~14 min total</text>
+<text font-size="11" fill="#2272a8" x="50" y="1664">Equipment: 1 standard foam roller + 1 tennis ball (upgrade to lacrosse ball after 3–4 weeks)</text>
+<text font-size="11" fill="#2272a8" x="50" y="1681">This is soft tissue work only — your CARs / iso holds / Y-T-W protocol stays on gym days</text>
+
+<!-- VERSION -->
+<text font-size="9" fill="#aaa" x="340" y="1702" text-anchor="middle">v2 — routine links removed: no exercise numbers; areas picked by what the session trained (Stage 2 D-03)</text>
+
+</svg>

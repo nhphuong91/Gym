@@ -1,0 +1,295 @@
+<svg width="100%" viewBox="0 0 680 2215" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Mobility protocol — lower body day (hEDS / HSD safe)</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Pre: neuromuscular activation · Post: active recovery + CARs · NO passive stretching · pick drills by target</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Target area</text>
+<rect x="50" y="80" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="66" y="90">Glutes</text>
+<rect x="130" y="80" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="146" y="90">Quads</text>
+<rect x="210" y="80" width="10" height="10" rx="2" fill="#633806"/>
+<text font-size="11" fill="#333" x="226" y="90">Hamstrings</text>
+<rect x="320" y="80" width="10" height="10" rx="2" fill="#042c53"/>
+<text font-size="11" fill="#333" x="336" y="90">Calves</text>
+<rect x="400" y="80" width="10" height="10" rx="2" fill="#8b1a1a"/>
+<text font-size="11" fill="#333" x="416" y="90">Hips / knee</text>
+
+<!-- hEDS PHILOSOPHY -->
+<rect x="30" y="120" width="620" height="68" rx="8" fill="#fff3e0" stroke="#e8a020" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#8b5e00" x="50" y="139">⚠ Why no passive stretching — hEDS / HSD principle</text>
+<text font-size="11" fill="#9e6e10" x="50" y="156">Your connective tissue already has excessive laxity. Passive stretching bypasses muscles and</text>
+<text font-size="11" fill="#9e6e10" x="50" y="169">loads ligaments/joint capsules instead → more instability. Every drill below keeps muscles ACTIVE</text>
+<text font-size="11" fill="#9e6e10" x="50" y="182">throughout the entire range so joints stay protected while tissue quality improves.</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PRE-WORKOUT: ACTIVATION + PRIMING -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="204" width="620" height="28" rx="6" fill="#2a7a5a" stroke="#1a5a3a" stroke-width="1"/>
+<text font-size="13" font-weight="600" fill="#ffffff" x="340" y="223" text-anchor="middle">PRE-WORKOUT — Activation + Joint Priming  (~16 min · before warmup sets)</text>
+
+<text font-size="10" fill="#888" x="50" y="248">Goal: wake up stabilizers · build joint awareness · prime neuromuscular control · muscles ON throughout</text>
+
+<!-- P1. Hip CARs — y=262, h=73 , bot=335 (+0) -->
+<rect x="30" y="262" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="262" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="276">P1</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="276">Hip CARs (controlled articular rotations)</text>
+<text font-size="11" fill="#a83030" x="72" y="291">Entire hip capsule · glutes · hip flexors · adductors</text>
+<text font-size="11" fill="#a83030" x="72" y="306">Stand on one leg (hold wall) → slow full-circle rotation of free leg</text>
+<text font-size="11" fill="#a83030" x="72" y="321">Create maximum tension — "move the leg through wet concrete"</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="515" y="276">3 each direction</text>
+<text font-size="11" fill="#a83030" x="515" y="291">× each leg</text>
+<text font-size="11" fill="#a83030" x="515" y="306">~30s per circle</text>
+
+<!-- P2. Ankle CARs — y=341, h=73, bot=414 (+8) -->
+<rect x="30" y="341" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="341" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="355">P2</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="355">Ankle CARs (seated or standing, foot circles)</text>
+<text font-size="11" fill="#0c447c" x="72" y="370">Ankle capsule · gastrocnemius · soleus · tibialis anterior</text>
+<text font-size="11" fill="#0c447c" x="72" y="385">Lift foot off floor → slow controlled circles — feel for catching/clicking</text>
+<text font-size="11" fill="#0c447c" x="72" y="400">Priority joint for hypermobility — maps ankle range before loading calves</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="515" y="355">5 each direction</text>
+<text font-size="11" fill="#0c447c" x="515" y="370">× each ankle</text>
+<text font-size="11" fill="#0c447c" x="515" y="385">~15s per circle</text>
+
+<!-- P3. Banded clamshells — y=420, h=73, bot=493 (+16) -->
+<rect x="30" y="420" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="420" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="434">P3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="434">Banded clamshells</text>
+<text font-size="11" fill="#0f6e56" x="72" y="449">Gluteus medius — primary knee stabilizer</text>
+<text font-size="11" fill="#0f6e56" x="72" y="464">Side-lying, band above knees → open top knee, keep feet together</text>
+<text font-size="11" fill="#0f6e56" x="72" y="479">Fires the lateral hip muscles that protect your knee during all lower body work</text>
+<text font-size="12" font-weight="500" fill="#085041" x="515" y="434">12 reps/side</text>
+<text font-size="11" fill="#0f6e56" x="515" y="449">Band</text>
+<text font-size="11" fill="#0f6e56" x="515" y="464">~1.5 min</text>
+
+<!-- P4. Banded TKEs — y=499, h=73, bot=572 (+24) -->
+<rect x="30" y="499" width="8" height="73" rx="2" fill="#26215c"/>
+<rect x="38" y="499" width="612" height="73" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="513">P4</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="513">Banded terminal knee extensions</text>
+<text font-size="11" fill="#3c3489" x="72" y="528">VMO (vastus medialis oblique) — kneecap tracking muscle</text>
+<text font-size="11" fill="#3c3489" x="72" y="543">Anchor band behind knee → extend from slight bend to straight (not locked)</text>
+<text font-size="11" fill="#3c3489" x="72" y="558">Directly primes the quads for squats and knee work — critical for knee rehab</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="515" y="513">12 reps/leg</text>
+<text font-size="11" fill="#3c3489" x="515" y="528">Band</text>
+<text font-size="11" fill="#3c3489" x="515" y="543">~1.5 min</text>
+
+<!-- P5. Glute bridge iso — y=578, h=73, bot=651 (+32) -->
+<rect x="30" y="578" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="578" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="592">P5</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="592">Glute bridge isometric hold (3s squeeze at top)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="607">Gluteus maximus · hamstrings · deep hip stabilizers</text>
+<text font-size="11" fill="#0f6e56" x="72" y="622">Drive through heels → stop short of full hip extension → HOLD 3s and squeeze</text>
+<text font-size="11" fill="#0f6e56" x="72" y="637">Activates the posterior chain before hip-extension and squat work</text>
+<text font-size="12" font-weight="500" fill="#085041" x="515" y="592">3 × 8 reps</text>
+<text font-size="11" fill="#0f6e56" x="515" y="607">3s hold each rep</text>
+<text font-size="11" fill="#0f6e56" x="515" y="622">~1.5 min</text>
+
+<!-- P6. Banded lateral walks — y=657, h=73, bot=730 (+40) -->
+<rect x="30" y="657" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="657" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="671">P6</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="671">Banded lateral walks (don't let knees cave)</text>
+<text font-size="11" fill="#a83030" x="72" y="686">Hip abductors · gluteus medius — lateral knee stability</text>
+<text font-size="11" fill="#a83030" x="72" y="701">Band above knees, quarter-squat stance → controlled steps sideways</text>
+<text font-size="11" fill="#a83030" x="72" y="716">Builds lateral hip control — protects knees during all standing exercises</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="515" y="671">10 steps/dir</text>
+<text font-size="11" fill="#a83030" x="515" y="686">× 2 rounds</text>
+<text font-size="11" fill="#a83030" x="515" y="701">~1.5 min</text>
+
+<!-- P7. Calf raise iso — y=736, h=73, bot=809 (+48) -->
+<rect x="30" y="736" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="736" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="750">P7</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="750">Calf raise isometric hold at top (wall support)</text>
+<text font-size="11" fill="#0c447c" x="72" y="765">Gastrocnemius · soleus — ankle stability</text>
+<text font-size="11" fill="#0c447c" x="72" y="780">Rise onto balls of feet → HOLD 3s at top → controlled lowering</text>
+<text font-size="11" fill="#0c447c" x="72" y="795">Primes calves before standing calf raises — builds active ankle control</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="515" y="750">3 × 8 reps</text>
+<text font-size="11" fill="#0c447c" x="515" y="765">3s hold each rep</text>
+<text font-size="11" fill="#0c447c" x="515" y="780">~1.5 min</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- POST-WORKOUT: ACTIVE RECOVERY + CARs (+56) -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="829" width="620" height="28" rx="6" fill="#1a5c8a" stroke="#0e3d5c" stroke-width="1"/>
+<text font-size="13" font-weight="600" fill="#ffffff" x="340" y="848" text-anchor="middle">POST-WORKOUT — Active Recovery + CARs  (~14 min · after last set)</text>
+
+<text font-size="10" fill="#888" x="50" y="873">Goal: down-regulate nervous system · restore joint awareness · reduce post-workout clicking · muscles engaged throughout</text>
+
+<!-- S1. Hip CARs slow — y=887, h=73, bot=960 (+56) -->
+<rect x="30" y="887" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="887" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="901">S1</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="901">Hip CARs — slow recovery tempo</text>
+<text font-size="11" fill="#a83030" x="72" y="916">Full hip capsule assessment + recovery</text>
+<text font-size="11" fill="#a83030" x="72" y="931">Same as pre-workout but slower (~45s per circle) — scan for new clicking/catching</text>
+<text font-size="11" fill="#a83030" x="72" y="946">Compare feel to pre-workout — if worse, note it for next session planning</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="515" y="901">2 each direction</text>
+<text font-size="11" fill="#a83030" x="515" y="916">× each leg</text>
+<text font-size="11" fill="#a83030" x="515" y="931">~45s per circle · ~3 min</text>
+
+<!-- S2. Ankle CARs slow — y=966, h=73, bot=1039 (+64) -->
+<rect x="30" y="966" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="966" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="980">S2</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="980">Ankle CARs — recovery tempo</text>
+<text font-size="11" fill="#0c447c" x="72" y="995">Ankle capsule assessment + recovery</text>
+<text font-size="11" fill="#0c447c" x="72" y="1010">Slower than pre-workout (~20s per circle) — note any new catching or stiffness</text>
+<text font-size="11" fill="#0c447c" x="72" y="1025">Compare to pre-workout — this is your ankle health check</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="515" y="980">3 each direction</text>
+<text font-size="11" fill="#0c447c" x="515" y="995">× each ankle</text>
+<text font-size="11" fill="#0c447c" x="515" y="1010">~20s per circle · ~1 min</text>
+
+<!-- S3. Isometric glute hold — y=1045, h=73, bot=1118 (+72) -->
+<rect x="30" y="1045" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="1045" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1059">S3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="1059">Isometric glute hold in lengthened position</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1074">Gluteus maximus · deep hip rotators</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1089">Lying windshield wiper position → at end range, gently push knee into floor ~20% effort</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1104">Active glute "stretch" — muscles control the range instead of passive joint laxity</text>
+<text font-size="12" font-weight="500" fill="#085041" x="515" y="1059">2 × 15s</text>
+<text font-size="11" fill="#0f6e56" x="515" y="1074">× each side</text>
+<text font-size="11" fill="#0f6e56" x="515" y="1089">~1.5 min</text>
+
+<!-- S4. Isometric hamstring — y=1124, h=89, bot=1213 (+80) -->
+<rect x="30" y="1124" width="8" height="89" rx="2" fill="#633806"/>
+<rect x="38" y="1124" width="612" height="89" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1138">S4</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="1138">Isometric hamstring hold (heel press into wall)</text>
+<text font-size="11" fill="#633806" x="72" y="1153">Biceps femoris · semimembranosus · semitendinosus</text>
+<text font-size="11" fill="#633806" x="72" y="1168">Lie on back, foot on wall at ~45° angle, knee slightly bent → press heel into wall ~30%</text>
+<text font-size="11" fill="#633806" x="72" y="1183">Hamstrings active in lengthened position — gets "stretch" effect while protecting knee</text>
+<text font-size="11" fill="#633806" x="72" y="1198">Replaces passive hamstring stretch — no end-range joint loading</text>
+<text font-size="12" font-weight="500" fill="#412402" x="515" y="1138">2 × 15s</text>
+<text font-size="11" fill="#633806" x="515" y="1153">× each leg</text>
+<text font-size="11" fill="#633806" x="515" y="1168">~1.5 min</text>
+
+<!-- S5. Isometric quad — y=1219, h=89, bot=1308 (+88) -->
+<rect x="30" y="1219" width="8" height="89" rx="2" fill="#26215c"/>
+<rect x="38" y="1219" width="612" height="89" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1233">S5</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="1233">Isometric quad hold (foot into bench behind)</text>
+<text font-size="11" fill="#3c3489" x="72" y="1248">Quadriceps · rectus femoris · hip flexors</text>
+<text font-size="11" fill="#3c3489" x="72" y="1263">Standing, top of foot resting on bench behind → gently push foot down into bench ~20%</text>
+<text font-size="11" fill="#3c3489" x="72" y="1278">Active quad lengthening — muscles engaged throughout, replaces passive quad pull</text>
+<text font-size="11" fill="#3c3489" x="72" y="1293">Keep slight forward lean to avoid hyperextending the standing knee</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="515" y="1233">2 × 12s</text>
+<text font-size="11" fill="#3c3489" x="515" y="1248">× each leg</text>
+<text font-size="11" fill="#3c3489" x="515" y="1263">~1.5 min</text>
+
+<!-- S6. Eccentric calf lowering — y=1314, h=73, bot=1387 (+96) -->
+<rect x="30" y="1314" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="1314" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1328">S6</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1328">Eccentric calf lowering (slow 5s off step edge)</text>
+<text font-size="11" fill="#0c447c" x="72" y="1343">Gastrocnemius · soleus · Achilles tendon</text>
+<text font-size="11" fill="#0c447c" x="72" y="1358">Rise on both feet → shift weight to one leg → lower over 5s below step level</text>
+<text font-size="11" fill="#0c447c" x="72" y="1373">Active calf lengthening under load — replaces passive calf stretch</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="515" y="1328">3 reps / leg</text>
+<text font-size="11" fill="#0c447c" x="515" y="1343">5s eccentric each</text>
+<text font-size="11" fill="#0c447c" x="515" y="1358">~1 min</text>
+
+<!-- S7. Single-leg stance — y=1393, h=73, bot=1466 (+104) -->
+<rect x="30" y="1393" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="1393" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1407">S7</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="1407">Single-leg stance — eyes closed</text>
+<text font-size="11" fill="#a83030" x="72" y="1422">Proprioception · ankle stabilizers · hip stabilizers</text>
+<text font-size="11" fill="#a83030" x="72" y="1437">Slight knee bend on standing leg → close eyes → maintain balance</text>
+<text font-size="11" fill="#a83030" x="72" y="1452">Proprioception training — critical for hypermobile joints, matches cardio day protocol</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="515" y="1407">20s / leg</text>
+<text font-size="11" fill="#a83030" x="515" y="1422">Near wall for safety</text>
+<text font-size="11" fill="#a83030" x="515" y="1437">~1 min</text>
+
+<!-- S8. Diaphragmatic breathing — y=1472, h=73, bot=1545 (+112) -->
+<rect x="30" y="1472" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="1472" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1486">S8</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="1486">90/90 diaphragmatic breathing (feet on bench, knees + hips at 90°)</text>
+<text font-size="11" fill="#a83030" x="72" y="1501">Diaphragm · deep core · ribcage positioning · nervous system downregulation</text>
+<text font-size="11" fill="#a83030" x="72" y="1516">Inhale 4s through nose (ribs expand laterally) → exhale 8s through mouth (ribs drop)</text>
+<text font-size="11" fill="#a83030" x="72" y="1531">Resets ribcage position — especially important for hEDS rib subluxation tendency</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="515" y="1486">5 breath cycles</text>
+<text font-size="11" fill="#a83030" x="515" y="1501">4s in / 8s out</text>
+<text font-size="11" fill="#a83030" x="515" y="1516">~60s total</text>
+
+<!-- BREATHING NOTE (+120) -->
+<rect x="30" y="1565" width="620" height="44" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1582">Breathing cue for isometric holds: inhale before the hold → slow exhale DURING the hold</text>
+<text font-size="11" fill="#2272a8" x="50" y="1599">Exhaling under tension helps maintain core pressure without breath-holding spikes</text>
+
+<!-- QUICK REFERENCE (+120) -->
+<rect x="30" y="1623" width="620" height="220" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1645">Quick reference — muscle ↔ drill map (replaces passive stretching)</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1670">Hip capsule / hip flexors</text>
+<text font-size="11" fill="#444" x="250" y="1670">Pre: Hip CARs · Post: Slow Hip CARs</text>
+
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="1690">Ankle capsule / calves</text>
+<text font-size="11" fill="#444" x="250" y="1690">Pre: Ankle CARs, Calf raise iso hold</text>
+<text font-size="11" fill="#444" x="250" y="1705">Post: Slow Ankle CARs, Eccentric calf lowering</text>
+
+<text font-size="11" font-weight="500" fill="#085041" x="50" y="1725">Glutes / hip rotators</text>
+<text font-size="11" fill="#444" x="250" y="1725">Pre: Clamshells, Glute bridge iso hold · Post: Isometric glute lengthened hold</text>
+
+<text font-size="11" font-weight="500" fill="#26215c" x="50" y="1745">Quads / VMO</text>
+<text font-size="11" fill="#444" x="250" y="1745">Pre: Banded TKEs · Post: Isometric quad hold (foot into bench)</text>
+
+<text font-size="11" font-weight="500" fill="#633806" x="50" y="1765">Hamstrings</text>
+<text font-size="11" fill="#444" x="250" y="1765">Pre: (warmed by glute bridges) · Post: Isometric hamstring wall hold</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1785">Lateral hip stability</text>
+<text font-size="11" fill="#444" x="250" y="1785">Pre: Banded lateral walks · Post: Single-leg stance (eyes closed)</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1805">Proprioception / knee control</text>
+<text font-size="11" fill="#444" x="250" y="1805">Pre: Banded TKEs, Lateral walks · Post: Single-leg stance, 90/90 breathing</text>
+
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1825">Ribcage / core stability</text>
+<text font-size="11" fill="#444" x="250" y="1825">Post: 90/90 diaphragmatic breathing (rib reset)</text>
+
+<!-- SESSION TRACKING (+120) -->
+<rect x="30" y="1855" width="620" height="88" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1877">Session self-check — track these over time</text>
+<rect x="50" y="1887" width="7" height="7" rx="1" fill="#8b1a1a"/>
+<text font-size="11" fill="#444" x="64" y="1895">Hip CARs: is the clicking better/worse/same compared to pre-workout?</text>
+<rect x="50" y="1905" width="7" height="7" rx="1" fill="#042c53"/>
+<text font-size="11" fill="#444" x="64" y="1913">Ankle CARs: any new catching or stiffness? Compare to pre-workout</text>
+<rect x="50" y="1923" width="7" height="7" rx="1" fill="#26215c"/>
+<text font-size="11" fill="#444" x="64" y="1931">Knee tracking: any pain, swelling, or instability during or after session?</text>
+
+<!-- hEDS RULES (+120) -->
+<rect x="30" y="1955" width="620" height="133" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1977">hEDS / HSD mobility rules — every session</text>
+<rect x="50" y="1987" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1995">NEVER passively stretch — every "stretch" must have active muscle engagement</text>
+<rect x="50" y="2007" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2015">Isometric holds: 20–30% effort only — goal is neuromuscular control, not strength</text>
+<rect x="50" y="2027" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2035">CARs: if a portion of the circle catches or clicks, slow down there — don't force through</text>
+<rect x="50" y="2047" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2055">No deep lunges or end-range knee loading — always stop short of full extension</text>
+<rect x="50" y="2067" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2075">If any joint feels MORE unstable after a drill — remove it next session and tell your physio</text>
+
+<!-- TIMING SUMMARY (+120) -->
+<rect x="30" y="2100" width="620" height="76" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="2120">Session timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="2137">Pre half (~16 min) → warm-up sets → your gym session → post half (~14 min)</text>
+<text font-size="11" fill="#2272a8" x="50" y="2154">Times are for the full lists; pick drills by the targets of your session</text>
+<text font-size="11" fill="#2272a8" x="50" y="2168">Collagen + Vit C 30–60 min before · Protein + Vit C within 60 min after</text>
+
+<!-- VERSION NOTE (+120) -->
+<text font-size="9" fill="#aaa" x="340" y="2197" text-anchor="middle">v2 — routine links removed: drills by target, general primer cues, timeline pre half → session → post half (Stage 2 D-03)</text>
+
+</svg>
