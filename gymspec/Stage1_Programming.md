@@ -24,7 +24,7 @@ Rationale, evidence, deferred material and the walkthrough → `Stage1_Supplemen
 
 | Item | Value |
 |---|---|
-| Planning order | **Targets → compounds → harvest → direct sets → split → prescription → pairing → alternatives → checks.** Stage 0's order (goal → muscles → volume → exercises, Stage 0 §0.3) runs with compounds chosen before direct sets, because harvest is traced to planned exercises (R35). |
+| Planning order | **Targets → candidates → compounds → harvest → direct sets → split → prescription → pairing → alternatives → progression → checks.** Stage 0's order (goal → muscles → volume → exercises, Stage 0 §0.3 · Stage 0 D-35) runs with compounds chosen before direct sets, because harvest is traced to planned exercises (R35). |
 | Zones | **Zone labels apply to every goal; zone coverage binds hypertrophy only** (R26–R29). |
 | Volume | **`[HYP]` A hypertrophy block counts weekly fractional sets per priority target, a maintenance block counts them per muscle group, and every other goal takes its row's Sets per exercise** (R33 · R47 · R34). |
 | Routines, not weeks | **A plan builds routines; it states each routine's regions and sessions per week and never a day** (R45 · Stage 0 §0.1). |
