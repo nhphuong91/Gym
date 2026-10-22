@@ -78,7 +78,7 @@
 <rect x="38" y="462" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
 <text font-size="11" font-weight="500" fill="#555" x="54" y="478">4</text>
 <text font-size="12" font-weight="500" fill="#085041" x="72" y="478">Dumbbell front raise, both arms</text>
-<text font-size="11" fill="#0f6e56" x="72" y="493">Front delt (S) · thumbs up · stop at shoulder height</text>
+<text font-size="11" fill="#0f6e56" x="72" y="493">Front delt (S) · chest assists · thumbs up · stop at shoulder height</text>
 <text font-size="11" fill="#0f6e56" x="72" y="508">Soft elbow · both arms together · no torso swing</text>
 <text font-size="12" font-weight="500" fill="#085041" x="490" y="478">4 × 12–15</text>
 <text font-size="11" fill="#0f6e56" x="490" y="493">2 RIR · wk 5+: 1</text>
@@ -210,6 +210,6 @@
 <text font-size="10" fill="#444" x="470" y="1482">DB skull crusher</text>
 
 <!-- VERSION NOTE -->
-<text font-size="9" fill="#aaa" x="340" y="1514" text-anchor="middle">v8 — re-paired: every exercise in a superset, no straight sets (R38 · R39) · lat pulldown 4, pullover 3, biceps 7 · replaces v7</text>
+<text font-size="9" fill="#aaa" x="340" y="1514" text-anchor="middle">v9 — front raise and pullover cards name their assisting muscles (Stage 2 R58)</text>
 
 </svg>
