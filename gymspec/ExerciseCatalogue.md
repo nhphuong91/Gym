@@ -1,15 +1,24 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 11, 2026-10-13: provenance from the v8 upper focus files (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 12, 2026-10-25: L options for the front delt, rear delt and abs (the L search, Stage 1 D-15) (§0). Where this file and the stage documents disagree, the stage documents govern.
 
-**138 rows** — open 94 · locked 40 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 9.
+**141 rows** — open 95 · locked 42 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 12.
 
 **Marks:** ✏️ changed from the corpus or added · ⚠️ warning that travels with the exercise · 🔖 reading for Harry to confirm (§5) · 📖 spec or corpus basis · 🌐 literature basis · 🧠 mechanics basis.
 
 ---
 
 ## 0. Revisions
+
+**Revision 12 — 2026-10-25: L options for the front delt, rear delt and abs (the L search, Stage 1 D-15)**
+
+- Harry asked for an L exercise for each upper-body priority target that had none (front delt, rear delt, upper back, abs) and confirmed three (Stage 1 §3.2 · D-08 · D-15): C139, the supine dumbbell front raise on the floor, open, as the floor stops the arms at the torso line and the shoulder is never loaded in extension (R5); C140, the side-lying dumbbell rear delt raise on the floor, locked until shoulder and elbow stage 3, as one arm works alone (R12); C141, the crunch over the foam roller, locked until spine stage 2, as loaded spinal extension waits for full range (Stage 1 [W63]).
+- The upper back has no L with the kit: cable rows from full protraction keep an even pull, so M (C035); dumbbell, barbell and band rows peak at the top, so S (Stage 1 [W64]).
+
+| Change from revision 11 | Rows |
+|---|---|
+| Added ✏️ | C139, C140, C141 |
 
 **Revision 11 — 2026-10-13: provenance from the v8 upper focus files**
 
@@ -276,6 +285,9 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 | C136 | Popliteus banded internal rotation, both legs (long sitting, two long bands) | Popliteus · S | — | open | confirmed ✏️ |
 | C137 | Supine bent-knee leg lift to tabletop, both legs | Hip flexors · M | — | open | confirmed ✏️ |
 | C138 | Dumbbell front raise, both arms | Front delt · S | — | open | confirmed ✏️ |
+| C139 | Supine dumbbell front raise on the floor, both arms | Front delt · L | — | open | confirmed ✏️ |
+| C140 | Side-lying dumbbell rear delt raise (on the floor) | Rear delt · L | — | locked | confirmed ✏️ |
+| C141 | Crunch over the foam roller (roller under the mid-back) | Abs · L | — | locked | confirmed ✏️ |
 
 ---
 
@@ -511,6 +523,25 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Notes: Long humerus: a long lever, so light dumbbells. An overhead press for the M slot waits for a later block (Stage 1 [W60]).
 - Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_upperbody_focus_A v7 ex. 7; routine_upperbody_focus_C v7 ex. 5; routine_upperbody_focus_A v8 ex. 4; routine_upperbody_focus_B v8 ex. 6
 - Basis: 🧠 mechanics: gravity torque peaks with the arms horizontal, at the top of the arc, so S (R26) · 🌐 Stage 1 [W59] · [W60]: in multidirectional instability the anterior deltoid is trained first by flexion raises; controlled overhead presses come later
+
+**C139 · Supine dumbbell front raise on the floor, both arms** — Front delt · L · shoulder flexion · isolation · open ✏️
+
+- Stations: none · Equipment: dumbbells · Joints (stage needed): shoulder 1 — from the torso line to vertical, about 90° of flexion, inside stage 1's ~75% of elevation (§2.5 · D-63); elbow 1; wrist 1
+- Indirect: Chest · Day after: archery (Chest)
+- Cues: lying on the back on the floor, dumbbells beside the hips: the floor stops the upper arms level with the torso, so the shoulder is never loaded in extension (R1 · R5) · thumbs up (neutral grip); raise until the arms point at the ceiling, about 90° of flexion, no further · both arms move together (R12 until stage 3) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · lower over 2–3 s and touch the floor without resting or bouncing (R25)
+- Notes: Long humerus: a long lever, so light dumbbells. On the bench the start drops below the torso line into loaded extension; the floor is the safer setup and needs no station (R5).
+- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Basis: 🧠 mechanics: lying on the back puts the gravity peak at the start, with the upper arms level with the torso, so L (R26) · 🌐 Stage 1 [W61]: training at long muscle length grew more than at short length (meta-analysis, ES 0.28; no deltoid trial)
+
+**C140 · Side-lying dumbbell rear delt raise (on the floor)** — Rear delt · L · horizontal abduction · isolation · locked ✏️
+
+- Stations: none · Equipment: dumbbells · Joints (stage needed): shoulder 3 — one arm works alone (R12 · Stage 0 D-54); elbow 3 — one arm works alone (R12 · Stage 0 D-54)
+- Indirect: Upper back · Day after: archery (Rear delt, Upper back)
+- Locked: shoulder → stage 3, control test exists; elbow → stage 3, control test exists
+- Cues: lying on the side on the floor, the top arm starts across the chest; the floor stops the dumbbell short of the stretch (R1) · raise until the arm points at the ceiling, in line with the shoulder, no further · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · top shoulder blade braced, no shrug (R8)
+- Notes: On the bench the start range is longer; the floor keeps it short of the stretch and needs no station.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Basis: 🌐 mechanics: lying on the side puts the gravity peak at the start, with the upper arm level with the floor, so L (R26 · Stage 1 [W62]) · 🌐 Stage 1 [W61]: training at long muscle length grew more than at short length (meta-analysis, ES 0.28; no deltoid trial)
 
 #### Back
 
@@ -940,6 +971,16 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Sport: archery — carryover: trunk anti-rotation and anti-extension holds
 - Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_upperbody_focus_B v7 ex. 6; routine_upperbody_focus_B v8 ex. 8
 - Basis: 📖 Stage 0 §1.2 archery carryover (anti-extension) · 🌐 Stage 0 [W51] GEAR: mid-range control, short lever first · 📖 Stage-1 replacement for C061 (Stage 1 D-09)
+
+**C141 · Crunch over the foam roller (roller under the mid-back)** — Abs · L · trunk flexion · isolation · locked ✏️
+
+- Stations: none · Equipment: foam roller · Joints (stage needed): spine 2 — loaded from slight extension at the start through flexion: full range, which waits for spine stage 2 (§2.5 · R3 · R11)
+- Indirect: Obliques · Day after: archery (Abs, Obliques)
+- Locked: spine → stage 2, control test exists
+- Cues: roller across the mid-back, below the shoulder blades, feet flat and knees bent; the spine extends only as far as the roller lets it (R1 · D-69) · curl the ribs toward the pelvis until the shoulder blades lift; lower over 2–3 s, no bounce at the bottom (R25) · hands across the chest or lightly at the temples, never pulling the head; the neck stays neutral
+- Notes: Locked until spine stage 2; until then the plank and the dead bug hold cover the abs (M).
+- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Basis: 🧠 mechanics: over the roller the trunk starts near horizontal, so gravity peaks with the abs at their longest, so L (R26) · 🌐 Stage 1 [W63]: hypermobility progressions go mid-range before full range, and leave out positions that overstretch joints · 🌐 Stage 1 [W65]: a neutral-spine roll-out works the abs hard with little low-back load, but as an anti-extension hold it is M, not L
 
 ### 3.2 Lower body
 
@@ -1771,6 +1812,11 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 | Stage 1 [W58] | Buonsenso et al. 2025, J Funct Morphol Kinesiol 10(3):345, DOI 10.3390/jfmk10030345 |
 | Stage 1 [W59] | Watson, Warby, Balster, Lenssen & Pizzari 2017, Shoulder Elbow 9(1):46–53, DOI 10.1177/1758573216652087 |
 | Stage 1 [W60] | Watson, Pizzari, Balster, Lenssen & Warby 2022, J Clin Med 11(17):5140, DOI 10.3390/jcm11175140 |
+| Stage 1 [W61] | Strey, Irigoyen, McMahon & Pinto 2026, Sport Sci Health 22(1):33, DOI 10.1007/s11332-025-01586-5 |
+| Stage 1 [W62] | Wikipedia, Rear delt raise, checked 2026-10-25 |
+| Stage 1 [W63] | Russek, Hypermobility 104: Exercise Selection and Progression for HSD/hEDS and POTS, Clarkson University slides |
+| Stage 1 [W64] | Pre-Script, Maximize back development using grip width and arm angle (blog) |
+| Stage 1 [W65] | Escamilla et al. 2006, J Orthop Sports Phys Ther 36(2):45–57, DOI 10.2519/jospt.2006.36.2.45 |
 | Stage 0 [W51] | Mittal et al. 2021, GEAR program, Front Rehabil Sci, DOI 10.3389/fresc.2021.769792 |
 | Stage 0 [W75] | Hou et al. 2023, BMC Musculoskelet Disord 24:71, DOI 10.1186/s12891-023-06179-2 |
 

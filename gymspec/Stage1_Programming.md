@@ -116,7 +116,7 @@ Each rule passes when the implementation produces the *Pass* behaviour and fails
 | R32 — biceps and quads focus | Preacher curl, spider curl, Smith squat, goblet squat; no direct chest or back sets | A cable row added "for balance" (prime mover: lats) |
 | R33 — week 1 | Biceps target 10 | Biceps target 16 in week 1; or 8 |
 | R34 — strength block | Smith squat at 2 sets per session (the row's bottom); no weekly quads target | A 12-set weekly quads target in the strength block |
-| R35 — biceps | Harvest 3.0 from 6 cable-row sets, traced to the row | Harvest 2.0 "from general pulling" with no row in the plan; or lateral-delt harvest from presses; or erector harvest from lower-body RDLs counted toward an upper-body target |
+| R35 — biceps | Harvest 3.0 from 6 cable-row sets, traced to the row | Harvest 2.0 "from general pulling" with no row in the plan; or lateral-delt harvest from presses; or erector harvest from lower-body RDLs counted toward an upper-body target; or a front raise's chest sets left out, though the catalogue lists the chest as its synergist (D-14) |
 | R36 — biceps | Target 10, harvest 5.0 → direct 5 + 2 = 7 | Direct 5: the buffer missing |
 | R37 — quads, target 10 | Spread over two sessions, 5 + 5 | All 10 in one session |
 | R38 — pairs | Preacher curl ↔ cable pushdown; preacher curl ↔ Smith squat (cross-region, no overlap) | Smith incline press ↔ cable pushdown (the pushdown pre-fatigues the press's triceps); lat pulldown ↔ DB fly (same joint, not antagonists) |
@@ -167,4 +167,4 @@ Invariant: every exercise in a plan takes its facts from the exercise catalogue 
 
 ## 4. Open items
 
-None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12 and D-13 recorded 2026-10-25.
+None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12…D-15 recorded 2026-10-25.

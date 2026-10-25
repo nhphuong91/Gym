@@ -1,7 +1,7 @@
 <svg width="100%" viewBox="0 0 680 1546" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
 
 <text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Upper body hypertrophy — Session A</text>
-<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Focus block · 9 targets · upper joints at loading stage 2 · ~41.5 min · 26 working sets</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Focus block · 9 targets · shoulder, elbow, wrist at loading stage 2 · spine at 1 · ~41.5 min · 26 working sets</text>
 
 <!-- LEGEND -->
 <rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
@@ -210,6 +210,6 @@
 <text font-size="10" fill="#444" x="470" y="1482">DB skull crusher</text>
 
 <!-- VERSION NOTE -->
-<text font-size="9" fill="#aaa" x="340" y="1514" text-anchor="middle">v9 — front raise and pullover cards name their assisting muscles (Stage 2 R58)</text>
+<text font-size="9" fill="#aaa" x="340" y="1514" text-anchor="middle">v10 — subtitle names the loading stage per joint: shoulder, elbow, wrist 2 · spine 1 (Stage 2 R58)</text>
 
 </svg>

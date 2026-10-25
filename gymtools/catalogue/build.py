@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 11 (2026-10-13): with the revision 10 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 11. gymspec/ is the source of truth: before a new revision, check that
+revision 12 (2026-10-25): with the revision 11 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 12. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,20 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 12,
+        "date": "2026-10-25",
+        "note": "L options for the front delt, rear delt and abs (the L search, Stage 1 D-15)",
+        "changes": [
+            "Harry asked for an L exercise for each upper-body priority target that had none (front delt, rear delt, upper back, abs) and "
+            "confirmed three (Stage 1 §3.2 · D-08 · D-15): C139, the supine dumbbell front raise on the floor, open, as the floor stops the "
+            "arms at the torso line and the shoulder is never loaded in extension (R5); C140, the side-lying dumbbell rear delt raise on the "
+            "floor, locked until shoulder and elbow stage 3, as one arm works alone (R12); C141, the crunch over the foam roller, locked "
+            "until spine stage 2, as loaded spinal extension waits for full range (Stage 1 [W63]).",
+            "The upper back has no L with the kit: cable rows from full protraction keep an even pull, so M (C035); dumbbell, barbell and "
+            "band rows peak at the top, so S (Stage 1 [W64]).",
+        ],
+    },
+    {
         "n": 11,
         "date": "2026-10-13",
         "note": "provenance from the v8 upper focus files",
@@ -35,6 +49,7 @@ REVISIONS = [
             "C037, the bent-over wide DB row, is focus A's second alternative for the wide-grip cable row in place of the chest-supported row, "
             "which needs the bench the Smith press holds during that superset (Stage 0 §1.3; T16).",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "provenance_v8": ["C001", "C002", "C005", "C006", "C009", "C012", "C016", "C017", "C018", "C024", "C026", "C027", "C028", "C029", "C030", "C031", "C035", "C036", "C037", "C038", "C039", "C040", "C042", "C045", "C046", "C049", "C050", "C051", "C053", "C060", "C134", "C138"]},
     },
     {
         "n": 10,
@@ -241,6 +256,11 @@ REFS = {
     "Stage 1 [W58]": "Buonsenso et al. 2025, J Funct Morphol Kinesiol 10(3):345, DOI 10.3390/jfmk10030345",
     "Stage 1 [W59]": "Watson, Warby, Balster, Lenssen & Pizzari 2017, Shoulder Elbow 9(1):46–53, DOI 10.1177/1758573216652087",
     "Stage 1 [W60]": "Watson, Pizzari, Balster, Lenssen & Warby 2022, J Clin Med 11(17):5140, DOI 10.3390/jcm11175140",
+    "Stage 1 [W61]": "Strey, Irigoyen, McMahon & Pinto 2026, Sport Sci Health 22(1):33, DOI 10.1007/s11332-025-01586-5",
+    "Stage 1 [W62]": "Wikipedia, Rear delt raise, checked 2026-10-25",
+    "Stage 1 [W63]": "Russek, Hypermobility 104: Exercise Selection and Progression for HSD/hEDS and POTS, Clarkson University slides",
+    "Stage 1 [W64]": "Pre-Script, Maximize back development using grip width and arm angle (blog)",
+    "Stage 1 [W65]": "Escamilla et al. 2006, J Orthop Sports Phys Ther 36(2):45–57, DOI 10.2519/jospt.2006.36.2.45",
     "Stage 0 [W51]": "Mittal et al. 2021, GEAR program, Front Rehabil Sci, DOI 10.3389/fresc.2021.769792",
     "Stage 0 [W75]": "Hou et al. 2023, BMC Musculoskelet Disord 24:71, DOI 10.1186/s12891-023-06179-2",
 }
