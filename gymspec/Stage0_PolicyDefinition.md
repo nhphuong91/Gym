@@ -226,7 +226,7 @@ What a fail changes in the dose → Stage 1 (Supplement §6).
 
 ### Rule examples
 
-Each rule passes when the implementation produces the *Pass* behaviour and fails when it produces the *Fail* behaviour. All values are illustrative. Fixture used below — the Current state of the `CLAUDE.md` example: focus block · upper and lower Hypertrophy · priority targets biceps, quads · block week 1 after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet. For R20–R21, Harry's week: full-body training Monday, Wednesday, Friday; badminton Sunday.
+Each rule passes when the implementation produces the *Pass* behaviour and fails when it produces the *Fail* behaviour. All values are illustrative. Fixture used below — the Current state of the `CLAUDE.md` example: focus block · upper and lower Hypertrophy · priority targets biceps, quads · a new block after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet. For R20–R21, Harry's week: full-body training Monday, Wednesday, Friday; badminton Sunday.
 
 | Rule | Pass | Fail |
 |---|---|---|

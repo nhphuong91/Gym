@@ -11,8 +11,9 @@ Terms introduced by Stage 2.
 
 | Term | Meaning in this project |
 |---|---|
-| Routine file | A file in `gymplan/`, `<stem>.svg`, with its mirror in `gymtxt/`; every role in the register (§3.1), not only lifting |
+| Routine file | A file directly in `gymplan/`, `<stem>.svg`, with its mirror in `gymtxt/`; every role in the register (§3.1), not only lifting |
 | Stem | A routine file's name without folder or extension, shared by the SVG, its mirror and Harry's PDF export |
+| Archive | The `PreviousOldRoutines/` subfolders of `gymplan/`, `gymtxt/` and `gympdf/`: Harry's retired files, outside the register and the file checks, read only when he directs (§0.1 · D-15) |
 | Mirror | `gymtxt/<stem>.txt`, a byte copy of the SVG (R57 · Stage 0 D-13) |
 | Register | The list of routine files — stem, role, regions, build (§3.1 · R52) — whose entries sit in §9 (D-01) |
 | State file · log row | `gymstate/block_<NN>.json`, one per block: Current state, the plan-only fields and a log (§3.4 · R67 · D-10…D-14) · one conversation's entry in that log: date, changes, open follow-ups |
@@ -81,7 +82,7 @@ The register's entries sit in §9, a section the scaffold's list of Supplement s
 
 Log IDs are local to Stage 2; each row names the OI it closes, and OI numbers restart after each cleared round, so each row carries the round beside the OI. An amendment to another stage is also logged in that stage's Supplement. The freeze itself is a row.
 
-Round 1 opened 2026-10-13 (`Stage2_RoutineFiles.md` §4). On 2026-10-14 Harry closed its first four items and decided two findings of the first draft in chat, F1 and F2 (D-01…D-06); on 2026-10-15 he closed the last two (D-07 · D-08), which closed the round. On 2026-10-22 a routine request for the lower-body two-column copy added D-09. On 2026-10-24 Harry's request for a state file carried from one conversation to the next added D-10…D-14 (O1–O5 of that chat; Q4 on 2026-10-25).
+Round 1 opened 2026-10-13 (`Stage2_RoutineFiles.md` §4). On 2026-10-14 Harry closed its first four items and decided two findings of the first draft in chat, F1 and F2 (D-01…D-06); on 2026-10-15 he closed the last two (D-07 · D-08), which closed the round. On 2026-10-22 a routine request for the lower-body two-column copy added D-09. On 2026-10-24 Harry's request for a state file carried from one conversation to the next added D-10…D-14 (O1–O5 of that chat; Q4 on 2026-10-25). On 2026-10-25 Harry's archive of retired files added D-15 (F2 · F3 · F4).
 
 | # | Question | Decision | Lands in |
 |---|---|---|---|
@@ -99,6 +100,7 @@ Round 1 opened 2026-10-13 (`Stage2_RoutineFiles.md` §4). On 2026-10-14 Harry cl
 | D-12 | State-file format and check (O3, chat 2026-10-24) | A: JSON, tested by `gymtools/state/state_check.py` — its fields against Stage 0 §4.1 and §3.4, the Stage 0 §4.1 invariants, each current routine against `gymplan/` and the register — reported as R66's check (10) | §3.4 · R66 · `gymtools/README.md` |
 | D-13 | Where the state-file rules land (O4, chat 2026-10-24) | A: R67 and §3.4 here, read at intake (S2.1) and written with the files (S2.7); Stage 0 §4.1 is one per block, kept in the state file (Stage 0 D-90); Stage 1 S1.1 reads it (Stage 1 D-12); `CLAUDE.md` `<task>` reads it first | R67 · §3.4 · S2.1 · S2.7 · `CLAUDE.md` `<task>` |
 | D-14 | Where the sessions a week live (O5, chat 2026-10-24) | A: in the state file's `current_routines`; the register keeps stem, role, regions and build, and the upper focus role drops "of the current upper block" (§3.1 · R52 · §9). Supersedes D-05 in part: the routine file still does not state them | §3.1 · §3.2 · R52 · §9 · Stage 0 §0.1 |
+| D-15 | Harry's archive of retired files (F2 · F3 · F4, chat 2026-10-25) | Harry moved `routine_upperbody`, `routine_lowerbody`, `popliteus_prevention_protocol` and `cardio_routine` to `gymplan/PreviousOldRoutines/` on 2026-10-24; at his request their mirrors and PDF exports went to the same-named subfolders of `gymtxt/` and `gympdf/` on 2026-10-25. F3 B: §0.1 and R52 cover the files directly in `gymplan/` and `gymtxt/`; the archive sits outside the register and the file checks and is read only when he directs. F2: the four entries leave §9. F1: `catalogue/verify.py` check 6 skips a stem found in the archive | §0.1 · R52 · §9 · Terminology |
 
 **Dissolved without a decision**
 
@@ -131,6 +133,7 @@ None.
 | A state file in Markdown tables, or JSON with a generated .md mirror (O3 B, C) | Harry: JSON with a check (D-12) |
 | The state-file rules in `CLAUDE.md` only, or in a Stage 3 of their own (O4 B, C) | Harry: R67 and §3.4 in Stage 2 (D-13) |
 | The whole register moved into the state file, or the sessions a week kept in both (O5 B, C) | Harry: the state file keeps the sessions a week, the register the facts of each file (D-14) |
+| The archive moved out of `gymplan/` (F3 A, chat 2026-10-25) | Harry: it stays there, outside the register (D-15) |
 
 ---
 
@@ -240,7 +243,7 @@ Run 2026-10-13 to 2026-10-15 on Harry's computer: bash, `grep -P`, `cmp`, `md5su
 
 **Sample.** The canonical example's plan (Stage 1 §7, "What Stage 2 receives"), plus real quirks from the corpus as read on 2026-10-13.
 
-Source: the approved plan for "Build full-body routine A: preacher curl and Smith squat." Fixture: focus block · upper and lower Hypertrophy · priority targets biceps, quads · block week 1 after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet.
+Source: the approved plan for "Build full-body routine A: preacher curl and Smith squat." Fixture: focus block · upper and lower Hypertrophy · priority targets biceps, quads · a new block after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet.
 
 | Step | Definition | Decision | Action | Output |
 |---|---|---|---|---|
@@ -300,20 +303,17 @@ W1–W5 were read by Claude on 2026-10-13 through a fetch summariser; quotes are
 
 ## 9. Register
 
-The register's entries (`Stage2_RoutineFiles.md` §3.1 · R52 · D-01), as of 2026-10-22; stems that share role, regions and build are grouped. Which routines are current, with their sessions a week, sits in the state file (R67 · D-14) — since 2026-10-25 `gymstate/block_01.json`, which took over the sessions a week Harry gave on 2026-10-13.
+The register's entries (`Stage2_RoutineFiles.md` §3.1 · R52 · D-01), as of 2026-10-25; stems that share role, regions and build are grouped. Which routines are current, with their sessions a week, sits in the state file (R67 · D-14) — since 2026-10-25 `gymstate/block_01.json`, which took over the sessions a week Harry gave on 2026-10-13.
 
 | Stem | Role | Regions | Build |
 |---|---|---|---|
 | routine_upperbody_focus_A · _B · _C | Lifting — focus sessions | upper | generator |
-| routine_upperbody · routine_lowerbody | Lifting — a general routine per region | upper · lower | generator |
 | routine_lowerbody_focus_A · _B · _C | Lifting — focus sessions | lower | generator |
-| popliteus_prevention_protocol | Joint protocol — a phased rebuild for one joint, the knee | lower | generator |
 | evaluation_upperbody | Evaluation — the region's loading-gate tests (Stage 0 §2.5), with moving pictures | upper | build script `build_evaluation_upperbody_v3.py` (the generator with `figs.py`) |
 | evaluation_lowerbody | Evaluation — as above | lower | build script `build_evaluation_lowerbody_v1.py` (self-contained) |
 | evaluation_upperbody_2col | One-off copy — evaluation_upperbody v3 on two columns, not kept in step (Stage 0 D-83) | upper | build script `build_2col.py` |
 | evaluation_lowerbody_2col | One-off copy — evaluation_lowerbody v1 on two columns, not kept in step (D-09) | lower | build script `build_evaluation_lowerbody_2col_v1.py` |
 | stretching_upper_hEDS · stretching_lower_hEDS | Mobility — region-wide: active drills by target, a pre and a post half, for any training session of its region (Stage 0 §2.7; D-03) | upper · lower | hand-laid |
 | foam_rolling_upperbody_hEDS · foam_rolling_lowerbody_hEDS | Foam rolling — region-wide: release areas by target, outside training sessions (Stage 0 §2.7; D-03) | upper · lower | hand-laid |
-| cardio_routine | Conditioning — routine work under the hard gates (Stage 0 D-52 · D-53) | — | hand-laid |
 
-Regions "—": a file whose sessions train no region (conditioning, Stage 0 §2.7).
+Retired to the archive on 2026-10-24 (D-15): `routine_upperbody`, `routine_lowerbody`, `popliteus_prevention_protocol`, `cardio_routine`.

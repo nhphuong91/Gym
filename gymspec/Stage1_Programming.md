@@ -103,7 +103,7 @@ R30's tests. "Must" criteria are pass/fail; tie-breakers order the passing candi
 
 ### 2.2 Rule examples
 
-Each rule passes when the implementation produces the *Pass* behaviour and fails when it produces the *Fail* behaviour. Fixture as in Stage 0 §3 Rule examples: focus block · upper and lower Hypertrophy · priority targets biceps, quads · block week 1 after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet. Values are illustrative.
+Each rule passes when the implementation produces the *Pass* behaviour and fails when it produces the *Fail* behaviour. Fixture as in Stage 0 §3 Rule examples: focus block · upper and lower Hypertrophy · priority targets biceps, quads · a new block after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet. Values are illustrative.
 
 | Rule | Pass | Fail |
 |---|---|---|
@@ -167,4 +167,4 @@ Invariant: every exercise in a plan takes its facts from the exercise catalogue 
 
 ## 4. Open items
 
-None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12 recorded 2026-10-25.
+None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12 and D-13 recorded 2026-10-25.

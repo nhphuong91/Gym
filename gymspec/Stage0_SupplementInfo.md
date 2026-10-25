@@ -238,6 +238,7 @@ An X item from reference.md returns only with new, cited evidence.
 | `gymtxt/*.txt` | Byte-identical to their SVGs (M1) | Mirrors, not a second corpus |
 | `gympdf/*.pdf` | Harry's exports (D-14) | Not read |
 | `gymtools/svg_routine_generator/` | The generator: `routine_generator.py` builds a routine SVG from a routine definition; imported, never edited (Stage 2 §0.2 · R55). Its two example routines are older versions, kept as data-format references | A tool, not corpus: files of build type "generator" are built and regenerated with it (Stage 2 §3.1 · R54 · R55) |
+| `gymplan/PreviousOldRoutines/` | Harry's archive of retired routine files, moved there on 2026-10-24; their mirrors and exports sit in the same-named subfolders of `gymtxt/` and `gympdf/` | Not corpus; read only when Harry directs (Stage 2 D-15) |
 | Routine content | Files from before the scaffold were written before the CLAUDE_old.md rules (§5.2) | Observations inform rules; files are not edited in a spec round |
 
 ### 5.2 Observations

@@ -3,7 +3,8 @@
 Run: python3 -B verify.py <dir with ExerciseCatalogue.json + .md> <gymspec dir>
 Checks 1–2 list the routine files at the latest version the catalogue cites, with their card counts (2026-10-13); a
 version that changes no exercise, card number or pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
-gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites.
+gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites; a stem found
+only in gymplan/PreviousOldRoutines/, Harry's archive, is skipped as retired (Stage 2 D-15). A FAIL exits 1.
 """
 import json
 import os
@@ -221,7 +222,10 @@ for stem, by_ver in sorted(cite.items()):
     use = max(by_ver)
     path = os.path.join(plan, stem + ".svg")
     if not os.path.exists(path):
-        check(False, f"{stem}: cited by the catalogue, but gymplan/ has no such file")
+        if os.path.exists(os.path.join(plan, "PreviousOldRoutines", stem + ".svg")):
+            print(f"SKIP {stem}: retired to gymplan/PreviousOldRoutines/ (Stage 2 D-15)")
+        else:
+            check(False, f"{stem}: cited by the catalogue, but gymplan/ has no such file")
         continue
     t = [(int(a_), bool(b_), int(x_), int(y_), html_unesc(s_)) for a_, b_, x_, y_, s_ in TEXT.findall(open(path, encoding="utf-8").read())]
     ver = next((int(m.group(1)) for *_, s_ in t if (m := re.match(r"v(\d+) — ", s_))), 0)
@@ -242,3 +246,4 @@ for stem, by_ver in sorted(cite.items()):
           + (f" — no match for {bad}" if bad else "") + ("" if ver >= use else f" — the file is older than {vtag(use)}"))
 
 print("ALL PASS" if ok else "SOME CHECKS FAILED")
+sys.exit(0 if ok else 1)

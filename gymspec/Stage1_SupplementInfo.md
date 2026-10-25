@@ -94,6 +94,7 @@ Log IDs are local to Stage 1; each row names the OI it closes, and OI numbers re
 | D-10 | Rule examples and the walkthrough after catalogue A9 (T11, chat 2026-10-06) | Harry: OK. With every joint at stage 1, a bar on his back takes his shoulders past 45° of external rotation (catalogue A9), so R28's example fills the quads' M slot with the goblet squat, and §7 re-runs: the goblet squat stands in for the requested Smith squat (D-09), the wall sit takes the second quads slot (Stage 0 D-58), and the preacher curl has no L alternative without the bench until shoulder stage 2 (Stage 0 D-63). R40's example follows the re-run | R28 · R40 examples · §7 |
 | D-11 | Sets per exercise (O9 · O10, chat 2026-10-13; raised while planning the upper-body block) | A + H: every exercise takes at least the bottom of its goal row's Sets, and at most the top, in each session it appears in (Stage 0 §2.2); in hypertrophy a target's direct sets round up to the smallest split into such exercises that fills its zone slots, and the plan states the sets above the target. H, Harry's floor of 8 reps a set: a timed hold lasts at least its band's bottom reps × 4 s (Stage 0 D-87). Why: Stage 0 §2.2 and Stage 0 §2.3 already count Sets per exercise per session, but R40's example and §7 ran two exercises at 2 sets; Harry set at least 3 sets per exercise per session (O10 A). §7 re-runs: biceps and quads 12 a week | R48 · R40 and R46 (3) · S1.6 · §3.1 `set_count` · §7 |
 | D-12 | Current state from the state file; every week's values (Stage 2 O4, chat 2026-10-24; Q3, chat 2026-10-25; triggered by Stage 2) | Harry: S1.1 reads Current state from the block's state file and asks only what it does not hold (Stage 2 R67 · Stage 2 D-13). With the block week his to count (Stage 0 D-91), S1.2 and the plan header state the ramp bands for every block week and RIR for weeks 1–4 and from week 5 | §0.1 · S1.1 · S1.2 · §3.1 · §7 |
+| D-13 | The canonical example after Stage 0 D-91 (F7, chat 2026-10-25) | Harry: OK — the example states every week's values: RIR for weeks 1–4 and from week 5, loads ≈60% in weeks 1–2 and ≈80% in weeks 3–4; its fixture reads "a new block" instead of "block week 1", since Current state no longer holds the block week | `CLAUDE.md` `<example>` · §2.2 · §7 · Stage 0 §3 · `Stage2_RoutineFiles.md` §2.3 · `Stage2_SupplementInfo.md` §7 |
 
 **Dissolved without a decision**
 
@@ -234,7 +235,7 @@ Run 2026-10-02: text extracted on Harry's computer (`grep`, reference.md §R4); 
 
 **Sample.** The prompt's canonical example, plus real quirks from `routine_upperbody` v6 and `routine_lowerbody` v4.
 
-Source: "Build full-body routine A: preacher curl and Smith squat." Fixture: focus block · upper and lower Hypertrophy · priority targets biceps, quads · block week 1 after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet.
+Source: "Build full-body routine A: preacher curl and Smith squat." Fixture: focus block · upper and lower Hypertrophy · priority targets biceps, quads · a new block after a 2-month layoff · every joint at loading stage 1 · badminton in season · current routines: none yet.
 
 | Step | Definition | Decision | Action | Output |
 |---|---|---|---|---|
@@ -245,7 +246,7 @@ Source: "Build full-body routine A: preacher curl and Smith squat." Fixture: foc
 | S1.5 | R35 | §0.2 order | No planned exercise trains biceps or quads as a synergist; rows are out (R32) | Harvest 0 · 0 |
 | S1.6 | R36 · R28 · R29 · R48 | — | Biceps direct 10 rounds up to 12 from preacher (L) + spider (M), quads 10 to 12 from goblet squat + wall sit (both M): two exercises of at least 3 sets in each session (R48) | Biceps L + M ✓ · quads M, L gap named |
 | S1.7 | R37 · Stage 0 R19 · R20 | — | 12 ≥ 9 → two sessions, 6 + 6 per muscle; 6 ≤ 8 per session; one routine, so no cross-routine guard; the goblet squat keeps the requested exercise's 3 sets | Routine A × 2 a week: preacher 3 · spider 3 · goblet squat 3 · wall sit 3 |
-| S1.8 | Stage 0 §2.2 · R16–R18 · R22 · R25 | — | Isolation 10–12 reps at 2 RIR; goblet squat 10–12 at 3 RIR; wall sit held at least 32 s (8 reps × 4 s, Stage 0 §2.2 · D-87), ending ~12 s before failure (3 RIR at ~4 s each, Stage 0 R16 · D-60); 60–90 s; ≈60% loads; 2–3 s lowering | Exercise rows |
+| S1.8 | Stage 0 §2.2 · R16–R18 · R22 · R25 | — | Isolation 10–12 reps at 2 RIR, from week 5 at 1; goblet squat 10–12 at 3 RIR, from week 5 at 2; wall sit held at least 32 s (8 reps × 4 s, Stage 0 §2.2 · D-87), ending ~12 s before failure (3 RIR at ~4 s each, Stage 0 R16 · D-60), from week 5 ~8 s; 60–90 s; loads ≈60% in weeks 1–2 and ≈80% in weeks 3–4; 2–3 s lowering (D-13) | Exercise rows |
 | S1.9 | R38–R40 | — | Preacher ↔ goblet squat (cross-region, no overlap), isolation first; spider ↔ wall sit (a hold is a neutral partner). Time with holds of h s: 3 × (48 + 48 + 90) + 3 × (48 + h + 90) − 90 = 882 + 3h s | ≈17 min at h = 45 s, ≈19.2 min at h = 90 s ✓ (Stage 0 R19) |
 | S1.10 | R41 · Stage 0 R21 | — | Preacher (bench): no L without the bench at shoulder stage 1 — the behind-body cable curl (L, fixed line, Stage 0 R5) waits for shoulder stage 2 (Stage 0 D-63) — so both alternatives are named as a gap. Spider (bench): band curl with elbows at the sides, standing cable curl (both M, band first). The goblet squat and the wall sit use no station, so they need none. Quads and glutes collect sets → badminton | Alternatives · "Day after: no badminton" |
 | S1.11 | R42 · Stage 0 R22 | — | Ramp loads in weeks 1–4; progression from week 5 | Progression lines |
@@ -267,7 +268,7 @@ Source: "Build full-body routine A: preacher curl and Smith squat." Fixture: foc
 | Item | Field | Value |
 |---|---|---|
 | Routine A | Regions · sessions a week | Upper + lower · 2 |
-| Exercise rows | Exercise · zone · sets × reps + RIR · rest · load | Preacher curl · L · 3 × 10–12, 2 RIR · Spider curl · M · 3 × 10–12, 2 RIR · Goblet squat above parallel · M · 3 × 10–12, 3 RIR · Wall sit above parallel · M · 3 × a hold of at least 32 s ending ~12 s before failure — all 60–90 s, loads at ≈60% of pre-layoff |
+| Exercise rows | Exercise · zone · sets × reps + RIR · rest · load | Preacher curl · L · 3 × 10–12, 2 RIR, wk 5+: 1 · Spider curl · M · 3 × 10–12, 2 RIR, wk 5+: 1 · Goblet squat above parallel · M · 3 × 10–12, 3 RIR, wk 5+: 2 · Wall sit above parallel · M · 3 × a hold of at least 32 s ending ~12 s before failure, wk 5+: ~8 s — all 60–90 s, loads ≈60% of pre-layoff in weeks 1–2 and ≈80% in weeks 3–4 |
 | Pairing | Pairs and order | Preacher ↔ goblet squat, isolation first · spider ↔ wall sit, isolation first |
 | Alternatives | Per station exercise | As in S1.10, with the preacher curl's gap named |
 | Set count | Target · harvest · direct | Biceps 10 · 0 · 12, 2 above the target (R48) · quads 10 · 0 · 12, 2 above the target (R48) |

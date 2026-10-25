@@ -52,18 +52,68 @@
       }
     ]
   },
-  "plan": null,
+  "plan": {
+    "version": "upper focus v8",
+    "approved": "2026-10-13",
+    "routines": [
+      {
+        "stem": "routine_upperbody_focus_A",
+        "version": 9
+      },
+      {
+        "stem": "routine_upperbody_focus_B",
+        "version": 9
+      },
+      {
+        "stem": "routine_upperbody_focus_C",
+        "version": 8
+      }
+    ],
+    "checks": [
+      "(1) PASS: all 18 exercises are open in the catalogue at the current loading stages (each needs stage 1 at most) and use Stage 0 §1.3 kit. Warnings: B3 pullover ⚠ R6, mitigated by braced blades and ~70–80% of flexion; the alternative overhead DB extension (A5) ⚠ R6. NOTE: the subtitles read 'upper joints at loading stage 2', but the spine is at 1; the 3 exercises that load the spine (A2 cable row, A8 and C6 plank, B8 dead bug hold) need stage 1 only",
+      "(2) PASS: every prime mover is one of the 9 priority targets; no lower-body muscle gets direct sets (R32)",
+      "(3) PASS: 3–4 sets an exercise; compounds 10–12 at 3 RIR, from week 5 at 2; isolation 10–12 or 12–15 at 2 RIR, from week 5 at 1; holds 48–60 s ending 8 s before failure, from week 5 4 s (Stage 0 D-87); 60–90 s rest",
+      "(4) PASS: pair_check.py on A v9, B v9, C v8: all 11 pairs pass (10 PASS, 1 REVIEW), 0 straight sets. B1 REVIEW, chest-supported DB row ↔ band crossover: the bench carries the row's bracing and the light band fly leaves grip and stabilizers fresh; the row goes first. B2 NOTE, pullover ↔ prone Y raise both brace the blades overhead: the pullover goes first, and the Y raise runs straight if the shoulder feels unstable (its card, R9)",
+      "(5) REVIEW: by the files' count, half-sets from compounds only, every target meets R36: chest 10 + 0, front delt 7 + 3.5, side delt 10, rear delt 7 + 3, lats 7 + 3, upper back 9 + 2 (1 above, R48), biceps 7 + 5, triceps 7 + 3.5, abs 10. The catalogue also lists isolation synergists (front raise → chest; pullover → chest, triceps; reverse fly and rear delt fly → upper back); counted with them (R35 · Stage 1 §3.2), chest is 10 + 5.0, triceps 7 + 5.0 and upper back 9 + 5.5, and R36 would give chest and upper back 7 direct sets",
+      "(6) PASS: exercise time A ≈41.5, B ≈38.5, C ≈38 min (R40 re-run: 2484, 2322, 2286 s), under ~60 and never past 75; at most 6 fractional sets per muscle in a session, under 8 (Stage 0 R19)",
+      "(7) PASS with gaps named: chest, lats and biceps L + M or S; triceps L + M, no S (R27). Gaps (R28): front delt and rear delt S only, no L or M in the catalogue; side delt S only, its L and M are one-arm and wait for shoulder stage 3 (R12); upper back M + S, no L in the catalogue; abs M only, no L in the catalogue",
+      "(8) PASS: upper 3 training sessions a week, lower none; no two current routines share no region, so the cross-routine guard has no pair; Harry keeps 48 h between them (Stage 0 R20)",
+      "(9) PASS: each file names archery the day after, as chest, delts, back, triceps and abs are its day-before muscles; badminton's collect no sets (Stage 0 R21)",
+      "(10) PASS: every station exercise has two alternatives clear of its own and its partner's stations (pair_check.py); no-station exercises carry none (R41)"
+    ],
+    "zone_coverage": [
+      "chest: L Smith flat bench (A1), Smith incline press (C1) · S band crossover (B2)",
+      "front delt: S front raise (A4, B6); no L or M exercise in the catalogue — gap named",
+      "side delt: S lateral raise (A7, B7, C5); L side-lying and M leaning lateral raise are one-arm, locked until shoulder and elbow stage 3 (R12) — gap named",
+      "rear delt: S band reverse fly (A6), chest-supported rear delt fly (C4); no L or M exercise in the catalogue — gap named",
+      "lats: L pullover (B3) · M lat pulldown (C2)",
+      "upper back: M wide-grip cable row (A2) · S chest-supported DB row (B1), prone Y raise (B4); no L exercise in the catalogue — gap named",
+      "biceps: L preacher curl (A3) · M hammer curl (B5)",
+      "triceps: L overhead cable extension (A5) · M band overhead extension (C3); no S, a permanent shortfall (R27)",
+      "abs: M plank (A8, C6), dead bug hold (B8); no L exercise in the catalogue — gap named"
+    ],
+    "progression": [
+      "A1, A2, A3, A5, B1, B3, B5, C1, C2, C3 (10–12 reps): +1 rep a set to 12 at the week's RIR; twice in a row → Harry's smallest load step, back to 10 (R42 a, b)",
+      "A4, A6, A7, B2, B4, B6, B7, C4, C5 (12–15 reps): +1 rep a set to 15; twice in a row → the smallest load step, back to 12 (R42 a, b)",
+      "A8, C6 plank (48–60 s): to 60 s with the reserve held → a harder variant, not longer; B8 dead bug hold: straighten both legs only while the back stays flat (R16)",
+      "Then +1 set every 2 weeks per target, up to 20 a week, while (a) and (b) stay inside the step gate; never more load and more sets for a muscle in the same week; nothing progresses during the restart ramp (R42 c · R33 · Stage 0 R22)"
+    ],
+    "suspensions": "Lower body not trained this block: the hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24)"
+  },
   "log": [
     {
       "date": "2026-10-25",
       "changes": [
         "State file started (Stage 2 R67 · D-10…D-14). Block type, the upper goal and the 9 priority targets from routine_upperbody_focus_A v9, _B v9 and _C v8; lower not trained, no sport in season, shoulder, elbow and wrist at loading stage 2 and spine, hip, knee and ankle at 1, all from Harry on 2026-10-25; layoff at its default",
         "Sessions a week moved here from the register (Stage 2 Supplement §9): focus A, B and C, 1 each, as Harry gave them on 2026-10-13 (Stage 2 D-14)",
-        "Block start and block week not kept: Harry counts the block weeks (Stage 0 D-91)"
+        "Block start and block week not kept: Harry counts the block weeks (Stage 0 D-91)",
+        "Plan-only fields rebuilt from focus A v9, B v9, C v8 and the catalogue, the plan approved on 2026-10-13: the R46 checks with pair_check.py re-run, zone coverage, next steps and the R24 statement",
+        "Archive gymplan/PreviousOldRoutines/ settled: the 4 mirrors and exports moved beside it, their register entries retired, verify.py skips archived stems (Stage 2 D-15)"
       ],
       "follow_ups": [
-        "The upper block's plan-only fields (R46 checks, zone coverage, next step per exercise) were not kept when it was planned on 2026-10-13: written at the block's next plan",
-        "gymplan/PreviousOldRoutines/ (moved 2026-10-24): catalogue verify.py check 6 fails on the 4 moved stems; their register rows, the scope wording of Stage 2 §0.1 and R52, their gymtxt mirrors and a Stage 0 Supplement §5.1 row await Harry"
+        "Harvest count: the files count half-sets from compounds only; with the catalogue's isolation synergists (Stage 1 R35 · §3.2), chest has 5.0 harvest and upper back 5.5, so R36 would give each 7 direct sets, not 10 and 9. Harry to decide",
+        "Focus A–C subtitles read 'upper joints at loading stage 2' while the spine is at 1: a text edit at the next write",
+        "No L exercise in the catalogue for front delt, rear delt, upper back or abs: a later catalogue revision could look for one"
       ]
     }
   ]
