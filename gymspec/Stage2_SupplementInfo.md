@@ -14,7 +14,9 @@ Terms introduced by Stage 2.
 | Routine file | A file in `gymplan/`, `<stem>.svg`, with its mirror in `gymtxt/`; every role in the register (§3.1), not only lifting |
 | Stem | A routine file's name without folder or extension, shared by the SVG, its mirror and Harry's PDF export |
 | Mirror | `gymtxt/<stem>.txt`, a byte copy of the SVG (R57 · Stage 0 D-13) |
-| Register | The list of routine files — stem, role, regions, build, sessions a week (§3.1 · R52) — whose entries sit in §9 (D-01) |
+| Register | The list of routine files — stem, role, regions, build (§3.1 · R52) — whose entries sit in §9 (D-01) |
+| State file · log row | `gymstate/block_<NN>.json`, one per block: Current state, the plan-only fields and a log (§3.4 · R67 · D-10…D-14) · one conversation's entry in that log: date, changes, open follow-ups |
+| Plan-only fields | The plan fields a routine file does not carry — the R46 check list, the zone coverage, the next step per exercise, the Stage 0 R24 statement (§3.2) — kept in the state file |
 | Build type · generator · build script · hand-laid | How a file is produced: by the generator from a routine definition · by a kept script in `gymtools/svg/` · by hand, with no model to rebuild from (§3.1 · §2.1) |
 | Routine definition | The generator's data — Routine, Section, Exercise, Pair and the boxes — from which `render()` writes an SVG |
 | Working copy | The scratch copy a change is made on before it replaces the file (R51) |
@@ -26,7 +28,7 @@ Terms introduced by Stage 2.
 | Card · section · block | One exercise or test with its prescription · the cards under one header, a pair or a straight block · any of the parts §3.2 lists |
 | Moving picture · still view | An SVG animation (SMIL) on a card · what a viewer without animation shows: the start pose solid, the end pose faint (R62 · Stage 0 D-78) |
 | Width estimate · render check | Text width from character counts (§2.2) · a PNG rendered in Chromium with Liberation Sans, and looked at (R64) |
-| File checks · delivery report | The nine checks of R66 · the record a delivery ends with (§3.3) |
+| File checks · delivery report | The ten checks of R66 · the record a delivery ends with (§3.3) |
 | One-off copy | A file made once from another and not kept in step with it, e.g. `evaluation_upperbody_2col` (Stage 0 D-83) |
 
 ---
@@ -70,6 +72,8 @@ The register's entries sit in §9, a section the scaffold's list of Supplement s
 | The interim file rules of reference.md §R4 govern routine-file work until Stages 0–2 are all frozen (Stage 0 D-74 · D-76 · D-78) | Stage 2 as drafted governs it from the close of round 1; the interim lines of reference.md §R4 are retired (D-07) | Harry (D-07) |
 | Mobility and foam-rolling files cite a routine's exercise numbers, "matched to" one routine (Stage 0 D-15) | Region-wide files cite no routine: menus by target (R60) | Harry (D-03) |
 | The catalogue cites every version of an exercise routine file (practice, catalogue revisions 8–11) | Only versions that change an exercise, a card number or a pairing (R61) | Harry (D-04) |
+| Current state set at the start of each conversation, and the plan-only fields kept only in the chat (Stage 0 §4.1 · §3.2) | One state file per block, read first and written before delivery (R67 · §3.4) | Harry (D-10…D-13): every field without a default was asked again, and the plan-only fields were lost |
+| The register keeps the sessions a week (D-05) | The state file's `current_routines` keeps them; the register keeps stem, role, regions and build (§3.1 · §9) | Harry (D-14): which routines are current is block state, not a property of the file |
 
 ---
 
@@ -77,7 +81,7 @@ The register's entries sit in §9, a section the scaffold's list of Supplement s
 
 Log IDs are local to Stage 2; each row names the OI it closes, and OI numbers restart after each cleared round, so each row carries the round beside the OI. An amendment to another stage is also logged in that stage's Supplement. The freeze itself is a row.
 
-Round 1 opened 2026-10-13 (`Stage2_RoutineFiles.md` §4). On 2026-10-14 Harry closed its first four items and decided two findings of the first draft in chat, F1 and F2 (D-01…D-06); on 2026-10-15 he closed the last two (D-07 · D-08), which closed the round.
+Round 1 opened 2026-10-13 (`Stage2_RoutineFiles.md` §4). On 2026-10-14 Harry closed its first four items and decided two findings of the first draft in chat, F1 and F2 (D-01…D-06); on 2026-10-15 he closed the last two (D-07 · D-08), which closed the round. On 2026-10-22 a routine request for the lower-body two-column copy added D-09. On 2026-10-24 Harry's request for a state file carried from one conversation to the next added D-10…D-14 (O1–O5 of that chat; Q4 on 2026-10-25).
 
 | # | Question | Decision | Lands in |
 |---|---|---|---|
@@ -85,10 +89,16 @@ Round 1 opened 2026-10-13 (`Stage2_RoutineFiles.md` §4). On 2026-10-14 Harry cl
 | D-02 | A sport note on evaluation files (round 1 · O2) | B, as Harry put it: an evaluation is a separate session, and what follows it is his to manage, so nothing links it to a sport. Evaluation files carry no sport note; `evaluation_lowerbody`'s note goes at its next write. Claude's case for A, kept on record: tests to technical failure tire the muscles R21 keeps fresh for a sport | R59 · §6 |
 | D-03 | References in region-wide files (round 1 · O3) | B, as Harry put it: a mobility file prepares every muscle group, joint and tendon of its region for the whole session, and a foam-rolling file covers every muscle group or spot a session trained; both are menus he picks from by target, so they cite no routine. Their routine links were removed on 2026-10-14 (F4, M11) | R60 · §3.1 · §9 |
 | D-04 | Catalogue provenance for every version (round 1 · O4) | Harry: "no". Read as B, Claude's recommendation: a version that changes no exercise, card number or pairing leaves the catalogue as it is; `pair_check.py` and `catalogue/verify.py` then map a stem's cards through its latest cited version (tools changed 2026-10-15, M12). C — no versions in provenance at all — was not chosen | R61 · §6 |
-| D-05 | Sessions a week on routine files (F1, chat 2026-10-14) | Harry: the files need not state them; this Supplement keeps them, in the register (§9). Stage 0 §0.1 then asked routine files to state them; it was amended to match (D-08) | §3.1 · §3.2 · R52 · §9 |
+| D-05 | Sessions a week on routine files (F1, chat 2026-10-14) | Harry: the files need not state them; this Supplement keeps them, in the register (§9). Stage 0 §0.1 then asked routine files to state them; it was amended to match (D-08). Superseded in part by D-14: the state file, not the register, keeps them | §3.1 · §3.2 · R52 · §9 |
 | D-06 | One version note shared by files changed together (F2, chat 2026-10-14) | Harry: no problem — the v8 trio's shared note stands. R56's note names the change of its write: the whole change made across several files, or this file's share of it | R56 |
 | D-07 | From when Claude follows Stage 2's file rules (round 1 · O5) | C: from the close of round 1 (2026-10-15), routine-file work takes its file handling from Stage 2 as drafted, as Stage 0 D-75 did for training rules. `CLAUDE.md` `<task>` now says so, and the seven interim lines of reference.md §R4 are replaced by one line pointing here. Stage 0 D-74 and D-75 are superseded in part; the interim rules of Stage 0 D-76 and D-78 have given way to Stage 2 | `CLAUDE.md` `<task>` · reference.md §R4 |
 | D-08 | Stage 0 §0.1 to match D-05 (round 1 · O6) | A: Stage 0 §0.1 now reads that plans state each routine's regions, sessions per week and sport note, routine files state the regions and the sport note, and the Stage 2 register keeps the sessions per week; logged in Stage 0 as Stage 0 D-88, triggered by Stage 2 | Stage 0 §0.1 · §9 |
+| D-09 | Two-column copy of the lower-body evaluation (O1 · O2 of a routine request, chat 2026-10-22) | Harry: a one-off copy of `evaluation_lowerbody` v1 on a 1,360 px page, as Stage 0 D-83 did for the upper body: stem `evaluation_lowerbody_2col`, v1 unchanged, built by `build_evaluation_lowerbody_2col_v1.py`, made from a copy of `build_2col.py` (R55). O1 A: §2.2's Page row covers any one-off two-column copy. O2 B: the upper copy's layout — sections start full width, two cards per row, card 5 alone, section D beside card 12. The copy leaves out v1's sport note (R59 · D-02) | §2.2 · §9 |
+| D-10 | What the state file carries (O1, chat 2026-10-24) | B: Current state (Stage 0 §4.1), the approved plan's plan-only fields (§3.2) and one log row for each conversation that changes them — date, changes, open follow-ups | R67 · §3.4 |
+| D-11 | State-file layout (O2, chat 2026-10-24; Q4, chat 2026-10-25) | B: one file per block in `gymstate/`; the highest number is the current block, and earlier files stay as its history. Q4: numbered `block_01.json`, `block_02.json`…, since the block start is Harry's and is not written down (Stage 0 D-91); first drafted as `block_<block_start>.json` | R67 · §0.2 · §3.4 |
+| D-12 | State-file format and check (O3, chat 2026-10-24) | A: JSON, tested by `gymtools/state/state_check.py` — its fields against Stage 0 §4.1 and §3.4, the Stage 0 §4.1 invariants, each current routine against `gymplan/` and the register — reported as R66's check (10) | §3.4 · R66 · `gymtools/README.md` |
+| D-13 | Where the state-file rules land (O4, chat 2026-10-24) | A: R67 and §3.4 here, read at intake (S2.1) and written with the files (S2.7); Stage 0 §4.1 is one per block, kept in the state file (Stage 0 D-90); Stage 1 S1.1 reads it (Stage 1 D-12); `CLAUDE.md` `<task>` reads it first | R67 · §3.4 · S2.1 · S2.7 · `CLAUDE.md` `<task>` |
+| D-14 | Where the sessions a week live (O5, chat 2026-10-24) | A: in the state file's `current_routines`; the register keeps stem, role, regions and build, and the upper focus role drops "of the current upper block" (§3.1 · R52 · §9). Supersedes D-05 in part: the routine file still does not state them | §3.1 · §3.2 · R52 · §9 · Stage 0 §0.1 |
 
 **Dissolved without a decision**
 
@@ -115,6 +125,12 @@ None.
 | Stage 0 §0.1 kept as it was, with sessions per week stated on each routine file (round 1 · O6 B) | It would have undone D-05 (D-08) |
 | Sessions a week stated on each routine file (F1) | Harry: the register keeps them (D-05) |
 | A version note limited to its own file's share of a change (F2) | Harry: a note shared by files changed together is fine (D-06) |
+| A state file with Current state only, or with Harry's training events added — step-gate results, flares, gate tests (O1 A, C, chat 2026-10-24) | Harry: Current state, the plan-only fields and a log (D-10) |
+| One state file overwritten each time, or one per conversation (O2 A, C) | Harry: one per block, kept as the history (D-11) |
+| State files named by the block start, or by the goal set (Q4) | The block start is Harry's and is not written down (Stage 0 D-91), and a goal set can repeat (D-11) |
+| A state file in Markdown tables, or JSON with a generated .md mirror (O3 B, C) | Harry: JSON with a check (D-12) |
+| The state-file rules in `CLAUDE.md` only, or in a Stage 3 of their own (O4 B, C) | Harry: R67 and §3.4 in Stage 2 (D-13) |
+| The whole register moved into the state file, or the sessions a week kept in both (O5 B, C) | Harry: the state file keeps the sessions a week, the register the facts of each file (D-14) |
 
 ---
 
@@ -193,7 +209,7 @@ Run 2026-10-13 to 2026-10-15 on Harry's computer: bash, `grep -P`, `cmp`, `md5su
 | One note per write: the note says what the write changed, and a change made across several files can carry one note that reads the same in each (D-06) | R56 |
 | The stem names the session, not the block: a new block's sessions replace the old ones as new versions, as the upper focus files kept their stems from v6 to v8, so the files Harry keeps and the references to them stay put | R53 |
 | Harry trains from the file, so it carries what he applies set by set — prescription, cues, warnings, rest, pairing, the sport note — while the plan's checks and arithmetic stay with the plan | R58 · §3.2 |
-| Sessions a week are Current state, which changes with the block; the register keeps them in one place, and the files need no rewrite when a block changes them (D-05) | §3.2 · §9 |
+| Sessions a week are Current state, which changes with the block; the state file keeps them with the rest of it, so neither the routine files nor the register need a rewrite when a block changes them (D-05 · D-14) | §3.2 · §3.4 · R67 |
 | A "no sport limit" line shows that the note was worked out, not forgotten. Evaluation files carry none: an evaluation is a separate session, and what follows it is Harry's to manage (D-02) | R59 |
 | Region-wide files are menus by target: a mobility file prepares every muscle group, joint and tendon of its region for the whole session, and a foam-rolling file covers every muscle group or spot a session trained; tied to one routine's numbers, they went stale with every change (Stage 0 M5) (D-03) | R60 |
 | The catalogue holds exercise facts; a version that changes no exercise, card number or pairing changes no fact, so the catalogue stays as it is (D-04) | R61 |
@@ -228,20 +244,20 @@ Source: the approved plan for "Build full-body routine A: preacher curl and Smit
 
 | Step | Definition | Decision | Action | Output |
 |---|---|---|---|---|
-| S2.1 | R50 · R61 · §2.1 | §0.1 Input | The folder is reached; no current routine, so no file to read; the request is a new file; no file cites routine A, and the region-wide mobility files it names cite no routine | One new file · no dependents |
+| S2.1 | R50 · R67 · R61 · §2.1 | §0.1 Input | The folder is reached; no state file holds the block yet, as it starts now; no current routine, so no file to read; the request is a new file; no file cites routine A, and the region-wide mobility files it names cite no routine | One new file · no dependents |
 | S2.2 | §3.1 · R52 · R53 · R54 | §0.2 | Upper + lower, a focus block, its first session: `routine_fullbody_focus_A`, v1, generator — a new pattern, since no full-body sibling exists | Stem · build type · method: a new generator file |
 | S2.3 | R51 · R55 | — | Working copy in scratch on Harry's computer; the definition is written from the plan, as there is no file to read | Definition · working copy |
-| S2.4 | R58 · §3.2 · R59 · R56 · Stage 0 §0.1 | §0.1 Content | Title "Full body hypertrophy — Session A"; subtitle "Focus block · biceps, quads · every joint at loading stage 1 · ~17 min · 12 working sets"; pre-workout note: the upper and lower mobility pre halves, warm-up sets outside the exercise time, loads ≈60% of pre-layoff in weeks 1–2 and ≈80% in weeks 3–4. A — Superset 1 (~9 min · 3 rounds · 60–90 s after each pair): 1 preacher curl, biceps (L), 3 × 10–12, 2 RIR · wk 5+: 1, DB + bench ↕ 2 goblet squat above parallel, quads (M), 3 × 10–12, 3 RIR · wk 5+: 2, DB · low box. B — Superset 2 (~7.5 min · 3 rounds): 3 spider curl, biceps (M), 3 × 10–12, 2 RIR · wk 5+: 1, DB + bench ↕ 4 wall sit above parallel, quads (M), 3 × 32 s or more, ~12 s in reserve · wk 5+: ~8 s. Post-workout note: "After: mobility post halves · day after: no badminton", then "Quads and glutes collect sets here — badminton's day-before muscles (R21)" and the next-day step-gate line. Set-count box: biceps 6 · week 12 (2 above, R48); quads 6 · week 12 (2 above, R48). Alternatives: 1 preacher curl — gap, no L without the bench until shoulder stage 2; 3 spider curl — band curl with the elbows at the sides · standing cable curl. "v1 — new file: full-body focus session A, biceps and quads". No day, and no sessions a week: the register keeps "2 a week" (D-05) | Laid-out working copy |
+| S2.4 | R58 · §3.2 · R59 · R56 · Stage 0 §0.1 | §0.1 Content | Title "Full body hypertrophy — Session A"; subtitle "Focus block · biceps, quads · every joint at loading stage 1 · ~17 min · 12 working sets"; pre-workout note: the upper and lower mobility pre halves, warm-up sets outside the exercise time, loads ≈60% of pre-layoff in weeks 1–2 and ≈80% in weeks 3–4. A — Superset 1 (~9 min · 3 rounds · 60–90 s after each pair): 1 preacher curl, biceps (L), 3 × 10–12, 2 RIR · wk 5+: 1, DB + bench ↕ 2 goblet squat above parallel, quads (M), 3 × 10–12, 3 RIR · wk 5+: 2, DB · low box. B — Superset 2 (~7.5 min · 3 rounds): 3 spider curl, biceps (M), 3 × 10–12, 2 RIR · wk 5+: 1, DB + bench ↕ 4 wall sit above parallel, quads (M), 3 × 32 s or more, ~12 s in reserve · wk 5+: ~8 s. Post-workout note: "After: mobility post halves · day after: no badminton", then "Quads and glutes collect sets here — badminton's day-before muscles (R21)" and the next-day step-gate line. Set-count box: biceps 6 · week 12 (2 above, R48); quads 6 · week 12 (2 above, R48). Alternatives: 1 preacher curl — gap, no L without the bench until shoulder stage 2; 3 spider curl — band curl with the elbows at the sides · standing cable curl. "v1 — new file: full-body focus session A, biceps and quads". No day, and no sessions a week: the state file keeps "2 a week" (D-14) | Laid-out working copy |
 | S2.5 | R60 · R61 | — | Nothing renamed or renumbered elsewhere; new cards, so the catalogue's rows C040, C041, C065 and C068 gain "routine_fullbody_focus_A v1 ex. 1", "ex. 3", "ex. 2" and "ex. 4" | Catalogue provenance |
 | S2.6 | R64 · R65 · R66 | Stage 1 R38 · R39 | Width estimate clean; PNG looked at; `pair_check.py`: preacher ↔ goblet squat is cross-region, spider ↔ wall sit has a hold as neutral partner — both PASS, as in Stage 1 §7 (S1.9) | Checks ✓ |
-| S2.7 | R57 · R52 | — | Written to `gymplan/`; copied with `cp` to `gymtxt/`; `cmp` silent; register entry: lifting — focus sessions, upper + lower, generator, 2 a week | Files in place |
-| S2.8 | R66 · §3.3 | — | Report: new, v1, generated; checks (1)–(9) ✓; dependents: none found (searched "preacher", "spider", "goblet", "wall sit" and their card numbers); follow-ups: none | Delivery report |
+| S2.7 | R57 · R52 · R67 | — | Written to `gymplan/`; copied with `cp` to `gymtxt/`; `cmp` silent; register entry: lifting — focus sessions, upper + lower, generator; the block's first state file, `block_<NN>.json`: the fixture's Current state with `routine_fullbody_focus_A` at 2 a week, the plan's R46 checks, zone coverage and next steps (Stage 1 §7), a log row naming v1; `state_check.py` passes | Files and state file in place |
+| S2.8 | R66 · §3.3 | — | Report: new, v1, generated; checks (1)–(10) ✓; dependents: none found (searched "preacher", "spider", "goblet", "wall sit" and their card numbers); follow-ups: none | Delivery report |
 
 **Corpus quirks traced**
 
 | Quirk | Step | Rule | Result |
 |---|---|---|---|
-| Upper focus A–C v8 state no sessions a week: "Focus block · 9 targets · upper joints at loading stage 2 · ~41.5 min · 26 working sets" | S2.4 | R58 · §3.2 | Passes: the register keeps 1 a week each (D-05 · D-08) |
+| Upper focus A–C v8 state no sessions a week: "Focus block · 9 targets · upper joints at loading stage 2 · ~41.5 min · 26 working sets" | S2.4 | R58 · §3.2 | Passes: the state file keeps 1 a week each (D-14) |
 | The v8 trio share one note: "… lat pulldown 4, pullover 3, biceps 7 · replaces v7" | S2.4 | R56 | Passes: one change across three files (D-06) |
 | The v8 sport note | S2.4 | R59 | Passes |
 | The v8 alternatives tables cite cards 1, 2, 3, 5 · 1, 3 · 1, 2, 4; all 21 rows in the corpus match their cards (M6) | S2.4 | R60 | Passes; the v6 drift (Stage 1 Supplement §5.2) is gone |
@@ -259,11 +275,12 @@ Source: the approved plan for "Build full-body routine A: preacher curl and Smit
 | Item | Value |
 |---|---|
 | File | `gymplan/routine_fullbody_focus_A.svg` v1 and `gymtxt/routine_fullbody_focus_A.txt`, byte-identical |
-| Register | New entry in §9: lifting — focus sessions · upper + lower · generator · 2 a week |
+| Register | New entry in §9: lifting — focus sessions · upper + lower · generator |
+| State file | The block's first `gymstate/block_<NN>.json`: Current state, routine A at 2 a week, the plan-only fields and one log row (R67) |
 | Catalogue | Provenance lines for C040, C041, C065 and C068: new cards (R61) |
-| Delivery report | Checks (1)–(9) ✓ · no dependents · no follow-ups |
+| Delivery report | Checks (1)–(10) ✓ · no dependents · no follow-ups |
 
-Verified 2026-10-13: the section times (558 s and 459 s, the routine's last rest dropped) and the exercise time (≈17 min with 45 s holds, as Stage 1 §7 counts them) re-run in Python; the corpus measurements run on Harry's computer (§5.3); rule, step and section references checked by `xref_check.py`. Re-run 2026-10-14 after D-01…D-06: no sessions a week in the file; the register entry carries them.
+Verified 2026-10-13: the section times (558 s and 459 s, the routine's last rest dropped) and the exercise time (≈17 min with 45 s holds, as Stage 1 §7 counts them) re-run in Python; the corpus measurements run on Harry's computer (§5.3); rule, step and section references checked by `xref_check.py`. Re-run 2026-10-14 after D-01…D-06: no sessions a week in the file; the register entry carries them. Re-traced 2026-10-25 after D-10…D-14: the state file carries the sessions a week and the plan-only fields.
 
 ---
 
@@ -283,19 +300,20 @@ W1–W5 were read by Claude on 2026-10-13 through a fetch summariser; quotes are
 
 ## 9. Register
 
-The register's entries (`Stage2_RoutineFiles.md` §3.1 · R52 · D-01), as of 2026-10-14; stems that share role, build and sessions a week are grouped. Sessions a week hold Current state's `current_routines` (Stage 0 §4.1) as Harry gave them on 2026-10-13: the upper hypertrophy block runs focus A, B and C, three sessions a week (D-05); on 2026-10-15 he confirmed that no lower-body routine, and not the popliteus protocol, is current.
+The register's entries (`Stage2_RoutineFiles.md` §3.1 · R52 · D-01), as of 2026-10-22; stems that share role, regions and build are grouped. Which routines are current, with their sessions a week, sits in the state file (R67 · D-14) — since 2026-10-25 `gymstate/block_01.json`, which took over the sessions a week Harry gave on 2026-10-13.
 
-| Stem | Role | Regions | Build | Sessions a week |
-|---|---|---|---|---|
-| routine_upperbody_focus_A · _B · _C | Lifting — focus sessions of the current upper block | upper | generator | 1 each |
-| routine_upperbody · routine_lowerbody | Lifting — a general routine per region | upper · lower | generator | — |
-| routine_lowerbody_focus_A · _B · _C | Lifting — focus sessions | lower | generator | — |
-| popliteus_prevention_protocol | Joint protocol — a phased rebuild for one joint, the knee | lower | generator | — |
-| evaluation_upperbody | Evaluation — the region's loading-gate tests (Stage 0 §2.5), with moving pictures | upper | build script `build_evaluation_upperbody_v3.py` (the generator with `figs.py`) | — |
-| evaluation_lowerbody | Evaluation — as above | lower | build script `build_evaluation_lowerbody_v1.py` (self-contained) | — |
-| evaluation_upperbody_2col | One-off copy — evaluation_upperbody v3 on two columns, not kept in step (Stage 0 D-83) | upper | build script `build_2col.py` | — |
-| stretching_upper_hEDS · stretching_lower_hEDS | Mobility — region-wide: active drills by target, a pre and a post half, for any training session of its region (Stage 0 §2.7; D-03) | upper · lower | hand-laid | — |
-| foam_rolling_upperbody_hEDS · foam_rolling_lowerbody_hEDS | Foam rolling — region-wide: release areas by target, outside training sessions (Stage 0 §2.7; D-03) | upper · lower | hand-laid | — |
-| cardio_routine | Conditioning — routine work under the hard gates (Stage 0 D-52 · D-53) | — | hand-laid | — |
+| Stem | Role | Regions | Build |
+|---|---|---|---|
+| routine_upperbody_focus_A · _B · _C | Lifting — focus sessions | upper | generator |
+| routine_upperbody · routine_lowerbody | Lifting — a general routine per region | upper · lower | generator |
+| routine_lowerbody_focus_A · _B · _C | Lifting — focus sessions | lower | generator |
+| popliteus_prevention_protocol | Joint protocol — a phased rebuild for one joint, the knee | lower | generator |
+| evaluation_upperbody | Evaluation — the region's loading-gate tests (Stage 0 §2.5), with moving pictures | upper | build script `build_evaluation_upperbody_v3.py` (the generator with `figs.py`) |
+| evaluation_lowerbody | Evaluation — as above | lower | build script `build_evaluation_lowerbody_v1.py` (self-contained) |
+| evaluation_upperbody_2col | One-off copy — evaluation_upperbody v3 on two columns, not kept in step (Stage 0 D-83) | upper | build script `build_2col.py` |
+| evaluation_lowerbody_2col | One-off copy — evaluation_lowerbody v1 on two columns, not kept in step (D-09) | lower | build script `build_evaluation_lowerbody_2col_v1.py` |
+| stretching_upper_hEDS · stretching_lower_hEDS | Mobility — region-wide: active drills by target, a pre and a post half, for any training session of its region (Stage 0 §2.7; D-03) | upper · lower | hand-laid |
+| foam_rolling_upperbody_hEDS · foam_rolling_lowerbody_hEDS | Foam rolling — region-wide: release areas by target, outside training sessions (Stage 0 §2.7; D-03) | upper · lower | hand-laid |
+| cardio_routine | Conditioning — routine work under the hard gates (Stage 0 D-52 · D-53) | — | hand-laid |
 
-"—": not a current weekly routine, or a file that sessions a week do not count (evaluations, mobility, foam rolling, conditioning).
+Regions "—": a file whose sessions train no region (conditioning, Stage 0 §2.7).

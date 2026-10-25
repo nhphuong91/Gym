@@ -1,0 +1,70 @@
+{
+  "block": 1,
+  "current_state": {
+    "block_type": "focus",
+    "block_goal": {
+      "upper": "Hypertrophy",
+      "lower": "not trained"
+    },
+    "priority_targets": [
+      "chest",
+      "front_delt",
+      "side_delt",
+      "rear_delt",
+      "lats",
+      "upper_back",
+      "biceps",
+      "triceps",
+      "abs"
+    ],
+    "layoff": "~2 months",
+    "loading_stages": {
+      "shoulder": 2,
+      "elbow": 2,
+      "wrist": 2,
+      "spine": 1,
+      "hip": 1,
+      "knee": 1,
+      "ankle": 1
+    },
+    "in_season": [],
+    "current_routines": [
+      {
+        "stem": "routine_upperbody_focus_A",
+        "regions": [
+          "upper"
+        ],
+        "sessions_week": 1
+      },
+      {
+        "stem": "routine_upperbody_focus_B",
+        "regions": [
+          "upper"
+        ],
+        "sessions_week": 1
+      },
+      {
+        "stem": "routine_upperbody_focus_C",
+        "regions": [
+          "upper"
+        ],
+        "sessions_week": 1
+      }
+    ]
+  },
+  "plan": null,
+  "log": [
+    {
+      "date": "2026-10-25",
+      "changes": [
+        "State file started (Stage 2 R67 · D-10…D-14). Block type, the upper goal and the 9 priority targets from routine_upperbody_focus_A v9, _B v9 and _C v8; lower not trained, no sport in season, shoulder, elbow and wrist at loading stage 2 and spine, hip, knee and ankle at 1, all from Harry on 2026-10-25; layoff at its default",
+        "Sessions a week moved here from the register (Stage 2 Supplement §9): focus A, B and C, 1 each, as Harry gave them on 2026-10-13 (Stage 2 D-14)",
+        "Block start and block week not kept: Harry counts the block weeks (Stage 0 D-91)"
+      ],
+      "follow_ups": [
+        "The upper block's plan-only fields (R46 checks, zone coverage, next step per exercise) were not kept when it was planned on 2026-10-13: written at the block's next plan",
+        "gymplan/PreviousOldRoutines/ (moved 2026-10-24): catalogue verify.py check 6 fails on the 4 moved stems; their register rows, the scope wording of Stage 2 §0.1 and R52, their gymtxt mirrors and a Stage 0 Supplement §5.1 row await Harry"
+      ]
+    }
+  ]
+}

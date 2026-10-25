@@ -17,7 +17,7 @@ Rationale, evidence, closed decisions and deferred material → `Stage0_Suppleme
 | Risk | **Every joint is unstable under load.** Hypermobility (hEDS/HSD spectrum) is systemic, so R1–R10 apply to every joint and every exercise, primary or alternative, at all times: they are the baseline, not a response to a problem. |
 | Loading gate | **Staged loading applies to every joint, all the time** (§2.5 · R11–R14 · R24 · D-28). Each joint holds its own loading stage in Current state (§4.1). |
 | Clinician override | **A treating clinician's criteria override the exit criteria in §2.5, and a clinician's stretching prescription overrides R7 for the muscle it names** — e.g. gentle stretching of a short muscle with the neighbouring joint held stable (D-43). |
-| Scheduling | **Harry schedules every session: which days hold training, conditioning and sport sessions, and how they interleave** (D-48). Plans and routine files assign no days. Plans state each routine's regions, its sessions per week (§4.1 `current_routines`) and the sports not to play the day after it (R21); routine files state its regions and those sports, and the Stage 2 register keeps its sessions per week (Stage 2 D-05). R20 and R21 bind the schedule Harry sets. |
+| Scheduling | **Harry schedules every session: which days hold training, conditioning and sport sessions, and how they interleave** (D-48). Plans and routine files assign no days. Plans state each routine's regions, its sessions per week (§4.1 `current_routines`) and the sports not to play the day after it (R21); routine files state its regions and those sports, and the block's state file keeps its sessions per week (§4.1 · Stage 2 D-14). R20 and R21 bind the schedule Harry sets. |
 | Session density | **Joint control, not fitness, bounds session density and supersets** (R19). |
 | Goals and sports | **The specification is goal- and sport-agnostic.** Block type, block goal, priority targets and in-season sports change from block to block; they live in Current state (§4.1), and sport rules key off the sport's profile (§1.2). |
 | Out of scope | **Nutrition** (D-08): the diet itself — a fat-loss period only selects the maintenance block (§0.3) · **Harry's PDF exports in `gympdf/`**, left untouched (D-14). |
@@ -136,7 +136,7 @@ The load check is read from reps + RIR, never tested (R16).
 
 ### 2.4 Block
 
-**Block.** The run of weeks in which one goal set stays in force: the block type, one goal row per trained region and the priority targets (§4.1). Routines, volume, sets and reps are derived from it top-down (§0.3 Planning order) and progress inside the block without ending it. The block ends when the goal set changes — a target is reached or replaced, a goal row changes, or an injury forces a new goal (D-40). **Block week** counts from the block start in Current state (§4.1).
+**Block.** The run of weeks in which one goal set stays in force: the block type, one goal row per trained region and the priority targets (§4.1). Routines, volume, sets and reps are derived from it top-down (§0.3 Planning order) and progress inside the block without ending it. The block ends when the goal set changes — a target is reached or replaced, a goal row changes, or an injury forces a new goal (D-40). **Block week** counts from the block start, which Harry sets and keeps himself; plans and routine files state every week's values — RIR for weeks 1–4 and from week 5 (R17 · R18) and the ramp bands (R22) (D-91).
 
 ### 2.5 Loading gate
 
@@ -260,17 +260,15 @@ Each rule passes when the implementation produces the *Pass* behaviour and fails
 
 ## 4. Schemas
 
-### 4.1 Current state — one per conversation
+### 4.1 Current state — one per block, kept in the state file
 
-Set at the start of each conversation. A field with a default keeps it until Harry changes it; a field without one is asked before planning.
+Kept in the block's state file (Stage 2 R67 · Stage 2 §3.4) and read at the start of each conversation; a field keeps its value until Harry changes it. A new block's file takes the defaults below, and a field without one is asked before the block's first plan (D-90).
 
 | Field | Definition |
 |---|---|
 | `block_type` | Focus or maintenance (§0.3). No default. |
 | `block_goal` | One goal-table row (§2.2) for each region the block trains, upper and lower; a region the block does not train reads "not trained". The rows are offered as choices when asked. No default. |
 | `priority_targets` | Focus block: muscles, not regions — the only muscles it programs (§0.3). Maintenance block: every muscle group (§2.1). No default. |
-| `block_start` | Date; block week counts from it (§2.4). No default. |
-| `block_week` | Derived from `block_start`. |
 | `layoff` | Layoff before this block; 3 weeks or more triggers R22. Default: ~2 months. |
 | `loading_stages` | Every joint's current loading stage (§2.5). Default: stage 1 for every joint, until R14 unlocks the next (D-28). |
 | `in_season` | Each in-season sport, e.g. "badminton"; its days are Harry's to set (§0.1). No default. |

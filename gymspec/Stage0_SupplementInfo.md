@@ -27,8 +27,8 @@ Section numbers found only here (§5.1–§5.6, §6, §7) refer to this Suppleme
 | Selection criteria | The five ranked criteria that choose among exercises passing the hard gates (§0.2) | "conflict order" |
 | Goal-fit test | A per-goal way to score how well an exercise suits the block goal: selection criterion 3 (§0.2; tests written in Stage 1, D-36) | "selection criterion" (D-05) |
 | Joint-control limits | R18–R22: limits set by joint control, never raised to fit a plan; R19's exercise time is Harry's own cap, held the same way (D-49) | "joint-control limits" (session ceilings only) |
-| Current state | The per-block input record (§4.1) | `<athlete>` Current state |
-| Block · block week | The weeks one goal set stays in force, and the count from its start (§2.4) | "weeks a routine or set/rep scheme stays unchanged" (CLAUDE_old.md `<dosing>`) |
+| Current state | The per-block input record, kept in the block's state file (§4.1 · D-90) | `<athlete>` Current state |
+| Block · block week | The weeks one goal set stays in force, and the count from its start, which Harry keeps (§2.4 · D-91) | "weeks a routine or set/rep scheme stays unchanged" (CLAUDE_old.md `<dosing>`) |
 | Region | Upper body, trunk included, or lower body (§2.1) | — |
 | Muscle group | One of the seven groups in §2.1 — upper: abs & obliques, back, chest & shoulders, arms & hands; lower: hips & gluteals, thighs, calves & shins | — |
 | Focus block | A block that programs only its priority targets (§0.3) | — |
@@ -57,50 +57,9 @@ Section numbers found only here (§5.1–§5.6, §6, §7) refer to this Suppleme
 
 ## 2. Architecture history
 
-### 2.1 From CLAUDE_old.md + reference.md to the scaffold
+CLAUDE_old.md, the rulebook before the scaffold (history only since D-74), was deleted on 2026-10-24 with its migration map to the scaffold (D-89). Both are in the git history at commit 52862ef; the citations of CLAUDE_old.md left in these docs are history.
 
-| Removed | Replaced by | Why |
-|---|---|---|
-| CLAUDE_old.md as the single instruction file | `CLAUDE.md` (how the AI works) + stage docs (what binds) | The scaffold keeps the working method apart from the binding rules |
-| reference.md (evidence, rationale, format examples, tooling, decision log) | Stage Supplements, non-normative | What binds stays apart from what explains |
-| `<role>` first paragraph | `CLAUDE.md` `<role>` · §0.1 (goal- and sport-agnostic) | Layer 1, plus one stance |
-| `<role>` hard gates and conflict order | §0.2 | Stances; the rules they rank are R1–R15 |
-| `<role>` paragraph on how the two files divide the work, incl. "every § reachable from at least one rule" | `<stage_doc_spec>`; every evidence row names what it informs (§5.2–§5.6) | The two-file stage pair and the "Informs" column do the same job |
-| `<athlete>` profile, sport profiles, Current state; `<dosing>` opening line | §1.1 · §1.2 · §4.1 · §4.2 | Domain items and the per-block input record |
-| `<equipment>` | §1.3 · R15 | Domain items plus one testable rule |
-| `<constraints>` intro and items 1–10 | §0.1 · R1–R10, numbers kept | Behaviour gets R-numbers; the same numbers keep old citations traceable |
-| `<gates>` items 1–3 | R11–R13 | Same |
-| reference.md §R1 (unlock order, exit criteria, control tests) | §2.5 · R14 ✏️ | It binds, so it leaves the explanatory file |
-| `<dosing>` goal table, reps + RIR lines, Effort, set units, block definition | §2.2 · R16–R18 · §2.3 · §2.4 | Shared by every stage; Current state selects goal rows |
-| `<dosing>` per-session caps, 48 h schedule, sport days, restart ramp, step gate | R19–R22 · §2.6 | Joint-control limits bind Stage 1 from above (D-21) |
-| `<dosing>` Focus block | §0.3 (stance) · Stage 1 (rules, §6) | Stance now, behaviour with programming |
-| `<programming>`, the rest of `<dosing>`, `<output>`, plan checks in `<verification>` | Stage 1 (§6) | Strict rounds (D-19) |
-| `<files>`, `<workflow>` 3–4, the file check in `<verification>`, reference.md §R4 | Stage 2 (§6) | Strict rounds (D-19) |
-| `<workflow>` 1, 2, 5 | `CLAUDE.md` `<task>`, routine request ✏️ | How the AI works belongs to layer 1 |
-| reference.md §R3 format examples | `CLAUDE.md` `<example>` · Stage 1 (§6) | One example reused everywhere |
-| reference.md §R5 rationale | §5.6 (Stage 0 lines) · Stages 1–2 (§6) ✏️ | The skeleton has no rationale slot |
-| reference.md §R6, §R7 evidence | §5.4 · §5.5 · Stage 1 (§6) | Each evidence row names the rule it informs |
-| reference.md §R8 log (D, X, P) | Decision log (D-01…D-15) · Rejected alternatives (X1–X3) · §6 (P1–P6; P7 closed by D-25) | Decision protocol; numbers kept |
-| "§R1 stage" | "loading stage" ✏️ | Clash with the design Stages (D-34) |
-| Staging for flagged joints only (`<gates>`; Current state `gated_joints`) | Staging for every joint, each with its own loading stage (§0.1 · §2.5 · §4.1 `loading_stages`) | D-28 |
-| "Conflict order" (`<role>`) | "Selection criteria", with the planning order ahead of them (§0.2 · §0.3) | Harry: goal → muscles → volume → exercises chosen by five criteria (D-35) |
-| Eccentric tempo inside the restart ramp (`<dosing>`; R22) | Its own rule, R25 | D-32 |
-| Isolation to 0–1 RIR after 4 flare-free weeks (`<dosing>` Effort; R18) | Removed | Joint safety wins; the goal table's values are a reference (D-33) |
-| Block = weeks a routine or set/rep scheme stays unchanged (`<dosing>`) | Block = weeks one goal set stays in force (§2.4) | Every progression step would have ended the block and restarted R18's weeks 1–4 (D-40) |
-| §0.4 (a)–(d) of the first draft | (a) R14 detail · (b) R24 · (c) §5.6 · (d) §5.5 | Harry: none were limits, some were rules (D-24) |
-| "Maintenance targets for all muscles, once the focus blocks are complete" (CLAUDE_old.md `<dosing>`; reference.md §R5) | Maintenance block, a separate block type for fat-loss periods (§0.3) | D-23 |
-| "Active scapular depression" at the top of pulldowns and pull-ups (`<constraints>` 4) | Shoulder blades braced at the top (R4) | Harry asked whether it meant bracing or moving: it is a hold (D-42) |
-| "No passive/static stretching" (`<constraints>` 7) | Active drills defined; static-passive, PNF and ballistic named; clinician override (R7 · §0.1) | D-43 |
-| Court and cardio outside the equipment list (D-30) | Conditioning resources in §1.3; R15 covers every routine file | D-44 |
-| Hypertrophy from week 5 at compounds 2–3 and isolation 1–2 RIR, read at the most RIR (`<dosing>` Effort + "take the most RIR it permits") | At the least: compounds 2, isolation 1 (R18) | D-45 |
-| Lifting never on consecutive days, 3 sessions a week, pattern lift / rest / lift / rest / lift / rest / rest (`<dosing>`) | Each region ≤3 training sessions a week, 48 h apart; regions may run on consecutive days; per-muscle and step-gate guards (R20 · §2.7) | D-47 |
-| Sport on rest days only; plans set the days (`<dosing>`) | Harry schedules every session; routines carry no days (§0.1 · §4.1 `current_routines`) | D-48 |
-| ≤28 working sets per session (`<dosing>`) | Exercise time about 60 min, never past 75 (R19) | Harry: 28 was the result of his time cap (D-49) |
-| Per-muscle guard on consecutive days (D-47) | Schedule-proof check across routines that share no region (R20) | Harry sets the days, so the check must hold for any order (D-50) |
-| The day before a sport skips work that fatigues its "avoid the day before" muscles (`<dosing>`) | A sport note in every routine (R21) | Harry places the routines himself (D-51) |
-| Cardio routine — "court and conditioning", hand-laid (CLAUDE_old.md file roles) | Routine work under the hard gates, court drills and games included (§5.2) | Its goal is like a gym session's (D-52) |
-
-### 2.2 Gym adaptations to the scaffold (✏️, kept by D-34)
+### 2.1 Gym adaptations to the scaffold (✏️, kept by D-34)
 
 | # | Adaptation | Where | Why |
 |---|---|---|---|
@@ -113,12 +72,11 @@ Section numbers found only here (§5.1–§5.6, §6, §7) refer to this Suppleme
 | 7 | "§R1 stage" renamed "loading stage" | Both docs · `<context>` | Clash with the design Stages |
 | 8 | The Stage 0 header carries a variant legend (`[HYP]`) | Policy Definition header | R18 holds hypertrophy-specific text |
 | 9 | Decisions taken in chat are logged with the chat question they close ("chat Q1") | Decision log | They closed questions asked before any Open item existed |
+| 10 | A state file per block carries Current state, the plan-only fields and a log from one conversation to the next | `gymstate/` · §4.1 · Stage 2 R67 | The scaffold's docs hold rules, not live data; without it every field without a default was asked again (D-90) |
 
 ---
 
 ## 3. Decision log — closed open items
-
-Log IDs are local to Stage 0; each row names the OI it closes, and OI numbers restart after each cleared round, so rows from D-42 on carry the round beside the OI: round 6 opened 2026-10-01 (closed by D-42…D-48), round 7 and round 8 on 2026-10-02. D-54…D-58 record Harry's answers to the exercise catalogue's readings (`ExerciseCatalogue.md` §5; chat, 2026-10-03), triggered by Stage 1; D-58 opened round 9 and D-60 closed it; D-59 confirms Claude's reading in D-54. Round 10 (ankle and hip control tests) opened 2026-10-03; D-61 · D-62 closed it. Round 11 (shoulder, elbow, wrist and spine; criterion 3 for the arm; range for hypermobile joints) opened the same day and was revised on 2026-10-04 after a second research pass; D-63…D-69 closed it. D-70 (chat, 2026-10-06) swaps R12's pass example after the catalogue's A9, triggered by Stage 1. D-71 · D-72 (chat, 2026-10-06) set the arm tests' paces and a self-filmed low-back range, raised while building the upper-body evaluation routine. D-73 · D-74 (chat, 2026-10-06) keep one prompt file, CLAUDE.md, and restate the rulebook for routine work, superseding D-20; D-75 · D-76 put routine work on Stages 0–1 as drafted until the freeze and add three more interim file rules. D-77…D-79 (chat, 2026-10-07) read every test angle from tripod video, put moving pictures on routine cards and link demonstration videos, raised by Harry on the upper-body evaluation routine. D-80…D-82 (chat, 2026-10-08) set the knee's symmetry test, a 2-session mean for the legs and the paces of the leg symmetry tests, raised while building the lower-body evaluation routine. D-83 (chat, 2026-10-08) keeps a two-column copy of the upper-body evaluation as a one-off. D-84 · D-85 (chat, 2026-10-09) set the paces of the knee and hip control tests and make every §2.5 test a test, not a training set, raised in a review of the lower-body evaluation routine; D-86 (chat, 2026-10-09) renumbers reference.md §R8. D-88 (chat, 2026-10-15), triggered by Stage 2, moves each routine's sessions per week from the routine files to the Stage 2 register (Stage 2 D-05 · D-08). Amendments made after the freeze are logged here too, naming the triggering stage. The freeze itself is a row. D-01…D-15 are imported from reference.md §R8 and numbered continuously; each names its reference.md ID, the same number since D-86. Decisions never recorded there (its former D3–D44) are out (D-39). D-16 onward were taken in this conversion.
 
 | # | Question | Decision | Lands in |
 |---|---|---|---|
@@ -209,7 +167,10 @@ Log IDs are local to Stage 0; each row names the OI it closes, and OI numbers re
 | D-85 | Tests and the training rules (B4 · B7, chat 2026-10-09; raised in a review of the lower-body evaluation routine) | A, a full exemption: every §2.5 test — range readings, control tests and symmetry tests — is a test, not a training set. Its §2.5 line and its routine card set its range, load, side, pace and end point, and R1–R25 do not apply to it except R9's stops and R20, for which a test session counts as a training session of the region it tests. §0.4 (b) now names muscular-failure testing, and (e) sets the §2.5 tests aside. First written with only R12, R16–R18 and R25 exempted; widened the same day when Harry confirmed the exemption covers every rule (B7). Why: read literally, the tests failed R1–R3, R12, R15, R16, R18, R25 and §0.4 (b) and (e) — heel raises to full height under body weight, range readings to the end of the range, one limb to technical failure at loading stage 1, some reps lowered in 1 s, kit outside §1.3 — and only the control tests were marked as tests (criterion 2). Technical failure precedes muscular failure in hypermobile joints (§5.6 of this Supplement) | §2.5 · §0.4 (b) (e) · Terminology |
 | D-86 | reference.md §R8 numbering (Z1, chat 2026-10-09) | Harry: the stale line "D3–D44 · backfill … pending · waits on T1" is removed, since T1 was withdrawn by D-39 and no record of the former D3–D44 was found in the Gym folder; D45–D57 are renumbered D3–D15, so each reference.md ID equals its row here (D-03…D-15). References in reference.md §R5 and §R8 and in this log follow | reference.md §R5 · §R8 · D-03…D-15 · D-39 · Dissolved T1 |
 | D-87 | Minimum hold time (O9 H, chat 2026-10-13; triggered by Stage 1 D-11 while planning the upper-body block) | Harry: a timed hold lasts at least the bottom reps of its band in the goal row × 4 s, the same ~4 s per rep R16 uses for seconds in reserve, so a hold is no shorter than the shortest set it stands in for: a compound hold at least 32 s, a plank (abs isolation) at least 48 s. It follows Harry's floor of 8 reps a set (F4). R16's wall-sit example moves from 3 × 30 s to 3 × 35 s | §2.2 hypertrophy row · R16 example · Stage 1 D-11 |
-| D-88 | Sessions per week on routine files (Stage 2 O6, chat 2026-10-15; triggered by Stage 2) | Harry: A — plans state each routine's regions, its sessions per week and its sport note; routine files state the regions and the sport note; the Stage 2 register keeps the sessions per week. Why: Harry keeps them in the Stage 2 Supplement rather than on each file (Stage 2 D-05) | §0.1 |
+| D-88 | Sessions per week on routine files (Stage 2 O6, chat 2026-10-15; triggered by Stage 2) | Harry: A — plans state each routine's regions, its sessions per week and its sport note; routine files state the regions and the sport note; the Stage 2 register keeps the sessions per week. Why: Harry keeps them in the Stage 2 Supplement rather than on each file (Stage 2 D-05). Superseded in part by D-90: the block's state file keeps them (Stage 2 D-14) | §0.1 |
+| D-89 | Retiring CLAUDE_old.md (Q1 · Q2, chat 2026-10-24) | A: the file is deleted with its migration map to the scaffold; CLAUDE.md drops "CLAUDE_old.md is history only"; its other citations stay as history, resolved through git (commit 52862ef). Why: history only since D-74, every section taken up by Stages 0–2, and git keeps it | Architecture history · `CLAUDE.md` `<task>` |
+| D-90 | Current state between conversations (Stage 2 O4 · O5, chat 2026-10-24; triggered by Stage 2) | Harry: A · A — Current state is one per block, kept in the block's state file and read at the start of each conversation (Stage 2 R67 · Stage 2 §3.4 · Stage 2 D-10…D-14); a new block's file takes §4.1's defaults, and a field without one is asked before the block's first plan. The state file, not the Stage 2 register, keeps each current routine's sessions per week (§0.1). Supersedes D-88 in part. Why: every field without a default was asked again in each conversation, and the plan-only fields ended with the chat | §4.1 · §0.1 · Terminology · Architecture history |
+| D-91 | Block start and block week (Q3, chat 2026-10-25; raised while writing the first state file) | Harry: the block start is his own choice and is not written down, and he counts the block weeks; Current state drops `block_start` and `block_week`. Plans and routine files state every week's values — RIR for weeks 1–4 and from week 5 (R17 · R18) and the ramp bands (R22) — as the upper focus files already do (Stage 1 D-12). State files are numbered, not dated (Stage 2 D-11) | §2.4 · §4.1 · Terminology |
 
 **Dissolved without a decision**
 
@@ -263,6 +224,7 @@ An X item from reference.md returns only with new, cited evidence.
 | Bodyweight or bands only (O6 A), or crane-scale isometrics as well (O6 C) (round 11) | A leaves the arm's tests without reliability data; C is a maximal effort with untested day-to-day reliability (D-68) |
 | His own range everywhere (O7 A), or a healthy cap everywhere (O7 B) (round 11) | A lets the spine load near a normal end range; B has no trial support at the limbs and blunts what stage 2 unlocks (D-69) |
 | Step-downs to failure (Q1 B), or a banded seated knee extension (Q1 C), as the knee's symmetry test; one session for the legs (Q2 A); one pace for both leg tests, 1 or 2 beats each way (Q3 A, B) (chat 2026-10-08) | Q1 B fails mostly on form, which the step-down control test already scores; Q1 C puts the band's peak tension at a straight hypermobile knee; Q2 A fails an even pair about 1 time in 4; Q3 A lowers one knee under body weight in 1 s, Q3 B coarsens the bridge's rep count (D-80…D-82) |
+| `block_start` and `block_week` kept in Current state but out of the state file, the week asked when a plan needs it (Q3 B, chat 2026-10-25) | Harry counts the block weeks; plans and files state every week's values (D-91) |
 
 ---
 
@@ -275,7 +237,7 @@ An X item from reference.md returns only with new, cited evidence.
 | `gymplan/*.svg` | Canonical routine files | The corpus, read in place |
 | `gymtxt/*.txt` | Byte-identical to their SVGs (M1) | Mirrors, not a second corpus |
 | `gympdf/*.pdf` | Harry's exports (D-14) | Not read |
-| `gymtools/svg_routine_generator/` examples | Old routine versions, kept as data-format references | Not corpus |
+| `gymtools/svg_routine_generator/` | The generator: `routine_generator.py` builds a routine SVG from a routine definition; imported, never edited (Stage 2 §0.2 · R55). Its two example routines are older versions, kept as data-format references | A tool, not corpus: files of build type "generator" are built and regenerated with it (Stage 2 §3.1 · R54 · R55) |
 | Routine content | Files from before the scaffold were written before the CLAUDE_old.md rules (§5.2) | Observations inform rules; files are not edited in a spec round |
 
 ### 5.2 Observations

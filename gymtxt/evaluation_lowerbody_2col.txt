@@ -1,0 +1,705 @@
+<svg width="100%" viewBox="0 0 1360 2091" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="680" y="28" text-anchor="middle">Lower-body evaluation — loading-gate tests</text>
+<text font-size="11" fill="#666" x="680" y="44" text-anchor="middle">Hip · knee · ankle — ranges, control and symmetry · 2 sessions (~50 + ~20 min) · two-column copy</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="1300" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Muscle group</text>
+<rect x="50" y="89" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="66" y="98">Hip / glutes</text>
+<rect x="148" y="89" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="164" y="98">Knee (quads, hamstrings)</text>
+<rect x="312" y="89" width="10" height="10" rx="2" fill="#185fa5"/>
+<text font-size="11" fill="#333" x="328" y="98">Ankle / calf</text>
+
+<!-- PRE-WORKOUT NOTE (1 of 2) -->
+<rect x="30" y="122" width="620" height="88" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="139">Before you start — what, when and kit</text>
+<text font-size="11" fill="#2272a8" x="50" y="152">What: tests that decide when each lower-body joint may move up one loading stage. Order: A, B, C, then D.</text>
+<text font-size="11" fill="#2272a8" x="50" y="165">When: a rested day, no lower-body training or badminton the day before. Warm up 5 min (walk or bike).</text>
+<text font-size="11" fill="#2272a8" x="50" y="178">Pictures move when this file opens in Edge or Chrome; elsewhere they show the start (dark) and end (faint).</text>
+<text font-size="11" fill="#2272a8" x="50" y="191">Kit: the 20 cm box · bench · wall · frame or rack to hold · mat · tape measure · tape · tripod and phone</text>
+<text font-size="11" fill="#2272a8" x="50" y="204">a second device for the beat · Kinovea on the PC · barefoot for every test</text>
+
+<g transform="translate(680,0)">
+<!-- PRE-WORKOUT NOTE (2 of 2) -->
+<rect x="30" y="122" width="620" height="88" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="139">How the phone is used — camera, beat and angles</text>
+<text font-size="11" fill="#2272a8" x="50" y="152">Phone = camera only: on the tripod ~2 m away, level, lens at the height the card names; never in your hand.</text>
+<text font-size="11" fill="#2272a8" x="50" y="165">Beat: a metronome on a second device (PC, tablet or speaker), loud enough for the video to record it.</text>
+<text font-size="11" fill="#2272a8" x="50" y="178">iPhone (iOS 18 or later): turn on Settings → Camera → Record Sound → Allow Audio Playback.</text>
+<a href="https://kinovea.readthedocs.io/en/stable/measurement/angle.html" target="_blank"><text font-size="11" fill="#2272a8" x="50" y="191">Angles: later, on the PC, in Kinovea (free): open the video, pause on the frame, pick the card's tool,</text></a>
+<text font-size="11" fill="#2272a8" x="50" y="204">drag its centre onto the joint, note the number (over 180°: 360 minus it), snip the frame (Win+Shift+S).</text>
+</g>
+
+<!-- ── A RANGES ── -->
+<rect x="30" y="222" width="1300" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="238">A — Session 1: Ranges  (~15 min · no weights · your own effort only; card 5 leans body weight)</text>
+
+
+<g transform="translate(0,-78)">
+<!-- A1 — Hip bend range -->
+<rect x="30" y="334" width="8" height="189" rx="2" fill="#085041"/>
+<rect x="38" y="334" width="612" height="189" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="350">1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="350">Hip bend range, knee bent — each leg</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="368">Set-up</text>
+<text font-size="11" fill="#0f6e56" x="136" y="368">Lie on your back on the mat, legs straight, side-on to the</text>
+<text font-size="11" fill="#0f6e56" x="136" y="382">camera, 2 m away, lens at floor level, the tested leg</text>
+<text font-size="11" fill="#0f6e56" x="136" y="396">nearest the camera.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="410">Do</text>
+<text font-size="11" fill="#0f6e56" x="136" y="410">Bring the knee toward your chest as far as it goes by</text>
+<text font-size="11" fill="#0f6e56" x="136" y="424">itself: hip muscles only, no hands; the knee bends freely,</text>
+<text font-size="11" fill="#0f6e56" x="136" y="438">the other leg stays flat. Hold 2 s; lower. 3 tries per leg.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="452">Read</text>
+<text font-size="11" fill="#0f6e56" x="136" y="452">Kinovea, end frame: Angle tool, centre on the hip, one leg</text>
+<text font-size="11" fill="#0f6e56" x="136" y="466">along the mat toward your feet, the other to the knee.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="480">Write down</text>
+<text font-size="11" fill="#0f6e56" x="136" y="480">The best of 3, per leg. Training limit: 70–80% of it (squat</text>
+<text font-size="11" fill="#0f6e56" x="136" y="494">and hip-thrust depth).</text>
+<a href="https://kinovea.readthedocs.io/en/stable/measurement/angle.html" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="509">How to: Kinovea angle tools ↗</text></a>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="350">3 tries per leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="365">Mat · tripod · phone</text>
+<!-- PIC 1 — Hip bend range -->
+<g transform="translate(486,372)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#0f6e56" stroke-width="0.8"/>
+<rect x="10" y="96" width="136" height="4" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<polyline points="57,92 46.5,73.8 66.4,72.1 65.7,64.1" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="31,92 57,92 78,92 98,92 98,84" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="21" cy="89.5" r="5.5" fill="#ffffff" stroke="#555555" stroke-width="1.6"/>
+<path d="M57,92 L68,92 A11 11 0 0 0 68,92 Z" fill="#0f6e56" fill-opacity="0.18" stroke="#0f6e56" stroke-width="1"><animate attributeName="d" dur="8s" repeatCount="indefinite" values="M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,91.4 Z;M57,92 L68,92 A11 11 0 0 0 67.8,89.8 Z;M57,92 L68,92 A11 11 0 0 0 67,87.4 Z;M57,92 L68,92 A11 11 0 0 0 65.2,84.7 Z;M57,92 L68,92 A11 11 0 0 0 62.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 59.2,81.2 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 53.5,81.6 Z;M57,92 L68,92 A11 11 0 0 0 52,82.2 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 51.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 52,82.2 Z;M57,92 L68,92 A11 11 0 0 0 53.5,81.6 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 59.2,81.2 Z;M57,92 L68,92 A11 11 0 0 0 62.5,82.5 Z;M57,92 L68,92 A11 11 0 0 0 65.2,84.7 Z;M57,92 L68,92 A11 11 0 0 0 67,87.4 Z;M57,92 L68,92 A11 11 0 0 0 67.8,89.8 Z;M57,92 L68,92 A11 11 0 0 0 68,91.4 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z"/></path>
+<polyline points="57,92 78,92 98,92 98,84" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="8s" repeatCount="indefinite" values="57,92 78,92 98,92 98,84;57,92 78,92 98,92 98,84;57,92 78,92 98,92 98,84;57,92 78,92 98,92 98,84;57,92 78,90.9 98,90.9 98,82.9;57,92 77.6,87.8 97.6,87.7 97.5,79.7;57,92 76.1,83.2 96.1,82.9 95.9,74.9;57,92 72.7,78.1 92.7,77.5 92.5,69.5;57,92 67.5,73.8 87.5,72.9 87.1,64.9;57,92 61.2,71.4 81.1,70.3 80.7,62.3;57,92 55.1,71.1 75,69.7 74.5,61.7;57,92 50.3,72.1 70.3,70.5 69.6,62.5;57,92 47.4,73.3 67.4,71.6 66.7,63.6;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 46.5,73.8 66.4,72.1 65.7,64.1;57,92 47.4,73.3 67.4,71.6 66.7,63.6;57,92 50.3,72.1 70.3,70.5 69.6,62.5;57,92 55.1,71.1 75,69.7 74.5,61.7;57,92 61.2,71.4 81.1,70.3 80.7,62.3;57,92 67.5,73.8 87.5,72.9 87.1,64.9;57,92 72.7,78.1 92.7,77.5 92.5,69.5;57,92 76.1,83.2 96.1,82.9 95.9,74.9;57,92 77.6,87.8 97.6,87.7 97.5,79.7;57,92 78,90.9 98,90.9 98,82.9;57,92 78,92 98,92 98,84"/></polyline>
+<polyline points="57,92 85,92" fill="none" stroke="#0f6e56" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="57" cy="92" r="2.4" fill="#0f6e56"/>
+<circle cx="78" cy="92" r="2.4" fill="#0f6e56" stroke="#0f6e56" stroke-width="0.5"><animate attributeName="cx" dur="8s" repeatCount="indefinite" values="78;78;78;78;78;77.6;76.1;72.7;67.5;61.2;55.1;50.3;47.4;46.5;46.5;46.5;46.5;46.5;46.5;46.5;46.5;47.4;50.3;55.1;61.2;67.5;72.7;76.1;77.6;78;78"/><animate attributeName="cy" dur="8s" repeatCount="indefinite" values="92;92;92;92;90.9;87.8;83.2;78.1;73.8;71.4;71.1;72.1;73.3;73.8;73.8;73.8;73.8;73.8;73.8;73.8;73.8;73.3;72.1;71.1;71.4;73.8;78.1;83.2;87.8;90.9;92"/></circle>
+<text font-size="9" fill="#0f6e56" x="84" y="34">knee to chest,</text>
+<text font-size="9" fill="#0f6e56" x="84" y="43">no hands</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="112">dots: hip · knee · mat line</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">side view · lens at floor</text>
+</g>
+</g>
+
+<g transform="translate(680,-273)">
+<!-- A2 — Straight-leg raise range -->
+<rect x="30" y="529" width="8" height="189" rx="2" fill="#085041"/>
+<rect x="38" y="529" width="612" height="189" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="545">2</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="545">Straight-leg raise range — each leg</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="563">Set-up</text>
+<text font-size="11" fill="#0f6e56" x="136" y="563">As card 1: on your back, legs straight, the tested leg</text>
+<text font-size="11" fill="#0f6e56" x="136" y="577">nearest the camera, lens at floor level.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="591">Do</text>
+<text font-size="11" fill="#0f6e56" x="136" y="591">Raise the straight leg as far as it goes by itself, the</text>
+<text font-size="11" fill="#0f6e56" x="136" y="605">other leg flat on the mat; don't force the knee straight.</text>
+<text font-size="11" fill="#0f6e56" x="136" y="619">Hold 2 s; lower. 3 tries per leg.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="633">Read</text>
+<text font-size="11" fill="#0f6e56" x="136" y="633">Kinovea, top frame: Angle tool, centre on the hip, one leg</text>
+<text font-size="11" fill="#0f6e56" x="136" y="647">along the mat toward your feet, the other to the ankle.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="661">Write down</text>
+<text font-size="11" fill="#0f6e56" x="136" y="661">The best of 3, per leg. RDL depth stops at 70–80% of it.</text>
+<a href="https://kinovea.readthedocs.io/en/stable/measurement/angle.html" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="676">How to: Kinovea angle tools ↗</text></a>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="545">3 tries per leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="560">Mat · tripod · phone</text>
+<!-- PIC 2 — Straight-leg raise range -->
+<g transform="translate(486,567)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#0f6e56" stroke-width="0.8"/>
+<rect x="10" y="96" width="136" height="4" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<polyline points="57,92 55.2,71.1 53.4,51.2 45.5,51.9" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="31,92 57,92 78,92 98,92 98,84" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="21" cy="89.5" r="5.5" fill="#ffffff" stroke="#555555" stroke-width="1.6"/>
+<path d="M57,92 L68,92 A11 11 0 0 0 68,92 Z" fill="#0f6e56" fill-opacity="0.18" stroke="#0f6e56" stroke-width="1"><animate attributeName="d" dur="8s" repeatCount="indefinite" values="M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z;M57,92 L68,92 A11 11 0 0 0 68,91.6 Z;M57,92 L68,92 A11 11 0 0 0 67.9,90.3 Z;M57,92 L68,92 A11 11 0 0 0 67.4,88.3 Z;M57,92 L68,92 A11 11 0 0 0 66.2,86 Z;M57,92 L68,92 A11 11 0 0 0 64.4,83.9 Z;M57,92 L68,92 A11 11 0 0 0 62.1,82.3 Z;M57,92 L68,92 A11 11 0 0 0 59.8,81.4 Z;M57,92 L68,92 A11 11 0 0 0 57.8,81 Z;M57,92 L68,92 A11 11 0 0 0 56.5,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56,81 Z;M57,92 L68,92 A11 11 0 0 0 56.5,81 Z;M57,92 L68,92 A11 11 0 0 0 57.8,81 Z;M57,92 L68,92 A11 11 0 0 0 59.8,81.4 Z;M57,92 L68,92 A11 11 0 0 0 62.1,82.3 Z;M57,92 L68,92 A11 11 0 0 0 64.4,83.9 Z;M57,92 L68,92 A11 11 0 0 0 66.2,86 Z;M57,92 L68,92 A11 11 0 0 0 67.4,88.3 Z;M57,92 L68,92 A11 11 0 0 0 67.9,90.3 Z;M57,92 L68,92 A11 11 0 0 0 68,91.6 Z;M57,92 L68,92 A11 11 0 0 0 68,92 Z"/></path>
+<polyline points="57,92 78,92 98,92 98,84" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="8s" repeatCount="indefinite" values="57,92 78,92 98,92 98,84;57,92 78,92 98,92 98,84;57,92 78,92 98,92 98,84;57,92 78,92 98,92 98,84;57,92 78,91.1 98,90.3 97.6,82.3;57,92 77.7,88.7 97.5,85.5 96.2,77.6;57,92 76.8,85 95.6,78.3 92.9,70.7;57,92 74.6,80.6 91.5,69.8 87.1,63.1;57,92 71.2,76.5 84.7,61.8 78.8,56.4;57,92 66.8,73.4 76.1,55.7 69.1,52;57,92 62.3,71.7 67.3,52.3 59.6,50.3;57,92 58.5,71.1 59.9,51.1 51.9,50.5;57,92 56,71 55.1,51 47.1,51.4;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 55.2,71.1 53.4,51.2 45.5,51.9;57,92 56,71 55.1,51 47.1,51.4;57,92 58.5,71.1 59.9,51.1 51.9,50.5;57,92 62.3,71.7 67.3,52.3 59.6,50.3;57,92 66.8,73.4 76.1,55.7 69.1,52;57,92 71.2,76.5 84.7,61.8 78.8,56.4;57,92 74.6,80.6 91.5,69.8 87.1,63.1;57,92 76.8,85 95.6,78.3 92.9,70.7;57,92 77.7,88.7 97.5,85.5 96.2,77.6;57,92 78,91.1 98,90.3 97.6,82.3;57,92 78,92 98,92 98,84"/></polyline>
+<polyline points="57,92 85,92" fill="none" stroke="#0f6e56" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="57" cy="92" r="2.4" fill="#0f6e56"/>
+<circle cx="98" cy="92" r="2.4" fill="#0f6e56" stroke="#0f6e56" stroke-width="0.5"><animate attributeName="cx" dur="8s" repeatCount="indefinite" values="98;98;98;98;98;97.5;95.6;91.5;84.7;76.1;67.3;59.9;55.1;53.4;53.4;53.4;53.4;53.4;53.4;53.4;53.4;55.1;59.9;67.3;76.1;84.7;91.5;95.6;97.5;98;98"/><animate attributeName="cy" dur="8s" repeatCount="indefinite" values="92;92;92;92;90.3;85.5;78.3;69.8;61.8;55.7;52.3;51.1;51;51.2;51.2;51.2;51.2;51.2;51.2;51.2;51.2;51;51.1;52.3;55.7;61.8;69.8;78.3;85.5;90.3;92"/></circle>
+<text font-size="9" fill="#0f6e56" x="86" y="34">knee straight,</text>
+<text font-size="9" fill="#0f6e56" x="86" y="43">not forced</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="112">dots: hip · ankle · mat line</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">side view · lens at floor</text>
+</g>
+</g>
+
+<g transform="translate(0,-262)">
+<!-- A3 — Hip side-lift range -->
+<rect x="30" y="713" width="8" height="189" rx="2" fill="#085041"/>
+<rect x="38" y="713" width="612" height="189" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="729">3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="729">Hip side-lift range, standing — each leg</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="747">Set-up</text>
+<text font-size="11" fill="#0f6e56" x="136" y="747">Stand facing the camera, 2 m away, lens at hip height, one</text>
+<text font-size="11" fill="#0f6e56" x="136" y="761">hand on the frame, feet together, belt line level.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="775">Do</text>
+<text font-size="11" fill="#0f6e56" x="136" y="775">Lift the straight leg out to the side as far as it goes by</text>
+<text font-size="11" fill="#0f6e56" x="136" y="789">itself, toes forward, pelvis and trunk still. Hold 2 s;</text>
+<text font-size="11" fill="#0f6e56" x="136" y="803">lower. A try whose belt line tilts doesn't count. 3 tries</text>
+<text font-size="11" fill="#0f6e56" x="136" y="817">per leg.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="831">Read</text>
+<text font-size="11" fill="#0f6e56" x="136" y="831">Kinovea, top frame: Angle-to-vertical tool along the lifted</text>
+<text font-size="11" fill="#0f6e56" x="136" y="845">leg, hip to ankle.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="859">Write down</text>
+<text font-size="11" fill="#0f6e56" x="136" y="859">The best of 3, per leg. Training limit: 70–80% of it (hip</text>
+<text font-size="11" fill="#0f6e56" x="136" y="873">machine, banded hip work).</text>
+<a href="https://kinovea.readthedocs.io/en/stable/measurement/angle.html" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="888">How to: Kinovea angle tools ↗</text></a>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="729">3 tries per leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="744">Frame · tripod · phone</text>
+<!-- PIC 3 — Hip side-lift range -->
+<g transform="translate(486,751)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#0f6e56" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<line x1="36" y1="24" x2="36" y2="100" stroke="#b8b8b8" stroke-width="2.4"/>
+<polyline points="74,62 86.2,76.6 98.4,91.1" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="66,100 66,81 66,62" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="61,35 79,35 75,62 65,62" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="27" r="6" fill="#ffffff" stroke="#555555" stroke-width="1.6"/>
+<polyline points="62,37 49,47 37,52" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="78,37 81,49 82,60" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="74,62 74,100" fill="none" stroke="#0f6e56" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74,62 L74,74 A12 12 0 0 0 74,74 Z" fill="#0f6e56" fill-opacity="0.18" stroke="#0f6e56" stroke-width="1"><animate attributeName="d" dur="8s" repeatCount="indefinite" values="M74,62 L74,74 A12 12 0 0 0 74,74 Z;M74,62 L74,74 A12 12 0 0 0 74,74 Z;M74,62 L74,74 A12 12 0 0 0 74,74 Z;M74,62 L74,74 A12 12 0 0 0 74,74 Z;M74,62 L74,74 A12 12 0 0 0 74.2,74 Z;M74,62 L74,74 A12 12 0 0 0 74.8,74 Z;M74,62 L74,74 A12 12 0 0 0 75.7,73.9 Z;M74,62 L74,74 A12 12 0 0 0 76.9,73.7 Z;M74,62 L74,74 A12 12 0 0 0 78.1,73.3 Z;M74,62 L74,74 A12 12 0 0 0 79.3,72.8 Z;M74,62 L74,74 A12 12 0 0 0 80.3,72.2 Z;M74,62 L74,74 A12 12 0 0 0 81.1,71.7 Z;M74,62 L74,74 A12 12 0 0 0 81.6,71.3 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.7,71.2 Z;M74,62 L74,74 A12 12 0 0 0 81.6,71.3 Z;M74,62 L74,74 A12 12 0 0 0 81.1,71.7 Z;M74,62 L74,74 A12 12 0 0 0 80.3,72.2 Z;M74,62 L74,74 A12 12 0 0 0 79.3,72.8 Z;M74,62 L74,74 A12 12 0 0 0 78.1,73.3 Z;M74,62 L74,74 A12 12 0 0 0 76.9,73.7 Z;M74,62 L74,74 A12 12 0 0 0 75.7,73.9 Z;M74,62 L74,74 A12 12 0 0 0 74.8,74 Z;M74,62 L74,74 A12 12 0 0 0 74.2,74 Z;M74,62 L74,74 A12 12 0 0 0 74,74 Z"/></path>
+<polyline points="74,62 74,81 74,100" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="8s" repeatCount="indefinite" values="74,62 74,81 74,100;74,62 74,81 74,100;74,62 74,81 74,100;74,62 74,81 74,100;74,62 74.3,81 74.6,100;74,62 75.3,81 76.5,99.9;74,62 76.7,80.8 79.4,99.6;74,62 78.5,80.4 83.1,98.9;74,62 80.5,79.9 87,97.7;74,62 82.4,79.1 90.8,96.1;74,62 84,78.2 94,94.3;74,62 85.2,77.3 96.4,92.7;74,62 86,76.8 97.9,91.5;74,62 86.2,76.6 98.4,91.1;74,62 86.2,76.6 98.4,91.1;74,62 86.2,76.6 98.4,91.1;74,62 86.2,76.6 98.4,91.1;74,62 86.2,76.6 98.4,91.1;74,62 86.2,76.6 98.4,91.1;74,62 86.2,76.6 98.4,91.1;74,62 86.2,76.6 98.4,91.1;74,62 86,76.8 97.9,91.5;74,62 85.2,77.3 96.4,92.7;74,62 84,78.2 94,94.3;74,62 82.4,79.1 90.8,96.1;74,62 80.5,79.9 87,97.7;74,62 78.5,80.4 83.1,98.9;74,62 76.7,80.8 79.4,99.6;74,62 75.3,81 76.5,99.9;74,62 74.3,81 74.6,100;74,62 74,81 74,100"/></polyline>
+<circle cx="74" cy="62" r="2.4" fill="#0f6e56"/>
+<circle cx="74" cy="100" r="2.4" fill="#0f6e56" stroke="#0f6e56" stroke-width="0.5"><animate attributeName="cx" dur="8s" repeatCount="indefinite" values="74;74;74;74;74.6;76.5;79.4;83.1;87;90.8;94;96.4;97.9;98.4;98.4;98.4;98.4;98.4;98.4;98.4;98.4;97.9;96.4;94;90.8;87;83.1;79.4;76.5;74.6;74"/><animate attributeName="cy" dur="8s" repeatCount="indefinite" values="100;100;100;100;100;99.9;99.6;98.9;97.7;96.1;94.3;92.7;91.5;91.1;91.1;91.1;91.1;91.1;91.1;91.1;91.1;91.5;92.7;94.3;96.1;97.7;98.9;99.6;99.9;100;100"/></circle>
+<text font-size="9" fill="#0f6e56" x="92" y="40">belt line</text>
+<text font-size="9" fill="#0f6e56" x="92" y="49">stays level</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="112">angle: vertical → leg</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">front view · lens at hip</text>
+</g>
+</g>
+
+<g transform="translate(680,-457)">
+<!-- A4 — Knee range -->
+<rect x="30" y="908" width="8" height="189" rx="2" fill="#26215c"/>
+<rect x="38" y="908" width="612" height="189" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="924">4</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="924">Knee range — each leg</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="942">Set-up</text>
+<text font-size="11" fill="#3c3489" x="136" y="942">Lie on your back, legs straight, side-on, lens at floor</text>
+<text font-size="11" fill="#3c3489" x="136" y="956">level, the tested leg nearest the camera.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="970">Do</text>
+<text font-size="11" fill="#3c3489" x="136" y="970">Tighten the thigh to straighten the knee fully; hold 2 s.</text>
+<text font-size="11" fill="#3c3489" x="136" y="984">Then slide the heel along the mat toward your buttock as far</text>
+<text font-size="11" fill="#3c3489" x="136" y="998">as it goes by itself; hold 2 s. 3 tries per leg.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="1012">Read</text>
+<text font-size="11" fill="#3c3489" x="136" y="1012">Kinovea, both end frames: Angle tool, centre on the knee,</text>
+<text font-size="11" fill="#3c3489" x="136" y="1026">legs to the hip and the ankle.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="1040">Write down</text>
+<text font-size="11" fill="#3c3489" x="136" y="1040">Both numbers per leg, and whether the heel lifts off the mat</text>
+<text font-size="11" fill="#3c3489" x="136" y="1054">as you straighten (= the knee bows past straight: yes/no).</text>
+<a href="https://kinovea.readthedocs.io/en/stable/measurement/angle.html" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="1069">How to: Kinovea angle tools ↗</text></a>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="924">3 tries per leg</text>
+<text font-size="11" fill="#3c3489" x="490" y="939">Mat · tripod · phone</text>
+<!-- PIC 4 — Knee range -->
+<g transform="translate(486,946)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#534ab7" stroke-width="0.8"/>
+<rect x="10" y="96" width="136" height="4" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<polyline points="57,92 65.5,72.8 71.1,92 78.7,89.8" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="31,92 57,92 78,92 98,92 98,84" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="21" cy="89.5" r="5.5" fill="#ffffff" stroke="#555555" stroke-width="1.6"/>
+<path d="M78,92 L71,92 A7 7 0 0 0 85,92 Z" fill="#534ab7" fill-opacity="0.18" stroke="#534ab7" stroke-width="1"><animate attributeName="d" dur="10s" repeatCount="indefinite" values="M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z;M78,91.2 L71,91.5 A7 7 0 0 0 85,91.5 Z;M77.8,89.1 L70.9,90.1 A7 7 0 0 0 84.7,90.1 Z;M77.1,85.8 L70.4,87.9 A7 7 0 0 0 83.7,88 Z;M75.5,82.1 L69.3,85.4 A7 7 0 0 0 81.6,85.6 Z;M73.1,78.5 L67.7,83 A7 7 0 0 0 78.3,83.3 Z;M70.3,75.8 L65.9,81.2 A7 7 0 0 0 74.4,81.4 Z;M67.8,74 L64.2,80 A7 7 0 0 0 70.8,80.3 Z;M66.1,73.1 L63,79.4 A7 7 0 0 0 68.3,79.7 Z;M65.5,72.8 L62.7,79.2 A7 7 0 0 0 67.4,79.5 Z;M65.5,72.8 L62.7,79.2 A7 7 0 0 0 67.4,79.5 Z;M65.5,72.8 L62.7,79.2 A7 7 0 0 0 67.4,79.5 Z;M65.5,72.8 L62.7,79.2 A7 7 0 0 0 67.4,79.5 Z;M65.5,72.8 L62.7,79.2 A7 7 0 0 0 67.4,79.5 Z;M65.5,72.8 L62.7,79.2 A7 7 0 0 0 67.4,79.5 Z;M65.5,72.8 L62.7,79.2 A7 7 0 0 0 67.4,79.5 Z;M66.4,73.2 L63.3,79.5 A7 7 0 0 0 68.9,79.8 Z;M69.1,74.9 L65.1,80.6 A7 7 0 0 0 72.7,80.9 Z;M72.7,78.1 L67.5,82.7 A7 7 0 0 0 77.8,83 Z;M75.8,82.6 L69.5,85.8 A7 7 0 0 0 82,85.9 Z;M77.5,87.3 L70.6,88.9 A7 7 0 0 0 84.3,89 Z;M78,90.8 L71,91.2 A7 7 0 0 0 85,91.2 Z;M78,92 L71,92 A7 7 0 0 0 85,92 Z"/></path>
+<polyline points="57,92 78,92 98,92 98,84" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="10s" repeatCount="indefinite" values="57,92 78,92 98,92 98,84;57,92 78,92 98,91.6 97.8,83.6;57,92 78,92 98,90.7 97.4,82.7;57,92 78,92 97.9,90.3 97.2,82.3;57,92 78,92 97.9,90.3 97.2,82.3;57,92 78,92 97.9,90.3 97.2,82.3;57,92 78,92 98,90.7 97.4,82.7;57,92 78,92 98,91.6 97.8,83.6;57,92 78,92 98,92 98,84;57,92 78,91.2 98,92 98.3,84;57,92 77.8,89.1 97.6,92 98.7,84.1;57,92 77.1,85.8 96.1,92 98.6,84.4;57,92 75.5,82.1 92.9,92 96.9,85.1;57,92 73.1,78.5 87.9,92 93.3,86.1;57,92 70.3,75.8 82,92 88.5,87.3;57,92 67.8,74 76.4,92 83.6,88.5;57,92 66.1,73.1 72.5,92 80,89.4;57,92 65.5,72.8 71.1,92 78.7,89.8;57,92 65.5,72.8 71.1,92 78.7,89.8;57,92 65.5,72.8 71.1,92 78.7,89.8;57,92 65.5,72.8 71.1,92 78.7,89.8;57,92 65.5,72.8 71.1,92 78.7,89.8;57,92 65.5,72.8 71.1,92 78.7,89.8;57,92 65.5,72.8 71.1,92 78.7,89.8;57,92 66.4,73.2 73.4,92 80.9,89.2;57,92 69.1,74.9 79.5,92 86.3,87.9;57,92 72.7,78.1 87.1,92 92.7,86.3;57,92 75.8,82.6 93.5,92 97.2,84.9;57,92 77.5,87.3 96.9,92 98.8,84.2;57,92 78,90.8 97.9,92 98.4,84;57,92 78,92 98,92 98,84"/></polyline>
+<circle cx="57" cy="92" r="2.4" fill="#534ab7"/>
+<circle cx="78" cy="92" r="2.4" fill="#534ab7" stroke="#534ab7" stroke-width="0.5"><animate attributeName="cx" dur="10s" repeatCount="indefinite" values="78;78;78;78;78;78;78;78;78;78;77.8;77.1;75.5;73.1;70.3;67.8;66.1;65.5;65.5;65.5;65.5;65.5;65.5;65.5;66.4;69.1;72.7;75.8;77.5;78;78"/><animate attributeName="cy" dur="10s" repeatCount="indefinite" values="92;92;92;92;92;92;92;92;92;91.2;89.1;85.8;82.1;78.5;75.8;74;73.1;72.8;72.8;72.8;72.8;72.8;72.8;72.8;73.2;74.9;78.1;82.6;87.3;90.8;92"/></circle>
+<circle cx="98" cy="92" r="2.4" fill="#534ab7" stroke="#534ab7" stroke-width="0.5"><animate attributeName="cx" dur="10s" repeatCount="indefinite" values="98;98;98;97.9;97.9;97.9;98;98;98;98;97.6;96.1;92.9;87.9;82;76.4;72.5;71.1;71.1;71.1;71.1;71.1;71.1;71.1;73.4;79.5;87.1;93.5;96.9;97.9;98"/><animate attributeName="cy" dur="10s" repeatCount="indefinite" values="92;91.6;90.7;90.3;90.3;90.3;90.7;91.6;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92;92"/></circle>
+<text font-size="9" fill="#534ab7" x="92" y="60">heel lifts =</text>
+<text font-size="9" fill="#534ab7" x="92" y="69">past straight</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="112">dots: hip · knee · ankle</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">side view · lens at floor</text>
+</g>
+</g>
+
+<g transform="translate(0,-446)">
+<!-- A5 — Knee-to-wall lunge -->
+<rect x="30" y="1092" width="8" height="217" rx="2" fill="#185fa5"/>
+<rect x="38" y="1092" width="612" height="217" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1108">5</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1108">Knee-to-wall lunge (ankle range) — each leg</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1126">Set-up</text>
+<text font-size="11" fill="#185fa5" x="136" y="1126">Barefoot, face the wall, tested foot pointing straight at</text>
+<text font-size="11" fill="#185fa5" x="136" y="1140">it, toes ~10 cm away, the other foot a step behind, hands on</text>
+<text font-size="11" fill="#185fa5" x="136" y="1154">the wall. Lens side-on at shin height, tested leg nearest</text>
+<text font-size="11" fill="#185fa5" x="136" y="1168">the camera.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1182">Do</text>
+<text font-size="11" fill="#185fa5" x="136" y="1182">Bend the front knee slowly to touch the wall, heel flat,</text>
+<text font-size="11" fill="#185fa5" x="136" y="1196">knee over the second toe; hold 2 s. If it touches, move the</text>
+<text font-size="11" fill="#185fa5" x="136" y="1210">foot back 1 cm and repeat; stop at the last touch with the</text>
+<text font-size="11" fill="#185fa5" x="136" y="1224">heel down. No bounce.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1238">Read</text>
+<text font-size="11" fill="#185fa5" x="136" y="1238">Kinovea, the last clean touch: Angle-to-vertical tool along</text>
+<text font-size="11" fill="#185fa5" x="136" y="1252">the shin, ankle to knee.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1266">Write down</text>
+<text font-size="11" fill="#185fa5" x="136" y="1266">That angle and the toe-to-wall gap (cm), per leg. Training</text>
+<text font-size="11" fill="#185fa5" x="136" y="1280">limit: 70–80% of the angle.</text>
+<a href="https://kinovea.readthedocs.io/en/stable/measurement/angle.html" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="1295">How to: Kinovea angle tools ↗</text></a>
+<a href="https://www.youtube.com/watch?v=U7woPNLUT3Q" target="_blank"><text font-size="10" fill="#185fa5" x="233" y="1295">Video: Physiotutors, wall test ↗</text></a>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="1108">1 cm steps, per leg</text>
+<text font-size="11" fill="#185fa5" x="490" y="1123">Wall · tape measure · tripod</text>
+<!-- PIC 5 — Knee-to-wall lunge -->
+<g transform="translate(486,1130)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#378add" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<line x1="114" y1="10" x2="114" y2="100" stroke="#b8b8b8" stroke-width="2.4"/>
+<polyline points="72,100 66,96 85.3,90.8 95.1,72.2" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="107,100 100,100 112.3,84.2 95.1,72.2 101.4,47" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="72,100 66,96 81.8,83.7 89.3,64.1" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="8s" repeatCount="indefinite" values="72,100 66,96 81.8,83.7 89.3,64.1;72,100 66,96 81.8,83.7 89.3,64.1;72,100 66,96 81.8,83.7 89.3,64.1;72,100 66,96 81.8,83.7 89.3,64.1;72,100 66,96 81.9,83.8 89.4,64.2;72,100 66,96 82.1,84.1 89.9,64.6;72,100 66,96 82.5,84.7 90.6,65.3;72,100 66,96 83,85.5 91.4,66.2;72,100 66,96 83.6,86.5 92.3,67.4;72,100 66,96 84.2,87.7 93.2,68.7;72,100 66,96 84.7,88.9 94,70;72,100 66,96 85,89.9 94.6,71.2;72,100 66,96 85.2,90.5 95,71.9;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.3,90.8 95.1,72.2;72,100 66,96 85.2,90.5 95,71.9;72,100 66,96 85,89.9 94.6,71.2;72,100 66,96 84.7,88.9 94,70;72,100 66,96 84.2,87.7 93.2,68.7;72,100 66,96 83.6,86.5 92.3,67.4;72,100 66,96 83,85.5 91.4,66.2;72,100 66,96 82.5,84.7 90.6,65.3;72,100 66,96 82.1,84.1 89.9,64.6;72,100 66,96 81.9,83.8 89.4,64.2;72,100 66,96 81.8,83.7 89.3,64.1"/></polyline>
+<polyline points="107,100 100,100 102.8,80.2 89.3,64.1 92.9,38.4" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="8s" repeatCount="indefinite" values="107,100 100,100 102.8,80.2 89.3,64.1 92.9,38.4;107,100 100,100 102.8,80.2 89.3,64.1 92.9,38.4;107,100 100,100 102.8,80.2 89.3,64.1 92.9,38.4;107,100 100,100 102.8,80.2 89.3,64.1 92.9,38.4;107,100 100,100 103,80.2 89.4,64.2 93.1,38.5;107,100 100,100 103.8,80.4 89.9,64.6 93.7,38.9;107,100 100,100 104.9,80.6 90.6,65.3 94.7,39.6;107,100 100,100 106.3,81 91.4,66.2 96,40.6;107,100 100,100 107.8,81.6 92.3,67.4 97.3,41.9;107,100 100,100 109.3,82.3 93.2,68.7 98.6,43.3;107,100 100,100 110.5,83 94,70 99.8,44.7;107,100 100,100 111.5,83.6 94.6,71.2 100.7,45.9;107,100 100,100 112.1,84.1 95,71.9 101.2,46.7;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.3,84.2 95.1,72.2 101.4,47;107,100 100,100 112.1,84.1 95,71.9 101.2,46.7;107,100 100,100 111.5,83.6 94.6,71.2 100.7,45.9;107,100 100,100 110.5,83 94,70 99.8,44.7;107,100 100,100 109.3,82.3 93.2,68.7 98.6,43.3;107,100 100,100 107.8,81.6 92.3,67.4 97.3,41.9;107,100 100,100 106.3,81 91.4,66.2 96,40.6;107,100 100,100 104.9,80.6 90.6,65.3 94.7,39.6;107,100 100,100 103.8,80.4 89.9,64.6 93.7,38.9;107,100 100,100 103,80.2 89.4,64.2 93.1,38.5;107,100 100,100 102.8,80.2 89.3,64.1 92.9,38.4"/></polyline>
+<circle cx="94" cy="30.7" r="5.5" fill="#ffffff" stroke="#555555" stroke-width="1.6"><animate attributeName="cx" dur="8s" repeatCount="indefinite" values="94;94;94;94;94.2;94.9;96;97.3;98.8;100.2;101.5;102.4;103.1;103.3;103.3;103.3;103.3;103.3;103.3;103.3;103.3;103.1;102.4;101.5;100.2;98.8;97.3;96;94.9;94.2;94"/><animate attributeName="cy" dur="8s" repeatCount="indefinite" values="30.7;30.7;30.7;30.7;30.9;31.3;32;33;34.3;35.8;37.2;38.4;39.2;39.5;39.5;39.5;39.5;39.5;39.5;39.5;39.5;39.2;38.4;37.2;35.8;34.3;33;32;31.3;30.9;30.7"/></circle>
+<polyline points="92.9,38.4 100.8,49.9 112.5,44.4" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="8s" repeatCount="indefinite" values="92.9,38.4 100.8,49.9 112.5,44.4;92.9,38.4 100.8,49.9 112.5,44.4;92.9,38.4 100.8,49.9 112.5,44.4;92.9,38.4 100.8,49.9 112.5,44.4;93.1,38.5 100.8,50.2 112.5,44.5;93.7,38.9 101,50.9 112.5,44.9;94.7,39.6 101.2,52 112.5,45.6;96,40.6 101.5,53.5 112.5,46.6;97.3,41.9 101.7,55.2 112.5,47.9;98.6,43.3 101.9,56.9 112.5,49.3;99.8,44.7 102.1,58.5 112.5,50.7;100.7,45.9 102.2,59.8 112.5,51.9;101.2,46.7 102.2,60.6 112.5,52.7;101.4,47 102.2,60.9 112.5,53;101.4,47 102.2,60.9 112.5,53;101.4,47 102.2,60.9 112.5,53;101.4,47 102.2,60.9 112.5,53;101.4,47 102.2,60.9 112.5,53;101.4,47 102.2,60.9 112.5,53;101.4,47 102.2,60.9 112.5,53;101.4,47 102.2,60.9 112.5,53;101.2,46.7 102.2,60.6 112.5,52.7;100.7,45.9 102.2,59.8 112.5,51.9;99.8,44.7 102.1,58.5 112.5,50.7;98.6,43.3 101.9,56.9 112.5,49.3;97.3,41.9 101.7,55.2 112.5,47.9;96,40.6 101.5,53.5 112.5,46.6;94.7,39.6 101.2,52 112.5,45.6;93.7,38.9 101,50.9 112.5,44.9;93.1,38.5 100.8,50.2 112.5,44.5;92.9,38.4 100.8,49.9 112.5,44.4"/></polyline>
+<polyline points="100,100 100,76" fill="none" stroke="#378add" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100,100 L100,90 A10 10 0 0 1 101.4,90.1 Z" fill="#378add" fill-opacity="0.18" stroke="#378add" stroke-width="1"><animate attributeName="d" dur="8s" repeatCount="indefinite" values="M100,100 L100,90 A10 10 0 0 1 101.4,90.1 Z;M100,100 L100,90 A10 10 0 0 1 101.4,90.1 Z;M100,100 L100,90 A10 10 0 0 1 101.4,90.1 Z;M100,100 L100,90 A10 10 0 0 1 101.4,90.1 Z;M100,100 L100,90 A10 10 0 0 1 101.5,90.1 Z;M100,100 L100,90 A10 10 0 0 1 101.9,90.2 Z;M100,100 L100,90 A10 10 0 0 1 102.5,90.3 Z;M100,100 L100,90 A10 10 0 0 1 103.2,90.5 Z;M100,100 L100,90 A10 10 0 0 1 103.9,90.8 Z;M100,100 L100,90 A10 10 0 0 1 104.6,91.1 Z;M100,100 L100,90 A10 10 0 0 1 105.3,91.5 Z;M100,100 L100,90 A10 10 0 0 1 105.8,91.8 Z;M100,100 L100,90 A10 10 0 0 1 106.1,92 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.2,92.1 Z;M100,100 L100,90 A10 10 0 0 1 106.1,92 Z;M100,100 L100,90 A10 10 0 0 1 105.8,91.8 Z;M100,100 L100,90 A10 10 0 0 1 105.3,91.5 Z;M100,100 L100,90 A10 10 0 0 1 104.6,91.1 Z;M100,100 L100,90 A10 10 0 0 1 103.9,90.8 Z;M100,100 L100,90 A10 10 0 0 1 103.2,90.5 Z;M100,100 L100,90 A10 10 0 0 1 102.5,90.3 Z;M100,100 L100,90 A10 10 0 0 1 101.9,90.2 Z;M100,100 L100,90 A10 10 0 0 1 101.5,90.1 Z;M100,100 L100,90 A10 10 0 0 1 101.4,90.1 Z"/></path>
+<circle cx="100" cy="100" r="2.4" fill="#378add"/>
+<circle cx="102.8" cy="80.2" r="2.4" fill="#378add" stroke="#378add" stroke-width="0.5"><animate attributeName="cx" dur="8s" repeatCount="indefinite" values="102.8;102.8;102.8;102.8;103;103.8;104.9;106.3;107.8;109.3;110.5;111.5;112.1;112.3;112.3;112.3;112.3;112.3;112.3;112.3;112.3;112.1;111.5;110.5;109.3;107.8;106.3;104.9;103.8;103;102.8"/><animate attributeName="cy" dur="8s" repeatCount="indefinite" values="80.2;80.2;80.2;80.2;80.2;80.4;80.6;81;81.6;82.3;83;83.6;84.1;84.2;84.2;84.2;84.2;84.2;84.2;84.2;84.2;84.1;83.6;83;82.3;81.6;81;80.6;80.4;80.2;80.2"/></circle>
+<line x1="107" y1="102" x2="107" y2="106" stroke="#378add" stroke-width="1.6"/>
+<line x1="114" y1="102" x2="114" y2="106" stroke="#378add" stroke-width="1.6"/>
+<line x1="107" y1="104" x2="114" y2="104" stroke="#378add" stroke-width="1" stroke-dasharray="2 2"/>
+<text font-size="9" fill="#378add" x="118" y="107">gap, cm</text>
+<text font-size="9" fill="#378add" x="8" y="24">heel down,</text>
+<text font-size="9" fill="#378add" x="8" y="33">knee to wall</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="112">dots: ankle · knee</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">side view · lens at shin</text>
+</g>
+</g>
+
+<!-- ── B CONTROL TESTS ── -->
+<rect x="30" y="877" width="1300" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="893">B — Session 1: Control tests  (~15 min · each clean or not · film every one)</text>
+
+
+<g transform="translate(0,-446)">
+<!-- B6 — Step-down -->
+<rect x="30" y="1357" width="8" height="178" rx="2" fill="#26215c"/>
+<rect x="38" y="1357" width="612" height="178" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1373">6</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="1373">Step-down — each leg</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="1391">Set-up</text>
+<text font-size="11" fill="#3c3489" x="136" y="1391">Barefoot on the 20 cm box, tested foot near its edge, the</text>
+<text font-size="11" fill="#3c3489" x="136" y="1405">other leg hanging beside it, hands on hips. Camera in front,</text>
+<text font-size="11" fill="#3c3489" x="136" y="1419">2 m, lens at knee height. Metronome 60: 2 beats down, 2 up.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="1433">Do</text>
+<text font-size="11" fill="#3c3489" x="136" y="1433">Bend the standing knee slowly until the other heel just</text>
+<text font-size="11" fill="#3c3489" x="136" y="1447">touches the floor, no weight on it, then straighten, knee</text>
+<text font-size="11" fill="#3c3489" x="136" y="1461">soft at the top. 10 reps per leg.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="1475">Fail if</text>
+<text font-size="11" fill="#3c3489" x="136" y="1475">On any rep the knee drifts inside the second toe (valgus) or</text>
+<text font-size="11" fill="#3c3489" x="136" y="1489">the pelvis drops on the free side; any pain.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="1503">Write down</text>
+<text font-size="11" fill="#3c3489" x="136" y="1503">Clean or not, per leg.</text>
+<a href="https://www.youtube.com/watch?v=0XplbMnHcOs" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="1518">Video: Professional Seminars, lateral step-down ↗</text></a>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="1373">10 reps per leg</text>
+<text font-size="11" fill="#3c3489" x="490" y="1388">20 cm box · tripod</text>
+<!-- PIC 6 — Step-down -->
+<g transform="translate(486,1395)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#534ab7" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<rect x="44" y="88" width="30" height="12" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<polyline points="76,60 76.5,80 77,100" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="59,34 81,34 77,60 63,60" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="26" r="6" fill="none" stroke="#d4d4d4" stroke-width="1.6"/>
+<polyline points="64,88 64,68 64,48" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="64,88 64,68 64,48;64,88 64,68.1 64,48.1;64,88 64,68.3 64,48.5;64,88 64,68.6 64,49.1;64,88 64,69 64,50;64,88 64,69.5 64,51;64,88 64,70.1 64,52.1;64,88 64,70.7 64,53.4;64,88 64,71.3 64,54.6;64,88 64,71.9 64,55.9;64,88 64,72.5 64,57;64,88 64,73 64,58;64,88 64,73.4 64,58.9;64,88 64,73.7 64,59.5;64,88 64,73.9 64,59.9;64,88 64,74 64,60;64,88 64,73.9 64,59.9;64,88 64,73.7 64,59.5;64,88 64,73.4 64,58.9;64,88 64,73 64,58;64,88 64,72.5 64,57;64,88 64,71.9 64,55.9;64,88 64,71.3 64,54.6;64,88 64,70.7 64,53.4;64,88 64,70.1 64,52.1;64,88 64,69.5 64,51;64,88 64,69 64,50;64,88 64,68.6 64,49.1;64,88 64,68.3 64,48.5;64,88 64,68.1 64,48.1;64,88 64,68 64,48"/></polyline>
+<polyline points="76,48 76.5,68 77,88" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="76,48 76.5,68 77,88;76,48.1 76.5,68.1 77,88.1;76,48.5 76.5,68.5 77,88.5;76,49.1 76.5,69.1 77,89.1;76,50 76.5,70 77,90;76,51 76.5,71 77,91;76,52.1 76.5,72.1 77,92.1;76,53.4 76.5,73.4 77,93.4;76,54.6 76.5,74.6 77,94.6;76,55.9 76.5,75.9 77,95.9;76,57 76.5,77 77,97;76,58 76.5,78 77,98;76,58.9 76.5,78.9 77,98.9;76,59.5 76.5,79.5 77,99.5;76,59.9 76.5,79.9 77,99.9;76,60 76.5,80 77,100;76,59.9 76.5,79.9 77,99.9;76,59.5 76.5,79.5 77,99.5;76,58.9 76.5,78.9 77,98.9;76,58 76.5,78 77,98;76,57 76.5,77 77,97;76,55.9 76.5,75.9 77,95.9;76,54.6 76.5,74.6 77,94.6;76,53.4 76.5,73.4 77,93.4;76,52.1 76.5,72.1 77,92.1;76,51 76.5,71 77,91;76,50 76.5,70 77,90;76,49.1 76.5,69.1 77,89.1;76,48.5 76.5,68.5 77,88.5;76,48.1 76.5,68.1 77,88.1;76,48 76.5,68 77,88"/></polyline>
+<polygon points="59,22 81,22 77,48 63,48" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="59,22 81,22 77,48 63,48;59,22.1 81,22.1 77,48.1 63,48.1;59,22.5 81,22.5 77,48.5 63,48.5;59,23.1 81,23.1 77,49.1 63,49.1;59,24 81,24 77,50 63,50;59,25 81,25 77,51 63,51;59,26.1 81,26.1 77,52.1 63,52.1;59,27.4 81,27.4 77,53.4 63,53.4;59,28.6 81,28.6 77,54.6 63,54.6;59,29.9 81,29.9 77,55.9 63,55.9;59,31 81,31 77,57 63,57;59,32 81,32 77,58 63,58;59,32.9 81,32.9 77,58.9 63,58.9;59,33.5 81,33.5 77,59.5 63,59.5;59,33.9 81,33.9 77,59.9 63,59.9;59,34 81,34 77,60 63,60;59,33.9 81,33.9 77,59.9 63,59.9;59,33.5 81,33.5 77,59.5 63,59.5;59,32.9 81,32.9 77,58.9 63,58.9;59,32 81,32 77,58 63,58;59,31 81,31 77,57 63,57;59,29.9 81,29.9 77,55.9 63,55.9;59,28.6 81,28.6 77,54.6 63,54.6;59,27.4 81,27.4 77,53.4 63,53.4;59,26.1 81,26.1 77,52.1 63,52.1;59,25 81,25 77,51 63,51;59,24 81,24 77,50 63,50;59,23.1 81,23.1 77,49.1 63,49.1;59,22.5 81,22.5 77,48.5 63,48.5;59,22.1 81,22.1 77,48.1 63,48.1;59,22 81,22 77,48 63,48"/></polygon>
+<circle cx="70" cy="14" r="6" fill="#ffffff" stroke="#555555" stroke-width="1.6"><animate attributeName="cy" dur="4s" repeatCount="indefinite" values="14;14.1;14.5;15.1;16;17;18.1;19.4;20.6;21.9;23;24;24.9;25.5;25.9;26;25.9;25.5;24.9;24;23;21.9;20.6;19.4;18.1;17;16;15.1;14.5;14.1;14"/></circle>
+<polyline points="60,24 54,36 63,46" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="60,24 54,36 63,46;60,24.1 54,36.1 63,46.1;60,24.5 54,36.5 63,46.5;60,25.1 54,37.1 63,47.1;60,26 54,38 63,48;60,27 54,39 63,49;60,28.1 54,40.1 63,50.1;60,29.4 54,41.4 63,51.4;60,30.6 54,42.6 63,52.6;60,31.9 54,43.9 63,53.9;60,33 54,45 63,55;60,34 54,46 63,56;60,34.9 54,46.9 63,56.9;60,35.5 54,47.5 63,57.5;60,35.9 54,47.9 63,57.9;60,36 54,48 63,58;60,35.9 54,47.9 63,57.9;60,35.5 54,47.5 63,57.5;60,34.9 54,46.9 63,56.9;60,34 54,46 63,56;60,33 54,45 63,55;60,31.9 54,43.9 63,53.9;60,30.6 54,42.6 63,52.6;60,29.4 54,41.4 63,51.4;60,28.1 54,40.1 63,50.1;60,27 54,39 63,49;60,26 54,38 63,48;60,25.1 54,37.1 63,47.1;60,24.5 54,36.5 63,46.5;60,24.1 54,36.1 63,46.1;60,24 54,36 63,46"/></polyline>
+<polyline points="80,24 86,36 77,46" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="80,24 86,36 77,46;80,24.1 86,36.1 77,46.1;80,24.5 86,36.5 77,46.5;80,25.1 86,37.1 77,47.1;80,26 86,38 77,48;80,27 86,39 77,49;80,28.1 86,40.1 77,50.1;80,29.4 86,41.4 77,51.4;80,30.6 86,42.6 77,52.6;80,31.9 86,43.9 77,53.9;80,33 86,45 77,55;80,34 86,46 77,56;80,34.9 86,46.9 77,56.9;80,35.5 86,47.5 77,57.5;80,35.9 86,47.9 77,57.9;80,36 86,48 77,58;80,35.9 86,47.9 77,57.9;80,35.5 86,47.5 77,57.5;80,34.9 86,46.9 77,56.9;80,34 86,46 77,56;80,33 86,45 77,55;80,31.9 86,43.9 77,53.9;80,30.6 86,42.6 77,52.6;80,29.4 86,41.4 77,51.4;80,28.1 86,40.1 77,50.1;80,27 86,39 77,49;80,26 86,38 77,48;80,25.1 86,37.1 77,47.1;80,24.5 86,36.5 77,46.5;80,24.1 86,36.1 77,46.1;80,24 86,36 77,46"/></polyline>
+<polyline points="64,44 64,92" fill="none" stroke="#534ab7" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="56,48 84,48" fill="none" stroke="#534ab7" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="56,48 84,48;56,48.1 84,48.1;56,48.5 84,48.5;56,49.1 84,49.1;56,50 84,50;56,51 84,51;56,52.1 84,52.1;56,53.4 84,53.4;56,54.6 84,54.6;56,55.9 84,55.9;56,57 84,57;56,58 84,58;56,58.9 84,58.9;56,59.5 84,59.5;56,59.9 84,59.9;56,60 84,60;56,59.9 84,59.9;56,59.5 84,59.5;56,58.9 84,58.9;56,58 84,58;56,57 84,57;56,55.9 84,55.9;56,54.6 84,54.6;56,53.4 84,53.4;56,52.1 84,52.1;56,51 84,51;56,50 84,50;56,49.1 84,49.1;56,48.5 84,48.5;56,48.1 84,48.1;56,48 84,48"/></polyline>
+<circle cx="64" cy="68" r="2.4" fill="#534ab7" stroke="#534ab7" stroke-width="0.5"><animate attributeName="cy" dur="4s" repeatCount="indefinite" values="68;68.1;68.3;68.6;69;69.5;70.1;70.7;71.3;71.9;72.5;73;73.4;73.7;73.9;74;73.9;73.7;73.4;73;72.5;71.9;71.3;70.7;70.1;69.5;69;68.6;68.3;68.1;68"/></circle>
+<text font-size="9" fill="#534ab7" x="94" y="58">pelvis level</text>
+<text font-size="9" fill="#534ab7" x="94" y="76">knee over</text>
+<text font-size="9" fill="#534ab7" x="94" y="85">2nd toe</text>
+<circle cx="8" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="1;0.2" keyTimes="0;0.25"/></circle>
+<circle cx="16" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="0.2;1;0.2" keyTimes="0;0.25;0.5"/></circle>
+<circle cx="24" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="0.2;1;0.2" keyTimes="0;0.5;0.75"/></circle>
+<circle cx="32" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="0.2;1" keyTimes="0;0.75"/></circle>
+<text font-size="9" fill="#6f6f6f" x="42" y="111">2 beats down · 2 up</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">in front · lens at knee</text>
+</g>
+</g>
+
+<g transform="translate(680,-630)">
+<!-- B7 — Heel-raise control set -->
+<rect x="30" y="1541" width="8" height="178" rx="2" fill="#185fa5"/>
+<rect x="38" y="1541" width="612" height="178" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1557">7</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1557">Heel-raise control set — each leg</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1575">Set-up</text>
+<text font-size="11" fill="#185fa5" x="136" y="1575">Barefoot on one leg on a flat floor, fingertips on the wall</text>
+<text font-size="11" fill="#185fa5" x="136" y="1589">at shoulder height, knee straight but soft. Camera behind</text>
+<text font-size="11" fill="#185fa5" x="136" y="1603">you, 2 m, lens at ankle height. Metronome 60: up on one</text>
+<text font-size="11" fill="#185fa5" x="136" y="1617">beat, down on the next.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1631">Do</text>
+<text font-size="11" fill="#185fa5" x="136" y="1631">Rise onto the ball of the foot as high as it goes, then</text>
+<text font-size="11" fill="#185fa5" x="136" y="1645">lower to the floor. 10 reps per leg, on the beat.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1659">Fail if</text>
+<text font-size="11" fill="#185fa5" x="136" y="1659">A rep stops short of your first reps' height, the heel</text>
+<text font-size="11" fill="#185fa5" x="136" y="1673">wobbles in or out, a beat is missed, or any pain.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1687">Write down</text>
+<text font-size="11" fill="#185fa5" x="136" y="1687">Clean or not, per leg. Then card 8.</text>
+<a href="https://www.youtube.com/watch?v=O4XF2njh7NA" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="1702">Video: Missy Fraser PhD, single-leg heel raise ↗</text></a>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="1557">10 reps per leg</text>
+<text font-size="11" fill="#185fa5" x="490" y="1572">Wall · tripod</text>
+<!-- PIC 7 — Heel-raise control set -->
+<g transform="translate(486,1579)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#378add" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<polyline points="64,93 64,88 64,69 64,49" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="59,23 79,23 75,49 63,49" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="74,56 75,70 73,79" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="74,56 75,70 73,79;74,55.9 75,69.9 73,78.9;74,55.7 75,69.7 73,78.7;74,55.3 75,69.3 73,78.3;74,54.8 75,68.8 73,77.8;74,54.2 75,68.2 73,77.2;74,53.6 75,67.6 73,76.6;74,52.9 75,66.9 73,75.9;74,52.1 75,66.1 73,75.1;74,51.4 75,65.4 73,74.4;74,50.8 75,64.8 73,73.8;74,50.2 75,64.2 73,73.2;74,49.7 75,63.7 73,72.7;74,49.3 75,63.3 73,72.3;74,49.1 75,63.1 73,72.1;74,49 75,63 73,72;74,49.1 75,63.1 73,72.1;74,49.3 75,63.3 73,72.3;74,49.7 75,63.7 73,72.7;74,50.2 75,64.2 73,73.2;74,50.8 75,64.8 73,73.8;74,51.4 75,65.4 73,74.4;74,52.1 75,66.1 73,75.1;74,52.9 75,66.9 73,75.9;74,53.6 75,67.6 73,76.6;74,54.2 75,68.2 73,77.2;74,54.8 75,68.8 73,77.8;74,55.3 75,69.3 73,78.3;74,55.7 75,69.7 73,78.7;74,55.9 75,69.9 73,78.9;74,56 75,70 73,79"/></polyline>
+<polyline points="64,100 64,95 64,76 64,56" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="64,100 64,95 64,76 64,56;64,99.9 64,94.9 64,75.9 64,55.9;64,99.7 64,94.7 64,75.7 64,55.7;64,99.3 64,94.3 64,75.3 64,55.3;64,98.8 64,93.8 64,74.8 64,54.8;64,98.2 64,93.2 64,74.2 64,54.2;64,97.6 64,92.6 64,73.6 64,53.6;64,96.9 64,91.9 64,72.9 64,52.9;64,96.1 64,91.1 64,72.1 64,52.1;64,95.4 64,90.4 64,71.4 64,51.4;64,94.8 64,89.8 64,70.8 64,50.8;64,94.2 64,89.2 64,70.2 64,50.2;64,93.7 64,88.7 64,69.7 64,49.7;64,93.3 64,88.3 64,69.3 64,49.3;64,93.1 64,88.1 64,69.1 64,49.1;64,93 64,88 64,69 64,49;64,93.1 64,88.1 64,69.1 64,49.1;64,93.3 64,88.3 64,69.3 64,49.3;64,93.7 64,88.7 64,69.7 64,49.7;64,94.2 64,89.2 64,70.2 64,50.2;64,94.8 64,89.8 64,70.8 64,50.8;64,95.4 64,90.4 64,71.4 64,51.4;64,96.1 64,91.1 64,72.1 64,52.1;64,96.9 64,91.9 64,72.9 64,52.9;64,97.6 64,92.6 64,73.6 64,53.6;64,98.2 64,93.2 64,74.2 64,54.2;64,98.8 64,93.8 64,74.8 64,54.8;64,99.3 64,94.3 64,75.3 64,55.3;64,99.7 64,94.7 64,75.7 64,55.7;64,99.9 64,94.9 64,75.9 64,55.9;64,100 64,95 64,76 64,56"/></polyline>
+<polygon points="59,30 79,30 75,56 63,56" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="59,30 79,30 75,56 63,56;59,29.9 79,29.9 75,55.9 63,55.9;59,29.7 79,29.7 75,55.7 63,55.7;59,29.3 79,29.3 75,55.3 63,55.3;59,28.8 79,28.8 75,54.8 63,54.8;59,28.2 79,28.2 75,54.2 63,54.2;59,27.6 79,27.6 75,53.6 63,53.6;59,26.9 79,26.9 75,52.9 63,52.9;59,26.1 79,26.1 75,52.1 63,52.1;59,25.4 79,25.4 75,51.4 63,51.4;59,24.8 79,24.8 75,50.8 63,50.8;59,24.2 79,24.2 75,50.2 63,50.2;59,23.7 79,23.7 75,49.7 63,49.7;59,23.3 79,23.3 75,49.3 63,49.3;59,23.1 79,23.1 75,49.1 63,49.1;59,23 79,23 75,49 63,49;59,23.1 79,23.1 75,49.1 63,49.1;59,23.3 79,23.3 75,49.3 63,49.3;59,23.7 79,23.7 75,49.7 63,49.7;59,24.2 79,24.2 75,50.2 63,50.2;59,24.8 79,24.8 75,50.8 63,50.8;59,25.4 79,25.4 75,51.4 63,51.4;59,26.1 79,26.1 75,52.1 63,52.1;59,26.9 79,26.9 75,52.9 63,52.9;59,27.6 79,27.6 75,53.6 63,53.6;59,28.2 79,28.2 75,54.2 63,54.2;59,28.8 79,28.8 75,54.8 63,54.8;59,29.3 79,29.3 75,55.3 63,55.3;59,29.7 79,29.7 75,55.7 63,55.7;59,29.9 79,29.9 75,55.9 63,55.9;59,30 79,30 75,56 63,56"/></polygon>
+<circle cx="69" cy="22" r="6" fill="#ffffff" stroke="#555555" stroke-width="1.6"><animate attributeName="cy" dur="2s" repeatCount="indefinite" values="22;21.9;21.7;21.3;20.8;20.2;19.6;18.9;18.1;17.4;16.8;16.2;15.7;15.3;15.1;15;15.1;15.3;15.7;16.2;16.8;17.4;18.1;18.9;19.6;20.2;20.8;21.3;21.7;21.9;22"/></circle>
+<polyline points="60,32 53,38 52,31" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="60,32 53,38 52,31;60,31.9 53,37.9 52,30.9;60,31.7 53,37.7 52,30.7;60,31.3 53,37.3 52,30.3;60,30.8 53,36.8 52,29.8;60,30.2 53,36.2 52,29.2;60,29.6 53,35.6 52,28.6;60,28.9 53,34.9 52,27.9;60,28.1 53,34.1 52,27.1;60,27.4 53,33.4 52,26.4;60,26.8 53,32.8 52,25.8;60,26.2 53,32.2 52,25.2;60,25.7 53,31.7 52,24.7;60,25.3 53,31.3 52,24.3;60,25.1 53,31.1 52,24.1;60,25 53,31 52,24;60,25.1 53,31.1 52,24.1;60,25.3 53,31.3 52,24.3;60,25.7 53,31.7 52,24.7;60,26.2 53,32.2 52,25.2;60,26.8 53,32.8 52,25.8;60,27.4 53,33.4 52,26.4;60,28.1 53,34.1 52,27.1;60,28.9 53,34.9 52,27.9;60,29.6 53,35.6 52,28.6;60,30.2 53,36.2 52,29.2;60,30.8 53,36.8 52,29.8;60,31.3 53,37.3 52,30.3;60,31.7 53,37.7 52,30.7;60,31.9 53,37.9 52,30.9;60,32 53,38 52,31"/></polyline>
+<polyline points="78,32 85,38 86,31" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="78,32 85,38 86,31;78,31.9 85,37.9 86,30.9;78,31.7 85,37.7 86,30.7;78,31.3 85,37.3 86,30.3;78,30.8 85,36.8 86,29.8;78,30.2 85,36.2 86,29.2;78,29.6 85,35.6 86,28.6;78,28.9 85,34.9 86,27.9;78,28.1 85,34.1 86,27.1;78,27.4 85,33.4 86,26.4;78,26.8 85,32.8 86,25.8;78,26.2 85,32.2 86,25.2;78,25.7 85,31.7 86,24.7;78,25.3 85,31.3 86,24.3;78,25.1 85,31.1 86,24.1;78,25 85,31 86,24;78,25.1 85,31.1 86,24.1;78,25.3 85,31.3 86,24.3;78,25.7 85,31.7 86,24.7;78,26.2 85,32.2 86,25.2;78,26.8 85,32.8 86,25.8;78,27.4 85,33.4 86,26.4;78,28.1 85,34.1 86,27.1;78,28.9 85,34.9 86,27.9;78,29.6 85,35.6 86,28.6;78,30.2 85,36.2 86,29.2;78,30.8 85,36.8 86,29.8;78,31.3 85,37.3 86,30.3;78,31.7 85,37.7 86,30.7;78,31.9 85,37.9 86,30.9;78,32 85,38 86,31"/></polyline>
+<polyline points="64,100 64,80" fill="none" stroke="#378add" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="64,100 64,80;64,99.9 64,79.9;64,99.7 64,79.7;64,99.3 64,79.3;64,98.8 64,78.8;64,98.2 64,78.2;64,97.6 64,77.6;64,96.9 64,76.9;64,96.1 64,76.1;64,95.4 64,75.4;64,94.8 64,74.8;64,94.2 64,74.2;64,93.7 64,73.7;64,93.3 64,73.3;64,93.1 64,73.1;64,93 64,73;64,93.1 64,73.1;64,93.3 64,73.3;64,93.7 64,73.7;64,94.2 64,74.2;64,94.8 64,74.8;64,95.4 64,75.4;64,96.1 64,76.1;64,96.9 64,76.9;64,97.6 64,77.6;64,98.2 64,78.2;64,98.8 64,78.8;64,99.3 64,79.3;64,99.7 64,79.7;64,99.9 64,79.9;64,100 64,80"/></polyline>
+<line x1="67" y1="93" x2="71" y2="93" stroke="#378add" stroke-width="1.6"/>
+<text font-size="9" fill="#378add" x="75" y="96">full height</text>
+<text font-size="9" fill="#378add" x="94" y="62">heel stays</text>
+<text font-size="9" fill="#378add" x="94" y="71">straight</text>
+<circle cx="8" cy="108" r="2.8" fill="#378add" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="1;0.2" keyTimes="0;0.5"/></circle>
+<circle cx="16" cy="108" r="2.8" fill="#378add" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="0.2;1" keyTimes="0;0.5"/></circle>
+<text font-size="9" fill="#6f6f6f" x="26" y="111">1 beat up · 1 down</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">behind · lens at ankle</text>
+</g>
+</g>
+
+<g transform="translate(0,-630)">
+<!-- B8 — Single-leg stance -->
+<rect x="30" y="1725" width="8" height="203" rx="2" fill="#185fa5"/>
+<rect x="38" y="1725" width="612" height="203" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1741">8</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1741">Single-leg stance, 30 s — each leg</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1759">Set-up</text>
+<text font-size="11" fill="#185fa5" x="136" y="1759">Barefoot on one leg, arms crossed on the chest, eyes open,</text>
+<text font-size="11" fill="#185fa5" x="136" y="1773">the other foot just off the floor beside the ankle. Camera</text>
+<text font-size="11" fill="#185fa5" x="136" y="1787">in front, lens at ankle height.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1801">Do</text>
+<text font-size="11" fill="#185fa5" x="136" y="1801">Hold 30 s per leg.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1815">Fail if</text>
+<text font-size="11" fill="#185fa5" x="136" y="1815">The lifted foot touches down, the standing foot wobbles or</text>
+<text font-size="11" fill="#185fa5" x="136" y="1829">shifts, the arms uncross, or any pain.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="1843">Write down</text>
+<text font-size="11" fill="#185fa5" x="136" y="1843">Clean or not, per leg. Cards 7 and 8 together are the</text>
+<text font-size="11" fill="#185fa5" x="136" y="1857">ankle's control test: both clean.</text>
+<a href="https://www.youtube.com/watch?v=OQuUxUZQjQ0" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="1872">Video: AAOP, timed single-leg stance ↗</text></a>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="1741">30 s per leg</text>
+<text font-size="11" fill="#185fa5" x="490" y="1756">Tripod · phone</text>
+<!-- PIC 8 — Single-leg stance -->
+<g transform="translate(486,1763)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#378add" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<polyline points="64,60 65,77 62,93" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="56,100 56,80 56,60" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="64,60 66,80 64,100" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="10s" repeatCount="indefinite" values="64,60 66,80 64,100;64,60 66,80 64,100;64,60 66,80 64,100;64,60 66,80 64,100;64,60 65.9,79.6 63.7,99;64,60 65.5,78.5 63,96.5;64,60 65.1,77.4 62.3,94;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65,77 62,93;64,60 65.1,77.2 62.1,93.5;64,60 65.2,77.8 62.5,94.8;64,60 65.5,78.5 63,96.5;64,60 65.8,79.2 63.5,98.2;64,60 65.9,79.8 63.9,99.5;64,60 66,80 64,100"/></polyline>
+<polygon points="51,34 69,34 65,60 55,60" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="60" cy="26" r="6" fill="#ffffff" stroke="#555555" stroke-width="1.6"/>
+<polyline points="52,37 55,45 67,43" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="68,37 65,45 53,43" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="118" cy="42" r="13" fill="none" stroke="#d4d4d4" stroke-width="2"/>
+<path d="M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z" fill="#378add" fill-opacity="0.35" stroke="#378add" stroke-width="1"><animate attributeName="d" dur="10s" repeatCount="indefinite" values="M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 122.7,29.9 A13 13 0 0 1 122.7,29.9 Z;M118,42 L118,29 A13 13 0 0 1 126.8,32.4 A13 13 0 0 1 126.8,32.4 Z;M118,42 L118,29 A13 13 0 0 1 129.6,36.2 A13 13 0 0 1 129.6,36.2 Z;M118,42 L118,29 A13 13 0 0 1 130.9,40.8 A13 13 0 0 1 130.9,40.8 Z;M118,42 L118,29 A13 13 0 0 1 130.5,45.6 A13 13 0 0 1 130.5,45.6 Z;M118,42 L118,29 A13 13 0 0 1 128.4,49.8 A13 13 0 0 1 128.4,49.8 Z;M118,42 L118,29 A13 13 0 0 1 124.9,53 A13 13 0 0 1 124.9,53 Z;M118,42 L118,29 A13 13 0 0 1 120.4,54.8 A13 13 0 0 1 120.4,54.8 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 115.6,54.8 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 111.2,53.1 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 107.6,49.8 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 105.5,45.6 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 105.1,40.8 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 106.4,36.2 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 109.2,32.4 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 113.3,29.9 Z;M118,42 L118,29 A13 13 0 0 1 118,55 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z;M118,42 L118,29 A13 13 0 0 1 118,29 A13 13 0 0 1 118,29 Z"/></path>
+<text font-size="9" fill="#378add" x="118" y="66" text-anchor="middle">30 s</text>
+<text font-size="9" fill="#378add" x="92" y="82">eyes open,</text>
+<text font-size="9" fill="#378add" x="92" y="91">arms crossed</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="112">no touchdown · no wobble</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">in front · lens at ankle</text>
+</g>
+</g>
+
+<g transform="translate(680,-814)">
+<!-- B9 — Single-leg squat -->
+<rect x="30" y="1909" width="8" height="203" rx="2" fill="#085041"/>
+<rect x="38" y="1909" width="612" height="203" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1925">9</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="1925">Single-leg squat — each leg</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="1943">Set-up</text>
+<text font-size="11" fill="#0f6e56" x="136" y="1943">Barefoot on one leg, arms crossed on the chest, the other</text>
+<text font-size="11" fill="#0f6e56" x="136" y="1957">leg held a little forward. Camera in front, 2 m, lens at hip</text>
+<text font-size="11" fill="#0f6e56" x="136" y="1971">height. Metronome 60: 1 beat down, 1 up.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="1985">Do</text>
+<text font-size="11" fill="#0f6e56" x="136" y="1985">Squat until the knee is bent about 60° (two-thirds of a</text>
+<text font-size="11" fill="#0f6e56" x="136" y="1999">right angle, thigh well above parallel), then stand. 5 reps</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2013">per leg, on the beat.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="2027">Fail if</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2027">Any of Crossley's five is not good: overall (balance,</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2041">smooth, on the beat), trunk (leans or turns), pelvis (drops</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2055">or turns), hip (thigh drifts in), knee (moves inside the</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2069">foot); any pain.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="2083">Write down</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2083">Good or not, per criterion, per leg.</text>
+<a href="https://www.youtube.com/watch?v=5bzEI_yrr4o" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="2098">Video: USC Athletic Training, single-leg squat ↗</text></a>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="1925">5 reps per leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="1940">Tripod · phone</text>
+<!-- PIC 9 — Single-leg squat -->
+<g transform="translate(486,1947)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#0f6e56" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<polyline points="72,69 74,82 73,93" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="57,43 77,43 73,69 61,69" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="67" cy="35" r="6" fill="none" stroke="#d4d4d4" stroke-width="1.6"/>
+<polyline points="62,100 62,80 62,60" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="62,100 62,80 62,60;62,100 62,80 62,60.1;62,100 62,80.2 62,60.4;62,100 62,80.4 62,60.9;62,100 62,80.7 62,61.5;62,100 62,81.1 62,62.2;62,100 62,81.6 62,63.1;62,100 62,82 62,64;62,100 62,82.5 62,65;62,100 62,82.9 62,65.9;62,100 62,83.4 62,66.8;62,100 62,83.8 62,67.5;62,100 62,84.1 62,68.1;62,100 62,84.3 62,68.6;62,100 62,84.5 62,68.9;62,100 62,84.5 62,69;62,100 62,84.5 62,68.9;62,100 62,84.3 62,68.6;62,100 62,84.1 62,68.1;62,100 62,83.8 62,67.5;62,100 62,83.4 62,66.8;62,100 62,82.9 62,65.9;62,100 62,82.5 62,65;62,100 62,82 62,64;62,100 62,81.6 62,63.1;62,100 62,81.1 62,62.2;62,100 62,80.7 62,61.5;62,100 62,80.4 62,60.9;62,100 62,80.2 62,60.4;62,100 62,80 62,60.1;62,100 62,80 62,60"/></polyline>
+<polyline points="72,60 74,73 73,84" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="72,60 74,73 73,84;72,60.1 74,73.1 73,84.1;72,60.4 74,73.4 73,84.4;72,60.9 74,73.9 73,84.9;72,61.5 74,74.5 73,85.5;72,62.2 74,75.2 73,86.2;72,63.1 74,76.1 73,87.1;72,64 74,77 73,88;72,65 74,78 73,89;72,65.9 74,78.9 73,89.9;72,66.8 74,79.8 73,90.8;72,67.5 74,80.5 73,91.5;72,68.1 74,81.1 73,92.1;72,68.6 74,81.6 73,92.6;72,68.9 74,81.9 73,92.9;72,69 74,82 73,93;72,68.9 74,81.9 73,92.9;72,68.6 74,81.6 73,92.6;72,68.1 74,81.1 73,92.1;72,67.5 74,80.5 73,91.5;72,66.8 74,79.8 73,90.8;72,65.9 74,78.9 73,89.9;72,65 74,78 73,89;72,64 74,77 73,88;72,63.1 74,76.1 73,87.1;72,62.2 74,75.2 73,86.2;72,61.5 74,74.5 73,85.5;72,60.9 74,73.9 73,84.9;72,60.4 74,73.4 73,84.4;72,60.1 74,73.1 73,84.1;72,60 74,73 73,84"/></polyline>
+<polygon points="57,34 77,34 73,60 61,60" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="57,34 77,34 73,60 61,60;57,34.1 77,34.1 73,60.1 61,60.1;57,34.4 77,34.4 73,60.4 61,60.4;57,34.9 77,34.9 73,60.9 61,60.9;57,35.5 77,35.5 73,61.5 61,61.5;57,36.2 77,36.2 73,62.2 61,62.2;57,37.1 77,37.1 73,63.1 61,63.1;57,38 77,38 73,64 61,64;57,39 77,39 73,65 61,65;57,39.9 77,39.9 73,65.9 61,65.9;57,40.8 77,40.8 73,66.8 61,66.8;57,41.5 77,41.5 73,67.5 61,67.5;57,42.1 77,42.1 73,68.1 61,68.1;57,42.6 77,42.6 73,68.6 61,68.6;57,42.9 77,42.9 73,68.9 61,68.9;57,43 77,43 73,69 61,69;57,42.9 77,42.9 73,68.9 61,68.9;57,42.6 77,42.6 73,68.6 61,68.6;57,42.1 77,42.1 73,68.1 61,68.1;57,41.5 77,41.5 73,67.5 61,67.5;57,40.8 77,40.8 73,66.8 61,66.8;57,39.9 77,39.9 73,65.9 61,65.9;57,39 77,39 73,65 61,65;57,38 77,38 73,64 61,64;57,37.1 77,37.1 73,63.1 61,63.1;57,36.2 77,36.2 73,62.2 61,62.2;57,35.5 77,35.5 73,61.5 61,61.5;57,34.9 77,34.9 73,60.9 61,60.9;57,34.4 77,34.4 73,60.4 61,60.4;57,34.1 77,34.1 73,60.1 61,60.1;57,34 77,34 73,60 61,60"/></polygon>
+<circle cx="67" cy="26" r="6" fill="#ffffff" stroke="#555555" stroke-width="1.6"><animate attributeName="cy" dur="2s" repeatCount="indefinite" values="26;26.1;26.4;26.9;27.5;28.2;29.1;30;31;31.9;32.8;33.5;34.1;34.6;34.9;35;34.9;34.6;34.1;33.5;32.8;31.9;31;30;29.1;28.2;27.5;26.9;26.4;26.1;26"/></circle>
+<polyline points="58,37 61,45 73,43" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="58,37 61,45 73,43;58,37.1 61,45.1 73,43.1;58,37.4 61,45.4 73,43.4;58,37.9 61,45.9 73,43.9;58,38.5 61,46.5 73,44.5;58,39.2 61,47.2 73,45.2;58,40.1 61,48.1 73,46.1;58,41 61,49 73,47;58,42 61,50 73,48;58,42.9 61,50.9 73,48.9;58,43.8 61,51.8 73,49.8;58,44.5 61,52.5 73,50.5;58,45.1 61,53.1 73,51.1;58,45.6 61,53.6 73,51.6;58,45.9 61,53.9 73,51.9;58,46 61,54 73,52;58,45.9 61,53.9 73,51.9;58,45.6 61,53.6 73,51.6;58,45.1 61,53.1 73,51.1;58,44.5 61,52.5 73,50.5;58,43.8 61,51.8 73,49.8;58,42.9 61,50.9 73,48.9;58,42 61,50 73,48;58,41 61,49 73,47;58,40.1 61,48.1 73,46.1;58,39.2 61,47.2 73,45.2;58,38.5 61,46.5 73,44.5;58,37.9 61,45.9 73,43.9;58,37.4 61,45.4 73,43.4;58,37.1 61,45.1 73,43.1;58,37 61,45 73,43"/></polyline>
+<polyline points="76,37 73,45 61,43" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="76,37 73,45 61,43;76,37.1 73,45.1 61,43.1;76,37.4 73,45.4 61,43.4;76,37.9 73,45.9 61,43.9;76,38.5 73,46.5 61,44.5;76,39.2 73,47.2 61,45.2;76,40.1 73,48.1 61,46.1;76,41 73,49 61,47;76,42 73,50 61,48;76,42.9 73,50.9 61,48.9;76,43.8 73,51.8 61,49.8;76,44.5 73,52.5 61,50.5;76,45.1 73,53.1 61,51.1;76,45.6 73,53.6 61,51.6;76,45.9 73,53.9 61,51.9;76,46 73,54 61,52;76,45.9 73,53.9 61,51.9;76,45.6 73,53.6 61,51.6;76,45.1 73,53.1 61,51.1;76,44.5 73,52.5 61,50.5;76,43.8 73,51.8 61,49.8;76,42.9 73,50.9 61,48.9;76,42 73,50 61,48;76,41 73,49 61,47;76,40.1 73,48.1 61,46.1;76,39.2 73,47.2 61,45.2;76,38.5 73,46.5 61,44.5;76,37.9 73,45.9 61,43.9;76,37.4 73,45.4 61,43.4;76,37.1 73,45.1 61,43.1;76,37 73,45 61,43"/></polyline>
+<polyline points="62,56 62,100" fill="none" stroke="#0f6e56" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="54,60 80,60" fill="none" stroke="#0f6e56" stroke-width="1.4" stroke-dasharray="3 2" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="54,60 80,60;54,60.1 80,60.1;54,60.4 80,60.4;54,60.9 80,60.9;54,61.5 80,61.5;54,62.2 80,62.2;54,63.1 80,63.1;54,64 80,64;54,65 80,65;54,65.9 80,65.9;54,66.8 80,66.8;54,67.5 80,67.5;54,68.1 80,68.1;54,68.6 80,68.6;54,68.9 80,68.9;54,69 80,69;54,68.9 80,68.9;54,68.6 80,68.6;54,68.1 80,68.1;54,67.5 80,67.5;54,66.8 80,66.8;54,65.9 80,65.9;54,65 80,65;54,64 80,64;54,63.1 80,63.1;54,62.2 80,62.2;54,61.5 80,61.5;54,60.9 80,60.9;54,60.4 80,60.4;54,60.1 80,60.1;54,60 80,60"/></polyline>
+<circle cx="62" cy="80" r="2.4" fill="#0f6e56" stroke="#0f6e56" stroke-width="0.5"><animate attributeName="cy" dur="2s" repeatCount="indefinite" values="80;80;80.2;80.4;80.7;81.1;81.6;82;82.5;82.9;83.4;83.8;84.1;84.3;84.5;84.5;84.5;84.3;84.1;83.8;83.4;82.9;82.5;82;81.6;81.1;80.7;80.4;80.2;80;80"/></circle>
+<text font-size="9" fill="#0f6e56" x="88" y="56">pelvis level</text>
+<text font-size="9" fill="#0f6e56" x="88" y="78">knee over</text>
+<text font-size="9" fill="#0f6e56" x="88" y="87">the foot</text>
+<circle cx="8" cy="108" r="2.8" fill="#0f6e56" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="1;0.2" keyTimes="0;0.5"/></circle>
+<circle cx="16" cy="108" r="2.8" fill="#0f6e56" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="0.2;1" keyTimes="0;0.5"/></circle>
+<text font-size="9" fill="#6f6f6f" x="26" y="111">1 beat down · 1 up</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">in front · lens at hip</text>
+</g>
+</g>
+
+<!-- ── C SYMMETRY TESTS ── -->
+<rect x="30" y="1312" width="1300" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1328">C — Session 1: Symmetry tests  (~20 min · each leg to technical failure · ≥3 min between sides)</text>
+
+
+<g transform="translate(0,-814)">
+<!-- C10 — Single-leg sit-to-stand -->
+<rect x="30" y="2160" width="8" height="189" rx="2" fill="#26215c"/>
+<rect x="38" y="2160" width="612" height="189" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="2176">10</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="2176">Single-leg sit-to-stand — each leg</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="2194">Set-up</text>
+<text font-size="11" fill="#3c3489" x="136" y="2194">Seat: the low box on the bench, thighs just above parallel</text>
+<text font-size="11" fill="#3c3489" x="136" y="2208">when seated. Sit on its front half, foot on a tape mark, the</text>
+<text font-size="11" fill="#3c3489" x="136" y="2222">other leg held forward off the floor, arms crossed. Lens</text>
+<text font-size="11" fill="#3c3489" x="136" y="2236">side-on at seat height. Metronome 60: 2 beats down, 2 up.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="2250">Do</text>
+<text font-size="11" fill="#3c3489" x="136" y="2250">Stand up on one leg, knee soft at the top; lower for 2 beats</text>
+<text font-size="11" fill="#3c3489" x="136" y="2264">to touch the seat without sitting; stand again. Keep going.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="2278">Stop when</text>
+<text font-size="11" fill="#3c3489" x="136" y="2278">A rep misses the beat, the free foot touches down, the arms</text>
+<text font-size="11" fill="#3c3489" x="136" y="2292">uncross, the trunk lurches or rocks to get up, the knee</text>
+<text font-size="11" fill="#3c3489" x="136" y="2306">caves in or snaps straight, or the seat takes your weight.</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="72" y="2320">Write down</text>
+<text font-size="11" fill="#3c3489" x="136" y="2320">Reps before the first miss, per leg; seat height in cm.</text>
+<a href="https://www.youtube.com/watch?v=a1zcZND3q2w" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="2335">Video: Physiotherapy UC Copenhagen, one-leg sit to stand ↗</text></a>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="2176">1 set per leg</text>
+<text font-size="11" fill="#3c3489" x="490" y="2191">Bench · low box · tripod</text>
+<!-- PIC 10 — Single-leg sit-to-stand -->
+<g transform="translate(486,2198)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#534ab7" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<rect x="12" y="88" width="40" height="4" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<line x1="16" y1="92" x2="16" y2="100" stroke="#b8b8b8" stroke-width="1.2"/>
+<line x1="48" y1="92" x2="48" y2="100" stroke="#b8b8b8" stroke-width="1.2"/>
+<rect x="16" y="81" width="32" height="7" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<polyline points="41,78 61,84.5 80.5,89" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="69,100 62,100 61.9,80 41,78 47.7,52.9" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="49.7" cy="45.4" r="5.5" fill="none" stroke="#d4d4d4" stroke-width="1.6"/>
+<polyline points="63.5,60 75.2,77.4 87.8,93" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="63.5,60 75.2,77.4 87.8,93;63.5,60.4 75.4,77.7 88.1,93.2;63.5,61.5 75.7,78.6 88.7,93.8;63.3,63.3 76.1,79.9 89.7,94.6;62.9,65.5 76.5,81.5 90.7,95.6;62.1,67.9 76.5,83.1 91.5,96.4;60.8,70.3 76.2,84.6 92,96.9;59,72.5 75.3,85.7 91.9,96.9;56.6,74.4 73.8,86.4 91.2,96.4;53.9,75.9 71.8,86.7 89.8,95.5;50.8,76.9 69.5,86.6 87.9,94.2;47.8,77.5 67,86.1 85.8,92.8;45.1,77.8 64.6,85.6 83.8,91.3;42.9,78 62.7,85 82,90.1;41.5,78 61.4,84.6 80.9,89.3;41,78 61,84.5 80.5,89;41.5,78 61.4,84.6 80.9,89.3;42.9,78 62.7,85 82,90.1;45.1,77.8 64.6,85.6 83.8,91.3;47.8,77.5 67,86.1 85.8,92.8;50.8,76.9 69.5,86.6 87.9,94.2;53.9,75.9 71.8,86.7 89.8,95.5;56.6,74.4 73.8,86.4 91.2,96.4;59,72.5 75.3,85.7 91.9,96.9;60.8,70.3 76.2,84.6 92,96.9;62.1,67.9 76.5,83.1 91.5,96.4;62.9,65.5 76.5,81.5 90.7,95.6;63.3,63.3 76.1,79.9 89.7,94.6;63.5,61.5 75.7,78.6 88.7,93.8;63.5,60.4 75.4,77.7 88.1,93.2;63.5,60 75.2,77.4 87.8,93"/></polyline>
+<polyline points="69,100 62,100 67.2,80.7 63.5,60 65.3,34.1" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="69,100 62,100 67.2,80.7 63.5,60 65.3,34.1;69,100 62,100 68,80.9 63.5,60.4 65.8,34.5;69,100 62,100 69.7,81.6 63.5,61.5 67.3,35.8;69,100 62,100 71.7,82.5 63.3,63.3 69.5,38;69,100 62,100 73.5,83.6 62.9,65.5 72.1,41.1;69,100 62,100 74.8,84.6 62.1,67.9 74.3,44.9;69,100 62,100 75.5,85.3 60.8,70.3 75.5,48.8;69,100 62,100 75.6,85.3 59,72.5 75.2,52.2;69,100 62,100 74.9,84.7 56.6,74.4 73.2,54.4;69,100 62,100 73.4,83.6 53.9,75.9 69.8,55.3;69,100 62,100 71.2,82.2 50.8,76.9 65.2,55.2;69,100 62,100 68.5,81.1 47.8,77.5 60.1,54.6;69,100 62,100 65.9,80.4 45.1,77.8 55.2,53.9;69,100 62,100 63.8,80.1 42.9,78 51.2,53.3;69,100 62,100 62.4,80 41.5,78 48.6,53;69,100 62,100 61.9,80 41,78 47.7,52.9;69,100 62,100 62.4,80 41.5,78 48.6,53;69,100 62,100 63.8,80.1 42.9,78 51.2,53.3;69,100 62,100 65.9,80.4 45.1,77.8 55.2,53.9;69,100 62,100 68.5,81.1 47.8,77.5 60.1,54.6;69,100 62,100 71.2,82.2 50.8,76.9 65.2,55.2;69,100 62,100 73.4,83.6 53.9,75.9 69.8,55.3;69,100 62,100 74.9,84.7 56.6,74.4 73.2,54.4;69,100 62,100 75.6,85.3 59,72.5 75.2,52.2;69,100 62,100 75.5,85.3 60.8,70.3 75.5,48.8;69,100 62,100 74.8,84.6 62.1,67.9 74.3,44.9;69,100 62,100 73.5,83.6 62.9,65.5 72.1,41.1;69,100 62,100 71.7,82.5 63.3,63.3 69.5,38;69,100 62,100 69.7,81.6 63.5,61.5 67.3,35.8;69,100 62,100 68,80.9 63.5,60.4 65.8,34.5;69,100 62,100 67.2,80.7 63.5,60 65.3,34.1"/></polyline>
+<circle cx="65.9" cy="26.4" r="5.5" fill="#ffffff" stroke="#555555" stroke-width="1.6"><animate attributeName="cx" dur="4s" repeatCount="indefinite" values="65.9;66.5;68.5;71.4;74.8;77.9;79.8;80;78.2;74.5;69.4;63.7;58.2;53.6;50.7;49.7;50.7;53.6;58.2;63.7;69.4;74.5;78.2;80;79.8;77.9;74.8;71.4;68.5;66.5;65.9"/><animate attributeName="cy" dur="4s" repeatCount="indefinite" values="26.4;26.8;28.2;30.6;33.9;38.1;42.5;46.1;48.5;49.2;48.8;47.8;46.8;46;45.6;45.4;45.6;46;46.8;47.8;48.8;49.2;48.5;46.1;42.5;38.1;33.9;30.6;28.2;26.8;26.4"/></circle>
+<polyline points="65.3,34.1 70.7,42.5 63.5,45" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="4s" repeatCount="indefinite" values="65.3,34.1 70.7,42.5 63.5,45;65.8,34.5 71.1,43 63.8,45.4;67.3,35.8 72.1,44.6 64.7,46.5;69.5,38 73.4,47.2 65.9,48.5;72.1,41.1 74.9,50.7 67.3,51.1;74.3,44.9 75.8,54.8 68.2,54.2;75.5,48.8 75.9,58.8 68.4,57.3;75.2,52.2 74.9,62.2 67.5,60.2;73.2,54.4 72.7,64.4 65.4,62.2;69.8,55.3 69.6,65.3 62.3,63.4;65.2,55.2 65.8,65.2 58.3,63.8;60.1,54.6 61.6,64.5 54,63.8;55.2,53.9 57.6,63.6 50,63.6;51.2,53.3 54.3,62.8 46.7,63.4;48.6,53 52.2,62.3 44.6,63.3;47.7,52.9 51.5,62.2 43.9,63.3;48.6,53 52.2,62.3 44.6,63.3;51.2,53.3 54.3,62.8 46.7,63.4;55.2,53.9 57.6,63.6 50,63.6;60.1,54.6 61.6,64.5 54,63.8;65.2,55.2 65.8,65.2 58.3,63.8;69.8,55.3 69.6,65.3 62.3,63.4;73.2,54.4 72.7,64.4 65.4,62.2;75.2,52.2 74.9,62.2 67.5,60.2;75.5,48.8 75.9,58.8 68.4,57.3;74.3,44.9 75.8,54.8 68.2,54.2;72.1,41.1 74.9,50.7 67.3,51.1;69.5,38 73.4,47.2 65.9,48.5;67.3,35.8 72.1,44.6 64.7,46.5;65.8,34.5 71.1,43 63.8,45.4;65.3,34.1 70.7,42.5 63.5,45"/></polyline>
+<circle cx="67.2" cy="80.7" r="2.4" fill="#534ab7" stroke="#534ab7" stroke-width="0.5"><animate attributeName="cx" dur="4s" repeatCount="indefinite" values="67.2;68;69.7;71.7;73.5;74.8;75.5;75.6;74.9;73.4;71.2;68.5;65.9;63.8;62.4;61.9;62.4;63.8;65.9;68.5;71.2;73.4;74.9;75.6;75.5;74.8;73.5;71.7;69.7;68;67.2"/><animate attributeName="cy" dur="4s" repeatCount="indefinite" values="80.7;80.9;81.6;82.5;83.6;84.6;85.3;85.3;84.7;83.6;82.2;81.1;80.4;80.1;80;80;80;80.1;80.4;81.1;82.2;83.6;84.7;85.3;85.3;84.6;83.6;82.5;81.6;80.9;80.7"/></circle>
+<text font-size="9" fill="#534ab7" x="94" y="38">thigh above</text>
+<text font-size="9" fill="#534ab7" x="94" y="47">parallel;</text>
+<text font-size="9" fill="#534ab7" x="94" y="56">touch, no sit</text>
+<circle cx="8" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="1;0.2" keyTimes="0;0.25"/></circle>
+<circle cx="16" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="0.2;1;0.2" keyTimes="0;0.25;0.5"/></circle>
+<circle cx="24" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="0.2;1;0.2" keyTimes="0;0.5;0.75"/></circle>
+<circle cx="32" cy="108" r="2.8" fill="#534ab7" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="4s" repeatCount="indefinite" calcMode="discrete" values="0.2;1" keyTimes="0;0.75"/></circle>
+<text font-size="9" fill="#6f6f6f" x="42" y="111">2 beats down · 2 up</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">side view · lens at seat</text>
+</g>
+</g>
+
+<g transform="translate(680,-1009)">
+<!-- C11 — Single-leg bridge -->
+<rect x="30" y="2355" width="8" height="189" rx="2" fill="#085041"/>
+<rect x="38" y="2355" width="612" height="189" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="2371">11</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="2371">Single-leg bridge — each leg</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="2389">Set-up</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2389">On your back on the mat, the tested heel on the bench, knee</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2403">bent ~20°, the other leg held straight up, arms crossed on</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2417">the chest; mark the heel spot. Lens side-on at bench height.</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2431">Metronome 60: up on one beat, down on the next.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="2445">Do</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2445">Push the heel down to lift the hips until shoulder, hip and</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2459">knee line up; lower to a light touch on the mat. Keep going.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="2473">Stop when</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2473">The hips miss the top line, a beat is missed, the heel</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2487">slides, the pelvis twists, or you rest at the bottom.</text>
+<text font-size="11" font-weight="500" fill="#085041" x="72" y="2501">Write down</text>
+<text font-size="11" fill="#0f6e56" x="136" y="2501">Reps before the first miss, per leg.</text>
+<a href="https://www.youtube.com/watch?v=9pjW1AoEI58" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="2516">Video: Sport Rehab Guide, single-leg hamstring bridge ↗</text></a>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="2371">1 set per leg</text>
+<text font-size="11" fill="#0f6e56" x="490" y="2386">Bench · mat · tripod</text>
+<!-- PIC 11 — Single-leg bridge -->
+<g transform="translate(486,2393)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#0f6e56" stroke-width="0.8"/>
+<rect x="10" y="96" width="136" height="4" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<rect x="82" y="73" width="56" height="4" rx="1" fill="#e4e4e4" stroke="#b8b8b8" stroke-width="0.8"/>
+<line x1="86" y1="77" x2="86" y2="96" stroke="#b8b8b8" stroke-width="1.2"/>
+<line x1="134" y1="77" x2="134" y2="96" stroke="#b8b8b8" stroke-width="1.2"/>
+<polyline points="53.5,79 53.5,58 53.5,38" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="31,92 53.5,79 71.7,68.4 91.5,71 92.5,63.1" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="57,92 57,71 57,51" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="57,92 57,71 57,51;57,91.9 57,70.9 57,50.9;57,91.4 57,70.4 57,50.4;57,90.7 57,69.7 57,49.7;56.9,89.7 56.9,68.7 56.9,48.7;56.8,88.6 56.8,67.6 56.8,47.6;56.6,87.3 56.6,66.3 56.6,46.3;56.3,85.9 56.3,64.9 56.3,44.9;55.9,84.6 55.9,63.6 55.9,43.6;55.5,83.2 55.5,62.2 55.5,42.2;55,82 55,61 55,41;54.5,81 54.5,60 54.5,40;54.1,80.1 54.1,59.1 54.1,39.1;53.8,79.5 53.8,58.5 53.8,38.5;53.6,79.1 53.6,58.1 53.6,38.1;53.5,79 53.5,58 53.5,38;53.6,79.1 53.6,58.1 53.6,38.1;53.8,79.5 53.8,58.5 53.8,38.5;54.1,80.1 54.1,59.1 54.1,39.1;54.5,81 54.5,60 54.5,40;55,82 55,61 55,41;55.5,83.2 55.5,62.2 55.5,42.2;55.9,84.6 55.9,63.6 55.9,43.6;56.3,85.9 56.3,64.9 56.3,44.9;56.6,87.3 56.6,66.3 56.6,46.3;56.8,88.6 56.8,67.6 56.8,47.6;56.9,89.7 56.9,68.7 56.9,48.7;57,90.7 57,69.7 57,49.7;57,91.4 57,70.4 57,50.4;57,91.9 57,70.9 57,50.9;57,92 57,71 57,51"/></polyline>
+<polyline points="31,92 57,92 72.9,78.2 91.5,71 88.6,63.5" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="31,92 57,92 72.9,78.2 91.5,71 88.6,63.5;31,92 57,91.9 72.8,78 91.5,71 88.7,63.5;31,92 57,91.4 72.5,77.3 91.5,71 89,63.4;31,92 57,90.7 72.2,76.2 91.5,71 89.4,63.3;31,92 56.9,89.7 71.9,75.1 91.5,71 89.9,63.2;31,92 56.8,88.6 71.7,73.8 91.5,71 90.4,63.1;31,92 56.6,87.3 71.6,72.6 91.5,71 90.9,63;31,92 56.3,85.9 71.5,71.5 91.5,71 91.3,63;31,92 55.9,84.6 71.5,70.5 91.5,71 91.7,63;31,92 55.5,83.2 71.5,69.7 91.5,71 92,63;31,92 55,82 71.6,69.1 91.5,71 92.2,63;31,92 54.5,81 71.6,68.8 91.5,71 92.4,63.1;31,92 54.1,80.1 71.7,68.5 91.5,71 92.5,63.1;31,92 53.8,79.5 71.7,68.5 91.5,71 92.5,63.1;31,92 53.6,79.1 71.7,68.4 91.5,71 92.5,63.1;31,92 53.5,79 71.7,68.4 91.5,71 92.5,63.1;31,92 53.6,79.1 71.7,68.4 91.5,71 92.5,63.1;31,92 53.8,79.5 71.7,68.5 91.5,71 92.5,63.1;31,92 54.1,80.1 71.7,68.5 91.5,71 92.5,63.1;31,92 54.5,81 71.6,68.8 91.5,71 92.4,63.1;31,92 55,82 71.6,69.1 91.5,71 92.2,63;31,92 55.5,83.2 71.5,69.7 91.5,71 92,63;31,92 55.9,84.6 71.5,70.5 91.5,71 91.7,63;31,92 56.3,85.9 71.5,71.5 91.5,71 91.3,63;31,92 56.6,87.3 71.6,72.6 91.5,71 90.9,63;31,92 56.8,88.6 71.7,73.8 91.5,71 90.4,63.1;31,92 56.9,89.7 71.9,75.1 91.5,71 89.9,63.2;31,92 57,90.7 72.2,76.2 91.5,71 89.4,63.3;31,92 57,91.4 72.5,77.3 91.5,71 89,63.4;31,92 57,91.9 72.8,78 91.5,71 88.7,63.5;31,92 57,92 72.9,78.2 91.5,71 88.6,63.5"/></polyline>
+<circle cx="21" cy="89.5" r="5.5" fill="#ffffff" stroke="#555555" stroke-width="1.6"/>
+<polyline points="31,92 41,86 34,83" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="31,92 41,86 34,83;31,92 41,85.9 33.9,83;31,92 40.9,85.8 33.8,82.9;31,92 40.7,85.5 33.5,82.9;31,92 40.4,85.2 33.2,82.8;31,92 40.1,84.7 32.8,82.7;31,92 39.8,84.3 32.3,82.6;31,92 39.3,83.8 31.8,82.5;31,92 38.9,83.4 31.3,82.5;31,92 38.4,83 30.8,82.5;31,92 37.9,82.6 30.3,82.5;31,92 37.5,82.3 29.9,82.6;31,92 37.1,82.1 29.6,82.6;31,92 36.9,81.9 29.3,82.7;31,92 36.7,81.8 29.1,82.7;31,92 36.6,81.8 29.1,82.7;31,92 36.7,81.8 29.1,82.7;31,92 36.9,81.9 29.3,82.7;31,92 37.1,82.1 29.6,82.6;31,92 37.5,82.3 29.9,82.6;31,92 37.9,82.6 30.3,82.5;31,92 38.4,83 30.8,82.5;31,92 38.9,83.4 31.3,82.5;31,92 39.3,83.8 31.8,82.5;31,92 39.8,84.3 32.3,82.6;31,92 40.1,84.7 32.8,82.7;31,92 40.4,85.2 33.2,82.8;31,92 40.7,85.5 33.5,82.9;31,92 40.9,85.8 33.8,82.9;31,92 41,85.9 33.9,83;31,92 41,86 34,83"/></polyline>
+<circle cx="72.9" cy="78.2" r="2.4" fill="#0f6e56" stroke="#0f6e56" stroke-width="0.5"><animate attributeName="cx" dur="2s" repeatCount="indefinite" values="72.9;72.8;72.5;72.2;71.9;71.7;71.6;71.5;71.5;71.5;71.6;71.6;71.7;71.7;71.7;71.7;71.7;71.7;71.7;71.6;71.6;71.5;71.5;71.5;71.6;71.7;71.9;72.2;72.5;72.8;72.9"/><animate attributeName="cy" dur="2s" repeatCount="indefinite" values="78.2;78;77.3;76.2;75.1;73.8;72.6;71.5;70.5;69.7;69.1;68.8;68.5;68.5;68.4;68.4;68.4;68.5;68.5;68.8;69.1;69.7;70.5;71.5;72.6;73.8;75.1;76.2;77.3;78;78.2"/></circle>
+<text font-size="9" fill="#0f6e56" x="96" y="52">knee ~20°,</text>
+<text font-size="9" fill="#0f6e56" x="96" y="61">heel fixed</text>
+<circle cx="8" cy="108" r="2.8" fill="#0f6e56" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="1;0.2" keyTimes="0;0.5"/></circle>
+<circle cx="16" cy="108" r="2.8" fill="#0f6e56" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="0.2;1" keyTimes="0;0.5"/></circle>
+<text font-size="9" fill="#6f6f6f" x="26" y="111">1 beat up · 1 down</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">side view · lens at bench</text>
+</g>
+</g>
+
+<g transform="translate(0,-998)">
+<!-- C12 — Single-leg heel raises -->
+<rect x="30" y="2539" width="8" height="212" rx="2" fill="#185fa5"/>
+<rect x="38" y="2539" width="612" height="212" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="2555">12</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="2555">Single-leg heel raises — each leg</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="2573">Set-up</text>
+<text font-size="11" fill="#185fa5" x="136" y="2573">As card 7: barefoot, flat floor, fingertips on the wall at</text>
+<text font-size="11" fill="#185fa5" x="136" y="2587">shoulder height, same spot every time. Lens side-on at ankle</text>
+<text font-size="11" fill="#185fa5" x="136" y="2601">height. Metronome 60: up on one beat, down on the next.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="2615">Do</text>
+<text font-size="11" fill="#185fa5" x="136" y="2615">Heel raises as high as they go, knee straight but soft; keep</text>
+<text font-size="11" fill="#185fa5" x="136" y="2629">going, on the beat.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="2643">Stop when</text>
+<text font-size="11" fill="#185fa5" x="136" y="2643">A rep misses full height (against your first reps), misses</text>
+<text font-size="11" fill="#185fa5" x="136" y="2657">the beat, the knee bends, or you lean on the wall.</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="72" y="2671">Write down</text>
+<text font-size="11" fill="#185fa5" x="136" y="2671">Reps before the first miss, per leg.</text>
+<a href="https://www.youtube.com/watch?v=O4XF2njh7NA" target="_blank"><text font-size="10" fill="#185fa5" x="72" y="2686">Video: Missy Fraser PhD, single-leg heel raise ↗</text></a>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="2555">1 set per leg</text>
+<text font-size="11" fill="#185fa5" x="490" y="2570">Wall · tripod</text>
+<!-- PIC 12 — Single-leg heel raises -->
+<g transform="translate(486,2577)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#378add" stroke-width="0.8"/>
+<line x1="4" y1="100" x2="152" y2="100" stroke="#b8b8b8" stroke-width="1"/>
+<line x1="26" y1="10" x2="26" y2="100" stroke="#b8b8b8" stroke-width="2.4"/>
+<polyline points="46,100 51.1,93.9 50.5,73.9 51.1,52.9 49.6,26.9" fill="none" stroke="#d4d4d4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="54,59 52,80 69.3,70" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="54,59 52,80 69.3,70;54,58.9 52,79.9 69.3,69.9;54,58.7 52,79.7 69.3,69.7;54,58.3 52,79.3 69.3,69.3;53.9,57.8 51.9,78.8 69.2,68.8;53.8,57.3 51.8,78.3 69.1,68.3;53.6,56.6 51.6,77.6 68.9,67.6;53.4,56 51.4,77 68.7,67;53.1,55.3 51.1,76.3 68.4,66.3;52.7,54.7 50.7,75.7 68,65.7;52.3,54.1 50.3,75.1 67.6,65.1;52,53.7 50,74.7 67.3,64.7;51.6,53.3 49.6,74.3 66.9,64.3;51.4,53.1 49.4,74.1 66.7,64.1;51.2,52.9 49.2,73.9 66.5,63.9;51.1,52.9 49.1,73.9 66.4,63.9;51.2,52.9 49.2,73.9 66.5,63.9;51.4,53.1 49.4,74.1 66.7,64.1;51.6,53.3 49.6,74.3 66.9,64.3;52,53.7 50,74.7 67.3,64.7;52.3,54.1 50.3,75.1 67.6,65.1;52.7,54.7 50.7,75.7 68,65.7;53.1,55.3 51.1,76.3 68.4,66.3;53.4,56 51.4,77 68.7,67;53.6,56.6 51.6,77.6 68.9,67.6;53.8,57.3 51.8,78.3 69.1,68.3;53.9,57.8 51.9,78.8 69.2,68.8;54,58.3 52,79.3 69.3,69.3;54,58.7 52,79.7 69.3,69.7;54,58.9 52,79.9 69.3,69.9;54,59 52,80 69.3,70"/></polyline>
+<polyline points="46,100 54,100 53.4,80 54,59 52.5,33" fill="none" stroke="#555555" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="46,100 54,100 53.4,80 54,59 52.5,33;46,100 54,99.9 53.4,79.9 54,58.9 52.5,32.9;46,100 54,99.7 53.4,79.7 54,58.7 52.5,32.7;46,100 54,99.3 53.4,79.3 54,58.3 52.5,32.3;46,100 53.9,98.8 53.3,78.8 53.9,57.8 52.4,31.8;46,100 53.8,98.3 53.2,78.3 53.8,57.3 52.3,31.3;46,100 53.6,97.6 53,77.6 53.6,56.6 52.1,30.6;46,100 53.4,97 52.8,77 53.4,56 51.9,30;46,100 53.1,96.3 52.5,76.3 53.1,55.3 51.6,29.3;46,100 52.7,95.7 52.1,75.7 52.7,54.7 51.2,28.7;46,100 52.3,95.1 51.7,75.1 52.3,54.1 50.8,28.1;46,100 52,94.7 51.4,74.7 52,53.7 50.5,27.7;46,100 51.6,94.3 51,74.3 51.6,53.3 50.1,27.3;46,100 51.4,94.1 50.8,74.1 51.4,53.1 49.9,27.1;46,100 51.2,93.9 50.6,73.9 51.2,52.9 49.7,26.9;46,100 51.1,93.9 50.5,73.9 51.1,52.9 49.6,26.9;46,100 51.2,93.9 50.6,73.9 51.2,52.9 49.7,26.9;46,100 51.4,94.1 50.8,74.1 51.4,53.1 49.9,27.1;46,100 51.6,94.3 51,74.3 51.6,53.3 50.1,27.3;46,100 52,94.7 51.4,74.7 52,53.7 50.5,27.7;46,100 52.3,95.1 51.7,75.1 52.3,54.1 50.8,28.1;46,100 52.7,95.7 52.1,75.7 52.7,54.7 51.2,28.7;46,100 53.1,96.3 52.5,76.3 53.1,55.3 51.6,29.3;46,100 53.4,97 52.8,77 53.4,56 51.9,30;46,100 53.6,97.6 53,77.6 53.6,56.6 52.1,30.6;46,100 53.8,98.3 53.2,78.3 53.8,57.3 52.3,31.3;46,100 53.9,98.8 53.3,78.8 53.9,57.8 52.4,31.8;46,100 54,99.3 53.4,79.3 54,58.3 52.5,32.3;46,100 54,99.7 53.4,79.7 54,58.7 52.5,32.7;46,100 54,99.9 53.4,79.9 54,58.9 52.5,32.9;46,100 54,100 53.4,80 54,59 52.5,33"/></polyline>
+<circle cx="52" cy="25.3" r="5.5" fill="#ffffff" stroke="#555555" stroke-width="1.6"><animate attributeName="cx" dur="2s" repeatCount="indefinite" values="52;52;52;52;51.9;51.8;51.6;51.4;51.1;50.7;50.3;50;49.6;49.4;49.2;49.1;49.2;49.4;49.6;50;50.3;50.7;51.1;51.4;51.6;51.8;51.9;52;52;52;52"/><animate attributeName="cy" dur="2s" repeatCount="indefinite" values="25.3;25.2;25;24.6;24.1;23.6;22.9;22.3;21.6;21;20.4;20;19.6;19.4;19.2;19.2;19.2;19.4;19.6;20;20.4;21;21.6;22.3;22.9;23.6;24.1;24.6;25;25.2;25.3"/></circle>
+<polyline points="52.5,33 39.9,39 27.5,35" fill="none" stroke="#555555" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="points" dur="2s" repeatCount="indefinite" values="52.5,33 39.9,39 27.5,35;52.5,32.9 39.9,38.9 27.5,34.9;52.5,32.7 39.9,38.7 27.5,34.7;52.5,32.3 39.9,38.4 27.5,34.3;52.4,31.8 39.8,38 27.5,33.8;52.3,31.3 39.8,37.5 27.5,33.3;52.1,30.6 39.7,37.1 27.5,32.6;51.9,30 39.6,36.7 27.5,32;51.6,29.3 39.5,36.3 27.5,31.3;51.2,28.7 39.3,36.1 27.5,30.7;50.8,28.1 39.2,35.9 27.5,30.1;50.5,27.7 39,35.7 27.5,29.7;50.1,27.3 38.9,35.6 27.5,29.3;49.9,27.1 38.8,35.6 27.5,29.1;49.7,26.9 38.7,35.6 27.5,28.9;49.6,26.9 38.7,35.5 27.5,28.9;49.7,26.9 38.7,35.6 27.5,28.9;49.9,27.1 38.8,35.6 27.5,29.1;50.1,27.3 38.9,35.6 27.5,29.3;50.5,27.7 39,35.7 27.5,29.7;50.8,28.1 39.2,35.9 27.5,30.1;51.2,28.7 39.3,36.1 27.5,30.7;51.6,29.3 39.5,36.3 27.5,31.3;51.9,30 39.6,36.7 27.5,32;52.1,30.6 39.7,37.1 27.5,32.6;52.3,31.3 39.8,37.5 27.5,33.3;52.4,31.8 39.8,38 27.5,33.8;52.5,32.3 39.9,38.4 27.5,34.3;52.5,32.7 39.9,38.7 27.5,34.7;52.5,32.9 39.9,38.9 27.5,34.9;52.5,33 39.9,39 27.5,35"/></polyline>
+<line x1="58" y1="93.9" x2="82" y2="93.9" stroke="#378add" stroke-width="1.4" stroke-dasharray="3 2"/>
+<circle cx="54" cy="100" r="2.4" fill="#378add" stroke="#378add" stroke-width="0.5"><animate attributeName="cx" dur="2s" repeatCount="indefinite" values="54;54;54;54;53.9;53.8;53.6;53.4;53.1;52.7;52.3;52;51.6;51.4;51.2;51.1;51.2;51.4;51.6;52;52.3;52.7;53.1;53.4;53.6;53.8;53.9;54;54;54;54"/><animate attributeName="cy" dur="2s" repeatCount="indefinite" values="100;99.9;99.7;99.3;98.8;98.3;97.6;97;96.3;95.7;95.1;94.7;94.3;94.1;93.9;93.9;93.9;94.1;94.3;94.7;95.1;95.7;96.3;97;97.6;98.3;98.8;99.3;99.7;99.9;100"/></circle>
+<text font-size="9" fill="#378add" x="86" y="96.9">full height</text>
+<circle cx="8" cy="108" r="2.8" fill="#378add" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="1;0.2" keyTimes="0;0.5"/></circle>
+<circle cx="16" cy="108" r="2.8" fill="#378add" fill-opacity="0.45"><animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" calcMode="discrete" values="0.2;1" keyTimes="0;0.5"/></circle>
+<text font-size="9" fill="#6f6f6f" x="26" y="111">1 beat up · 1 down</text>
+<rect x="6" y="119" width="11" height="8" rx="1.5" fill="none" stroke="#6f6f6f" stroke-width="1"/><circle cx="11.5" cy="123" r="2.2" fill="none" stroke="#6f6f6f" stroke-width="1"/><rect x="8" y="117.5" width="4" height="1.8" fill="#6f6f6f"/>
+<text font-size="9" fill="#6f6f6f" x="21" y="126">side view · lens at ankle</text>
+</g>
+</g>
+
+<g transform="translate(680,0)">
+<!-- ── D SESSION 2 ── -->
+<rect x="30" y="1541" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1557">D — Session 2: 2–7 days later  (~20 min · symmetry tests only)</text>
+
+</g>
+
+<g transform="translate(680,-1190)">
+<!-- D13 — Repeat symmetry tests -->
+<rect x="30" y="2765" width="8" height="178" rx="2" fill="#666666"/>
+<rect x="38" y="2765" width="612" height="178" rx="4" fill="#f2f2f2" stroke="#aaaaaa" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="2781">13</text>
+<text font-size="12" font-weight="500" fill="#333333" x="72" y="2781">Repeat 10–12 — other side first</text>
+<text font-size="11" font-weight="500" fill="#333333" x="72" y="2799">Set-up</text>
+<text font-size="11" fill="#555555" x="136" y="2799">2–7 days after session 1: the same warm-up, seat, heel spot,</text>
+<text font-size="11" fill="#555555" x="136" y="2813">wall spot, beat and set-up. Start with the other side.</text>
+<text font-size="11" font-weight="500" fill="#333333" x="72" y="2827">Do</text>
+<text font-size="11" fill="#555555" x="136" y="2827">Tests 10, 11 and 12 once more.</text>
+<text font-size="11" font-weight="500" fill="#333333" x="72" y="2841">Score</text>
+<text font-size="11" fill="#555555" x="136" y="2841">Mean of both sessions, weaker ÷ stronger: ≥90% passes.</text>
+<text font-size="11" font-weight="500" fill="#333333" x="72" y="2855">Example</text>
+<text font-size="11" fill="#555555" x="136" y="2855">Heel raises left 27 and 28, right 30 and 30: 27.5 ÷ 30 =</text>
+<text font-size="11" fill="#555555" x="136" y="2869">92%, a pass.</text>
+<text font-size="12" font-weight="500" fill="#333333" x="490" y="2781">1 set per leg</text>
+<text font-size="11" fill="#555555" x="490" y="2796">As session 1</text>
+<!-- PIC 13 — Repeat symmetry tests -->
+<g transform="translate(486,2803)">
+<rect x="0" y="0" width="156" height="132" rx="4" fill="#ffffff" stroke="#aaaaaa" stroke-width="0.8"/>
+<text font-size="9" fill="#6f6f6f" x="8" y="22">Heel raises, mean of 2 sessions</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="44">Left</text>
+<rect x="34" y="36" width="86.7" height="10" rx="1.5" fill="#185fa5" fill-opacity="0.55"/>
+<text font-size="9" fill="#6f6f6f" x="124.7" y="44">27.5</text>
+<text font-size="9" fill="#6f6f6f" x="8" y="66">Right</text>
+<rect x="34" y="58" width="94.6" height="10" rx="1.5" fill="#185fa5"/>
+<text font-size="9" fill="#6f6f6f" x="132.6" y="66">30</text>
+<line x1="119.1" y1="30" x2="119.1" y2="74" stroke="#333333" stroke-width="1" stroke-dasharray="3 2"/>
+<text font-size="9" fill="#6f6f6f" x="119.1" y="84" text-anchor="middle">90% line</text>
+<text font-size="9" fill="#185fa5" x="8" y="102">27.5 ÷ 30 = 92% → pass</text>
+<text font-size="9" fill="#6f6f6f" x="6" y="126">weaker ÷ stronger</text>
+</g>
+</g>
+
+<g transform="translate(0,-1190)">
+<!-- POST-WORKOUT NOTE -->
+<rect x="30" y="2955" width="620" height="62" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="2972">Step-gate log — after every training session (exit criterion 1)</text>
+<text font-size="11" fill="#2272a8" x="50" y="2985">Per joint: pain ≤5/10 during and after · back to normal the next morning · no swelling or warmth</text>
+<text font-size="11" fill="#2272a8" x="50" y="2998">within 24 h · no “loose joint” feeling that day.</text>
+<text font-size="11" fill="#2272a8" x="50" y="3011">Two clean weeks in a row are needed; a fail is a flare and restarts the count.</text>
+</g>
+
+<g transform="translate(0,-1190)">
+<!-- GLOBAL RULES -->
+<rect x="30" y="3029" width="620" height="200" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="3051">Every test — rules</text>
+<rect x="50" y="3061" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="3069">These are tests, not training sets: follow each card's set-up exactly</text>
+<rect x="50" y="3081" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="3089">Stop at pain, a clunk, or a slipping or giving-way feeling — that test is not clean this round</text>
+<rect x="50" y="3101" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="3109">Same seat, box, spots, set-up and beat every time; barefoot; write down the seat height</text>
+<rect x="50" y="3121" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="3129">Film every test and judge it on the paused video, not by feel</text>
+<rect x="50" y="3141" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="3149">Ranges: your own effort only, nothing pushes further — except card 5's slow lean, heel flat</text>
+<rect x="50" y="3161" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="3169">No stretching before the range tests</text>
+</g>
+
+<g transform="translate(680,-1428)">
+<!-- TIMING SUMMARY -->
+<rect x="30" y="3193" width="620" height="152" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="3213">What the results unlock — the same tests at every stage step</text>
+<text font-size="11" fill="#2272a8" x="50" y="3230">A joint moves up one loading stage when all three hold: 2 clean step-gate weeks, a clean control test</text>
+<text font-size="11" fill="#2272a8" x="50" y="3247">and a symmetry score of ≥90% over both sessions. Passing now opens stage 2 only.</text>
+<text font-size="11" fill="#2272a8" x="50" y="3264">Knee at stage 2: squats may go below parallel, within 70–80% of your card-4 bend (R1 · R3).</text>
+<text font-size="11" fill="#2272a8" x="50" y="3281">For 2→3: train ≥2 clean weeks at stage 2, then run this file again; the same for 3→4.</text>
+<text font-size="11" fill="#2272a8" x="50" y="3298">The ranges (A) set your training limits at every stage; redo them after a flare.</text>
+<text font-size="11" fill="#2272a8" x="50" y="3315">A flare drops a joint back one stage · court work (cardio routine) needs ankle, knee and hip at stage 4.</text>
+<text font-size="11" fill="#2272a8" x="50" y="3332">Rules behind this file: Stage 0 §2.5–2.6 · R1 · R3 · R14 · D-61 · D-62 · D-67…D-69 · D-77…D-82 (gymspec).</text>
+</g>
+
+<g transform="translate(680,-1428)">
+<!-- SET COUNT -->
+<rect x="30" y="3357" width="620" height="110" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="3379">Send back to Claude — results per joint</text>
+<text font-size="11" fill="#085041" x="50" y="3399">Hip: bend ° L/R · leg-raise ° L/R · side-lift ° L/R · test 9 per criterion L/R · bridge reps L/R ×2</text>
+<text font-size="11" fill="#26215c" x="50" y="3417">Knee: straight and bent ° L/R · heel lifts? L/R · test 6 clean? L/R · sit-to-stand reps L/R ×2 · seat cm</text>
+<text font-size="11" fill="#185fa5" x="50" y="3435">Ankle: shin ° and gap cm L/R · tests 7–8 clean? L/R · heel-raise reps L/R ×2</text>
+<text font-size="11" fill="#666666" x="50" y="3453">All: the Kinovea snips · step-gate clean weeks so far, per joint</text>
+</g>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="680" y="2059" text-anchor="middle">v1 — two-column copy of evaluation_lowerbody v1: the same tests, pictures and links, without v1's sport note (Stage 2 R59); not updated when v1 changes (Harry, 2026-10-22)</text>
+
+</svg>

@@ -13,7 +13,7 @@ Rationale, evidence, deferred material and the walkthrough → `Stage1_Supplemen
 
 | Item | Value |
 |---|---|
-| Input | **Current state and the current routines** (Stage 0 §4.1). Every field without a default is asked before planning, and every current routine is read before a new one is built or an old one edited (S1.1). |
+| Input | **Current state, from the block's state file, and the current routines** (Stage 0 §4.1 · Stage 2 R67). Every field the state file does not hold is asked before planning, and every current routine is read before a new one is built or an old one edited (S1.1). |
 | Output | **A Plan per request** (§3.1): one or more routines, each a session template with its regions and sessions per week. Harry places them in his week (Stage 0 §0.1). |
 | Goals | **Every goal row of Stage 0 §2.2 is planned through the same steps**; `[HYP]` parts apply to hypertrophy only. |
 | Conditioning | **Conditioning routines are checked against the hard gates (Stage 0 §0.2) and dosed only when Harry asks for a conditioning plan**: he builds and applies those sessions himself (Stage 0 D-53). |
@@ -46,8 +46,8 @@ Rationale, evidence, deferred material and the walkthrough → `Stage1_Supplemen
 
 | Step | Input | Action items | Output |
 |---|---|---|---|
-| S1.1 Intake | Request · Current state (Stage 0 §4.1) · current routines | Ask every field without a default; check Stage 0 §4.1 invariants; read every current routine; classify the request — new block, new routine or edit | Validated Current state · routine inventory · request type |
-| S1.2 Frame | S1.1 | Block type and goal row per region (Stage 0 §0.3); ramp band from block week and layoff (Stage 0 R22); RIR for the block week (Stage 0 R17 · R18); suspended regions (Stage 0 R24); training sessions per region, ≤3 (Stage 0 R20) | Block frame |
+| S1.1 Intake | Request · the block's state file (Stage 0 §4.1 · Stage 2 R67) · current routines | Read Current state from the state file and ask every field it does not hold; check Stage 0 §4.1 invariants; read every current routine; classify the request — new block, new routine or edit | Validated Current state · routine inventory · request type |
+| S1.2 Frame | S1.1 | Block type and goal row per region (Stage 0 §0.3); the ramp bands for every block week, from the layoff (Stage 0 R22); RIR for weeks 1–4 and from week 5 (Stage 0 R17 · R18), since Harry counts the block weeks (Stage 0 §2.4); suspended regions (Stage 0 R24); training sessions per region, ≤3 (Stage 0 R20) | Block frame |
 | S1.3 Targets | Block frame | `[HYP]` weekly target per priority target (R33); maintenance: floor and default per muscle group (R47); other goals: no weekly target, Sets per exercise from the row (R34) | Target per muscle or group |
 | S1.4 Candidates | Targets · Stage 0 §1.3 · loading stages | Per target, list exercises that pass the hard gates (Stage 0 §0.2); label zones (R26) and check zone availability (R27); score the goal-fit test (R30); give each a sport verdict (R31); rank by Stage 0's selection criteria, focus-block preference included (R32) | Ranked candidates per muscle |
 | S1.5 Compounds and harvest | Candidates | Choose compounds first; trace every indirect set to its exercise (R35) | Harvest per muscle |
@@ -139,7 +139,7 @@ Each rule passes when the implementation produces the *Pass* behaviour and fails
 
 | Field | Definition |
 |---|---|
-| `header` | Block type, goal row per region, priority targets, block week and ramp band (Stage 0 R22), RIR for the block week (Stage 0 R17 · R18), plan version |
+| `header` | Block type, goal row per region, priority targets, the ramp bands for every block week (Stage 0 R22), RIR for weeks 1–4 and from week 5 (Stage 0 R17 · R18), plan version |
 | `routines` | Per routine: name, regions trained (Stage 0 §2.7), sessions per week, exercise rows, exercise time (R40), sport note (Stage 0 R21) |
 | `exercise_row` | Exercise · equipment and stations · zone (R26) · sets × reps + RIR · rest · load band · pairing or "straight", with the order (R38 · R39) · notes and warnings |
 | `alternatives` | Per station exercise: two alternatives, or the named gap (R41) |
@@ -167,4 +167,4 @@ Invariant: every exercise in a plan takes its facts from the exercise catalogue 
 
 ## 4. Open items
 
-None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13.
+None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12 recorded 2026-10-25.
