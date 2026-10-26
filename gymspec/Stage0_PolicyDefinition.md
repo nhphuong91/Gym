@@ -115,7 +115,6 @@ Reps per set; Sets per exercise per session, applied to the exercise's target mu
 | Strength | 2–6 | 3–5 | 1–3 | reps + RIR ≤ 6 (≈ ≥85% 1RM) | 2–5 min |
 | Power | 3–5 | 1–3 | ≥3 | reps + RIR 4–8 (≈ 80–90% 1RM) | 2–5 min |
 | Muscular endurance | 2–3 | ≥12 | 1–3 | reps + RIR ≥ 12 (≈ ≤67% 1RM) | ≤30 s |
-| General fitness | 1–2 | 8–15 | 2–4 | none | 30–90 s |
 
 The load check is read from reps + RIR, never tested (R16).
 

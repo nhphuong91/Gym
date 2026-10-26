@@ -160,7 +160,7 @@ Blocks from top to bottom, as the upper focus files v8 hold them (Supplement §5
 | Post-workout note | The mobility post half by name · the sport note (R59) · the next-day step-gate line (Stage 0 R20) | `routines` sport note |
 | Rules box | The rules Harry applies set by set, each with its R-number: tempo and soft bend, range, the abort, RIR by block week, the unilateral gate, holds, the progression step, the step-gate log | `header` · `progression` |
 | Timing summary | The session timeline from the pre half to the post half · exercise time by Stage 1 R40, with its basis · working sets | `routines` exercise time |
-| Set-count box | `[HYP]` Per priority target: sets in this session · weekly direct sets + harvest, and any sets above the target (Stage 1 R48). Other goals: Sets per exercise (Stage 1 R34) | `set_count` |
+| Set-count box | Per priority target: sets in this session · weekly direct sets + harvest, and any sets above the target (Stage 1 R33 · R34 · R48) | `set_count` |
 | Alternatives table | Per station exercise: card number and primary, alternative 1, alternative 2 or the named gap, each warning marked ⚠ with its rule | `alternatives` |
 | Version note | "vN — change" (R56) | — |
 
