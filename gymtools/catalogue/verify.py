@@ -1,7 +1,8 @@
 """Verify ExerciseCatalogue.json against the corpus card list, its .md mirror and the spec docs.
 
 Run: python3 -B verify.py <dir with ExerciseCatalogue.json + .md> <gymspec dir>
-Checks 1–2 list the routine files at the latest version the catalogue cites, with their card counts (2026-10-13); a
+Checks 1–2 list the routine files at the latest version the catalogue cites, with their card counts (2026-10-13; the
+mobility files' upper v4 and lower v3 IDs added 2026-10-26, catalogue revision 13; upper v5 2026-10-27, revision 14); a
 version that changes no exercise, card number or pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
 gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites; a stem found
 only in gymplan/PreviousOldRoutines/, Harry's archive, is skipped as retired (Stage 2 D-15). A FAIL exits 1.
@@ -104,7 +105,10 @@ for f, rng in cards.items():
         if not hit:
             missing.append(f"{f} ex. {n}")
 for f, ids in {"stretching_upper_hEDS v2": [f"P{i}" for i in range(1, 8)] + [f"S{i}" for i in range(1, 10)],
-               "stretching_lower_hEDS v1": [f"P{i}" for i in range(1, 8)] + [f"S{i}" for i in range(1, 9)]}.items():
+               "stretching_lower_hEDS v1": [f"P{i}" for i in range(1, 8)] + [f"S{i}" for i in range(1, 9)],
+               "stretching_upper_hEDS v4": [f"P{i}" for i in range(1, 13)] + [f"S{i}" for i in range(1, 6)],
+               "stretching_lower_hEDS v3": [f"P{i}" for i in range(1, 12)] + [f"S{i}" for i in range(1, 5)],
+               "stretching_upper_hEDS v5": [f"P{i}" for i in range(1, 13)] + [f"S{i}" for i in range(1, 7)]}.items():
     for i in ids:
         if not any(c.startswith(f"{f} {i}") and (len(c) == len(f"{f} {i}") or c[len(f"{f} {i}")] == " ") for c in refs):
             missing.append(f"{f} {i}")

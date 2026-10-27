@@ -94,6 +94,7 @@ EQUIPMENT = {
     "dumbbells": "adjustable dumbbells",
     "foam_roller": "foam roller",
     "tennis_ball": "tennis ball",
+    "lacrosse_ball": "lacrosse ball",
     "low_box": "low step or box, 5–20 cm",
     "court": "badminton court",
     "bike": "bike, stationary or outdoor",

@@ -1,15 +1,42 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 12, 2026-10-25: L options for the front delt, rear delt and abs (the L search, Stage 1 D-15) (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 15, 2026-10-27: the lacrosse ball in the equipment vocabulary (§0). Where this file and the stage documents disagree, the stage documents govern.
 
-**141 rows** — open 95 · locked 42 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 12.
+**143 rows** — open 97 · locked 42 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 14.
 
 **Marks:** ✏️ changed from the corpus or added · ⚠️ warning that travels with the exercise · 🔖 reading for Harry to confirm (§5) · 📖 spec or corpus basis · 🌐 literature basis · 🧠 mechanics basis.
 
 ---
 
 ## 0. Revisions
+
+**Revision 15 — 2026-10-27: the lacrosse ball in the equipment vocabulary**
+
+- Harry has a lacrosse ball as well as the tennis ball, and it joins Stage 0 §1.3's always-available kit (Stage 0 D-93), so this vocabulary lists it. No row uses it: the foam-rolling files, where it is an option, stay outside the catalogue.
+
+**Revision 14 — 2026-10-27: the biceps hold back in the upper mobility file (v5)**
+
+- Harry kept C105 (T18): it is back in stretching_upper_hEDS v5 as post add-on S6. Its wording now says what makes the biceps hold: the palms press forward against the rack uprights or the wall either side of a doorway, arms at the sides (Stage 0 R5); a flat wall cannot take both palms in front of the hands.
+- The upper file's v4 cards keep their numbers, so the rows it uses cite v5; the v4 lines stay as history.
+
+| Change from revision 13 | Rows |
+|---|---|
+| Changed from the corpus ✏️ | C105 |
+| Corpus provenance: the upper mobility file v5 | C097, C098, C099, C100, C101, C102, C103, C105, C106, C108, C109, C110, C135, C143 |
+
+**Revision 13 — 2026-10-26: the mobility files rebuilt as upper v4 and lower v3**
+
+- Harry had the two mobility files rebuilt (2026-10-26): each now takes this catalogue's drill rows at the Current state — shoulder, elbow and wrist at loading stage 2; spine, hip, knee and ankle at 1 — as a core for every session plus add-ons by target, and the post half becomes a joint check. The rows they use cite stretching_upper_hEDS v4 and stretching_lower_hEDS v3; the v2 and v1 lines stay as history, like the focus files' v6 and v7 lines.
+- C102 moves from flat hands to fists or DB handles (T17): on flat hands the wrist starts near end-range extension before any lean, as C099's cue already says (Stage 0 R1 · R2).
+- Two rows added once Harry confirmed them (Stage 1 §3.2 · D-08; T17): C142, the supine windshield wipers with both knees together, which stands in for the hip rotation of C111 until hip, knee and ankle reach stage 3 (Stage 1 D-09); C143, an internal-rotation hold with the palms pressed together, both arms, for the cuff's internal rotators, which had no open drill (C022 needs shoulder stage 3).
+
+| Change from revision 12 | Rows |
+|---|---|
+| Added ✏️ | C142, C143 |
+| Replacement named (Stage 1 D-09) | C111 |
+| Changed from the corpus ✏️ | C102 |
+| Corpus provenance: the mobility files upper v4 and lower v3 | C075, C097, C098, C099, C100, C101, C102, C103, C106, C108, C109, C110, C112, C115, C117, C119, C130, C131, C132, C133, C135, C137 |
 
 **Revision 12 — 2026-10-25: L options for the front delt, rear delt and abs (the L search, Stage 1 D-15)**
 
@@ -248,10 +275,10 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 | C099 | Scapular push-up hold (protract and hold) | drill | — | open | corpus-fixed ✏️ |
 | C100 | Band isometric external rotation, 3 angles, both arms (one band) | drill | — | open | corpus-fixed ✏️ |
 | C101 | Cat-cow with isometric pauses | drill | — | open | corpus |
-| C102 | Wrist isometric loading, 4 directions (tabletop) | drill | — | open | corpus-fixed ✏️ |
+| C102 | Wrist weight shifts on fists, 4 directions (hands and knees) | drill | — | open | corpus-fixed ✏️ |
 | C103 | Band pull-apart hold at chest height (active pec opener) | drill | — | open | corpus-fixed ✏️ |
 | C104 | Active hang, bent arms, feet on the floor | drill | — | locked | corpus-fixed ✏️ |
-| C105 | Isometric biceps hold, both palms pressing back on the rack uprights | drill | — | open | corpus-fixed ✏️ |
+| C105 | Isometric biceps hold, both palms pressing forward (rack uprights or doorway) | drill | — | open | corpus-fixed ✏️ |
 | C106 | Isometric triceps overhead hold, both arms (band under both feet) | drill | — | open | corpus-fixed ✏️ |
 | C107 | Quadruped thoracic rotation with active reach | drill | — | locked | corpus |
 | C108 | Prone Y-T-W isometric holds | drill | — | open | corpus |
@@ -288,6 +315,8 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 | C139 | Supine dumbbell front raise on the floor, both arms | Front delt · L | — | open | confirmed ✏️ |
 | C140 | Side-lying dumbbell rear delt raise (on the floor) | Rear delt · L | — | locked | confirmed ✏️ |
 | C141 | Crunch over the foam roller (roller under the mid-back) | Abs · L | — | locked | confirmed ✏️ |
+| C142 | Supine windshield wipers, both knees together | drill | — | open | confirmed ✏️ |
+| C143 | Internal-rotation hold, both arms, palms pressed together | drill | — | open | confirmed ✏️ |
 
 ---
 
@@ -1108,7 +1137,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - ⚠️ End-range peak: the load peaks at the end of hip extension, the soft bend its only margin (R2 · Stage 0 D-55)
 - Sport: badminton — carryover: eccentric quad and glute
 - Notes: No station: the hip thrust's alternative (R41).
-- Source: 📖 corpus — stretching_lower_hEDS v1 P5 (3 × 8, 3 s hold each rep)
+- Source: 📖 corpus — stretching_lower_hEDS v1 P5 (3 × 8, 3 s hold each rep); stretching_lower_hEDS v3 P5
 - Basis: 🌐 Stage 1 [W55]: hip extension peaks at short length · 🧠 mechanics (R26)
 
 **C076 · Glute bridge isometric hold (band above the knees)** — Glutes · S · hip extension · hold · open
@@ -1196,7 +1225,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Indirect: — · Day after: badminton (Hip abductors)
 - Stands in for: C077 (locked), C113 (locked)
 - Cues: lying on the back, knees bent, feet flat hip-width apart, short band just above the knees · open both knees together to ~70–80% of the range, not to the floor (R1) · pelvis and lower back still
-- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P4
 - Basis: 🧠 mechanics: band tension peaks with the knees apart, where the abductors are shortest (R29) · 📖 Stage-1 replacement for C077 and C113 (Stage 1 D-09)
 
 **C133 · Supine banded hip adduction, both legs (two long bands from the frame)** — Adductors · S · hip adduction · isolation · open ✏️
@@ -1205,7 +1234,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Indirect: — · Day after: —
 - Stands in for: C080 (locked), C082 (locked)
 - Cues: lying on the back between the frame uprights, knees bent, feet flat · a long band round each knee just above the joint, anchored at knee height on that side; same anchor distance both sides (R23) · start with the knees open to ~70–80% of the range, not end range, and bring both together (R1)
-- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P11
 - Basis: 🧠 mechanics: band tension peaks with the knees together, where the adductors are shortest (R29) · 📖 Stage-1 replacement for C080 and C082 (Stage 1 D-09); a self-resisted squeeze was dropped: it has no failure point, so a hold's seconds in reserve cannot be set (Stage 0 R16 · D-60)
 
 **C137 · Supine bent-knee leg lift to tabletop, both legs** — Hip flexors · M · hip flexion · isolation · open ✏️
@@ -1214,7 +1243,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Indirect: Abs · Day after: archery (Abs)
 - Stands in for: C083 (locked), C123 (locked)
 - Cues: lying on the back, knees bent ~90°, feet on the floor · lift both feet together until the thighs are vertical (tabletop) · lower back stays flat; stop the lowering where it starts to arch (R1 · R2)
-- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P3
 - Basis: 🧠 mechanics: the load peaks as the feet leave the floor, hip bent ~45°, mid-range (R26) · 📖 Stage-1 replacement for C083 and C123 (Stage 1 D-09); seated, the lift ends past R1's range
 
 #### Calves & shins
@@ -1363,7 +1392,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): shoulder 1
 - Targets: shoulder capsule, rotator cuff, scapular stabilisers
 - Cues: at shoulder stage 1: no more than ~75% of overhead elevation, 45° of external rotation, and extension to neutral (§2.5 · D-63); from stage 2, the range you control, short of end range (R1 · R7) · slow down where the circle catches or clicks; never force through (R7; corpus) · both arms circle together (R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P1; stretching_upper_hEDS v2 S1; cardio_routine (no version) ex. 14
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P1; stretching_upper_hEDS v2 S1; cardio_routine (no version) ex. 14; stretching_upper_hEDS v4 P1; stretching_upper_hEDS v4 S1; stretching_upper_hEDS v5 P1; stretching_upper_hEDS v5 S1
 - Changed ✏️: Each arm in turn → both arms together: one arm circling alone is unilateral loading (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 and R12 pass examples (shoulder CARs with both arms together)
 
@@ -1372,7 +1401,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): wrist 1
 - Targets: wrist capsule, forearm flexors and extensors
 - Cues: circles stay inside ~70–80% of the wrist range (§2.5 · D-65) · forearms rest on the thighs; both wrists circle slowly together (corpus; R12 until stage 3) · press palm into palm in 4 directions, ~20–30% effort (corpus)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P2; stretching_upper_hEDS v2 S7
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P2; stretching_upper_hEDS v2 S7; stretching_upper_hEDS v4 P5; stretching_upper_hEDS v4 S2; stretching_upper_hEDS v5 P5; stretching_upper_hEDS v5 S2
 - Changed ✏️: One wrist circling, braced by the other hand → both wrists together, forearms resting (R12 · Stage 0 D-54); the palm-to-palm press already loads both.
 - Basis: 📖 Stage 0 R7 (active drill)
 
@@ -1381,7 +1410,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: dumbbells · Joints (stage needed): shoulder 1; wrist 1; elbow 1
 - Targets: serratus anterior, lower trapezius
 - Cues: hands on DB handles or fists: neutral wrists, since flat hands load the wrist near end-range extension (R2); knees down if needed · push the shoulder blades apart to ~80% and hold, not to end range (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P3
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P3; stretching_upper_hEDS v4 P6; stretching_upper_hEDS v5 P6
 - Changed ✏️: 'Push shoulder blades apart maximally' → ~80%; hands on handles or fists (R1 · R2).
 - Basis: 📖 Stage 0 R7 (isometric hold)
 
@@ -1391,7 +1420,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Targets: infraspinatus, teres minor
 - Cues: the outer angle sits at 45° or ~75% of the external-rotation range, whichever is smaller, at shoulder stage 1 (§2.5 · D-63); ~70–80% of the range, 90° only if within it, from stage 2 (R1) · elbows pinned to the sides; both hands on one band (R12 until stage 3)
 - Sport: archery — carryover: cuff external rotation
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P4
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P4; stretching_upper_hEDS v4 P2; stretching_upper_hEDS v5 P2
 - Changed ✏️: Holds at 0°, 45° and 90° → the outer hold capped at ~70–80% of the range (R1); one arm against an anchored band → both hands on one band (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 (isometric hold)
 
@@ -1400,17 +1429,17 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: dumbbells · Joints (stage needed): spine 1; wrist 1; shoulder 1
 - Targets: thoracic spine, serratus anterior, rhomboids, deep core
 - Cues: at spine stage 1 the low back moves to no more than ~36–42° of flexion and ~12–15° of extension, 70–80% of a healthy range (§2.5 · D-66 · D-69); from stage 2, up to the healthy-mean range, short of end range (R1 · R2 · D-69) · pause short of the end of each direction (R2) · on fists or DB handles: neutral wrists (R2)
-- Source: 📖 corpus — stretching_upper_hEDS v2 P5
+- Source: 📖 corpus — stretching_upper_hEDS v2 P5; stretching_upper_hEDS v4 P8; stretching_upper_hEDS v5 P8
 - Basis: 📖 Stage 0 R7 (active drill)
 
-**C102 · Wrist isometric loading, 4 directions (tabletop)** — drill · upper · open ✏️
+**C102 · Wrist weight shifts on fists, 4 directions (hands and knees)** — drill · upper · open ✏️
 
-- Stations: none · Equipment: none · Joints (stage needed): wrist 1
-- Targets: wrist flexors, extensors, radial and ulnar deviators
-- Cues: lean only to ~70–80% of the wrist range: full extension under body weight is terminal (R1 · R2 · §2.5 · D-65)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P6
-- Changed ✏️: 'Lean gently' given a range cap (R1 · R2).
-- Basis: 📖 Stage 0 R7 (isometric hold)
+- Stations: none · Equipment: dumbbells · Joints (stage needed): wrist 1; elbow 1; shoulder 1
+- Targets: wrist stabilisers in neutral; forearm flexors and extensors working together
+- Cues: hands on DB handles or fists: neutral wrists, since flat hands load the wrist near end-range extension (R2); knees down · shift the weight a little forward, back, left and right and hold each; the wrists stay straight, never bent back under the load (R1 · R2) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P6; stretching_upper_hEDS v4 P7; stretching_upper_hEDS v5 P7
+- Changed ✏️: Flat hands → fists or DB handles (T17): on flat hands the wrist starts near end-range extension before any lean, as C099's cue says, so a capped lean still loads it there; on fists the shifts load the wrist in neutral (R1 · R2).
+- Basis: 📖 Stage 0 R7 (isometric hold) · 📖 Stage 0 R1 · R2
 
 **C103 · Band pull-apart hold at chest height (active pec opener)** — drill · upper · open ✏️
 
@@ -1418,7 +1447,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Targets: rear delt, rhomboids active; pecs lengthened
 - Cues: hands stop in line with the shoulders, not behind the torso plane (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; isometric holds at shoulder height
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P7
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P7; stretching_upper_hEDS v4 P4; stretching_upper_hEDS v5 P4
 - Changed ✏️: 'Pull band apart until mild stretch in chest' → hands stop at the shoulder line (R1).
 - Basis: 📖 Stage 0 R7 (active drill)
 
@@ -1434,13 +1463,13 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Changed ✏️: 'Shoulders actively packed down' → braced, not pulled down (R4 · Stage 0 D-42).
 - Basis: 📖 Stage 0 R4 · D-42
 
-**C105 · Isometric biceps hold, both palms pressing back on the rack uprights** — drill · upper · open ✏️
+**C105 · Isometric biceps hold, both palms pressing forward (rack uprights or doorway)** — drill · upper · open ✏️
 
 - Stations: none · Equipment: frame · Joints (stage needed): elbow 1; shoulder 1
 - Targets: biceps, brachialis, forearm
-- Cues: arms in line with the torso, not behind it (R5) · elbows at ~140–150°, about 70–80% toward full extension (R1) · ~30% effort (corpus) · both arms together (R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 S4
-- Changed ✏️: Corpus ~160° keeps R2's soft bend but sits past R1's 70–80% (closes the Stage 0 §5.2 🔖); the arms stay at the torso line (R5); one arm on the wall → both palms on the rack uprights (R12 · Stage 0 D-54).
+- Cues: facing the rack uprights or a doorway, palms forward against the uprights or the wall either side of the opening; arms at the sides, in line with the torso, never behind it (R5) · elbows at ~140–150°, about 70–80% toward full extension (R1) · press forward ~30% (corpus) and hold: the biceps works at a long length while nothing moves (R7) · both arms together (R12 until stage 3)
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 S4; stretching_upper_hEDS v5 S6
+- Changed ✏️: Corpus ~160° keeps R2's soft bend but sits past R1's 70–80% (closes the Stage 0 §5.2 🔖); the arms stay at the torso line (R5); one arm on the wall → both palms on the rack uprights (R12 · Stage 0 D-54). The palms press forward, the direction that makes the biceps hold, and a doorway works as well as the uprights (T18).
 - Basis: 📖 Stage 0 R1 · R2 · R5 · R12
 
 **C106 · Isometric triceps overhead hold, both arms (band under both feet)** — drill · upper · open ✏️
@@ -1448,7 +1477,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: bands · Joints (stage needed): elbow 1; shoulder 1
 - Targets: triceps long head, posterior shoulder
 - Cues: shoulder blades braced overhead (R6); at shoulder stage 1 the arms rise to no more than ~75% of overhead elevation (§2.5 · D-63); from stage 2, peak tension at ~70–80% of the range, never end range (R1) · elbow bend to ~70–80% of the range and hold (R1) · nothing pulls the arms deeper (R7) · both arms together (R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 S5 (towel or band behind the back)
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 S5 (towel or band behind the back); stretching_upper_hEDS v4 P10; stretching_upper_hEDS v4 S5; stretching_upper_hEDS v5 P10; stretching_upper_hEDS v5 S5
 - Changed ✏️: Band under the feet instead of the lower hand: the lower arm behind the back is loaded shoulder extension (R5) and must never pull the top arm deeper (R7); both arms hold together (R12 · Stage 0 D-54). Arms overhead → no higher than ~75% of overhead elevation at shoulder stage 1 (§2.5 · D-63).
 - Basis: 📖 Stage 0 R5 · R6 · R7 · R12
 
@@ -1470,7 +1499,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stands in for: C104 (locked)
 - Cues: no shrug (R8) · arms short of end range; the Y no higher than ~75% of overhead elevation at shoulder stage 1 (R1 · §2.5 · D-63), short of end range from stage 2 (R1) · W with the arms held at an angle, not spread wide, so the shoulders stay within 45° of external rotation at shoulder stage 1 (§2.5 · D-63; T13); ~70–80% of the external-rotation range from stage 2 (R1)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; isometric holds at shoulder height
-- Source: 📖 corpus — stretching_upper_hEDS v2 S8
+- Source: 📖 corpus — stretching_upper_hEDS v2 S8; stretching_upper_hEDS v4 P9; stretching_upper_hEDS v4 S4; stretching_upper_hEDS v5 P9; stretching_upper_hEDS v5 S4
 - Basis: 📖 Stage 0 R7 · R8
 
 **C109 · Neck rotation with isometric resistance from both hands** — drill · upper · open ✏️
@@ -1478,7 +1507,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): spine 1 — cervical
 - Targets: cervical stabilisers, SCM
 - Cues: both hands stacked on the side of the head; ~20% effort; the hands resist, never push the head further (R7)
-- Source: 📖 corpus-fixed ✏️ — cardio_routine (no version) ex. 15
+- Source: 📖 corpus-fixed ✏️ — cardio_routine (no version) ex. 15; stretching_upper_hEDS v4 P12; stretching_upper_hEDS v5 P12
 - Changed ✏️: One hand resisting → both hands stacked, so no arm holds alone (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 (isometric hold)
 
@@ -1487,7 +1516,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): —
 - Targets: diaphragm, deep core, rib position
 - Cues: inhale 4 s, exhale 8 s (corpus)
-- Source: 📖 corpus — stretching_upper_hEDS v2 S9; stretching_lower_hEDS v1 S8
+- Source: 📖 corpus — stretching_upper_hEDS v2 S9; stretching_lower_hEDS v1 S8; stretching_upper_hEDS v4 S3; stretching_lower_hEDS v3 S3; stretching_upper_hEDS v5 S3
 - Basis: 📖 corpus
 
 **C111 · Hip CARs (standing, hand on the wall)** — drill · lower · locked
@@ -1495,6 +1524,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): hip 3 — the moving leg circles alone (R12 · Stage 0 D-54); knee 3 — single-leg stance holds body weight alone (R12 · Stage 0 D-54); ankle 3 — single-leg stance holds body weight alone (R12 · Stage 0 D-54)
 - Targets: hip capsule, glutes, hip flexors, adductors
 - Locked: hip → stage 3, control test exists; knee → stage 3, control test exists; ankle → stage 3, control test exists
+- Until it opens, use: C142 (Stage 1 D-09)
 - Cues: slow down where the circle catches (R7; corpus)
 - Source: 📖 corpus — stretching_lower_hEDS v1 P1; stretching_lower_hEDS v1 S1
 - Basis: 📖 Stage 0 R7 (active drill)
@@ -1504,7 +1534,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): ankle 1
 - Targets: ankle capsule, calves, tibialis
 - Cues: both feet circle slowly together; note catching (corpus; R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P2; stretching_lower_hEDS v1 S2
+- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P2; stretching_lower_hEDS v1 S2; stretching_lower_hEDS v3 P1; stretching_lower_hEDS v3 S1
 - Changed ✏️: One foot at a time → both feet together, seated (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 (active drill)
 
@@ -1534,7 +1564,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Targets: quads (VMO)
 - Cues: extend to just short of straight (R2) · both knees together (R12 until stage 3)
 - ⚠️ End-range peak: the load peaks at the end of knee extension, the soft bend its only margin (R2 · Stage 0 D-55)
-- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P4; cardio_routine (no version) ex. 3
+- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P4; cardio_routine (no version) ex. 3; stretching_lower_hEDS v3 P9
 - Changed ✏️: Single-leg TKEs need knee stage 3 (R12); one band behind both knees keeps them bilateral. The cardio card's 'to straight' fails R2.
 - Basis: 📖 Stage 0 R2 · R12
 
@@ -1554,7 +1584,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Targets: gastrocnemius, soleus
 - Cues: hold just short of the highest point: full plantarflexion under body weight is terminal (R2) · both legs work together (R12 until stage 3)
 - ⚠️ End-range peak: the load peaks at the end of plantarflexion, under body weight, the soft bend its only margin (R2 · Stage 0 D-55)
-- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P7
+- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P7; stretching_lower_hEDS v3 P7
 - Changed ✏️: 'Hold at top' → just short of the top (R2).
 - Basis: 📖 Stage 0 R2
 
@@ -1573,7 +1603,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): hip 1; knee 1
 - Targets: hamstrings
 - Cues: knees slightly bent, feet at ~45° on the wall, ~30% effort (corpus; R2) · both legs together (R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 S4
+- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 S4; stretching_lower_hEDS v3 P10; stretching_lower_hEDS v3 S4
 - Changed ✏️: One heel at a time → both heels together (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 (isometric hold)
 
@@ -1623,7 +1653,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Targets: ankle and hip stabilisers, proprioception
 - Stands in for: C122 (locked)
 - Cues: front heel against the back toes; swap the front foot each set (R23) · soft knees (R2) · eyes closed only once 30 s with eyes open is steady · beside the frame or a wall, a hand ready to catch
-- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P8
 - Basis: 🌐 Stage 1 [W38]: closed-chain balance work improved proprioception in joint hypermobility · 🌐 Stage 0 [W75]: balance training improved hypermobile unstable ankles as much as stable ones · 📖 Stage-1 replacement for C122 (Stage 1 D-09)
 
 **C132 · Short-band squat hold, knees pressed out (above parallel)** — drill · lower · open ✏️
@@ -1632,7 +1662,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Targets: hip abductors, gluteus medius
 - Stands in for: C114 (locked)
 - Cues: short band just above the knees; press the knees out over the toes against it, no caving · thighs stay above parallel at the deepest point (R3 · R11, knee at stage 1) · easy effort: an activation drill, not counted in sets
-- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P6
 - Basis: 📖 Stage 0 R7 (active drill) · 📖 Stage-1 replacement for C114 (Stage 1 D-09)
 
 **C135 · Seated thoracic rotation, arms crossed** — drill · upper · open ✏️
@@ -1642,8 +1672,28 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stands in for: C107 (locked)
 - Cues: sit tall on the floor (cross-legged) or on the bench, arms crossed on the chest · turn the upper back to ~70–80% of the range, pelvis still, no bounce; rotation judged on video (R1 · R7 · §2.5 · D-66) · both directions equally (R23)
 - Sport: badminton — carryover: trunk rotation and anti-rotation
-- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_upper_hEDS v4 P11; stretching_upper_hEDS v5 P11
 - Basis: 📖 Stage 0 R7 (active drill) · 📖 Stage-1 replacement for C107 (Stage 1 D-09)
+
+**C142 · Supine windshield wipers, both knees together** — drill · lower · open ✏️
+
+- Stations: none · Equipment: none · Joints (stage needed): hip 1 — both legs move together, neither works alone (R12 until stage 3); spine 1 — the pelvis turns only a little: low-back rotation stays inside the stage-1 range (§2.5 · D-66)
+- Targets: hip rotators (internal and external), hip capsule
+- Stands in for: C111 (locked)
+- Cues: lying on the back, knees bent, feet flat and wider than the hips · both knees drop together to one side to ~70–80% of the hip-rotation range, then to the other; slow, no bounce (R1 · R7) · the low back stays quiet (§2.5 · D-66)
+- Notes: Added for the mobility rebuild (T17): until hip, knee and ankle reach stage 3, no open drill moved the hips through rotation.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P2; stretching_lower_hEDS v3 S2
+- Basis: 📖 Stage 0 R7 (active drill) · 🧠 mechanics: with the feet wide the knees' drop turns one hip in and the other out, so both hips rotate while both legs share the load (R12) · 📖 Stage-1 replacement for C111's hip rotation (Stage 1 D-09)
+
+**C143 · Internal-rotation hold, both arms, palms pressed together** — drill · upper · open ✏️
+
+- Stations: none · Equipment: none · Joints (stage needed): shoulder 1 — both arms hold together, against each other (R12 until stage 3); elbow 1
+- Targets: subscapularis, front of the rotator cuff
+- Cues: elbows pinned to the sides and bent ~90°; the hands meet in front of the belly, about mid-way through internal rotation (R1) · press palm into palm, ~20–30% effort: both shoulders turn in against each other and nothing moves (R7)
+- Sport: badminton — carryover: internal-rotation strength balanced by eccentric external rotation
+- Notes: Added for the mobility rebuild (T17): the cuff's internal rotators had no open drill; C022, the one-arm band internal rotation, waits for shoulder stage 3.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_upper_hEDS v4 P3; stretching_upper_hEDS v5 P3
+- Basis: 📖 Stage 0 R7 (isometric hold) · 🧠 mechanics: with the elbows pinned, the hands can only press together by turning the shoulders in, so both internal rotators hold against each other
 
 ### 3.4 Conditioning
 
@@ -1735,7 +1785,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 
 **Stations** (one each; a station in use is unavailable, Stage 0 §1.3): `smith` Smith machine · `cable` Cable machine (rows, pulldowns, pullover, curl, pushdown, overhead extension) · `hip_machine` Hip abductor/adductor machine · `bench` Adjustable bench.
 
-**Equipment** (always available, and conditioning resources): `bands` bands — 2 long, 2 short · `frame` multi-purpose frame: pull-up bars, also the rack (anchor points, pins) · `barbell` Olympic barbells and plates · `dumbbells` adjustable dumbbells · `foam_roller` foam roller · `tennis_ball` tennis ball · `low_box` low step or box, 5–20 cm · `court` badminton court · `bike` bike, stationary or outdoor · `pool` pool · `jump_rope` jump rope.
+**Equipment** (always available, and conditioning resources): `bands` bands — 2 long, 2 short · `frame` multi-purpose frame: pull-up bars, also the rack (anchor points, pins) · `barbell` Olympic barbells and plates · `dumbbells` adjustable dumbbells · `foam_roller` foam roller · `tennis_ball` tennis ball · `lacrosse_ball` lacrosse ball · `low_box` low step or box, 5–20 cm · `court` badminton court · `bike` bike, stationary or outdoor · `pool` pool · `jump_rope` jump rope.
 
 **Kinds:** `resistance` Working sets with reps; counted in sets (Stage 0 §2.3) · `hold` Timed isometric working sets; a hypertrophy option for any muscle (Stage 0 §2.2 · D-58), prescribed as sets × hold time + seconds in reserve (Stage 0 R16 · D-60) · `drill` Active drill for a session's mobility halves or warm-up (Stage 0 R7 · §2.7); not counted in sets · `conditioning` Conditioning resource or court work (Stage 0 §1.3); dosed only on request (Stage 1 §0.1).
 
@@ -1747,7 +1797,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 
 ## 5. Decisions and open readings
 
-**Decided** (Harry, chats 2026-10-03, 2026-10-06, 2026-10-12 and 2026-10-13)
+**Decided** (Harry, chats 2026-10-03, 2026-10-06, 2026-10-12, 2026-10-13, 2026-10-26 and 2026-10-27)
 
 | # | Topic | Decision | Lands in |
 |---|---|---|---|
@@ -1769,6 +1819,8 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 | T13 | Shoulder rotation in the prone W | Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45° | this catalogue: C108 cue (revision 9) |
 | T14 | A front-delt row | Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block | this catalogue: C138 (revision 10) |
 | T15 | Cues at upper-body stage 2 | Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3' | this catalogue: revision 10 |
+| T18 | Biceps hold set-up | Harry (2026-10-27, T6): keep C105 — a doorway works as well as the rack uprights | this catalogue: C105 (revision 14) |
+| T17 | Mobility rebuild rows | Harry (2026-10-26, mobility rebuild O4 A and T3): C102 on fists or DB handles; add the supine windshield wipers and a two-arm internal-rotation hold | this catalogue: C102, C111, C142, C143 (revision 13) |
 | T16 | Second alternative for the wide-grip cable row in focus A | Harry (2026-10-13, Q4 a): the bent-over wide DB row, since the Smith press holds the bench during that superset | this catalogue: C037 provenance (revision 11) |
 
 **Open** 🔖
@@ -1786,7 +1838,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 3. Unilateral (Stage 0 R12 · D-54): one limb working alone — moving or held, in any plane, against an external load, body weight or its own weight — needs loading stage 3 for every joint of that limb, and a single-leg stance for the stance leg's hip, knee and ankle. Where a drill can run with both limbs together, the row is the bilateral variant (corpus-fixed ✏️). Walking, cycling and swimming stay outside R12 (D-59).
 4. End-range warning (Stage 0 R2 · D-55): a row whose resistance peaks at the end of a joint's range, the soft bend its only margin, carries the warning.
 5. Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).
-6. New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10) and the two-arm front raise C138 (T14).
+6. New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), the L rows C139–C141 (Stage 1 D-15) and the mobility rows C142–C143 (T17).
 7. Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.
 8. Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), left–right balance (R23), soft bend at every joint (R2) unless the row needs a specific cue.
 9. Zones (Stage 1 R26) label where the resistance peaks in the prime mover's range within the gated range; R26's reference labels are used as given; every L is truncated by R1; the triceps has no S slot (R27), so the kickback's S label fills no coverage. Mechanics labels carry basis 'mechanics'.

@@ -117,6 +117,29 @@
         "Next plan change: chest and upper back to 7 direct sets each, and the set-count boxes count every catalogue synergist (Stage 1 D-14)",
         "Next plan change: C139 into the front delt's L slot (R28), together with the chest and upper back trim"
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "changes": [
+        "Mobility files rebuilt from the catalogue's drill rows at the current loading stages, as Harry approved on 2026-10-26: stretching_upper_hEDS v3 → v4 and stretching_lower_hEDS v2 → v3. Each half is a core for every session plus add-ons by target, and the post half is a joint check; every drill runs with both limbs together (Stage 0 R12), at ~70–80% of range (R1); the nutrition line is gone (Stage 0 §0.1)",
+        "Both mobility files' build: hand-laid → build script gymtools/svg/build_mobility_v1.py (register, Stage 2 Supplement §9 · R52)",
+        "Catalogue revision 13: provenance from upper v4 and lower v3; C102 on fists or DB handles; C142, the supine windshield wipers, stands in for C111's hip rotation; C143, the two-arm internal-rotation hold (catalogue T17)",
+        "C104, the active hang, stays out of the mobility files: a loaded stretch at end-range shoulder elevation (Stage 0 R1)"
+      ],
+      "follow_ups": [
+        "Foam-rolling files: the same review once Harry gives the go (2026-10-26)"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "changes": [
+        "stretching_upper_hEDS v4 → v5: S6, the biceps hold (C105), back as a post add-on, palms pressing forward on the rack uprights or a doorway (Harry kept it, 2026-10-27); stretching_lower_hEDS stays v3",
+        "Both mobility files now build from gymtools/svg/build_mobility_v2.py, a copy of v1 that rebuilds lower v3 byte-identical; register updated (Stage 2 Supplement §9 · R52)",
+        "Catalogue revision 14: C105 reworded (catalogue T18); the upper mobility rows cite v5",
+        "Foam-rolling files rebuilt as Harry approved on 2026-10-27 (O1 A, O3 A, O4 A): foam_rolling_upperbody_hEDS v2 → v3 (8 areas) and foam_rolling_lowerbody_hEDS v3 → v4 (7 areas, shins added); muscle-only areas by target, light pressure (~3–4/10), 30–60 s an area, after training or on rest days and never before a session; no roll across the spine, no arm straight overhead or swept behind, fists and soft elbows when seated (Stage 0 R1 · R2 · R7); built by a throwaway script, so both stay hand-laid",
+        "Lacrosse ball (Harry's O2 B): it joins the always-available kit (Stage 0 §1.3 · D-93) and the catalogue's equipment vocabulary (revision 15); foam_rolling_upperbody_hEDS v3 → v4 and foam_rolling_lowerbody_hEDS v4 → v5 name it as an option at the same 3–4/10 limit, with less lean (text edits)"
+      ],
+      "follow_ups": []
     }
   ]
 }

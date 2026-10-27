@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 12 (2026-10-25): with the revision 11 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 12. gymspec/ is the source of truth: before a new revision, check that
+revision 15 (2026-10-27): with the revision 14 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 15. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,44 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 15,
+        "date": "2026-10-27",
+        "note": "the lacrosse ball in the equipment vocabulary",
+        "changes": [
+            "Harry has a lacrosse ball as well as the tennis ball, and it joins Stage 0 §1.3's always-available kit (Stage 0 D-93), so "
+            "this vocabulary lists it. No row uses it: the foam-rolling files, where it is an option, stay outside the catalogue.",
+        ],
+    },
+    {
+        "n": 14,
+        "date": "2026-10-27",
+        "note": "the biceps hold back in the upper mobility file (v5)",
+        "changes": [
+            "Harry kept C105 (T18): it is back in stretching_upper_hEDS v5 as post add-on S6. Its wording now says what makes the biceps "
+            "hold: the palms press forward against the rack uprights or the wall either side of a doorway, arms at the sides (Stage 0 R5); "
+            "a flat wall cannot take both palms in front of the hands.",
+            "The upper file's v4 cards keep their numbers, so the rows it uses cite v5; the v4 lines stay as history.",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": ["C105"], "cues": [], "provenance_mobility_v5": ["C097", "C098", "C099", "C100", "C101", "C102", "C103", "C105", "C106", "C108", "C109", "C110", "C135", "C143"]},
+    },
+    {
+        "n": 13,
+        "date": "2026-10-26",
+        "note": "the mobility files rebuilt as upper v4 and lower v3",
+        "changes": [
+            "Harry had the two mobility files rebuilt (2026-10-26): each now takes this catalogue's drill rows at the Current state — "
+            "shoulder, elbow and wrist at loading stage 2; spine, hip, knee and ankle at 1 — as a core for every session plus add-ons by "
+            "target, and the post half becomes a joint check. The rows they use cite stretching_upper_hEDS v4 and stretching_lower_hEDS v3; "
+            "the v2 and v1 lines stay as history, like the focus files' v6 and v7 lines.",
+            "C102 moves from flat hands to fists or DB handles (T17): on flat hands the wrist starts near end-range extension before any "
+            "lean, as C099's cue already says (Stage 0 R1 · R2).",
+            "Two rows added once Harry confirmed them (Stage 1 §3.2 · D-08; T17): C142, the supine windshield wipers with both knees together, "
+            "which stands in for the hip rotation of C111 until hip, knee and ankle reach stage 3 (Stage 1 D-09); C143, an internal-rotation "
+            "hold with the palms pressed together, both arms, for the cuff's internal rotators, which had no open drill (C022 needs shoulder stage 3).",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C142", "C143"], "replaced": ["C111"], "unlock_path": [], "locked_range": [], "corpus_fixed": ["C102"], "cues": [], "provenance_mobility": ["C075", "C097", "C098", "C099", "C100", "C101", "C102", "C103", "C106", "C108", "C109", "C110", "C112", "C115", "C117", "C119", "C130", "C131", "C132", "C133", "C135", "C137"]},
+    },
+    {
         "n": 12,
         "date": "2026-10-25",
         "note": "L options for the front delt, rear delt and abs (the L search, Stage 1 D-15)",
@@ -38,6 +76,7 @@ REVISIONS = [
             "The upper back has no L with the kit: cable rows from full protraction keep an even pull, so M (C035); dumbbell, barbell and "
             "band rows peak at the top, so S (Stage 1 [W64]).",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C139", "C140", "C141"], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": []},
     },
     {
         "n": 11,
@@ -202,6 +241,8 @@ DECISIONS = {
     "T13": {"title": "Shoulder rotation in the prone W", "decision": "Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45°", "lands": "this catalogue: C108 cue (revision 9)"},
     "T14": {"title": "A front-delt row", "decision": "Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block", "lands": "this catalogue: C138 (revision 10)"},
     "T15": {"title": "Cues at upper-body stage 2", "decision": "Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3'", "lands": "this catalogue: revision 10"},
+    "T18": {"title": "Biceps hold set-up", "decision": "Harry (2026-10-27, T6): keep C105 — a doorway works as well as the rack uprights", "lands": "this catalogue: C105 (revision 14)"},
+    "T17": {"title": "Mobility rebuild rows", "decision": "Harry (2026-10-26, mobility rebuild O4 A and T3): C102 on fists or DB handles; add the supine windshield wipers and a two-arm internal-rotation hold", "lands": "this catalogue: C102, C111, C142, C143 (revision 13)"},
     "T16": {"title": "Second alternative for the wide-grip cable row in focus A", "decision": "Harry (2026-10-13, Q4 a): the bent-over wide DB row, since the Smith press holds the bench during that superset", "lands": "this catalogue: C037 provenance (revision 11)"},
 }
 
@@ -225,7 +266,8 @@ METHOD = [
     "End-range warning (Stage 0 R2 · D-55): a row whose resistance peaks at the end of a joint's range, the soft bend its only margin, carries the warning.",
     "Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).",
     "New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). "
-    "Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10) and the two-arm front raise C138 (T14).",
+    "Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), "
+    "the L rows C139–C141 (Stage 1 D-15) and the mobility rows C142–C143 (T17).",
     "Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; "
     "it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.",
     "Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), "
@@ -528,7 +570,9 @@ def render_md(cat):
                                ("Cues re-screened for the stage-1 ranges", "cues"),
                                ("Cues with what applies from upper-body stage 2, and the R12 wording", "cues_stage2"),
                                ("Corpus provenance: the upper focus files v7", "provenance"),
-                               ("Corpus provenance: the upper focus files v8", "provenance_v8")):
+                               ("Corpus provenance: the upper focus files v8", "provenance_v8"),
+                               ("Corpus provenance: the mobility files upper v4 and lower v3", "provenance_mobility"),
+                               ("Corpus provenance: the upper mobility file v5", "provenance_mobility_v5")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
             a("")
@@ -642,7 +686,7 @@ def render_md(cat):
     a("")
     a("## 5. Decisions and open readings")
     a("")
-    a("**Decided** (Harry, chats 2026-10-03, 2026-10-06, 2026-10-12 and 2026-10-13)")
+    a("**Decided** (Harry, chats 2026-10-03, 2026-10-06, 2026-10-12, 2026-10-13, 2026-10-26 and 2026-10-27)")
     a("")
     a("| # | Topic | Decision | Lands in |")
     a("|---|---|---|---|")
@@ -812,6 +856,16 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 14:  # revision 14: the upper mobility file v5's provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_mobility_v5"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
+            d["cues"] = [i for i in d["cues"] if i not in d["corpus_fixed"]]  # C105's new cues are its corpus fix, listed once
+        if REVISIONS[0]["n"] == 13:  # revision 13: the mobility files' provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_mobility"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
+            d["cues"] = [i for i in d["cues"] if i not in d["corpus_fixed"]]  # C102's new cues are its corpus fix, listed once
         if REVISIONS[0]["n"] == 11:  # revision 11: v8 provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}

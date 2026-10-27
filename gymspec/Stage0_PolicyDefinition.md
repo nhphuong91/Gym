@@ -90,7 +90,7 @@ One profile per sport (§4.2), muscles grouped by region. Read by R21 and by the
 | Hip abductor/adductor machine | — |
 | Adjustable bench | — |
 
-**Always available:** bands — 2 long, 2 short, Harry's own · multi-purpose frame: pull-up bars with varied handle positions, also the rack · Olympic barbells · adjustable dumbbells · foam roller · tennis ball · low step or box (5–20 cm) (D-30).
+**Always available:** bands — 2 long, 2 short, Harry's own · multi-purpose frame: pull-up bars with varied handle positions, also the rack · Olympic barbells · adjustable dumbbells · foam roller · tennis ball · lacrosse ball · low step or box (5–20 cm) (D-30 · D-93).
 
 **Conditioning:** badminton court · bike, stationary or outdoor · pool · jump rope (D-44).
 

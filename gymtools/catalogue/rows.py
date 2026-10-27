@@ -17,6 +17,9 @@ LFC = "routine_lowerbody_focus_C v3"
 POP = "popliteus_prevention_protocol v5"
 SU = "stretching_upper_hEDS v2"
 SL = "stretching_lower_hEDS v1"
+SU4 = "stretching_upper_hEDS v4"
+SL3 = "stretching_lower_hEDS v3"
+SU5 = "stretching_upper_hEDS v5"
 CAR = "cardio_routine (no version)"
 
 
@@ -1017,13 +1020,15 @@ ROWS = [
       cues=[SPINE_S1, "pause short of the end of each direction (R2)", "on fists or DB handles: neutral wrists (R2)"],
       source="corpus", corpus=[f"{SU} P5"],
       basis=["Stage 0 R7 (active drill)"]),
-    R("wrist_iso_loading", "Wrist isometric loading, 4 directions (tabletop)", "drill",
-      region="upper", targets="wrist flexors, extensors, radial and ulnar deviators",
-      joints=[J("wrist")],
-      cues=["lean only to ~70–80% of the wrist range: full extension under body weight is terminal (R1 · R2 · §2.5 · D-65)"],
+    R("wrist_iso_loading", "Wrist weight shifts on fists, 4 directions (hands and knees)", "drill",
+      equipment=["dumbbells"], region="upper", targets="wrist stabilisers in neutral; forearm flexors and extensors working together",
+      joints=[J("wrist"), J("elbow"), J("shoulder")],
+      cues=[NEUTRAL_WRIST + "; knees down",
+            "shift the weight a little forward, back, left and right and hold each; the wrists stay straight, never bent back under the load (R1 · R2)",
+            SOFT_ELBOW],
       source="corpus-fixed", corpus=[f"{SU} P6"],
-      changed="'Lean gently' given a range cap (R1 · R2).",
-      basis=["Stage 0 R7 (isometric hold)"]),
+      changed="Flat hands → fists or DB handles (T17): on flat hands the wrist starts near end-range extension before any lean, as C099's cue says, so a capped lean still loads it there; on fists the shifts load the wrist in neutral (R1 · R2).",
+      basis=["Stage 0 R7 (isometric hold)", "Stage 0 R1 · R2"]),
     R("band_pull_apart_hold", "Band pull-apart hold at chest height (active pec opener)", "drill",
       equipment=["bands"], region="upper", targets="rear delt, rhomboids active; pecs lengthened",
       joints=[J("shoulder"), J("elbow")],
@@ -1041,12 +1046,16 @@ ROWS = [
       source="corpus-fixed", corpus=[f"{SU} S3"],
       changed="'Shoulders actively packed down' → braced, not pulled down (R4 · Stage 0 D-42).",
       basis=["Stage 0 R4 · D-42"]),
-    R("iso_biceps_hold", "Isometric biceps hold, both palms pressing back on the rack uprights", "drill",
+    R("iso_biceps_hold", "Isometric biceps hold, both palms pressing forward (rack uprights or doorway)", "drill",
       equipment=["frame"], region="upper", targets="biceps, brachialis, forearm",
       joints=[J("elbow"), J("shoulder")],
-      cues=["arms in line with the torso, not behind it (R5)", "elbows at ~140–150°, about 70–80% toward full extension (R1)", "~30% effort (corpus)", "both arms together (R12 until stage 3)"],
+      cues=["facing the rack uprights or a doorway, palms forward against the uprights or the wall either side of the opening; "
+            "arms at the sides, in line with the torso, never behind it (R5)",
+            "elbows at ~140–150°, about 70–80% toward full extension (R1)",
+            "press forward ~30% (corpus) and hold: the biceps works at a long length while nothing moves (R7)",
+            "both arms together (R12 until stage 3)"],
       source="corpus-fixed", corpus=[f"{SU} S4"],
-      changed="Corpus ~160° keeps R2's soft bend but sits past R1's 70–80% (closes the Stage 0 §5.2 🔖); the arms stay at the torso line (R5); one arm on the wall → both palms on the rack uprights (R12 · Stage 0 D-54).",
+      changed="Corpus ~160° keeps R2's soft bend but sits past R1's 70–80% (closes the Stage 0 §5.2 🔖); the arms stay at the torso line (R5); one arm on the wall → both palms on the rack uprights (R12 · Stage 0 D-54). The palms press forward, the direction that makes the biceps hold, and a doorway works as well as the uprights (T18).",
       basis=["Stage 0 R1 · R2 · R5 · R12"]),
     R("iso_triceps_overhead_hold", "Isometric triceps overhead hold, both arms (band under both feet)", "drill",
       equipment=["bands"], region="upper", targets="triceps long head, posterior shoulder",
@@ -1087,6 +1096,7 @@ ROWS = [
 
     # ───────────── DRILLS · lower ─────────────
     R("hip_cars", "Hip CARs (standing, hand on the wall)", "drill",
+      replaced_by=["supine_windshield_wipers"],
       region="lower", targets="hip capsule, glutes, hip flexors, adductors",
       joints=[J("hip", 3, "the moving leg circles alone (R12 · Stage 0 D-54)"), J("knee", 3, STANCE), J("ankle", 3, STANCE)],
       cues=["slow down where the circle catches (R7; corpus)"],
@@ -1353,6 +1363,28 @@ ROWS = [
              "Stage 1 [W65]: a neutral-spine roll-out works the abs hard with little low-back load, but as an anti-extension hold it is M, not L"],
       notes="Locked until spine stage 2; until then the plank and the dead bug hold cover the abs (M).",
       attention=[]),
+    R("supine_windshield_wipers", "Supine windshield wipers, both knees together", "drill",
+      region="lower", targets="hip rotators (internal and external), hip capsule",
+      joints=[J("hip", 1, "both legs move together, neither works alone (R12 until stage 3)"),
+              J("spine", 1, "the pelvis turns only a little: low-back rotation stays inside the stage-1 range (§2.5 · D-66)")],
+      cues=["lying on the back, knees bent, feet flat and wider than the hips",
+            "both knees drop together to one side to ~70–80% of the hip-rotation range, then to the other; slow, no bounce (R1 · R7)",
+            "the low back stays quiet (§2.5 · D-66)"],
+      source="confirmed",
+      basis=["Stage 0 R7 (active drill)",
+             "mechanics: with the feet wide the knees' drop turns one hip in and the other out, so both hips rotate while both legs share the load (R12)",
+             "Stage-1 replacement for C111's hip rotation (Stage 1 D-09)"],
+      notes="Added for the mobility rebuild (T17): until hip, knee and ankle reach stage 3, no open drill moved the hips through rotation."),
+    R("palm_press_ir_hold", "Internal-rotation hold, both arms, palms pressed together", "drill",
+      region="upper", targets="subscapularis, front of the rotator cuff",
+      joints=[J("shoulder", 1, "both arms hold together, against each other (R12 until stage 3)"), J("elbow")],
+      cues=["elbows pinned to the sides and bent ~90°; the hands meet in front of the belly, about mid-way through internal rotation (R1)",
+            "press palm into palm, ~20–30% effort: both shoulders turn in against each other and nothing moves (R7)"],
+      source="confirmed",
+      basis=["Stage 0 R7 (isometric hold)",
+             "mechanics: with the elbows pinned, the hands can only press together by turning the shoulders in, so both internal rotators hold against each other"],
+      notes="Added for the mobility rebuild (T17): the cuff's internal rotators had no open drill; C022, the one-arm band internal rotation, waits for shoulder stage 3.",
+      sport={"badminton": {"carryover": ["IR"]}}),
 ]
 
 
@@ -1405,3 +1437,37 @@ assert set(V8) <= _keys, set(V8) - _keys
 for _r in ROWS:
     if _r["key"] in V8:
         _r["corpus"] = list(_r.get("corpus", [])) + V8[_r["key"]]
+
+
+# Provenance from the mobility files rebuilt as upper v4 and lower v3 (2026-10-26, catalogue revision 13); the v2 and v1
+# lines stay as history
+MOB = {
+    "shoulder_cars": [f"{SU4} P1", f"{SU4} S1"], "band_iso_er_3_angles": [f"{SU4} P2"], "palm_press_ir_hold": [f"{SU4} P3"],
+    "band_pull_apart_hold": [f"{SU4} P4"], "wrist_cars": [f"{SU4} P5", f"{SU4} S2"], "scap_push_up_hold": [f"{SU4} P6"],
+    "wrist_iso_loading": [f"{SU4} P7"], "cat_cow_pauses": [f"{SU4} P8"], "prone_ytw_holds": [f"{SU4} P9", f"{SU4} S4"],
+    "iso_triceps_overhead_hold": [f"{SU4} P10", f"{SU4} S5"], "seated_t_spine_rotation": [f"{SU4} P11"], "neck_iso": [f"{SU4} P12"],
+    "breathing_90_90": [f"{SU4} S3", f"{SL3} S3"],
+    "ankle_cars": [f"{SL3} P1", f"{SL3} S1"], "supine_windshield_wipers": [f"{SL3} P2", f"{SL3} S2"],
+    "supine_bent_knee_leg_lift": [f"{SL3} P3"], "supine_band_butterfly": [f"{SL3} P4"], "glute_bridge": [f"{SL3} P5"],
+    "band_squat_hold_knees_out": [f"{SL3} P6"], "calf_hold_top": [f"{SL3} P7"], "tandem_stance": [f"{SL3} P8"],
+    "tke_both_legs": [f"{SL3} P9"], "iso_hamstring_wall": [f"{SL3} P10", f"{SL3} S4"], "supine_band_adduction_both": [f"{SL3} P11"],
+}
+assert set(MOB) <= _keys, set(MOB) - _keys
+for _r in ROWS:
+    if _r["key"] in MOB:
+        _r["corpus"] = list(_r.get("corpus", [])) + MOB[_r["key"]]
+
+
+# Provenance from the upper mobility file v5 (2026-10-27, catalogue revision 14): the v4 cards keep their numbers, and S6,
+# the biceps hold, is back as a post add-on; the v4 lines stay as history
+MOB5 = {
+    "shoulder_cars": [f"{SU5} P1", f"{SU5} S1"], "band_iso_er_3_angles": [f"{SU5} P2"], "palm_press_ir_hold": [f"{SU5} P3"],
+    "band_pull_apart_hold": [f"{SU5} P4"], "wrist_cars": [f"{SU5} P5", f"{SU5} S2"], "scap_push_up_hold": [f"{SU5} P6"],
+    "wrist_iso_loading": [f"{SU5} P7"], "cat_cow_pauses": [f"{SU5} P8"], "prone_ytw_holds": [f"{SU5} P9", f"{SU5} S4"],
+    "iso_triceps_overhead_hold": [f"{SU5} P10", f"{SU5} S5"], "seated_t_spine_rotation": [f"{SU5} P11"], "neck_iso": [f"{SU5} P12"],
+    "breathing_90_90": [f"{SU5} S3"], "iso_biceps_hold": [f"{SU5} S6"],
+}
+assert set(MOB5) <= _keys, set(MOB5) - _keys
+for _r in ROWS:
+    if _r["key"] in MOB5:
+        _r["corpus"] = list(_r.get("corpus", [])) + MOB5[_r["key"]]

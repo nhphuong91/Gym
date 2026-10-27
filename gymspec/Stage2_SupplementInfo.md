@@ -303,7 +303,7 @@ W1–W5 were read by Claude on 2026-10-13 through a fetch summariser; quotes are
 
 ## 9. Register
 
-The register's entries (`Stage2_RoutineFiles.md` §3.1 · R52 · D-01), as of 2026-10-25; stems that share role, regions and build are grouped. Which routines are current, with their sessions a week, sits in the state file (R67 · D-14) — since 2026-10-25 `gymstate/block_01.json`, which took over the sessions a week Harry gave on 2026-10-13.
+The register's entries (`Stage2_RoutineFiles.md` §3.1 · R52 · D-01), as of 2026-10-27; stems that share role, regions and build are grouped. Which routines are current, with their sessions a week, sits in the state file (R67 · D-14) — since 2026-10-25 `gymstate/block_01.json`, which took over the sessions a week Harry gave on 2026-10-13.
 
 | Stem | Role | Regions | Build |
 |---|---|---|---|
@@ -313,7 +313,7 @@ The register's entries (`Stage2_RoutineFiles.md` §3.1 · R52 · D-01), as of 20
 | evaluation_lowerbody | Evaluation — as above | lower | build script `build_evaluation_lowerbody_v1.py` (self-contained) |
 | evaluation_upperbody_2col | One-off copy — evaluation_upperbody v3 on two columns, not kept in step (Stage 0 D-83) | upper | build script `build_2col.py` |
 | evaluation_lowerbody_2col | One-off copy — evaluation_lowerbody v1 on two columns, not kept in step (D-09) | lower | build script `build_evaluation_lowerbody_2col_v1.py` |
-| stretching_upper_hEDS · stretching_lower_hEDS | Mobility — region-wide: active drills by target, a pre and a post half, for any training session of its region (Stage 0 §2.7; D-03) | upper · lower | hand-laid |
+| stretching_upper_hEDS · stretching_lower_hEDS | Mobility — region-wide: active drills by target, a pre and a post half, for any training session of its region (Stage 0 §2.7; D-03) | upper · lower | build script `build_mobility_v2.py` (self-contained; upper v5 and lower v3, 2026-10-27; `_v1` built upper v4) |
 | foam_rolling_upperbody_hEDS · foam_rolling_lowerbody_hEDS | Foam rolling — region-wide: release areas by target, outside training sessions (Stage 0 §2.7; D-03) | upper · lower | hand-laid |
 
 Retired to the archive on 2026-10-24 (D-15): `routine_upperbody`, `routine_lowerbody`, `popliteus_prevention_protocol`, `cardio_routine`.
