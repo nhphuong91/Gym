@@ -74,8 +74,9 @@ One profile per sport (§4.2), muscles grouped by region. Read by R21 and by the
 | Field | Archery | Badminton |
 |---|---|---|
 | Demand — upper | Rear and middle delts, mid/lower traps, rhomboids, lats, pec major, rotator cuff, triceps, forearm flexors and extensors, abs, obliques, spinal erectors | Shoulder internal rotators (pec major, lats, teres major, subscapularis), posterior rotator cuff, forearm pronators and supinators, wrist flexors and extensors, grip, triceps, obliques |
+| Demand — upper, partial | Front delt (bow arm), biceps (draw arm): weaker or skill-dependent evidence (D-94) | — |
 | Demand — lower | Calves, hip abductors and adductors | Quads, glute max, glute med, hamstrings, calves/Achilles, ankle evertors |
-| Avoid the day before | The upper demand muscles | Calves/Achilles, quads, glute max and glute med, rotator cuff, forearm and grip |
+| Avoid the day before | The upper demand muscles, partial ones excluded (D-94) | Calves/Achilles, quads, glute max and glute med, rotator cuff, forearm and grip |
 | Carryover | Horizontal abduction and scapular retraction strength-endurance, incl. isometric holds at shoulder height; cuff external rotation; shoulder extension and adduction; pulling strength; trunk anti-rotation and anti-extension holds | Internal-rotation strength balanced by eccentric external rotation; pronation/supination and wrist flexion/extension; trunk rotation and anti-rotation; eccentric quad and glute; calf–Achilles capacity; overhead triceps secondary |
 | Loads | Shoulders (cuff, biceps long head); elbows (toward hyperextension); fingers and wrists; spine | Shoulders, elbows, wrists; lumbar spine; knees; ankles and Achilles |
 
@@ -90,7 +91,7 @@ One profile per sport (§4.2), muscles grouped by region. Read by R21 and by the
 | Hip abductor/adductor machine | — |
 | Adjustable bench | — |
 
-**Always available:** bands — 2 long, 2 short, Harry's own · multi-purpose frame: pull-up bars with varied handle positions, also the rack · Olympic barbells · adjustable dumbbells · foam roller · tennis ball · lacrosse ball · low step or box (5–20 cm) (D-30 · D-93).
+**Always available:** bands — 2 long, 2 short, Harry's own · multi-purpose frame: pull-up bars with varied handle positions, also the rack · Olympic barbells · adjustable dumbbells · foam roller · tennis ball · lacrosse ball · low step or box (5–20 cm) · AbMat (D-30 · D-93 · D-95).
 
 **Conditioning:** badminton court · bike, stationary or outdoor · pool · jump rope (D-44).
 
@@ -279,7 +280,7 @@ Invariants: one goal per trained region (§0.3); every priority target is a musc
 
 | Field | Definition |
 |---|---|
-| `demand` | Muscles the sport relies on, grouped by region (§2.1). |
+| `demand` | Muscles the sport relies on, grouped by region (§2.1). A partial line lists muscles with weaker or skill-dependent evidence: the Stage 1 sport filter reads it, and `avoid_day_before` leaves it out (D-94). |
 | `avoid_day_before` | Muscles not to fatigue the day before a session of the sport (R21). |
 | `carryover` | Qualities whose training carries over to the sport; read by the Stage 1 sport filter. |
 | `loads` | Joints and tissues the sport loads; read by R21 and the Stage 1 sport filter. |

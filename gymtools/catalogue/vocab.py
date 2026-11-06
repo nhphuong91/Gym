@@ -96,6 +96,7 @@ EQUIPMENT = {
     "tennis_ball": "tennis ball",
     "lacrosse_ball": "lacrosse ball",
     "low_box": "low step or box, 5–20 cm",
+    "abmat": "AbMat — a curved foam pad for the low back (Stage 0 D-95)",
     "court": "badminton court",
     "bike": "bike, stationary or outdoor",
     "pool": "pool",

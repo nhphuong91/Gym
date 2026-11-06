@@ -11,6 +11,12 @@ UFC7 = "routine_upperbody_focus_C v7"
 UFA8 = "routine_upperbody_focus_A v8"
 UFB8 = "routine_upperbody_focus_B v8"
 UFC8 = "routine_upperbody_focus_C v8"
+UFA11 = "routine_upperbody_focus_A v11"
+UFB11 = "routine_upperbody_focus_B v11"
+UFC10 = "routine_upperbody_focus_C v10"
+UFA12 = "routine_upperbody_focus_A v12"
+UFB12 = "routine_upperbody_focus_B v12"
+UFB13 = "routine_upperbody_focus_B v13"
 LFA = "routine_lowerbody_focus_A v3"
 LFB = "routine_lowerbody_focus_B v3"
 LFC = "routine_lowerbody_focus_C v3"
@@ -1385,6 +1391,84 @@ ROWS = [
              "mechanics: with the elbows pinned, the hands can only press together by turning the shoulders in, so both internal rotators hold against each other"],
       notes="Added for the mobility rebuild (T17): the cuff's internal rotators had no open drill; C022, the one-arm band internal rotation, waits for shoulder stage 3.",
       sport={"badminton": {"carryover": ["IR"]}}),
+
+    # ───────────── Block 02 rows confirmed 2026-10-27 (catalogue revision 16, T19) ─────────────
+    R("band_pull_apart_hold_shoulder", "Band pull-apart hold at shoulder height, both arms", "hold",
+      pattern="horizontal abduction",
+      prime="rear_delt", zone="S", compound=False, indirect=["upper_back"],
+      stations=[], equipment=["bands"],
+      joints=[J("shoulder"), J("elbow")],
+      cues=["standing, a band in both hands, palms down, arms out in front at shoulder height; pull the band apart",
+            "hold with the hands in line with the shoulders, never behind the torso plane (R1)",
+            SOFT_ELBOW, "shoulder blades back and braced, no shrug (R8)", BOTH_ARMS],
+      source="confirmed",
+      basis=["mechanics: the band pulls hardest with the arms out to the sides, where the rear delt is shortest, so S (R26 · R29)",
+             "Stage 0 §2.2 · D-58: a timed hold counts as a hypertrophy set, prescribed as hold time + seconds in reserve (R16 · D-60)",
+             "the working-set form of C103, the mobility drill, held at shoulder height rather than chest height"],
+      notes="Added for block 02, archery in season (T19): it holds the rear delts and upper back at the height the draw holds them. "
+            "Holds at short length grew less muscle than at long length (Oranchuk et al. 2019, systematic review, PMID 30580468), "
+            "so block 02's plan v1 kept a moving rear-delt exercise, the band reverse fly C018, beside it; plan v2's two sessions "
+            "dropped the fly, as each moving shoulder raise pairs with a hold, and the hold took all the rear-delt sets.",
+      sport={"archery": {"carryover": ["RET", "HOLD"]}}),
+    R("band_wrist_curl", "Band wrist curl, both arms (forearms on the frame's safety arm)", "resistance",
+      pattern="wrist flexion",
+      prime="forearm_flexors", zone="S", compound=False, indirect=[],
+      stations=[], equipment=["bands", "frame"],
+      joints=[J("wrist")],
+      cues=["safety arm at hip height; forearms across it, palms up, hands well past its far edge; a band looped under both feet, both hands in the loop",
+            "lower to ~70–80% of wrist extension (R1), with the band set to go slack there: nothing pulls the wrist toward end range",
+            "top at ~70–80% of wrist flexion at wrist stage 1, short of full flexion from stage 2 (§2.5 · D-65 · R2)", BOTH_ARMS],
+      source="confirmed",
+      basis=["mechanics: the band pulls hardest at the top, where the wrist flexors are shortest, so S (R26 · R29)",
+             "Stage 1 R30 (endurance test E2): the band is the guided path, the safety arm holds the forearms, and the band's slack "
+             "point ends the load short of end range in place of a stop; the dumbbell wrist curl C057 has no guided path",
+             "Stage 0 §1.2 demand (archery, badminton)"],
+      notes="Added for block 02, archery in season (T19), where the forearm flexors are an endurance target.",
+      sport={"badminton": {"carryover": ["FORE"]}}),
+    R("band_reverse_wrist_curl", "Band reverse wrist curl, both arms (forearms on the frame's safety arm)", "resistance",
+      pattern="wrist extension",
+      prime="forearm_extensors", zone="S", compound=False, indirect=[],
+      stations=[], equipment=["bands", "frame"],
+      joints=[J("wrist")],
+      cues=["safety arm at hip height; forearms across it, palms down, hands well past its far edge; a band looped under both feet, both hands in the loop",
+            "lower to ~70–80% of wrist flexion (R1), with the band set to go slack there: nothing pulls the wrist toward end range",
+            "top at ~70–80% of wrist extension at wrist stage 1, short of full extension from stage 2 (§2.5 · D-65 · R2)", BOTH_ARMS],
+      source="confirmed",
+      basis=["mechanics: the band pulls hardest at the top, where the wrist extensors are shortest, so S (R26 · R29)",
+             "Stage 1 R30 (endurance test E2): the band is the guided path, the safety arm holds the forearms, and the band's slack "
+             "point ends the load short of end range in place of a stop; the dumbbell reverse wrist curl C058 has no guided path",
+             "Stage 0 §1.2 demand (archery, badminton)"],
+      notes="Added for block 02, archery in season (T19), where the forearm extensors are an endurance target.",
+      sport={"badminton": {"carryover": ["FORE"]}}),
+    R("reverse_crunch_abmat", "Reverse crunch on the AbMat, both legs (knees bent, the mat under the low back)", "resistance",
+      pattern="trunk flexion",
+      prime="abs", zone="L", compound=False, indirect=["obliques"], stabilizers=["hip_flexors"],
+      stations=[], equipment=["abmat"],
+      joints=[J("spine", 2, "loaded from slight extension over the mat at the start through flexion: full range, which waits for spine stage 2 (§2.5 · R3 · R11)"),
+              J("hip", 1, "both legs held together (R12 until stage 3)")],
+      cues=["lying on the back, the AbMat under the low back; knees bent ~90° and together, thighs about vertical; arms beside the hips, palms down",
+            "curl the pelvis off the mat toward the ribs until the tailbone lifts; the low back extends over the mat only as far as it lets it, within ~70–80% of its range (R1 · D-69)",
+            "no leg swing: the knees stay bent and the abs make the lift; lower over 2–3 s (R25)"],
+      source="confirmed",
+      basis=["mechanics: the mat lets the low back start in its curve, so the abs lift the pelvis from their longest position, where the lift is hardest, so L (R26)",
+             "Stage 1 [W85]: a reverse crunch on a 30° incline was among the highest for upper and lower abs and internal oblique, and for the rectus femoris (abstract)",
+             "mechanics — stabilizers: the hip flexors hold the legs off the floor"],
+      notes="Added as an abs L option (T22). Locked until spine stage 2; until then the dead bug hold covers the abs (M). "
+            "The hip flexors work hard here, a lower-body muscle outside an upper-only block."),
+    R("cable_crunch_face_away", "Face-away cable crunch on the lat-pulldown seat (back to the high pulley)", "resistance",
+      pattern="trunk flexion",
+      prime="abs", zone="L", compound=False, indirect=["obliques"],
+      stations=["cable"], equipment=[],
+      joints=[J("spine", 2, "loaded from slight extension at the start through flexion: full range, which waits for spine stage 2 (§2.5 · R3 · R11)"),
+              J("shoulder"), J("elbow"), J("wrist")],
+      cues=["seated on the lat-pulldown seat facing away from the machine; both D-handles on the high pulley's hook, one in each hand at the upper chest, elbows short of full bend (R2)",
+            "start with the cable drawing the low back into slight extension, never past ~70–80% of its range (R1 · D-69); curl the ribs toward the pelvis, hips still on the seat",
+            "lower over 2–3 s (R25); the neck stays neutral"],
+      source="confirmed",
+      basis=["mechanics: facing away, the cable pulls the trunk back toward extension, so tension is highest at the start, where the abs are longest, so L (R26)",
+             "Stage 1 [W86]: the seated cable crunch with the back to a high pulley starts with the weight drawing the low back into slight extension"],
+      notes="Added as an abs L option (T22), the one with a weight stack for load steps. Locked until spine stage 2; until then the dead "
+            "bug hold covers the abs (M). If the seat does not let him face away, the bench makes it a two-station exercise (R41)."),
 ]
 
 
@@ -1471,3 +1555,162 @@ assert set(MOB5) <= _keys, set(MOB5) - _keys
 for _r in ROWS:
     if _r["key"] in MOB5:
         _r["corpus"] = list(_r.get("corpus", [])) + MOB5[_r["key"]]
+
+
+# Provenance from the upper focus files rebuilt for block 02 as A v11, B v11 and C v10 (2026-10-28, catalogue revision 16);
+# the v6, v7 and v8 lines stay as history
+V11 = {
+    "supine_db_front_raise": [f"{UFA11} ex. 1", f"{UFC10} ex. 1"],
+    "band_pull_apart_hold_shoulder": [f"{UFA11} ex. 2", f"{UFB11} ex. 2"],
+    "db_lateral_raise": [f"{UFA11} ex. 3", f"{UFB11} ex. 3", f"{UFC10} ex. 3"],
+    "dead_bug_hold": [f"{UFA11} ex. 4"], "lat_pulldown": [f"{UFA11} ex. 5"],
+    "pallof_press": [f"{UFA11} ex. 6", f"{UFB11} ex. 8"],
+    "band_crossover": [f"{UFA11} ex. 7", f"{UFC10} ex. 6"], "cable_pushdown": [f"{UFA11} ex. 8"],
+    "db_front_raise": [f"{UFB11} ex. 1"], "plank": [f"{UFB11} ex. 4", f"{UFC10} ex. 2"],
+    "band_er": [f"{UFB11} ex. 5", f"{UFC10} ex. 8"],
+    "band_wrist_curl": [f"{UFB11} ex. 6", f"{UFC10} ex. 9"], "band_reverse_wrist_curl": [f"{UFB11} ex. 7", f"{UFC10} ex. 10"],
+    "band_reverse_fly": [f"{UFC10} ex. 4"], "wide_cable_row": [f"{UFC10} ex. 5"], "band_pushdown": [f"{UFC10} ex. 7"],
+    "band_lat_pulldown": [f"{UFA11} alt. for lat pulldown"], "assisted_pull_up": [f"{UFA11} alt. for lat pulldown (assisted pull-up)"],
+    "db_skull_crusher": [f"{UFA11} alt. for cable triceps pushdown"],
+    "db_overhead_ext_two_hands": [f"{UFA11} alt. for cable triceps pushdown"],
+    "chest_supported_db_row": [f"{UFC10} alt. for wide-grip cable row"], "bent_over_db_row_wide": [f"{UFC10} alt. for wide-grip cable row"],
+}
+assert set(V11) <= _keys, set(V11) - _keys
+for _r in ROWS:
+    if _r["key"] in V11:
+        _r["corpus"] = list(_r.get("corpus", [])) + V11[_r["key"]]
+
+
+# Provenance from the two-session upper focus files A v12 and B v12 (2026-10-29, catalogue revision 17); the v11 lines stay as
+# history, and C v10's stay too, as the file remains in gymplan/
+V12 = {
+    "supine_db_front_raise": [f"{UFA12} ex. 1"], "band_pull_apart_hold_shoulder": [f"{UFA12} ex. 2", f"{UFB12} ex. 2"],
+    "db_lateral_raise": [f"{UFA12} ex. 3", f"{UFB12} ex. 3"], "dead_bug_hold": [f"{UFA12} ex. 4"],
+    "lat_pulldown": [f"{UFA12} ex. 5"], "pallof_press": [f"{UFA12} ex. 6", f"{UFB12} ex. 11"],
+    "band_crossover": [f"{UFA12} ex. 7", f"{UFB12} ex. 6"], "cable_pushdown": [f"{UFA12} ex. 8"],
+    "band_er": [f"{UFA12} ex. 9", f"{UFB12} ex. 8"],
+    "band_wrist_curl": [f"{UFA12} ex. 10", f"{UFB12} ex. 9"], "band_reverse_wrist_curl": [f"{UFA12} ex. 11", f"{UFB12} ex. 10"],
+    "db_front_raise": [f"{UFB12} ex. 1"], "plank": [f"{UFB12} ex. 4"], "wide_cable_row": [f"{UFB12} ex. 5"],
+    "band_pushdown": [f"{UFB12} ex. 7"],
+    "band_lat_pulldown": [f"{UFA12} alt. for lat pulldown"], "assisted_pull_up": [f"{UFA12} alt. for lat pulldown (assisted pull-up)"],
+    "db_skull_crusher": [f"{UFA12} alt. for cable triceps pushdown"],
+    "db_overhead_ext_two_hands": [f"{UFA12} alt. for cable triceps pushdown"],
+    "chest_supported_db_row": [f"{UFB12} alt. for wide-grip cable row"], "bent_over_db_row_wide": [f"{UFB12} alt. for wide-grip cable row"],
+}
+assert set(V12) <= _keys, set(V12) - _keys
+for _r in ROWS:
+    if _r["key"] in V12:
+        _r["corpus"] = list(_r.get("corpus", [])) + V12[_r["key"]]
+
+
+# Stabilizers (2026-11-05, catalogue revision 18; T20): the muscles a row's posture makes hold a joint still while its prime
+# mover works. They collect no sets (Stage 0 §2.3); the superset check reads them (Stage 1 R38). build.py's METHOD names the
+# postures; the basis line added here names each row's posture and evidence.
+_ARMS_SH = ["front_delt", "side_delt", "rear_delt", "rotator_cuff", "serratus"]
+_PUSH_ST = ["side_delt", "rear_delt", "rotator_cuff", "serratus", "abs", "obliques"]
+_OVER_ST = ["front_delt", "side_delt", "rotator_cuff", "serratus", "upper_back"]
+_B_PLANK = ("stabilizers — weight on the forearms: the front delt worked ~30% of a maximal contraction in a forearm plank "
+            "(Stage 1 [W76]); the middle and rear delt of a weight-bearing arm worked 32–38% on the elbows while the other arm "
+            "lifted (Stage 1 [W77]); shoulder and scapular muscles work harder the more weight the arms bear (Stage 1 [W78]); "
+            "the obliques hold the trunk at 22–27% in the push-up position (Stage 1 [W79])")
+_B_PUSH = ("stabilizers — weight on the hands: in a push-up the abs and obliques hold the trunk at 20–27% of a maximal "
+           "contraction (Stage 1 [W79]); the middle and rear delt of a weight-bearing arm worked 31–37% on the hands while the "
+           "other arm lifted (Stage 1 [W77]); shoulder and scapular muscles work harder the more weight the arms bear (Stage 1 [W78])")
+_B_SIDE = ("stabilizers — weight on one forearm: the shoulder holds the body as in the forearm plank (Stage 1 [W77] · [W78]); "
+           "the abs worked ~20% of a maximal contraction in a side bridge (Stage 1 [W80])")
+_B_ROW1 = ("stabilizers — weight on the support arm: the hand on the bench bears weight as in kneeling on three points, where "
+           "the middle delt of the support arm worked ~31% of a maximal contraction (Stage 1 [W77]); its triceps holds the soft "
+           "elbow, and the grip holds the dumbbell")
+_B_REAR = "mechanics — stabilizers: the arms are held out at shoulder height, so the side delt holds them up"
+_B_REVFLY = ("mechanics — stabilizers: the arms are held out at chest height as they open, so the front delt, then the side "
+             "delt holds them up")
+_B_PALLOF = "mechanics — stabilizers: the arms are held out in front at chest height, so the front delt holds them up"
+_B_OVER = ("mechanics — stabilizers: the upper arms are held overhead, so the front and side delt hold them up, the cuff keeps "
+           "the shoulder centred, and the serratus and lower traps keep the shoulder blades turned up (R6)")
+_B_PRONEY = ("mechanics — stabilizers: the lower traps lift the arms by turning the shoulder blades, while the side and rear "
+             "delt and the cuff hold each arm at its angle")
+_B_KICK = ("mechanics — stabilizers: bent over at ~45°, the erectors and hamstrings hold the hinge, and the rear delt holds the "
+           "upper arms at the torso line")
+_B_BENTFLY = "mechanics — stabilizers: bent over at ~45°, the erectors and hamstrings hold the hinge"
+_B_BENTROW = ("mechanics — stabilizers: bent over, the hamstrings hold the hinge (the erectors count as indirect), and the grip "
+              "holds the load")
+_B_CABLEROW = "mechanics — stabilizers: seated upright against the cable's pull, the erectors hold the trunk, and the grip the handle"
+_B_BRIDGE = ("stabilizers — the quads hold the knee angle and the erectors the spine: in the barbell hip thrust the vastus "
+             "lateralis averaged ~100% of a maximal contraction (Stage 1 [W82]), and the erectors ~85% (Stage 1 [W83])")
+_B_SMITHSQ = "mechanics — stabilizers: the upper back holds the bar on the back, and the erectors hold the trunk"
+_B_GOBLET = "mechanics — stabilizers: the erectors hold the trunk upright under the dumbbell held at the chest"
+_B_BACKBAR = "mechanics — stabilizers: the upper back holds the bar on the back (the erectors count as indirect)"
+_B_CALFBAR = "mechanics — stabilizers: the upper back holds the bar on the back"
+_B_RDL = ("mechanics — stabilizers: the load hangs from the hands, so the grip holds it and the upper back holds the "
+          "shoulders back (the erectors count as indirect)")
+_B_LEGS = "mechanics — stabilizers: the hip flexors hold the legs off the floor"
+_B_GRIP = "mechanics — stabilizers: the grip holds the bar, handle or band the pull moves"
+_B_ONELEG = "mechanics — stabilizers: on one leg, the stance leg's hip abductors hold the pelvis level"
+STAB18 = {
+    "push_up": (_PUSH_ST, _B_PUSH), "incline_push_up": (_PUSH_ST, _B_PUSH), "close_grip_push_up": (_PUSH_ST, _B_PUSH),
+    "plank": (_ARMS_SH + ["obliques"], _B_PLANK),
+    "side_plank_short": (_ARMS_SH + ["abs"], _B_SIDE), "copenhagen_short": (_ARMS_SH + ["abs"], _B_SIDE),
+    "single_arm_db_row": (["front_delt", "side_delt", "rotator_cuff", "serratus", "triceps", "forearm_flexors"], _B_ROW1),
+    "band_pull_apart_hold_shoulder": (["side_delt"], _B_REAR),
+    "band_reverse_fly": (["front_delt", "side_delt"], _B_REVFLY),
+    "pallof_press": (["front_delt"], _B_PALLOF),
+    "cable_overhead_ext": (_OVER_ST, _B_OVER), "band_overhead_ext": (_OVER_ST, _B_OVER),
+    "db_overhead_ext_two_hands": (_OVER_ST, _B_OVER), "db_overhead_ext_single": (_OVER_ST, _B_OVER),
+    "prone_y_raise": (["side_delt", "rear_delt", "rotator_cuff"], _B_PRONEY),
+    "db_kickback": (["rear_delt", "erectors", "hamstrings"], _B_KICK),
+    "bent_over_rear_fly": (["erectors", "hamstrings"], _B_BENTFLY),
+    "bent_over_bb_row": (["hamstrings", "forearm_flexors"], _B_BENTROW),
+    "bent_over_db_row_wide": (["hamstrings", "forearm_flexors"], _B_BENTROW),
+    "narrow_cable_row": (["erectors", "forearm_flexors"], _B_CABLEROW),
+    "wide_cable_row": (["erectors", "forearm_flexors"], _B_CABLEROW),
+    "hip_thrust": (["quads", "erectors"], _B_BRIDGE), "glute_bridge": (["quads", "erectors"], _B_BRIDGE),
+    "glute_bridge_hold": (["quads", "erectors"], _B_BRIDGE),
+    "smith_squat": (["upper_back", "erectors"], _B_SMITHSQ), "goblet_squat": (["erectors"], _B_GOBLET),
+    "bb_squat_pins": (["upper_back"], _B_BACKBAR), "smith_calf_raise": (["upper_back"], _B_CALFBAR),
+    "db_rdl": (["upper_back", "forearm_flexors"], _B_RDL), "band_rdl": (["upper_back", "forearm_flexors"], _B_RDL),
+    "dead_bug": (["hip_flexors"], _B_LEGS), "dead_bug_hold": (["hip_flexors"], _B_LEGS),
+    "lat_pulldown": (["forearm_flexors"], _B_GRIP), "neutral_pulldown": (["forearm_flexors"], _B_GRIP),
+    "pull_up": (["forearm_flexors"], _B_GRIP), "assisted_pull_up": (["forearm_flexors"], _B_GRIP),
+    "band_lat_pulldown": (["forearm_flexors"], _B_GRIP), "straight_arm_band_pulldown": (["forearm_flexors"], _B_GRIP),
+    "cable_pullover": (["forearm_flexors"], _B_GRIP), "chest_supported_db_row": (["forearm_flexors"], _B_GRIP),
+    "band_wide_row": (["forearm_flexors"], _B_GRIP),
+    "band_adduction": (["hip_abductors"], _B_ONELEG), "band_knee_drive": (["hip_abductors"], _B_ONELEG),
+    "single_leg_calf_raise": (["hip_abductors"], _B_ONELEG), "popliteus_step_task": (["hip_abductors"], _B_ONELEG),
+    "popliteus_step_task_speed": (["hip_abductors"], _B_ONELEG),
+}
+assert set(STAB18) <= _keys, set(STAB18) - _keys
+for _r in ROWS:
+    if _r["key"] in STAB18:
+        _r["stabilizers"] = list(STAB18[_r["key"]][0])
+        _r["basis"] = list(_r.get("basis", [])) + [STAB18[_r["key"]][1]]
+
+
+# Provenance from the upper focus file B v13 (2026-11-05, catalogue revision 18): the dead bug hold takes card 4 from the
+# plank, which holds still the side delt that its partner, the lateral raise, trains (T20); the v12 lines stay as history
+V13 = {
+    "db_front_raise": [f"{UFB13} ex. 1"], "band_pull_apart_hold_shoulder": [f"{UFB13} ex. 2"],
+    "db_lateral_raise": [f"{UFB13} ex. 3"], "dead_bug_hold": [f"{UFB13} ex. 4"], "wide_cable_row": [f"{UFB13} ex. 5"],
+    "band_crossover": [f"{UFB13} ex. 6"], "band_pushdown": [f"{UFB13} ex. 7"], "band_er": [f"{UFB13} ex. 8"],
+    "band_wrist_curl": [f"{UFB13} ex. 9"], "band_reverse_wrist_curl": [f"{UFB13} ex. 10"], "pallof_press": [f"{UFB13} ex. 11"],
+    "chest_supported_db_row": [f"{UFB13} alt. for wide-grip cable row"],
+    "bent_over_db_row_wide": [f"{UFB13} alt. for wide-grip cable row"],
+}
+assert set(V13) <= _keys, set(V13) - _keys
+for _r in ROWS:
+    if _r["key"] in V13:
+        _r["corpus"] = list(_r.get("corpus", [])) + V13[_r["key"]]
+
+
+# Meaningful synergists (2026-11-06, catalogue revision 19; T21 · Stage 1 D-22): a synergist of the joint action, or a muscle
+# that published EMG shows helping move the load at about 40% of a maximal contraction or more, is indirect. The cuff's
+# infraspinatus worked 62–70% in a reverse fly (Stage 1 [W81]), so the rear-delt horizontal-abduction rows list it.
+IND19 = ["bent_over_rear_fly", "chest_supported_rear_fly", "band_reverse_fly", "side_lying_rear_delt_raise",
+         "band_pull_apart_hold_shoulder"]
+_B_CUFF = ("Stage 1 [W81]: the cuff's infraspinatus worked 62–70% of a maximal contraction in a reverse fly, beside the rear "
+           "delt's 86–90%, so it counts as indirect (T21)")
+assert set(IND19) <= _keys, set(IND19) - _keys
+for _r in ROWS:
+    if _r["key"] in IND19:
+        assert "rotator_cuff" not in _r.get("stabilizers", []), _r["key"]
+        _r["indirect"] = list(_r.get("indirect", [])) + ["rotator_cuff"]
+        _r["basis"] = list(_r["basis"]) + [_B_CUFF]

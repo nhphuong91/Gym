@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 15 (2026-10-27): with the revision 14 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 15. gymspec/ is the source of truth: before a new revision, check that
+revision 20 (2026-11-06): with the revision 19 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 20. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -19,12 +19,86 @@ BUILT = "2026-10-02"
 SCHEMA = "stage1-exercise-catalogue/1"
 HYP_HOLD_MUSCLES = {"abs", "obliques", "forearm_flexors", "forearm_extensors", "forearm_rotators"}
 
-FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indirect", "zone", "compound",
-          "stations", "equipment", "joints", "status", "unlock", "excluded_by", "excluded_why",
+FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indirect", "stabilizers", "zone",
+          "compound", "stations", "equipment", "joints", "status", "unlock", "excluded_by", "excluded_why",
           "replaced_by", "cues", "warnings", "hyp_set", "day_after", "sport_notes", "alt_candidates",
           "targets", "source", "corpus", "used_in", "changed", "basis", "notes", "attention"]
 
 REVISIONS = [
+    {
+        "n": 20,
+        "date": "2026-11-06",
+        "note": "two abs L rows, and the AbMat",
+        "changes": [
+            "Harry confirmed two abs rows (Stage 1 §3.2 · D-08; T22): C147, the reverse crunch on the AbMat, and C148, the face-away "
+            "cable crunch on the lat-pulldown seat. Both load the abs from slight extension at the start through flexion, so both are L "
+            "and, like C141, locked until spine stage 2; until then the dead bug hold covers the abs (M). C148 is the L option with a "
+            "weight stack for load steps.",
+            "The AbMat joins the equipment vocabulary (Stage 0 D-95).",
+        ],
+    },
+    {
+        "n": 19,
+        "date": "2026-11-06",
+        "note": "meaningful synergists: the cuff in rear-delt work",
+        "changes": [
+            "A synergist of the joint action, or a muscle that published EMG shows helping move the load at about 40% of a maximal "
+            "contraction or more, is indirect (Harry, 2026-11-06; T21 · Stage 1 D-22); moderate co-activation, about 20–40%, is not "
+            "counted (Stage 1 §0.3 (h)). The cuff's infraspinatus worked 62–70% in a reverse fly (Stage 1 [W81]), so the five "
+            "rear-delt rows that move or hold horizontal abduction list it as indirect, and the band reverse fly and the pull-apart "
+            "hold no longer list it as a stabilizer. Their day-after lists add the cuff, which archery and badminton both name.",
+            "C144's note no longer says the band reverse fly stays in the week: plan v2 dropped it.",
+            "Since Stage 1 D-21, a partner that holds the other's prime mover still fails R38, holds included; "
+            "gymtools/plan/pair_check.py's check (5) follows.",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": ["C018", "C144"], "indirect": ["C016", "C017", "C018", "C140", "C144"], "notes": ["C144"]},
+    },
+    {
+        "n": 18,
+        "date": "2026-11-05",
+        "note": "stabilizers, and provenance from the upper focus file B v13",
+        "changes": [
+            "Each exercise now lists its stabilizers: the muscles its posture makes hold a joint still while the prime mover works "
+            "(Harry, 2026-11-05; T20). Upper focus B v12 paired the lateral raise with the forearm plank, which holds still the side "
+            "delt the raise trains; R38 counts a hold as a neutral partner, and prime movers and indirect muscles alone could not "
+            "show the overlap. Stabilizers collect no sets (Stage 0 §2.3), and the superset check reads them (R38; "
+            "gymtools/plan/pair_check.py check (5)). §6 Method names the postures; each row's last basis line names its posture "
+            "and evidence (Stage 1 [W76]–[W83]).",
+            "Every row's prime mover and indirect muscles were re-read against the same evidence and left as they are: whether "
+            "moderate co-activation makes a meaningful synergist (Stage 0 §2.3) changes set counts, and it waits for Harry.",
+            "Upper focus B v13 trains the dead bug hold where B v12 had the plank, as no other pairing in B passes once "
+            "stabilizers count; the rows B v13 uses cite it, and the v12 lines stay as history.",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": ["C006", "C007", "C016", "C018", "C024", "C025", "C026", "C027", "C028", "C029", "C030", "C032", "C033", "C034", "C035", "C036", "C037", "C038", "C039", "C049", "C050", "C051", "C052", "C055", "C056", "C060", "C061", "C062", "C063", "C064", "C065", "C066", "C070", "C071", "C074", "C075", "C076", "C080", "C082", "C083", "C084", "C090", "C094", "C095", "C134", "C144"], "provenance_b13": ["C009", "C012", "C020", "C035", "C036", "C037", "C054", "C062", "C134", "C138", "C144", "C145", "C146"]},
+    },
+    {
+        "n": 17,
+        "date": "2026-10-29",
+        "note": "provenance from the upper focus files A v12 and B v12, two sessions a week",
+        "changes": [
+            "Block 02 trains the upper body in two sessions a week instead of three (plan v2, Harry, 2026-10-29; O2 A): A v12 and B v12 "
+            "carry every exercise of the block, and C v10 is no longer a current routine. The rows the two files use cite A v12 and B v12; "
+            "the v11 lines stay as history, and so do C v10's, as the file stays in gymplan/.",
+            "No exercise was added and no fact changed beyond these provenance lines: the band reverse fly (C018) leaves the current "
+            "routines with C v10, and the pull-apart hold (C144) takes all the rear-delt sets.",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "provenance_two_sessions": ["C009", "C012", "C020", "C024", "C027", "C028", "C035", "C036", "C037", "C048", "C051", "C053", "C054", "C060", "C062", "C134", "C138", "C139", "C144", "C145", "C146"]},
+    },
+    {
+        "n": 16,
+        "date": "2026-10-28",
+        "note": "block 02: three rows, and provenance from the upper focus files A v11, B v11 and C v10",
+        "changes": [
+            "Block 02 has archery in season: the delts and abs train for hypertrophy, archery's upper-body muscles for muscular endurance. "
+            "Three rows added once Harry confirmed them (Stage 1 §3.2 · D-08; T19): C144, the band pull-apart hold at shoulder height, "
+            "both arms, a rear-delt hold that counts as a hypertrophy set (Stage 0 §2.2 · D-58); C145 and C146, the band wrist curl and "
+            "reverse wrist curl, both arms, forearms on the frame's safety arm, since an endurance set needs a guided path (Stage 1 R30) "
+            "and the dumbbell curls C057 and C058 have none.",
+            "The three upper focus files were rebuilt for block 02 as A v11, B v11 and C v10. The rows they use cite those versions; "
+            "the v6, v7 and v8 lines stay as history.",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C144", "C145", "C146"], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "provenance_block02": ["C009", "C012", "C018", "C020", "C024", "C027", "C028", "C035", "C036", "C037", "C048", "C051", "C053", "C054", "C060", "C062", "C134", "C138", "C139"]},
+    },
     {
         "n": 15,
         "date": "2026-10-27",
@@ -33,6 +107,7 @@ REVISIONS = [
             "Harry has a lacrosse ball as well as the tennis ball, and it joins Stage 0 §1.3's always-available kit (Stage 0 D-93), so "
             "this vocabulary lists it. No row uses it: the foam-rolling files, where it is an option, stay outside the catalogue.",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": []},
     },
     {
         "n": 14,
@@ -241,6 +316,10 @@ DECISIONS = {
     "T13": {"title": "Shoulder rotation in the prone W", "decision": "Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45°", "lands": "this catalogue: C108 cue (revision 9)"},
     "T14": {"title": "A front-delt row", "decision": "Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block", "lands": "this catalogue: C138 (revision 10)"},
     "T15": {"title": "Cues at upper-body stage 2", "decision": "Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3'", "lands": "this catalogue: revision 10"},
+    "T22": {"title": "Abs L rows", "decision": "Harry (2026-11-06): add the reverse crunch with an AbMat and the face-away lat-pulldown cable crunch, and the AbMat to his kit; upper focus B keeps the dead bug hold (O6 D)", "lands": "this catalogue: C147, C148 (revision 20); Stage 0 §1.3 · D-95"},
+    "T21": {"title": "Meaningful synergists", "decision": "Harry (2026-11-06, O4 C): a synergist of the joint action, or a muscle that EMG shows helping move the load at about 40% of a maximal contraction or more, is indirect; moderate co-activation is not counted", "lands": "this catalogue: the cuff indirect in C016, C017, C018, C140 and C144 (revision 19); Stage 1 §3.2 · §0.3 (h) · D-22"},
+    "T20": {"title": "Stabilizers", "decision": "Harry (2026-11-05, O3): list what each exercise's posture holds still, so the superset check sees it; with no other pairing for B's lateral raise, the dead bug hold replaces the plank (A)", "lands": "this catalogue: the stabilizers field (revision 18); gymtools/plan/pair_check.py check (5); upper focus B v13"},
+    "T19": {"title": "Block 02 rows", "decision": "Harry (2026-10-27, O5 A · O8 A): add the band pull-apart hold at shoulder height, and the band wrist curl and reverse wrist curl with the forearms on the safety arm, all both arms", "lands": "this catalogue: C144, C145, C146 (revision 16)"},
     "T18": {"title": "Biceps hold set-up", "decision": "Harry (2026-10-27, T6): keep C105 — a doorway works as well as the rack uprights", "lands": "this catalogue: C105 (revision 14)"},
     "T17": {"title": "Mobility rebuild rows", "decision": "Harry (2026-10-26, mobility rebuild O4 A and T3): C102 on fists or DB handles; add the supine windshield wipers and a two-arm internal-rotation hold", "lands": "this catalogue: C102, C111, C142, C143 (revision 13)"},
     "T16": {"title": "Second alternative for the wide-grip cable row in focus A", "decision": "Harry (2026-10-13, Q4 a): the bent-over wide DB row, since the Smith press holds the bench during that superset", "lands": "this catalogue: C037 provenance (revision 11)"},
@@ -267,15 +346,27 @@ METHOD = [
     "Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).",
     "New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). "
     "Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), "
-    "the L rows C139–C141 (Stage 1 D-15) and the mobility rows C142–C143 (T17).",
+    "the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19) and the abs L rows C147–C148 (T22).",
     "Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; "
     "it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.",
     "Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), "
     "left–right balance (R23), soft bend at every joint (R2) unless the row needs a specific cue.",
     "Zones (Stage 1 R26) label where the resistance peaks in the prime mover's range within the gated range; R26's reference labels are used "
     "as given; every L is truncated by R1; the triceps has no S slot (R27), so the kickback's S label fills no coverage. Mechanics labels carry basis 'mechanics'.",
-    "Compound = multi-joint loading; in a plan only compounds produce harvest (Stage 1 R35). Indirect lists meaningful synergists; "
+    "Compound = multi-joint loading; in a plan only compounds produce harvest (Stage 1 R35). Indirect lists meaningful synergists — "
+    "the synergists of the joint action, as in Stage 0 §2.3's examples, and any muscle published EMG shows helping move the "
+    "load at about 40% of a maximal contraction or more (T21; moderate co-activation is not counted, Stage 1 §0.3 (h)); "
     "an isolation exercise's indirect muscles still collect sets for Stage 0 R19–R21, but give no harvest.",
+    "Stabilizers (revision 18, T20) are the muscles a row's posture makes hold a joint still while the prime mover works; they "
+    "collect no sets and give no harvest (Stage 0 §2.3), and the superset check reads them (R38). A row lists them, unless the "
+    "muscle is already its prime mover or indirect, for seven postures: weight on the arms — the deltoids, cuff and serratus "
+    "hold the shoulder, the abs or obliques the trunk, a support arm's triceps its soft elbow; an arm held up or out against "
+    "gravity by a muscle that does not move the load — the deltoids, cuff, serratus and lower traps; a trunk held bent over, "
+    "hinged, upright against a pull or bridged — the erectors, the hamstrings in a hinge, the quads in a bridge; legs held off "
+    "the floor — the hip flexors; a load heavy for the grip in a pull or hinge — the forearm flexors, and the upper back where "
+    "the load hangs at arm's length in a hinge; a bar on the back — the upper back; a one-leg stance — the stance leg's hip "
+    "abductors. Lighter hand-held loads (curls, raises, wrist work) and the shoulder muscles that keep the elbows still in curls "
+    "and pushdowns are not listed. A basis line on stabilizers names each row's posture and evidence.",
     "day_after (Stage 0 R21) is computed: each sport whose avoid-the-day-before muscles collect sets in the row (prime or indirect). "
     "Drills and conditioning collect no sets.",
     "alt_candidates (Stage 1 R41) is computed for open station exercises: open rows of the same kind and movement pattern that share none "
@@ -303,6 +394,16 @@ REFS = {
     "Stage 1 [W63]": "Russek, Hypermobility 104: Exercise Selection and Progression for HSD/hEDS and POTS, Clarkson University slides",
     "Stage 1 [W64]": "Pre-Script, Maximize back development using grip width and arm angle (blog)",
     "Stage 1 [W65]": "Escamilla et al. 2006, J Orthop Sports Phys Ther 36(2):45–57, DOI 10.2519/jospt.2006.36.2.45",
+    "Stage 1 [W76]": "Sağlam, Aydın, Demirkan, Gündoğan & Favre 2026, J Hum Kinet 102:35–43, DOI 10.5114/jhk/203417",
+    "Stage 1 [W77]": "Ju & Yoo 2015, J Phys Ther Sci 27(10):3285–86, DOI 10.1589/jpts.27.3285",
+    "Stage 1 [W78]": "Can, Harput & Turgut 2024, J Strength Cond Res 38(2):245–52, DOI 10.1519/JSC.0000000000004622",
+    "Stage 1 [W79]": "Freeman, Karpowicz, Gray & McGill 2006, Med Sci Sports Exerc 38(3):570–77, DOI 10.1249/01.mss.0000189317.08635.1b",
+    "Stage 1 [W80]": "Youdas, Guck, Hebrink, Rugotzke, Madson & Hollman 2008, J Strength Cond Res 22(6):1939–46, DOI 10.1519/JSC.0b013e31818745bf",
+    "Stage 1 [W81]": "Schoenfeld, Sonmez, Kolber, Contreras, Harris & Ozen 2013, J Strength Cond Res 27(10):2644–49, DOI 10.1519/JSC.0b013e318281e1e9",
+    "Stage 1 [W82]": "Contreras, Vigotsky, Schoenfeld, Beardsley & Cronin 2015, J Appl Biomech 31(6):452–58, DOI 10.1123/jab.2014-0301",
+    "Stage 1 [W83]": "Krause Neto, Vieira & Gama 2019, J Sports Sci Med 18(2):198–206",
+    "Stage 1 [W85]": "Escamilla, Babb, DeWitt, Jew, Kelleher, Burnham, Busch, D'Anna, Mowbray & Imamura 2006, Phys Ther 86(5):656–71, DOI 10.1093/ptj/86.5.656",
+    "Stage 1 [W86]": "Bodybuilding.com, Cable seated crunch (exercise guide), checked 2026-11-06",
     "Stage 0 [W51]": "Mittal et al. 2021, GEAR program, Front Rehabil Sci, DOI 10.3389/fresc.2021.769792",
     "Stage 0 [W75]": "Hou et al. 2023, BMC Musculoskelet Disord 24:71, DOI 10.1186/s12891-023-06179-2",
 }
@@ -343,20 +444,24 @@ def build():
             fail(f"{k}: kind {kind}")
         prime = r.get("prime")
         indirect = list(r.get("indirect", []))
+        stabilizers = list(r.get("stabilizers", []))
         if kind in ("resistance", "hold"):
             if prime not in MUSCLES:
                 fail(f"{k}: prime {prime}")
             for m in indirect:
                 if m not in MUSCLES or m == prime:
                     fail(f"{k}: indirect {m}")
+            for m in stabilizers:
+                if m not in MUSCLES or m == prime or m in indirect or stabilizers.count(m) > 1:
+                    fail(f"{k}: stabilizer {m}")
             region = MUSCLES[prime][3]
             if r.get("compound") is None:
                 fail(f"{k}: compound missing")
             if not r.get("pattern"):
                 fail(f"{k}: pattern missing")
         else:
-            if prime or indirect:
-                fail(f"{k}: drills/conditioning carry no prime or indirect")
+            if prime or indirect or stabilizers:
+                fail(f"{k}: drills/conditioning carry no prime, indirect or stabilizers")
             region = r.get("region")
         stations = list(r.get("stations", []))
         equipment = list(r.get("equipment", []))
@@ -443,7 +548,7 @@ def build():
                 sport_notes[sport] = out
         row = {
             "id": ids[k], "key": k, "name": r["name"], "kind": kind, "region": region, "pattern": r.get("pattern"),
-            "prime_mover": prime, "indirect": indirect, "zone": zone,
+            "prime_mover": prime, "indirect": indirect, "stabilizers": stabilizers, "zone": zone,
             "compound": r.get("compound") if kind in ("resistance", "hold") else None,
             "stations": stations, "equipment": equipment, "joints": joints,
             "status": status, "unlock": unlock,
@@ -520,7 +625,7 @@ def catalogue(rows):
 # ───────────────────────── Markdown mirror ─────────────────────────
 
 EQ_SHORT = {"bands": "bands", "frame": "frame", "barbell": "barbell + plates", "dumbbells": "dumbbells",
-            "foam_roller": "foam roller", "tennis_ball": "tennis ball", "low_box": "low box", "court": "court",
+            "foam_roller": "foam roller", "tennis_ball": "tennis ball", "low_box": "low box", "abmat": "AbMat", "court": "court",
             "bike": "bike", "pool": "pool", "jump_rope": "jump rope"}
 
 
@@ -572,7 +677,13 @@ def render_md(cat):
                                ("Corpus provenance: the upper focus files v7", "provenance"),
                                ("Corpus provenance: the upper focus files v8", "provenance_v8"),
                                ("Corpus provenance: the mobility files upper v4 and lower v3", "provenance_mobility"),
-                               ("Corpus provenance: the upper mobility file v5", "provenance_mobility_v5")):
+                               ("Corpus provenance: the upper mobility file v5", "provenance_mobility_v5"),
+                               ("Corpus provenance: the upper focus files A v11, B v11 and C v10", "provenance_block02"),
+                               ("Corpus provenance: the upper focus files A v12 and B v12", "provenance_two_sessions"),
+                               ("Stabilizers listed or changed ✏️", "stabilizers"),
+                               ("Indirect muscles changed ✏️", "indirect"),
+                               ("Notes reworded ✏️", "notes"),
+                               ("Corpus provenance: the upper focus file B v13", "provenance_b13")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
             a("")
@@ -584,6 +695,7 @@ def render_md(cat):
     a("|---|---|")
     a("| S1.4 Candidates | Filter by `prime_mover` and `status`, then re-check `joints` against the actual loading stages in Current state |")
     a("| S1.5–S1.6 Harvest, direct sets | `compound` and `indirect` (Stage 1 R35); `hyp_set` says whether a hold counts toward a hypertrophy target |")
+    a("| R38 Supersets | `prime_mover` and `indirect`, plus `stabilizers`: what one partner holds still is pre-fatigued for the other (gymtools/plan/pair_check.py) |")
     a("| R26–R29 Zones | `zone`, labelled for the gated range |")
     a("| R41 Alternatives | `stations` and the computed `alt_candidates` |")
     a("| Stage 0 R21 Sport note | `day_after` lists each sport whose avoid-the-day-before muscles collect sets in the exercise |")
@@ -686,7 +798,7 @@ def render_md(cat):
     a("")
     a("## 5. Decisions and open readings")
     a("")
-    a("**Decided** (Harry, chats 2026-10-03, 2026-10-06, 2026-10-12, 2026-10-13, 2026-10-26 and 2026-10-27)")
+    a("**Decided** (Harry, chats 2026-10-03, 2026-10-06, 2026-10-12, 2026-10-13, 2026-10-26, 2026-10-27, 2026-11-05 and 2026-11-06)")
     a("")
     a("| # | Topic | Decision | Lands in |")
     a("|---|---|---|---|")
@@ -748,6 +860,8 @@ def render_row(a, x):
         da = "; ".join(f"{d['sport']} ({', '.join(mname(m) for m in d['muscles'])})" for d in x["day_after"]) or "—"
         hs = "" if x["hyp_set"] is None or x["hyp_set"] else " · Not a hypertrophy set: timed isometrics count only for forearm and abs isolation (Stage 0 §2.2)"
         lines.append(f"- Indirect: {ind} · Day after: {da}{hs}")
+        if x["stabilizers"]:
+            lines.append("- Stabilizers (held still; no sets): " + ", ".join(mname(m) for m in x["stabilizers"]))
     if x["targets"]:
         lines.append(f"- Targets: {x['targets']}")
     if x["status"] == "locked":
@@ -819,7 +933,7 @@ def dump_json(cat):
 def revision_diff(rows, prev_path):
     prev = {x["key"]: x for x in json.load(open(prev_path, encoding="utf-8"))["rows"]}
     d = {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [],
-         "locked_range": [], "corpus_fixed": [], "cues": []}
+         "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": []}
     for x in rows:
         p = prev.get(x["key"])
         if not p:
@@ -848,6 +962,12 @@ def revision_diff(rows, prev_path):
             d["end_range"].append(x["id"])
         if x["kind"] == "hold" and x["hyp_set"] and not p.get("hyp_set"):
             d["holds"].append(x["id"])
+        if x["stabilizers"] != p.get("stabilizers", []):
+            d["stabilizers"].append(x["id"])
+        if x["indirect"] != p.get("indirect", []):
+            d["indirect"].append(x["id"])
+        if (x["notes"] or "") != (p.get("notes") or ""):
+            d["notes"].append(x["id"])
     return d
 
 
@@ -856,6 +976,18 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 18:  # revision 18: the upper focus file B v13's provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_b13"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
+        if REVISIONS[0]["n"] == 17:  # revision 17: the two-session focus files' provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_two_sessions"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
+        if REVISIONS[0]["n"] == 16:  # revision 16: the block 02 focus files' provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_block02"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
         if REVISIONS[0]["n"] == 14:  # revision 14: the upper mobility file v5's provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}

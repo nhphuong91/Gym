@@ -1,0 +1,169 @@
+{
+  "block": 2,
+  "current_state": {
+    "block_type": "focus",
+    "block_goal": {
+      "upper": "Hypertrophy",
+      "lower": "not trained"
+    },
+    "priority_targets": [
+      "front_delt",
+      "side_delt",
+      "rear_delt",
+      "abs",
+      "upper_back",
+      "lats",
+      "chest",
+      "rotator_cuff",
+      "triceps",
+      "forearm_flexors",
+      "forearm_extensors",
+      "obliques",
+      "erectors"
+    ],
+    "layoff": "none — block 01 trained up to this block",
+    "loading_stages": {
+      "shoulder": 2,
+      "elbow": 2,
+      "wrist": 2,
+      "spine": 1,
+      "hip": 1,
+      "knee": 1,
+      "ankle": 1
+    },
+    "in_season": [
+      "archery"
+    ],
+    "current_routines": [
+      {
+        "stem": "routine_upperbody_focus_A",
+        "regions": [
+          "upper"
+        ],
+        "sessions_week": 1
+      },
+      {
+        "stem": "routine_upperbody_focus_B",
+        "regions": [
+          "upper"
+        ],
+        "sessions_week": 1
+      }
+    ]
+  },
+  "plan": {
+    "version": "block 02 plan v3.1",
+    "approved": "2026-11-06",
+    "routines": [
+      {
+        "stem": "routine_upperbody_focus_A",
+        "version": 12
+      },
+      {
+        "stem": "routine_upperbody_focus_B",
+        "version": 13
+      }
+    ],
+    "checks": [
+      "(1) PASS: all 14 exercises are open in the catalogue at the current loading stages (each needs stage 1 at most) and use Stage 0 §1.3 kit; no primary carries a warning, and the alternative overhead DB extension (A8) is ⚠ R6, blades braced. Archery verdicts (R31): every exercise green — no conflict in archery's profile, no warning after the gates; the R6 alternative yellow",
+      "(2) PASS: every prime mover is one of the 13 priority targets (R32); no lower-body muscle gets direct sets; muscles outside the block get no direct sets (O3 A) — the biceps collect 3 half-sets a week from the pulldown and the row",
+      "(3) PASS, with a deviation: hypertrophy for front, side and rear delt and abs — 5 sets an exercise, 12–15 reps or 48–60 s holds, 2 RIR in weeks 1–4 and 1 from week 5, holds ending 8 s before failure (4 s from week 5), 60–90 s rest; muscular endurance for the other 9 targets — 2–3 sets, 12–15 reps at 3 RIR every week (R17), a load liftable 15–18 times, ≤30 s rest. Deviation (Harry's O1 B): two goal rows in the upper region, where Stage 0 §0.3 and §4.1 allow one per region (D-03); block_goal reads Hypertrophy and the endurance row lives in this plan",
+      "(4) PASS: pair_check.py on A v12 and B v13, with its check (5) on stabilizers (catalogue rev 19; R38 as amended by Stage 1 D-21): 10 pairs, 8 PASS, 2 REVIEW, 0 FAIL; straight sets (R39): the third pulldown and row sets, A's reverse wrist curl and B's Pallof press, since 7 endurance exercises a session leave one unpaired. A superset 3 REVIEW, lat pulldown ↔ Pallof press: the pulldown goes first, seated under the thigh pad at an endurance load, and the Pallof press is a light band hold, so the pulldown's bracing stays fresh. B superset 3 REVIEW, wide-grip cable row ↔ band crossover: the row goes first, seated and braced, and the light band fly leaves grip and stabilizers fresh. B superset 2 pairs the lateral raise with the dead bug hold, which holds only the hip flexors still; B v12's plank held still the side delt the raise trains, which R38 now fails (Stage 1 D-21), and no other pairing in B passes (Harry, 2026-11-05: O3 A). Each moving shoulder raise pairs with a hold that holds none of its muscles, as pair_check FAILs two moving shoulder exercises together (same joint, not antagonists); hence the band reverse fly left the plan (O2 A). Convention, not in the spec: a superset stays within one goal row, as the two rows' rests differ",
+      "(5) PASS, with a convention: front, side and rear delt and abs 10 direct sets each, 5 a session, no harvest (R33 · R36 · R37); chest, rotator cuff, triceps, forearm flexors, forearm extensors and obliques 4 direct each, 2 a session (R34); upper back 3 + 1.5 from the pulldown and lats 3 + 1.5 from the row, each 0.5 above the target (R36 · R48); lower back (erectors) 0 — a named gap (O7 A): no catalogue exercise trains it directly at spine stage 1. Convention, not in the spec: harvest counts only from exercises of the same goal row; counted from every compound (R35), the rear delt is 10 + 1.5 from the row; the cuff's 2.5 half-sets a session from the pull-apart hold (Stage 1 D-22) stay out of its endurance target by the same convention",
+      "(6) PASS, with a shortfall: exercise time A ≈59, B ≈59 min (R40: 3540 s each), under ~60 and never past 75; at most 6.5 fractional sets per muscle in a session (rear delt in B, harvest included; the cuff 4.5 with the pull-apart hold's half-sets, Stage 1 D-22), under 8 (Stage 0 R19); 70 working sets a week. Shortfall named: set progression (R42 c) fits about one step before the 75 min ceiling",
+      "(7) PASS with gaps named: front delt L (A1, C139) + S (B1, C138); side delt S only — its L and M are one-arm, locked until shoulder and elbow stage 3 (R12); rear delt S only (C144 hold) — its L, C140, is one-arm, locked until stage 3; abs M only — its L options, C141, C147 and C148, wait for spine stage 2 (R28). R28 binds the hypertrophy targets; the endurance targets' zones are listed under zone coverage",
+      "(8) PASS: upper 2 training sessions a week, lower none; no two current routines share no region, so the cross-routine guard has no pair; Harry keeps 48 h between them and sets the days (Stage 0 R20 · §0.1)",
+      "(9) PASS: A and B name archery and badminton the day after — delts, abs, obliques, back, chest, triceps, cuff and forearms collect sets from archery's list, the cuff and forearms from badminton's (Stage 0 R21 names every sport with a profile); each file adds the day-after-shooting step gate (R21)",
+      "(10) PASS: every station exercise has two alternatives clear of its own and its partner's stations (pair_check.py): A5 lat pulldown → band lat pulldown, assisted pull-up; A8 cable pushdown → DB skull crusher, overhead DB extension ⚠ R6; B5 wide-grip cable row → chest-supported DB row, bent-over wide DB row (R41). Shortfall named: the pushdown's and the row's band variants would need a third long band while the crossover holds two, so their alternatives are dumbbell lifts without the guided path the endurance test prefers (Stage 1 R30 E2)"
+    ],
+    "zone_coverage": [
+      "front delt: L supine DB front raise on the floor (A1) · S DB front raise (B1)",
+      "side delt: S lateral raise (A3, B3); its L and M are one-arm, locked until shoulder and elbow stage 3 (R12) — gap named",
+      "rear delt: S band pull-apart hold at shoulder height (A2, B2); its L, C140 side-lying DB rear delt raise, is one-arm, locked until shoulder and elbow stage 3 (R12) — gap named",
+      "abs: M dead bug hold (A4, B4); its L options — C141 crunch over the foam roller, C147 reverse crunch on the AbMat, C148 face-away cable crunch — are locked until spine stage 2 — gap named",
+      "endurance targets (R28 binds hypertrophy only): upper back M (B5), lats M (A5), chest S (A7, B6), rotator cuff S (A9, B8), triceps M (A8, B7), forearm flexors S (A10, B9), forearm extensors S (A11, B10), obliques M (A6, B11); lower back none — the named gap"
+    ],
+    "progression": [
+      "A1, A3, B1, B3 (hypertrophy, 12–15 reps): +1 rep a set to 15 at the week's RIR; 15 in two sessions in a row → Harry's smallest load step, back to 12 (R42 a, b)",
+      "A2, B2 pull-apart hold, A4 and B4 dead bug hold (48–60 s): to 60 s with the reserve held → a harder variant, not longer — a stronger band for the pull-apart hold; the dead bug straightens both legs only while the back stays flat (R16)",
+      "A5–A11, B5–B11 (endurance, 12–15 reps at 3 RIR): +1 rep a set to 15; 15 in two sessions in a row → the smallest load step, back to 12, the load still one liftable 15–18 times (R42 a, b · Stage 0 §2.2)",
+      "Then +1 set every 2 weeks per target while (a) and (b) stay inside the step gate — hypertrophy up to 20 a week (R33), endurance up to 8 (R34), each exercise within its row's Sets (R48) and each session within Stage 0 R19: at ≈59 min a session about one step fits before 75 min, then progress runs on reps and load; never more load and more sets for a muscle in the same week; no restart ramp, as there was no layoff (R42 c · Stage 0 R22)",
+      "Competition week (mid-December, about block week 6–7) — advice, not a rule, as the spec stays unchanged (O4 A · O11): one gym session in the 7 days before, finished at least 72 h before the first shot; no new exercise in the last 14 days, already met, since every exercise starts in week 1"
+    ],
+    "suspensions": "Lower body not trained this block: the hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24)"
+  },
+  "log": [
+    {
+      "date": "2026-10-28",
+      "changes": [
+        "State file started for block 02 (Stage 2 R67): a focus block, archery in season; upper body trains front, side and rear delt and abs for hypertrophy and upper back, lats, chest, rotator cuff, triceps, forearm flexors, forearm extensors, obliques and lower back for muscular endurance (Harry, 2026-10-27: O1 B · O2 D); lower body not trained; no layoff; loading stages as in block 01. block_01.json stays as it is",
+        "block_goal holds one goal row per region (Stage 0 §4.1 · §0.3 D-03), so it reads Hypertrophy; the endurance row of the 9 archery targets lives in the plan's checks. Harry kept the spec as it is (O11 · O12 B): the two-row block is a deviation, logged here",
+        "Plan block 02 v1.1 approved on 2026-10-27 (O1–O10): 3 sessions, 70 working sets a week; muscles outside the block get no direct sets (O3 A); lower back a named gap (O7 A); rear delt from the pull-apart hold (7 sets) and the band reverse fly (3 sets) (O9 A); sessions a week: focus A, B and C, 1 each (O10 A)",
+        "routine_upperbody_focus_A v10 → v11, _B v10 → v11, _C v9 → v10: rebuilt by the generator from definitions written from the files just read (Stage 2 R55); mirrors in gymtxt/ identical; register unchanged",
+        "Catalogue revision 16: C144 band pull-apart hold at shoulder height, C145 band wrist curl, C146 band reverse wrist curl, all both arms (catalogue T19; Harry, 2026-10-27, O5 A · O8 A); the rows the new files use cite them; gymtools/catalogue and its README updated",
+        "Plan conventions outside the spec, named in the checks: a superset and a harvest stay within one goal row; the competition-week taper is advice, not a rule"
+      ],
+      "follow_ups": [
+        "If training on shooting days proves too much, Harry asks for a 2-session version (O10): a plan change",
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "changes": [
+        "Harry stopped training on shooting days, so the upper body moves from 3 sessions a week to 2 (the O10 follow-up): current_routines are focus A and B, 1 session a week each; Harry sets the days",
+        "Plan block 02 v2 approved on 2026-10-29 (O2 A): 35 working sets and ≈59 min a session, 70 a week as before; every hypertrophy target 5 + 5 — front delt L in A and S in B, abs dead bug in A and plank in B; rear delt from the pull-apart hold only, the band reverse fly dropped (O2 A, in place of O9 A's 7 + 3); C's row, crossover, band pushdown, cuff and forearm work spread over A and B",
+        "routine_upperbody_focus_A v11 → v12 and _B v11 → v12: regenerated by the generator from definitions read from A v11, B v11 and C v10 (Stage 2 R55), byte-identical on the PC and in the cloud workspace; mirrors in gymtxt/ identical; register unchanged",
+        "routine_upperbody_focus_C v10: unchanged in gymplan/ and no longer current",
+        "Catalogue revision 17: provenance lines for A v12 and B v12 on 21 rows; the v11 and C v10 lines stay as history; no other change; gymtools/catalogue and its README updated"
+      ],
+      "follow_ups": [
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
+        "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "changes": [
+        "Harry asked whether B's lateral raise and plank both use the side delt: they do — the forearm plank holds it still (32–38% of a maximal contraction on a weight-bearing arm, Stage 1 Supplement W77); no other pairing in B passes, so the dead bug hold replaces the plank (Harry, 2026-11-05: O3 A). Plan block 02 v3: B4 is the dead bug hold, 5 × 48–60 s with 8 s in reserve, as the plank was; set counts, exercise time and sport notes unchanged",
+        "routine_upperbody_focus_B v12 → v13: card 4 and the version note changed by str_replace (text scope, Stage 2 §2.1 · R54), the card's text taken from A v12 card 4; the same edit in the cloud workspace gave the same md5; mirror in gymtxt/ identical; register unchanged; focus A v12 unchanged",
+        "Catalogue revision 18: a stabilizers field on 46 rows from seven postures, with evidence in the Stage 1 Supplement (W76–W83) (catalogue T20; Harry, 2026-11-05: O3); prime movers and indirect muscles unchanged; B v13 provenance on 13 rows; revision 17's change table now shows its row. gymtools/plan/pair_check.py gains check (5) on stabilizers and gymtools/catalogue/verify.py checks the field; the README updated"
+      ],
+      "follow_ups": [
+        "O4: what counts as a meaningful synergist (Stage 0 §2.3) — if co-activation of about 20% of a maximal contraction counts, the lateral raise adds front and rear delt and B's rear delt reaches 9 fractional sets in a session, over Stage 0 R19's 8: a plan change",
+        "O5: Stage 1 R38 amendment — a hold is a neutral partner unless it holds the other's prime mover or key synergist still; pair_check's check (5) would then FAIL such a hold instead of a REVIEW",
+        "C144's catalogue note still says the band reverse fly stays in the week; it left with plan v2 — a wording fix for the next catalogue revision",
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
+        "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "changes": [
+        "Harry: do all (O4 C, O5 A, N2–N5). Stage 1 D-21 (O5 A): R38 — an isometric hold is a neutral partner unless it holds the other's prime mover or key synergist still; §3.2 gains `stabilizers`, and R38 a fail example, the DB lateral raise ↔ forearm plank; pair_check.py's check (5) fails such a partner, hold or not. Stage 1 D-22 (O4 C): a meaningful synergist is a synergist of the joint action or a muscle published EMG shows at about 40% of a maximal contraction or more; moderate co-activation is an accepted limit (§0.3 (h)). Stage 1 Supplement: both D rows, rejected options, evidence (W84), reasoning and terminology",
+        "Catalogue revision 19: the cuff indirect in the five rear-delt rows (C016, C017, C018, C140, C144) and out of C018's and C144's stabilizers; C144's note no longer says the band reverse fly stays in the week (N4). Plan v3.1: the cuff now collects 4.5 fractional sets a session in A and B, within Stage 0 R19's 8; its weekly target and every routine file stay as they are",
+        "reference.md §R7: archery's partial-demand evidence of Stage 0 D-94 added (N2); gymtools/catalogue/__pycache__ deleted with Harry's permission (N3); pair_check.py maps 'trunk flexion' (C141's pattern) to the trunk",
+        "N5: three abs exercises for B card 4 screened, all passing pair_check beside the lateral raise in a scratch catalogue — a curl-up on the floor, a curl-up hold and a band-resisted dead bug hold; none added, as a new row waits for Harry's confirmation (Stage 1 D-08)",
+        "Harry, O6 D: upper focus B keeps the dead bug hold; no routine file changes, and plan v3.1 stands",
+        "Stage 0 D-95: the AbMat joins the always-available kit (§1.3). Catalogue revision 20: C147, the reverse crunch on the AbMat, and C148, the face-away cable crunch on the lat-pulldown seat — both abs L, locked until spine stage 2 like C141 (T22; Harry confirmed them, Stage 1 D-08); evidence W85 · W86 in the Stage 1 Supplement"
+      ],
+      "follow_ups": [
+        "At spine stage 2 the abs' L gap can close: C141, C147 or C148 — C148, the face-away cable crunch, is the one with a weight stack for load steps (R28)",
+        "O7: R35's last clause, the Stage 1 Supplement's 'Compound' term and the catalogue's method still say only compounds give harvest, while D-14 counts every listed synergist — now including the cuff in the pull-apart hold (D-22); a wording fix for Harry to decide",
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
+        "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)"
+      ]
+    }
+  ]
+}

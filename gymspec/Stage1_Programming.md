@@ -40,6 +40,7 @@ Rationale, evidence, deferred material and the walkthrough → `Stage1_Supplemen
 | e | The goal-fit tests and weekly targets (R34) for strength, power and muscular endurance rest on general-population evidence; none was tested in hypermobile people (Supplement §5.4). |
 | f | The maintenance floor of 4 fractional sets per muscle group a week comes from muscle-gain data in energy balance and short deficit trials; no trial tested it over a long or deep deficit. Accepted because keeping the load, which R47 does, matters most for retention (Supplement §5.4 · D-04). |
 | g | The power and muscular-endurance targets (R34) are derived, not taken from dose–response data: power's is its row's Sets over 2 sessions, since no frequency data exist for power; muscular endurance's comes from guideline sets and frequency and stops at the per-muscle session ceiling (Stage 0 R19), since its dosing data are too few. Accepted because a stated weekly dose can be checked and an unbounded one cannot (Supplement §5.4 · D-16). |
+| h | Moderate co-activation is not counted: a muscle published EMG shows at about 20–40% of a maximal contraction beside the prime mover, such as the front and rear delt in a lateral raise, collects no indirect sets, so Stage 0 R19 may undercount it by up to half the exercise's sets in a session. Accepted because these values come from single studies at one load (Supplement §5.4 · D-22). |
 
 ---
 
@@ -78,7 +79,7 @@ Rationale, evidence, deferred material and the walkthrough → `Stage1_Supplemen
 | R35 — Harvest traced | **A muscle's harvest counts only indirect sets from an exercise of its own region in the same plan that trains it as a meaningful synergist, each traced to that exercise; muscles whose action no planned compound performs — shoulder abduction, most rotation — harvest nothing.** Indirect sets from the other region's exercises count toward no target (D-02); Stage 0 R20's cross-routine guard still sees them. |
 | R36 — Direct sets | **Direct sets = weekly target − harvest, `[HYP]` plus 2 where harvest supplies at least half of the target; the plan states target, harvest and direct for every priority target.** |
 | R37 — Frequency | **A target with 9 or more fractional sets a week trains in at least two sessions; strength and power targets spread as Stage 0 §0.3 sets** (D-19). A week in which Harry swaps a session for cardio falls short of the plan, and he accepts that (Stage 0 §0.4 (f) · D-05). |
-| R38 — Superset pairing | **A superset pairs two exercises that share no prime mover or key synergist: true antagonists (push ↔ pull, horizontal press ↔ row, vertical press ↔ pull, hinge ↔ knee extension), or a cross-region or cross-joint pair with no muscle overlap; two exercises for the same muscle are not a superset.** Neither partner pre-fatigues the other's prime mover or key synergist; a heavy compound pairs only with a partner that leaves grip, bracing and stabilizers fresh; an isometric hold is a neutral partner; one muscle across two joint actions (knee flexion ↔ hip extension) is a weaker but valid pair. |
+| R38 — Superset pairing | **A superset pairs two exercises that share no prime mover or key synergist: true antagonists (push ↔ pull, horizontal press ↔ row, vertical press ↔ pull, hinge ↔ knee extension), or a cross-region or cross-joint pair with no muscle overlap; two exercises for the same muscle are not a superset.** Neither partner pre-fatigues the other's prime mover or key synergist; a heavy compound pairs only with a partner that leaves grip, bracing and stabilizers fresh; an isometric hold is a neutral partner unless it holds the other's prime mover or key synergist still (catalogue `stabilizers`); one muscle across two joint actions (knee flexion ↔ hip extension) is a weaker but valid pair. |
 | R39 — Pairing bookkeeping | **Pairing never changes set counts — each partner keeps its derived sets, and extra sets run straight — and the plan states which partner goes first.** |
 | R40 — Exercise time | **A routine's exercise time is the sum over its working sets of reps × 4 s (lowering 3 s, lifting 1 s; holds at their hold time), plus the rest prescribed after each set or pair, at the top of every range; the routine's last rest is not counted.** The result is checked against Stage 0 R19's ceiling. |
 | R41 — Alternatives | **Every exercise that needs a station (Stage 0 §1.3) gets two alternatives, closest stimulus first, each avoiding every station the primary uses; exercises with no station get none.** Alternatives keep the primary's intent — zone, antagonist role, joint angle — and pass the hard gates; an unsupported variant carries its Stage 0 R5 warning. Of two equal alternatives, the band variant ranks first. When fewer than two pass, the plan names the gap. |
@@ -119,7 +120,7 @@ Each rule passes when the implementation produces the *Pass* behaviour and fails
 | R35 — biceps | Harvest 3.0 from 6 cable-row sets, traced to the row | Harvest 2.0 "from general pulling" with no row in the plan; or lateral-delt harvest from presses; or erector harvest from lower-body RDLs counted toward an upper-body target; or a front raise's chest sets left out, though the catalogue lists the chest as its synergist (D-14) |
 | R36 — biceps | Target 10, harvest 5.0 → direct 5 + 2 = 7 | Direct 5: the buffer missing |
 | R37 — quads, target 10 | Spread over two sessions, 5 + 5 | All 10 in one session |
-| R38 — pairs | Preacher curl ↔ cable pushdown; preacher curl ↔ Smith squat (cross-region, no overlap) | Smith incline press ↔ cable pushdown (the pushdown pre-fatigues the press's triceps); lat pulldown ↔ DB fly (same joint, not antagonists) |
+| R38 — pairs | Preacher curl ↔ cable pushdown; preacher curl ↔ Smith squat (cross-region, no overlap) | Smith incline press ↔ cable pushdown (the pushdown pre-fatigues the press's triceps); lat pulldown ↔ DB fly (same joint, not antagonists); DB lateral raise ↔ forearm plank (the plank holds the side delt still) |
 | R39 — curl 4 sets, pushdown 3 | Three rounds paired, the fourth curl set straight; "isolation first" stated | The curl cut to 3 sets to match the pushdown |
 | R40 — routine A | 4 exercises, 12 sets — 9 at 10–12 reps, 3 wall-sit holds of 45 s — 90 s after each pair: ≈17 min | Time estimated at 1 s per rep; or not stated |
 | R41 — Smith flat bench press | Alternatives avoid the Smith and the bench: DB floor press, push-up | DB flat bench press (uses the bench, the primary's second station) |
@@ -156,7 +157,8 @@ Each rule passes when the implementation produces the *Pass* behaviour and fails
 | `name` | As Harry's routine files name it |
 | `stations` | Stations it occupies (Stage 0 §1.3), or none |
 | `prime_mover` | The one muscle its working sets count as direct for (Stage 0 §2.3) |
-| `indirect` | Muscles collecting 0.5 per set (Stage 0 §2.3 · R35) |
+| `indirect` | Muscles collecting 0.5 per set (Stage 0 §2.3 · R35): the synergists of the joint action, as in Stage 0 §2.3's examples, and any muscle published EMG shows helping move the load at about 40% of a maximal contraction or more; moderate co-activation is not counted (§0.3 (h) · D-22) |
+| `stabilizers` | Muscles its posture makes hold a joint still; they collect no sets (Stage 0 §2.3), and R38 reads them (D-21) |
 | `zone` | L, M or S for the prime mover (R26) |
 | `joints` | Joints loaded and the loading stage each needs: partial or full range, unilateral, impact (Stage 0 §2.5) |
 | `sport_notes` | Carryover and conflicts per sport profile (R31) |
@@ -167,4 +169,4 @@ Invariant: every exercise in a plan takes its facts from the exercise catalogue 
 
 ## 4. Open items
 
-None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12…D-18 recorded 2026-10-25; D-19 and D-20 recorded 2026-10-26.
+None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12…D-18 recorded 2026-10-25; D-19 and D-20 recorded 2026-10-26; D-21 and D-22 recorded 2026-11-06.

@@ -2,8 +2,9 @@
 
 Run: python3 -B verify.py <dir with ExerciseCatalogue.json + .md> <gymspec dir>
 Checks 1–2 list the routine files at the latest version the catalogue cites, with their card counts (2026-10-13; the
-mobility files' upper v4 and lower v3 IDs added 2026-10-26, catalogue revision 13; upper v5 2026-10-27, revision 14); a
-version that changes no exercise, card number or pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
+mobility files' upper v4 and lower v3 IDs added 2026-10-26, catalogue revision 13; upper v5 2026-10-27, revision 14; the
+upper focus files A v11, B v11 and C v10 2026-10-28, revision 16; A v12 and B v12 2026-10-29, revision 17; B v13 2026-11-05, revision 18); a version that changes no exercise, card number or
+pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
 gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites; a stem found
 only in gymplan/PreviousOldRoutines/, Harry's archive, is skipped as retired (Stage 2 D-15). A FAIL exits 1.
 """
@@ -84,8 +85,8 @@ def check(cond, msg):
 # 1. Corpus cards: every numbered card / mobility ID is catalogued
 cards = {
     "routine_upperbody v6": range(1, 9), "routine_lowerbody v4": range(1, 8),
-    "routine_upperbody_focus_A v8": range(1, 9), "routine_upperbody_focus_B v8": range(1, 9),
-    "routine_upperbody_focus_C v8": range(1, 7), "routine_lowerbody_focus_A v3": range(1, 9),
+    "routine_upperbody_focus_A v12": range(1, 12), "routine_upperbody_focus_B v13": range(1, 12),
+    "routine_upperbody_focus_C v10": range(1, 11), "routine_lowerbody_focus_A v3": range(1, 9),
     "routine_lowerbody_focus_B v3": range(1, 9), "routine_lowerbody_focus_C v3": range(1, 12),
     "popliteus_prevention_protocol v5": range(1, 11), "cardio_routine (no version)": range(1, 16),
 }
@@ -115,8 +116,8 @@ for f, ids in {"stretching_upper_hEDS v2": [f"P{i}" for i in range(1, 8)] + [f"S
 check(not missing, f"every corpus card and mobility item is catalogued ({len(missing)} missing: {missing})")
 
 # 2. Alternatives per file (counts from the alternatives tables)
-expected_alts = {"routine_upperbody v6": 18, "routine_upperbody_focus_A v8": 8, "routine_upperbody_focus_B v8": 4,
-                 "routine_upperbody_focus_C v8": 6, "routine_lowerbody_focus_A v3": 2, "routine_lowerbody_focus_B v3": 4,
+expected_alts = {"routine_upperbody v6": 18, "routine_upperbody_focus_A v12": 4, "routine_upperbody_focus_B v13": 2,
+                 "routine_upperbody_focus_C v10": 2, "routine_lowerbody_focus_A v3": 2, "routine_lowerbody_focus_B v3": 4,
                  "routine_lowerbody_focus_C v3": 2, "popliteus_prevention_protocol v5": 2}
 for f, n in expected_alts.items():
     got = sum(1 for c in refs if c.startswith(f + " alt. for"))
@@ -161,6 +162,15 @@ for x in rows:
             bad.append((x["id"], a))
 check(not bad, f"alt candidates share no station, are open and keep the pattern ({bad})")
 check(all(not x["alt_candidates"] for x in rows if not x["stations"]), "no-station exercises carry no alternatives (R41)")
+mus = {m["id"] for m in cat["vocabulary"]["muscles"]}
+check(all(set(x.get("stabilizers", [])) <= mus and x["prime_mover"] not in x.get("stabilizers", [])
+          and not set(x.get("stabilizers", [])) & set(x["indirect"] or [])
+          and len(set(x.get("stabilizers", []))) == len(x.get("stabilizers", [])) for x in rows),
+      "stabilizers are vocabulary muscles, apart from each row's prime mover and indirect muscles (revision 18)")
+check(all(any(b.startswith(("stabilizers", "mechanics — stabilizers")) for b in x["basis"]) for x in rows if x.get("stabilizers")),
+      "every row with stabilizers names their posture and basis")
+check(all("- Stabilizers (held still; no sets): " in md.split(f"**{x['id']} · ")[1].split("\n\n**")[0]
+          for x in rows if x.get("stabilizers") and x["status"] != "excluded"), "mirror shows each row's stabilizers")
 
 # 5. Cross-references into the spec
 s0 = open(f"{spec}/Stage0_SupplementInfo.md", encoding="utf-8").read()
@@ -174,7 +184,7 @@ s1max = max(int(m) for m in re.findall(r"^\| D-(\d+) \|", s1, re.M))
 missall = [d for d in dall if f"| D-{d:02d} |" not in s0 and f"| D-{d:02d} |" not in s1]
 hi = [d for d in dall if d > s1max and f"| D-{d:02d} |" not in s0]
 check(not missall and not hi, f"every D-ref exists in a decision log ({dall}; Stage 1 log ends at D-{s1max:02d}; missing {missall + hi})")
-w1 = set(re.findall(r"Stage 1 \[W(\d+)\]", text)) | {m for g in re.findall(r"Stage 1 \[W\d+\] · \[W(\d+)\]", text) for m in [g]}
+w1 = {w for g in re.findall(r"Stage 1 ((?:\[W\d+\](?: · )?)+)", text) for w in re.findall(r"W(\d+)", g)}
 miss1 = [w for w in w1 if f"| W{w} |" not in s1]
 check(not miss1, f"Stage 1 W-refs exist ({sorted(w1, key=int)}; missing {miss1})")
 w0 = set(re.findall(r"Stage 0 \[W(\d+)\]", text))

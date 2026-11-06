@@ -87,7 +87,7 @@ Hypermobility-specific
 - Muscle memory: 10 weeks of detraining did not compromise total adaptation and losses returned within the first retraining weeks, size faster-lost than strength (Halonen et al. 2024, Scand J Med Sci Sports, DOI 10.1111/sms.14739); <8 weeks retraining regained 1RM in older men (Blocquiaux et al. 2020, Exp Gerontol). Hence the 60/80/100 % ramp is paced by joint tolerance, not by muscle.
 - Deloads: a full week off mid-block gave no hypertrophy benefit and slightly less strength (Coleman et al. 2024, PeerJ 12:e16777) → symptom-triggered, sets halved, loads kept.
 
-## R7 Sport profiles — evidence (checked Sep 2026)
+## R7 Sport profiles — evidence (checked Sep 2026; archery's partial demand added 2026-11-06)
 Grade: A peer-reviewed data on the sport · B related population, small sample or secondary citation · C coaching source or reasoning · H Harry's account. Volume/page numbers not all re-checked.
 Archery (Olympic recurve — H)
 - Clicker reaction time, draw force and post-release sway speed predicted shot score in 39 elite recurve archers (Spratford & Campbell 2017, Eur J Sport Sci 17:539–45). A
@@ -101,6 +101,13 @@ Archery (Olympic recurve — H)
 - Trunk muscles (pecs, abdominals) involved. H · Pec major as the bow-shoulder adductor/internal rotator: anatomy applied to Kim 2018. C
 - Triceps holding the bow elbow: anconeus data above plus bow-arm mechanics. C
 - Rhomboids: no EMG source found (deep muscle). C
+- Partial demand (Stage 0 D-94, 2026-10-29): the front delt (bow arm) and the biceps (draw arm) work in the shot on weaker or skill-dependent evidence, so archery's "avoid the day before" list leaves them out. Sources: Stage 0 Supplement W21, W22, W142–W146.
+- Front delt: after repeated draws to exhaustion, bow-arm front and middle deltoid EMG differed from baseline over 12 arrows, triceps and middle deltoid over the first 3 (16 recurve archers; ECSS 2012 congress abstract, authors not listed). B
+- Front delt: almost silent before the clicker falls with a two-finger hook (Simsek & Ertan, ISBS case study — year not stated; arm not stated). B
+- Front delt and pec major: the two of nine muscles that did not differ between skill groups (Simsek, Cerrah, Ertan & Soylu, ISBS — the conference version of their 2018 study above). B
+- Draw phase, 9 recreational archers (4 beginners): anterior and posterior deltoid alike in both arms; lateral deltoid and triceps higher in the bow arm; biceps, in a burst near mid-draw, and lats higher in the draw arm (Dorshorst, Weir, Hamill & Holt 2022, Evol Hum Sci 4:e25). B, recreational
+- Biceps: elite archers showed more lower-trapezius and less biceps and triceps activity than pre-elite archers and beginners (Shinohara & Urabe 2018, J Sports Med Phys Fitness 58:1752–8; 30 male archers; abstract). A
+- Biceps: world-class archers drew more with back and shoulder muscles than with arm muscles (Nishizono, Shibayama, Izuta et al., ISBS — year not stated). B
 - Legs: standing sway is controlled at the ankle (calves) and hip (abductors/adductors) (Winter 1995, Gait Posture 3:193–214 — cited from memory, not retrieved). B
 - Injuries: shoulder 30–53%, elbow 12.8% (epicondylitis), spine and forearm 8.9–19.9% (Agranovich et al., archery injuries literature review — year/journal not captured). B
 - Overuse shoulder pain 52.9%, 64.6% of it when drawing (Niestroj, Schöffl & Küpper 2018, J Sports Med Phys Fitness 58:1063–70 — figures via a secondary source). B

@@ -8,8 +8,10 @@ Option --catalogue <path> (default gymspec/ExerciseCatalogue.json). Exits 1 when
 
 Per pair: (1) no shared prime mover or key synergist (catalogue prime_mover + indirect), except one muscle across two joint
 actions; (2) no shared station (Stage 0 §1.3: a station in use is unavailable); (3) a pair type R38 names: listed antagonists,
-opposite actions at the joint both move, cross-joint or cross-region, or a hold (neutral partner); (4) the heavy-compound clause.
-PASS needs (1)-(3) and a settled (4). REVIEW: rule-valid, but the plan states the judgement named (the clause in (4) is a
+opposite actions at the joint both move, cross-joint or cross-region, or a hold (neutral partner); (4) the heavy-compound clause;
+(5) stabilizers (catalogue revision 18): a muscle one partner holds still that the other trains as its prime mover — FAIL,
+holds included since R38's amendment (Stage 1 D-21); one the other trains as an indirect muscle — REVIEW; one both hold
+still — NOTE. PASS needs (1)-(3), a settled (4) and no (5) conflict. REVIEW: rule-valid, but the plan states the judgement named (the clause in (4) is a
 judgement the catalogue cannot make). NOTE: joint-control note to state with the pair. File mode adds R39 (equal sets, extra
 sets straight) and checks every alternative of a paired exercise against both partners' stations. Cards map to rows through
 the catalogue's provenance lines ("<file> vN ex. n"): the file's own version when the catalogue cites it, otherwise the
@@ -28,7 +30,7 @@ JOINTS = {  # joints a movement pattern moves
     "scapular upward rotation": {"shoulder"}, "shoulder rotation": {"shoulder"},
     "elbow flexion": {"elbow"}, "elbow extension": {"elbow"}, "wrist flexion": {"wrist"}, "wrist extension": {"wrist"},
     "forearm rotation": {"forearm"}, "trunk anti-extension": {"trunk"}, "trunk anti-rotation": {"trunk"},
-    "trunk anti-lateral flexion": {"trunk"}, "squat": {"hip", "knee"}, "lunge": {"hip", "knee"}, "hinge": {"hip"},
+    "trunk anti-lateral flexion": {"trunk"}, "trunk flexion": {"trunk"}, "squat": {"hip", "knee"}, "lunge": {"hip", "knee"}, "hinge": {"hip"},
     "hip extension": {"hip"}, "hip flexion": {"hip"}, "hip abduction": {"hip"}, "hip adduction": {"hip"},
     "knee flexion": {"knee"}, "knee extension": {"knee"}, "knee rotation": {"knee"}, "plantarflexion": {"ankle"},
     "dorsiflexion": {"ankle"}, "ankle eversion": {"ankle"}, "hop": {"ankle", "knee", "hip"},
@@ -196,6 +198,19 @@ def check_pair(a, b):
                 out.append(f"(4) {other['name']} works none of {r['name']}'s joints")
             else:
                 review.append(f"(4) {other['name']} works a joint {r['name']} moves: state why its grip, bracing and stabilizers stay fresh")
+    sa, sb = set(a.get("stabilizers", [])), set(b.get("stabilizers", []))
+    hit = False
+    for x, y, sx in ((a, b, sa), (b, a, sb)):
+        for m in sorted(sx & {y["prime_mover"]}):
+            hit = True
+            fail.append(f"(5) {x['name']} holds {m} still, the prime mover of {y['name']}: pre-fatigued (R38 · Stage 1 D-21)")
+        for m in sorted(sx & set(y["indirect"])):
+            hit = True
+            review.append(f"(5) {x['name']} holds {m} still, which {y['name']} trains as a synergist: state why it stays fresh")
+    if not hit:
+        out.append("(5) no stabilizer conflict" if sa or sb else "(5) no stabilizers listed")
+    if sa & sb:
+        notes.append(f"both hold {', '.join(sorted(sa & sb))} still: state the order and the fallback")
     if all(any("(R6)" in c for c in r["cues"]) for r in (a, b)):
         notes.append("both brace the shoulder blades overhead (R6): state the order and the fallback")
     verdict = "FAIL" if fail else "REVIEW" if review else "PASS"
@@ -321,6 +336,10 @@ SELFTEST = [  # (a, b, expected, source)
     ("C036", "C017", "FAIL", "shared bench and muscles"),
     ("C060", "C001", "REVIEW", "a trunk hold beside a heavy press: the plan states why bracing stays fresh"),
     ("C031", "C039", "PASS", "v8 focus B, superset 2: pullover ↔ prone Y raise (with a NOTE: both braced overhead)"),
+    ("C012", "C060", "FAIL", "Stage 1 R38 fail (D-21): lateral raise ↔ forearm plank — the plank holds the side delt still"),
+    ("C012", "C134", "PASS", "B v13 superset 2: lateral raise ↔ dead bug hold"),
+    ("C006", "C060", "FAIL", "push-up ↔ plank: the push-up holds the abs still, the plank's prime mover"),
+    ("C029", "C070", "PASS", "straight-arm pulldown ↔ DB RDL: both hold the grip (a NOTE)"),
 ]
 
 

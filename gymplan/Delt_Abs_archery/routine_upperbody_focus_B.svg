@@ -1,0 +1,253 @@
+<svg width="100%" viewBox="0 0 680 1929" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Upper body hypertrophy + endurance — Session B</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Focus block · 13 targets · shoulder, elbow, wrist at loading stage 2 · spine at 1 · ~59 min · 35 working sets</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Muscle group</text>
+<rect x="50" y="89" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="66" y="98">Delts &amp; rotator cuff</text>
+<rect x="192" y="89" width="10" height="10" rx="2" fill="#444441"/>
+<text font-size="11" fill="#333" x="208" y="98">Abs &amp; obliques</text>
+<rect x="301" y="89" width="10" height="10" rx="2" fill="#633806"/>
+<text font-size="11" fill="#333" x="317" y="98">Upper back</text>
+<rect x="388" y="89" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="404" y="98">Chest</text>
+<rect x="447" y="89" width="10" height="10" rx="2" fill="#185fa5"/>
+<text font-size="11" fill="#333" x="463" y="98">Triceps</text>
+<rect x="517" y="89" width="10" height="10" rx="2" fill="#042c53"/>
+<text font-size="11" fill="#333" x="533" y="98">Forearms</text>
+
+<!-- PRE-WORKOUT NOTE -->
+<rect x="30" y="122" width="620" height="49" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="139">Before: upper mobility routine, pre half · then 1–2 light warm-up sets</text>
+<text font-size="11" fill="#2272a8" x="50" y="152">Outside the exercise time (R19) · hypertrophy: current working loads; new exercises start at the stated RIR</text>
+<text font-size="11" fill="#2272a8" x="50" y="165">Endurance: a load you could lift 15–18 times — 12–15 reps with 3 in reserve (Stage 0 §2.2)</text>
+
+<!-- ── A SUPERSET 1 ── -->
+<rect x="30" y="183" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="199">A — Superset 1: Front delt + Rear delt  (hypertrophy · ~17.5 min · 5 rounds · 60–90 s rest)</text>
+
+<!-- A1 — DB front raise -->
+<rect x="30" y="217" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="217" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="233">1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="233">Dumbbell front raise, both arms</text>
+<text font-size="11" fill="#0f6e56" x="72" y="248">Front delt (S) · chest assists · thumbs up · stop at shoulder height</text>
+<text font-size="11" fill="#0f6e56" x="72" y="263">Soft elbow · both arms together · no torso swing</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="233">5 × 12–15</text>
+<text font-size="11" fill="#0f6e56" x="490" y="248">2 RIR · wk 5+: 1</text>
+<text font-size="11" fill="#0f6e56" x="490" y="262">Dumbbells</text>
+
+<text font-size="12" fill="#888" x="340" y="285" text-anchor="middle">↕ then immediately</text>
+
+<!-- A2 — Band pull-apart hold -->
+<rect x="30" y="295" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="295" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="311">2</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="311">Band pull-apart hold at shoulder height, both arms</text>
+<text font-size="11" fill="#0f6e56" x="72" y="326">Rear delt (S) · upper back assists · palms down, arms at shoulder height</text>
+<text font-size="11" fill="#0f6e56" x="72" y="341">Hold with the hands in line with the shoulders · soft elbow · no shrug</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="311">5 × 48–60 s</text>
+<text font-size="11" fill="#0f6e56" x="490" y="326">8 s in reserve · wk 5+: 4</text>
+<text font-size="11" fill="#0f6e56" x="490" y="340">Band</text>
+
+<!-- ── B SUPERSET 2 ── -->
+<rect x="30" y="363" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="379">B — Superset 2: Side delt + Abs  (hypertrophy · ~17.5 min · 5 rounds · 60–90 s rest)</text>
+
+<!-- B3 — DB lateral raise -->
+<rect x="30" y="397" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="397" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="413">3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="413">Dumbbell lateral raise, both arms</text>
+<text font-size="11" fill="#0f6e56" x="72" y="428">Side delt (S) · raise to 80°, just below shoulder height</text>
+<text font-size="11" fill="#0f6e56" x="72" y="443">Soft elbow · both arms together · no shrug</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="413">5 × 12–15</text>
+<text font-size="11" fill="#0f6e56" x="490" y="428">2 RIR · wk 5+: 1</text>
+<text font-size="11" fill="#0f6e56" x="490" y="442">Dumbbells</text>
+
+<text font-size="12" fill="#888" x="340" y="465" text-anchor="middle">↕ then immediately</text>
+
+<!-- B4 — Dead bug hold -->
+<rect x="30" y="475" width="8" height="54" rx="2" fill="#444441"/>
+<rect x="38" y="475" width="612" height="54" rx="4" fill="#f1efe8" stroke="#888780" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="491">4</text>
+<text font-size="12" font-weight="500" fill="#2c2c2a" x="72" y="491">Dead bug hold, both arms and both legs up</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="506">Abs (M) · low back flat; arms over shoulders, hips 90°</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="521">Progress: straighten both legs only while the back stays flat</text>
+<text font-size="12" font-weight="500" fill="#2c2c2a" x="490" y="491">5 × 48–60 s</text>
+<text font-size="11" fill="#5f5e5a" x="490" y="506">8 s in reserve · wk 5+: 4</text>
+<text font-size="11" fill="#5f5e5a" x="490" y="520">Floor</text>
+
+<!-- ── C SUPERSET 3 ── -->
+<rect x="30" y="543" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="559">C — Superset 3: Upper back + Chest  (endurance · ~6.5 min · 2 rounds + 1 set · ≤30 s rest)</text>
+
+<!-- C5 — Wide cable row -->
+<rect x="30" y="577" width="8" height="54" rx="2" fill="#633806"/>
+<rect x="38" y="577" width="612" height="54" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="593">5</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="593">Wide-grip seated cable row</text>
+<text font-size="11" fill="#633806" x="72" y="608">Upper back (M) · rear delt, lats and biceps assist</text>
+<text font-size="11" fill="#633806" x="72" y="623">Elbows flared to the shoulder line · reach ~90–95% · 3rd set alone (R39)</text>
+<text font-size="12" font-weight="500" fill="#412402" x="490" y="593">3 × 12–15</text>
+<text font-size="11" fill="#633806" x="490" y="608">3 RIR · every week</text>
+<text font-size="11" fill="#633806" x="490" y="622">Cable · low pulley</text>
+
+<text font-size="12" fill="#888" x="340" y="645" text-anchor="middle">↕ then immediately</text>
+
+<!-- C6 — Band crossover -->
+<rect x="30" y="655" width="8" height="54" rx="2" fill="#26215c"/>
+<rect x="38" y="655" width="612" height="54" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="671">6</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="671">Band crossover (long bands anchored high)</text>
+<text font-size="11" fill="#3c3489" x="72" y="686">Chest (S) · start with the arms short of the torso plane</text>
+<text font-size="11" fill="#3c3489" x="72" y="701">Hands meet at mid-chest · soft elbow · arms together</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="671">2 × 12–15</text>
+<text font-size="11" fill="#3c3489" x="490" y="686">3 RIR · every week</text>
+<text font-size="11" fill="#3c3489" x="490" y="700">2 long bands + frame</text>
+
+<!-- ── D SUPERSET 4 ── -->
+<rect x="30" y="723" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="739">D — Superset 4: Triceps + Rotator cuff  (endurance · ~5 min · 2 rounds · ≤30 s rest)</text>
+
+<!-- D7 — Band pushdown -->
+<rect x="30" y="757" width="8" height="54" rx="2" fill="#185fa5"/>
+<rect x="38" y="757" width="612" height="54" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="773">7</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="773">Band pushdown (anchored high)</text>
+<text font-size="11" fill="#185fa5" x="72" y="788">Triceps (M) · elbows at the sides · arms together</text>
+<text font-size="11" fill="#185fa5" x="72" y="803">Soft elbow at the bottom, where the band is heaviest</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="773">2 × 12–15</text>
+<text font-size="11" fill="#185fa5" x="490" y="788">3 RIR · every week</text>
+<text font-size="11" fill="#185fa5" x="490" y="802">Band + frame</text>
+
+<text font-size="12" fill="#888" x="340" y="825" text-anchor="middle">↕ then immediately</text>
+
+<!-- D8 — Band external rotation -->
+<rect x="30" y="835" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="835" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="851">8</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="851">Band external rotation, both arms (one band)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="866">Rotator cuff (S) · elbows pinned to the sides with a towel</text>
+<text font-size="11" fill="#0f6e56" x="72" y="881">Turn out to ~70–80% of your range · both hands on one band</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="851">2 × 12–15</text>
+<text font-size="11" fill="#0f6e56" x="490" y="866">3 RIR · every week</text>
+<text font-size="11" fill="#0f6e56" x="490" y="880">Band</text>
+
+<!-- ── E SUPERSET 5 ── -->
+<rect x="30" y="903" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="919">E — Superset 5: Forearm flexors + extensors  (endurance · ~5 min · 2 rounds · ≤30 s rest)</text>
+
+<!-- E9 — Band wrist curl -->
+<rect x="30" y="937" width="8" height="54" rx="2" fill="#042c53"/>
+<rect x="38" y="937" width="612" height="54" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="953">9</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="953">Band wrist curl, both arms (forearms on the safety arm)</text>
+<text font-size="11" fill="#0c447c" x="72" y="968">Forearm flexors (S) · rack's safety arm at hip height, palms up</text>
+<text font-size="11" fill="#0c447c" x="72" y="983">Band under both feet, slack at the bottom · wrist ~70–80% of range</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="953">2 × 12–15</text>
+<text font-size="11" fill="#0c447c" x="490" y="968">3 RIR · every week</text>
+<text font-size="11" fill="#0c447c" x="490" y="982">Band + rack safety arm</text>
+
+<text font-size="12" fill="#888" x="340" y="1005" text-anchor="middle">↕ then immediately</text>
+
+<!-- E10 — Band reverse wrist curl -->
+<rect x="30" y="1015" width="8" height="54" rx="2" fill="#042c53"/>
+<rect x="38" y="1015" width="612" height="54" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1031">10</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1031">Band reverse wrist curl, both arms (forearms on the safety arm)</text>
+<text font-size="11" fill="#0c447c" x="72" y="1046">Forearm extensors (S) · set up as 9 Band wrist curl, palms down</text>
+<text font-size="11" fill="#0c447c" x="72" y="1061">Band slack at the bottom · wrist ~70–80% of range</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="1031">2 × 12–15</text>
+<text font-size="11" fill="#0c447c" x="490" y="1046">3 RIR · every week</text>
+<text font-size="11" fill="#0c447c" x="490" y="1060">Band + rack safety arm</text>
+
+<!-- ── F STRAIGHT SETS ── -->
+<rect x="30" y="1083" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1099">F — Straight sets: Obliques  (endurance · ~8 min · 2 sets · ≤30 s rest after each)</text>
+
+<!-- F11 — Pallof press -->
+<rect x="30" y="1117" width="8" height="54" rx="2" fill="#444441"/>
+<rect x="38" y="1117" width="612" height="54" rx="4" fill="#f1efe8" stroke="#888780" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1133">11</text>
+<text font-size="12" font-weight="500" fill="#2c2c2a" x="72" y="1133">Pallof press (band at chest height)</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="1148">Obliques (M) · abs assist · press out and hold 2–3 s</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="1163">Hips and ribs square · soft elbow · both sides equally</text>
+<text font-size="12" font-weight="500" fill="#2c2c2a" x="490" y="1133">2 × 12–15 / side</text>
+<text font-size="11" fill="#5f5e5a" x="490" y="1148">3 RIR · every week</text>
+<text font-size="11" fill="#5f5e5a" x="490" y="1162">Band + frame</text>
+
+<!-- POST-WORKOUT NOTE -->
+<rect x="30" y="1183" width="620" height="75" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1200">After: mobility post half · day after: no archery · day after: no badminton</text>
+<text font-size="11" fill="#2272a8" x="50" y="1213">Delts, abs, obliques, back, chest, triceps, cuff, forearms collect sets — archery's day-before muscles (R21)</text>
+<text font-size="11" fill="#2272a8" x="50" y="1226">Rotator cuff and forearms collect sets too — badminton's day-before muscles (R21)</text>
+<text font-size="11" fill="#2272a8" x="50" y="1239">Next day, train only if that morning's step gate passes for every joint both sessions load (R20)</text>
+<text font-size="11" fill="#2272a8" x="50" y="1252">A training day after shooting: the same gate, for every joint the shoot and this session load (R21)</text>
+
+<!-- GLOBAL RULES -->
+<rect x="30" y="1270" width="620" height="212" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1292">Every rep, every set — hypermobility rules</text>
+<rect x="50" y="1302" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1310">Lower every rep over 2–3 s; keep a soft bend at every joint, no lockout (R25 · R2)</text>
+<rect x="50" y="1322" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1330">Peak effort at ~70–80% of your range, never end range: stage 2 opens full range, not end range (R1 · R3)</text>
+<rect x="50" y="1342" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1350">Skip the session if joints feel loose; end a set the moment a joint feels unstable (R9)</text>
+<rect x="50" y="1362" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1370">Hypertrophy: 2 RIR in weeks 1–4, 1 RIR from week 5 (R18) — week 1 = your first session</text>
+<rect x="50" y="1382" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1390">Endurance: 3 RIR every week (R17); rest ≤30 s after each pair, 60–90 s after hypertrophy pairs</text>
+<rect x="50" y="1402" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1410">Both arms together on every exercise: one-arm work waits for loading stage 3 (R12)</text>
+<rect x="50" y="1422" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1430">Holds: end ~8 s before failure (wk 5+: ~4 s); too easy at 60 s → harder variant, not longer (R16)</text>
+<rect x="50" y="1442" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1450">Progress: top of the rep range twice → your smallest load step, reps back to the bottom (R42)</text>
+<rect x="50" y="1462" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1470">Log the step gate after each session; a fail repeats last week's dose for that joint (§2.6 · R43)</text>
+
+<!-- TIMING SUMMARY -->
+<rect x="30" y="1494" width="620" height="67" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1514">Session timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="1531">Mobility pre half → warm-up sets → A → B → C → D → E → F → mobility post half</text>
+<text font-size="11" fill="#2272a8" x="50" y="1548">Exercise time ≈59 min (R40: 4 s a rep, top of every range, 90 s or 30 s rest by goal) · 35 working sets</text>
+
+<!-- SET COUNT -->
+<rect x="30" y="1573" width="620" height="218" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1595">Working sets — here · week (direct + half-sets from compounds)</text>
+<text font-size="11" fill="#1a1a1a" x="50" y="1615">Hypertrophy · ≈10 a target (R33)</text>
+<text font-size="11" fill="#085041" x="50" y="1633">Front delt 5 · week 10</text>
+<text font-size="11" fill="#085041" x="50" y="1651">Side delt 5 · week 10</text>
+<text font-size="11" fill="#085041" x="50" y="1669">Rear delt 5 · week 10</text>
+<text font-size="11" fill="#444441" x="50" y="1687">Abs 5 · week 10</text>
+<text font-size="11" fill="#1a1a1a" x="360" y="1615">Endurance · ≈4 a target (R34)</text>
+<text font-size="11" fill="#633806" x="360" y="1633">Upper back 3 · week 3 + 1.5 (0.5 above, R48)</text>
+<text font-size="11" fill="#633806" x="360" y="1651">Lats 0 · week 3 + 1.5 (0.5 above, R48)</text>
+<text font-size="11" fill="#26215c" x="360" y="1669">Chest 2 · week 4</text>
+<text font-size="11" fill="#085041" x="360" y="1687">Rotator cuff 2 · week 4</text>
+<text font-size="11" fill="#185fa5" x="360" y="1705">Triceps 2 · week 4</text>
+<text font-size="11" fill="#042c53" x="360" y="1723">Forearm flexors 2 · week 4</text>
+<text font-size="11" fill="#042c53" x="360" y="1741">Forearm extensors 2 · week 4</text>
+<text font-size="11" fill="#444441" x="360" y="1759">Obliques 2 · week 4</text>
+<text font-size="11" fill="#633806" x="360" y="1777">Lower back 0 · week 0: a named gap, spine at stage 1</text>
+
+<!-- ALTERNATIVES TABLE -->
+<rect x="30" y="1803" width="620" height="74" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1823">Alternatives — if a station is taken (each avoids the primary's stations, R41)</text>
+<line x1="40" y1="1832" x2="640" y2="1832" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" font-weight="500" fill="#666" x="50" y="1845">#  Primary exercise</text>
+<text font-size="10" font-weight="500" fill="#666" x="280" y="1845">Alternative 1</text>
+<text font-size="10" font-weight="500" fill="#666" x="470" y="1845">Alternative 2</text>
+<line x1="40" y1="1850" x2="640" y2="1850" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" fill="#633806" x="50" y="1865">5  Wide-grip cable row</text>
+<text font-size="10" fill="#444" x="280" y="1865">Chest-supported DB row</text>
+<text font-size="10" fill="#444" x="470" y="1865">Bent-over wide DB row</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="1897" text-anchor="middle">v13 — dead bug hold for the plank (card 4): the plank holds the side delt that the lateral raise trains (catalogue rev 18)</text>
+
+</svg>
