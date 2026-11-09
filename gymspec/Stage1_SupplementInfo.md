@@ -16,7 +16,7 @@ Terms introduced by Stage 1.
 | Zone · L · M · S | Where in a muscle's range an exercise's resistance peaks: long length, mid-range, short length (R26) |
 | Zone coverage | A priority target's L plus M-or-S exercises in a week (R28) |
 | Permanent shortfall | A zone a muscle can never have under Stage 0 R2 or R5, named once (R27) |
-| Compound | A multi-joint exercise; in a plan, the only source of harvest (R35) |
+| Compound | A multi-joint exercise; chosen before direct sets because most harvest comes from compounds, though isolation exercises' synergists count too (R35 · D-14) |
 | Meaningful synergist | A muscle that collects indirect sets: a synergist of the joint action, or one published EMG shows helping move the load at about 40% of a maximal contraction or more (§3.2 · D-22) |
 | Harvest source | The planned exercise an indirect set is traced to (R35) |
 | Buffer | The 2 extra direct sets added when harvest supplies at least half a target (R36) |
@@ -109,6 +109,7 @@ Log IDs are local to Stage 1; each row names the OI it closes, and OI numbers re
 | D-20 | General fitness (O2 · O3, chat 2026-10-26) | Harry: a focus block builds a specific goal in specific muscle groups, and general fitness builds nothing — it keeps everything in shape, the same job as the maintenance block — so the general-fitness row is dropped (Stage 0 D-92), and with it its goal-fit test (§2.1), R34's general-fitness target and R37's general-fitness clause. The maintenance block (R47) is the one keep-in-shape phase | §0.2 · §0.3 (e) · S1.3 · §2.1 · R34 · R37 · §2.2 · §3.1 · Stage 2 §3.2 |
 | D-21 | Stabilizers in R38 (O5, chat 2026-11-06; raised in a routine request when Harry asked whether the lateral raise ↔ forearm plank superset loads his side delt twice) | A: an isometric hold is a neutral partner unless it holds the other's prime mover or key synergist still; §3.2 gains `stabilizers` — the muscles an exercise's posture makes hold a joint still, collecting no sets — and R38 a fail example, the DB lateral raise ↔ forearm plank. The catalogue lists stabilizers from revision 18 (T20), and pair_check.py's check (5) fails a partner, hold or not, that holds the other's prime mover still. Why: the forearm plank holds the side delt at 32–38% of a maximal contraction (§5.4), which the neutral-partner clause hid | R38 · §2.2 · §3.2 · `ExerciseCatalogue.json` |
 | D-22 | What counts as a meaningful synergist (O4, chat 2026-11-06) | C: a muscle is indirect when it is a synergist of the joint action, as in Stage 0 §2.3's examples, or when published EMG shows it helping move the load at about 40% of a maximal contraction or more — the cuff in rear-delt work (62–70%); moderate co-activation of about 20–40% is not counted, an accepted limit. Why: the cuff's share rests on a full manuscript, while counting the lateral raise's front and rear delt (21% and 24%, one abstract) would push upper focus B's rear delt to 9 fractional sets in a session, over Stage 0 R19's 8 (§5.4 · §5.5) | §3.2 · §0.3 (h) · `ExerciseCatalogue.json` revision 19 |
+| D-23 | Harvest wording after D-14 (O7, chat 2026-11-06; found while applying D-22) | A: R35's last clause, the "Compound" term (§1) and the catalogue's method follow D-14 — every synergist an exercise lists gives harvest, compound or isolation, and a muscle no planned exercise lists harvests nothing. Why: the old clause, "muscles whose action no planned compound performs harvest nothing", contradicted D-14 once D-22 listed the cuff in the pull-apart hold | R35 · §1 · `ExerciseCatalogue.json` revision 21 |
 
 **Dissolved without a decision**
 
@@ -145,6 +146,7 @@ None.
 | Counting co-activation from about 20% of a maximal contraction (O4 A, chat 2026-11-06) | Upper focus B's rear delt would reach 9 fractional sets in a session, over Stage 0 R19's 8, on values from one abstract (D-22) |
 | Keeping the indirect lists as they were, with moderate co-activation as an accepted limit (O4 B, chat 2026-11-06) | The cuff's 62–70% in rear-delt work rests on a full manuscript and would stay uncounted (D-22) |
 | Keeping "an isometric hold is a neutral partner" unqualified, with pair_check reviewing such holds (O5 B, chat 2026-11-06) | A hold that holds the partner's prime mover still pre-fatigues it, as the forearm plank does the lateral raise's side delt (D-21) |
+| Keeping shoulder-abduction and rotation muscles out of harvest, as an exception to D-14 (O7 B, chat 2026-11-06) | D-14 already counts every listed synergist, and D-22 lists the cuff in rear-delt work (D-23) |
 
 ---
 

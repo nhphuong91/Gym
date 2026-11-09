@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 20 (2026-11-06): with the revision 19 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 20. gymspec/ is the source of truth: before a new revision, check that
+revision 21 (2026-11-06): with the revision 20 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 21. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,15 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 21,
+        "date": "2026-11-06",
+        "note": "the harvest sentence follows Stage 1 D-23",
+        "changes": [
+            "§6 Method's harvest sentence follows Stage 1 R35 as D-14 and D-23 read it: every synergist a row lists collects sets "
+            "for Stage 0 R19–R21 and gives harvest, compound or isolation. No row changed.",
+        ],
+    },
+    {
         "n": 20,
         "date": "2026-11-06",
         "note": "two abs L rows, and the AbMat",
@@ -36,6 +45,7 @@ REVISIONS = [
             "weight stack for load steps.",
             "The AbMat joins the equipment vocabulary (Stage 0 D-95).",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C147", "C148"], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": []},
     },
     {
         "n": 19,
@@ -353,10 +363,10 @@ METHOD = [
     "left–right balance (R23), soft bend at every joint (R2) unless the row needs a specific cue.",
     "Zones (Stage 1 R26) label where the resistance peaks in the prime mover's range within the gated range; R26's reference labels are used "
     "as given; every L is truncated by R1; the triceps has no S slot (R27), so the kickback's S label fills no coverage. Mechanics labels carry basis 'mechanics'.",
-    "Compound = multi-joint loading; in a plan only compounds produce harvest (Stage 1 R35). Indirect lists meaningful synergists — "
+    "Compound = multi-joint loading. Indirect lists meaningful synergists — "
     "the synergists of the joint action, as in Stage 0 §2.3's examples, and any muscle published EMG shows helping move the "
     "load at about 40% of a maximal contraction or more (T21; moderate co-activation is not counted, Stage 1 §0.3 (h)); "
-    "an isolation exercise's indirect muscles still collect sets for Stage 0 R19–R21, but give no harvest.",
+    "every one collects sets for Stage 0 R19–R21 and gives harvest by Stage 1 R35, compound or isolation (Stage 1 D-14 · D-23).",
     "Stabilizers (revision 18, T20) are the muscles a row's posture makes hold a joint still while the prime mover works; they "
     "collect no sets and give no harvest (Stage 0 §2.3), and the superset check reads them (R38). A row lists them, unless the "
     "muscle is already its prime mover or indirect, for seven postures: weight on the arms — the deltoids, cuff and serratus "

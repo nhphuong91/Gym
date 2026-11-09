@@ -1,7 +1,7 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 20, 2026-11-06: two abs L rows, and the AbMat (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 21, 2026-11-06: the harvest sentence follows Stage 1 D-23 (§0). Where this file and the stage documents disagree, the stage documents govern.
 
 **148 rows** — open 100 · locked 44 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 19.
 
@@ -10,6 +10,10 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 ---
 
 ## 0. Revisions
+
+**Revision 21 — 2026-11-06: the harvest sentence follows Stage 1 D-23**
+
+- §6 Method's harvest sentence follows Stage 1 R35 as D-14 and D-23 read it: every synergist a row lists collects sets for Stage 0 R19–R21 and gives harvest, compound or isolation. No row changed.
 
 **Revision 20 — 2026-11-06: two abs L rows, and the AbMat**
 
@@ -2000,7 +2004,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 7. Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.
 8. Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), left–right balance (R23), soft bend at every joint (R2) unless the row needs a specific cue.
 9. Zones (Stage 1 R26) label where the resistance peaks in the prime mover's range within the gated range; R26's reference labels are used as given; every L is truncated by R1; the triceps has no S slot (R27), so the kickback's S label fills no coverage. Mechanics labels carry basis 'mechanics'.
-10. Compound = multi-joint loading; in a plan only compounds produce harvest (Stage 1 R35). Indirect lists meaningful synergists — the synergists of the joint action, as in Stage 0 §2.3's examples, and any muscle published EMG shows helping move the load at about 40% of a maximal contraction or more (T21; moderate co-activation is not counted, Stage 1 §0.3 (h)); an isolation exercise's indirect muscles still collect sets for Stage 0 R19–R21, but give no harvest.
+10. Compound = multi-joint loading. Indirect lists meaningful synergists — the synergists of the joint action, as in Stage 0 §2.3's examples, and any muscle published EMG shows helping move the load at about 40% of a maximal contraction or more (T21; moderate co-activation is not counted, Stage 1 §0.3 (h)); every one collects sets for Stage 0 R19–R21 and gives harvest by Stage 1 R35, compound or isolation (Stage 1 D-14 · D-23).
 11. Stabilizers (revision 18, T20) are the muscles a row's posture makes hold a joint still while the prime mover works; they collect no sets and give no harvest (Stage 0 §2.3), and the superset check reads them (R38). A row lists them, unless the muscle is already its prime mover or indirect, for seven postures: weight on the arms — the deltoids, cuff and serratus hold the shoulder, the abs or obliques the trunk, a support arm's triceps its soft elbow; an arm held up or out against gravity by a muscle that does not move the load — the deltoids, cuff, serratus and lower traps; a trunk held bent over, hinged, upright against a pull or bridged — the erectors, the hamstrings in a hinge, the quads in a bridge; legs held off the floor — the hip flexors; a load heavy for the grip in a pull or hinge — the forearm flexors, and the upper back where the load hangs at arm's length in a hinge; a bar on the back — the upper back; a one-leg stance — the stance leg's hip abductors. Lighter hand-held loads (curls, raises, wrist work) and the shoulder muscles that keep the elbows still in curls and pushdowns are not listed. A basis line on stabilizers names each row's posture and evidence.
 12. day_after (Stage 0 R21) is computed: each sport whose avoid-the-day-before muscles collect sets in the row (prime or indirect). Drills and conditioning collect no sets.
 13. alt_candidates (Stage 1 R41) is computed for open station exercises: open rows of the same kind and movement pattern that share none of its stations — same prime mover first, then the closest zone, rows without a warning, band variants first among equals. The plan still checks antagonist role and joint angle, and picks two or names the gap.
