@@ -17,7 +17,9 @@ sets straight) and checks every alternative of a paired exercise against both pa
 the catalogue's provenance lines ("<file> vN ex. n"): the file's own version when the catalogue cites it, otherwise the
 latest cited version below it, as a version that changed no exercise, card number or pairing leaves the catalogue as it is
 (Stage 2 D-04 · R61). Mapped that way, every card's title must match a row cited for its number, or the file FAILs: the
-catalogue then needs the new version.
+catalogue then needs the new version. A set count is read only from an "N × …" sets column, so minutes or stages are
+never counted as sets, and any other card without one FAILs; a card whose catalogue row is conditioning is listed with no
+working sets (Stage 0 §2.7) and adds nothing to the straight-set count (2026-11-10).
 """
 import json
 import re
@@ -227,6 +229,7 @@ def show(label, a, b, extra=""):
 
 
 TEXT = re.compile(r'<text font-size="(\d+)"( font-weight="500")?[^>]*? x="(\d+)" y="(\d+)"[^>]*>([^<]*)</text>')
+SETS = re.compile(r"(\d+)(?:–\d+)?\s*×")  # "5 × 12–15", "2–3 × 48–60 s": the first number is the set count
 
 
 def unesc(s):
@@ -263,7 +266,9 @@ def check_file(path, rows):
         elif size == 11 and bold and x == 54 and t.isdigit() and cur is not None and not in_alt:
             cur["cards"].append({"n": int(t), "title": titles.get(y)})
         elif size == 12 and bold and x == 490 and cur is not None and cur["cards"] and not in_alt:
-            cur["cards"][-1]["sets"] = int(re.match(r"(\d+)", t).group(1))
+            m = SETS.match(t)
+            cur["cards"][-1]["sets"] = int(m.group(1)) if m else None
+            cur["cards"][-1]["col"] = t
         elif in_alt and size == 10 and not bold and x == 50 and (m := re.match(r"(\d+)\s+(.*)$", t)):
             alts.append({"n": int(m.group(1)), "label": m.group(2), "names": []})
         elif in_alt and size == 10 and not bold and x in (280, 470) and alts:
@@ -289,17 +294,28 @@ def check_file(path, rows):
             c1, c2 = s["cards"]
             a, b = card[c1["n"]], card[c2["n"]]
             partner[c1["n"]], partner[c2["n"]] = b, a
-            extra = f"   {c1['sets']}/{c2['sets']} sets"
+            extra = f"   {c1.get('sets')}/{c2.get('sets')} sets"
             v = show(f"  {letter}  ", a, b, extra)
             counts[v] += 1
             ok = ok and v != "FAIL"
-            if c1["sets"] != c2["sets"]:
+            if c1.get("sets") is None or c2.get("sets") is None:
+                print("    R39  FAIL: a partner's sets column holds no set count; it reads 'N × …'")
+                ok = False
+            elif c1["sets"] != c2["sets"]:
                 k = abs(c1["sets"] - c2["sets"]); counts["straight sets"] += k
                 print(f"    R39  {k} extra set(s) of {(a if c1['sets'] > c2['sets'] else b)['name']} run straight")
         else:
             for c in s["cards"]:
-                counts["straight sets"] += c.get("sets", 0)
-                print(f"  {letter}  {card[c['n']]['id']} {card[c['n']]['name']}: straight, {c.get('sets')} sets (R39)")
+                r = card[c["n"]]
+                if r["kind"] == "conditioning":
+                    counts["conditioning cards"] = counts.get("conditioning cards", 0) + 1
+                    print(f"  {letter}  {r['id']} {r['name']}: conditioning, no working sets (Stage 0 §2.7)")
+                elif c.get("sets") is None:
+                    print(f"  {letter}  {r['id']} {r['name']}: FAIL, no set count read from {c.get('col')!r}; it reads 'N × …'")
+                    ok = False
+                else:
+                    counts["straight sets"] += c["sets"]
+                    print(f"  {letter}  {r['id']} {r['name']}: straight, {c['sets']} sets (R39)")
     for alt in alts:
         prim = card.get(alt["n"])
         lab = alt["label"].rstrip(".").lower()

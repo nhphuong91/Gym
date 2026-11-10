@@ -5,6 +5,36 @@
   "built": "2026-10-02",
   "revisions": [
     {
+      "n": 22,
+      "date": "2026-11-09",
+      "note": "the conditioning file: a court walk-through, and cycling's provenance",
+      "changes": [
+        "Harry confirmed a court walk-through for the conditioning file's weeks 9–12 (Stage 1 §3.2 · D-08; T23): C149, footwork routes at walking pace with no hop, split-step, lunge or swing. Walking passes the load from foot to foot (Stage 0 R12 · D-59), so it is open at loading stage 1; C128 and C129 still wait for stage 4 (R13).",
+        "Provenance from conditioning_bike v1 (2026-11-09): cards 1–5 cite C124, cycling, and card 6 cites C149."
+      ],
+      "diff": {
+        "locked": [],
+        "opened": [],
+        "bilateral": [],
+        "end_range": [],
+        "holds": [],
+        "added": [
+          "C149"
+        ],
+        "replaced": [],
+        "unlock_path": [],
+        "locked_range": [],
+        "corpus_fixed": [],
+        "cues": [],
+        "stabilizers": [],
+        "indirect": [],
+        "notes": [],
+        "provenance_conditioning": [
+          "C124"
+        ]
+      }
+    },
+    {
       "n": 21,
       "date": "2026-11-06",
       "note": "the harvest sentence follows Stage 1 D-23",
@@ -903,9 +933,9 @@
   "governed_by": "Stage0_PolicyDefinition.md (hard gates) · Stage1_Programming.md §3.2 (exercise facts) · Stage 1 D-03",
   "screened_against": "default Current state: every joint at loading stage 1 (Stage 0 §4.1)",
   "summary": {
-    "rows": 148,
+    "rows": 149,
     "status": {
-      "open": 100,
+      "open": 101,
       "locked": 44,
       "excluded": 4
     },
@@ -913,7 +943,7 @@
       "corpus": 75,
       "corpus-fixed": 36,
       "proposed": 18,
-      "confirmed": 19
+      "confirmed": 20
     }
   },
   "fields": [
@@ -1057,6 +1087,11 @@
       "title": "Cues at upper-body stage 2",
       "decision": "Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3'",
       "lands": "this catalogue: revision 10"
+    },
+    "T23": {
+      "title": "Court walk-through row",
+      "decision": "Harry (2026-11-03 and 2026-11-09, O4 B · O3 A): add a court walk-through at walking pace — no hop, lunge or swing — to the new conditioning file in its weeks 9–12",
+      "lands": "this catalogue: C149 (revision 22); conditioning_bike v1 card 6"
     },
     "T22": {
       "title": "Abs L rows",
@@ -5812,7 +5847,7 @@
       "alt_candidates": [],
       "targets": null,
       "source": "corpus",
-      "corpus": ["cardio_routine (no version) Phase 3 (default)", "cardio_routine (no version) Phase 4 (slow cycling)"],
+      "corpus": ["cardio_routine (no version) Phase 3 (default)", "cardio_routine (no version) Phase 4 (slow cycling)", "conditioning_bike v1 ex. 1–5"],
       "used_in": ["cardio"],
       "changed": null,
       "basis": ["Stage 0 R15 pass example (12 min on the bike)", "Stage 0 R12 · D-59: outside it, load passes from limb to limb"],
@@ -6657,6 +6692,41 @@
       "changed": null,
       "basis": ["mechanics: facing away, the cable pulls the trunk back toward extension, so tension is highest at the start, where the abs are longest, so L (R26)", "Stage 1 [W86]: the seated cable crunch with the back to a high pulley starts with the weight drawing the low back into slight extension"],
       "notes": "Added as an abs L option (T22), the one with a weight stack for load steps. Locked until spine stage 2; until then the dead bug hold covers the abs (M). If the seat does not let him face away, the bench makes it a two-station exercise (R41).",
+      "attention": []
+    },
+    {
+      "id": "C149",
+      "key": "court_walk_through",
+      "name": "Court walk-through: footwork routes at walking pace",
+      "kind": "conditioning",
+      "region": null,
+      "pattern": null,
+      "prime_mover": null,
+      "indirect": [],
+      "stabilizers": [],
+      "zone": null,
+      "compound": null,
+      "stations": [],
+      "equipment": ["court"],
+      "joints": [{"joint": "ankle", "needs": 1, "note": "walking: the load passes from foot to foot every step, with no hop or landing (R12 · R13 · Stage 0 D-59)"}, {"joint": "knee", "needs": 1, "note": "no lunge: both feet share the load and the knees stay above parallel (R3 · R12)"}, {"joint": "hip", "needs": 1, "note": "walking pace, no lunge (R12)"}],
+      "status": "open",
+      "unlock": null,
+      "excluded_by": [],
+      "excluded_why": null,
+      "replaced_by": [],
+      "cues": ["walk each route to a corner and back to base, racket up in the ready position", "no hop or split-step (R13) and no lunge: both feet share the load (R12)", "no swing: a one-arm stroke loads the racket arm alone, which waits for shoulder, elbow and wrist stage 3 (R12)", "step around to turn; never pivot on a planted foot"],
+      "warnings": [],
+      "hyp_set": null,
+      "day_after": [],
+      "sport_notes": {},
+      "alt_candidates": [],
+      "targets": null,
+      "source": "confirmed",
+      "corpus": ["conditioning_bike v1 ex. 6"],
+      "used_in": ["cardio"],
+      "changed": null,
+      "basis": ["Stage 0 R12 · D-59: outside it, load passes from limb to limb", "Stage 0 R13: no hop, split-step or landing", "Stage 0 D-52: court work in a routine is routine work, so the hard gates apply"],
+      "notes": "Added for the conditioning file (T23): keeps badminton's court routes familiar while C128 and C129 wait for loading stage 4. Walking pace only; little conditioning value.",
       "attention": []
     }
   ]

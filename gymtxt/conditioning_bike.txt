@@ -1,0 +1,162 @@
+<svg width="100%" viewBox="0 0 680 1391" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Conditioning — Bike session, once a week</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Not a training session (Stage 0 §2.7) · hip, knee, ankle at loading stage 1 · 12 weeks · 15–39 min</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Muscle group</text>
+<rect x="50" y="89" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="66" y="98">Legs · bike</text>
+<rect x="142" y="89" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="158" y="98">Legs · court</text>
+
+<!-- PRE-WORKOUT NOTE -->
+<rect x="30" y="122" width="620" height="75" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="139">Before: lower-body mobility routine, pre half · then A</text>
+<text font-size="11" fill="#2272a8" x="50" y="152">From your latest test (B): E = last POS notch · H1 = one notch below the first NEG · H2 = first NEG</text>
+<text font-size="11" fill="#2272a8" x="50" y="165">Talk test: POS = talking is comfortable · EQ = not sure · NEG = not comfortable</text>
+<text font-size="11" fill="#2272a8" x="50" y="178">Notch = lever position counted from the lightest end (number them with tape) · HR band = its test HR ±5</text>
+<text font-size="11" fill="#2272a8" x="50" y="191">Beat 90 = a metronome, one right-foot push per beat · warm-up and cool-down outside the exercise time (R19)</text>
+
+<!-- ── A WARM-UP ── -->
+<rect x="30" y="209" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="225">A — Warm-up  (10 min · every week · outside the exercise time)</text>
+
+<!-- A1 — Warm-up and check stage -->
+<rect x="30" y="243" width="8" height="70" rx="2" fill="#26215c"/>
+<rect x="38" y="243" width="612" height="70" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="259">1</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="259">Easy spin with the weekly check stage (cycling)</text>
+<text font-size="11" fill="#3c3489" x="72" y="274">3 min easy → 4 min at notch E, beat 90: log HR (last 60 s) + talk test</text>
+<text font-size="11" fill="#3c3489" x="72" y="289">→ 3 min easy with 2 × 20 s quicker spins at a light notch</text>
+<text font-size="11" fill="#3c3489" x="72" y="303">Test weeks (1, 5, 9, 13): 5 min easy only, then B</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="259">10 min</text>
+<text font-size="11" fill="#3c3489" x="490" y="274">notch E · beat 90</text>
+<text font-size="11" fill="#3c3489" x="490" y="288">Bike · metronome</text>
+
+<!-- ── B TEST ── -->
+<rect x="30" y="327" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="343">B — Test  (week 1 = your first session, then 5, 9 and 13 · in place of C · ≤28 min)</text>
+
+<!-- B2 — Talk-test step test -->
+<rect x="30" y="361" width="8" height="70" rx="2" fill="#26215c"/>
+<rect x="38" y="361" width="612" height="70" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="377">2</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="377">Talk-test step test (cycling)</text>
+<text font-size="11" fill="#3c3489" x="72" y="392">Beat 90 · same easy start notch every test · +1 notch every 3 min</text>
+<text font-size="11" fill="#3c3489" x="72" y="407">Last 30 s of a stage: read the same 30-word text aloud → POS · EQ · NEG</text>
+<text font-size="11" fill="#3c3489" x="72" y="421">Stop at the first NEG (or on R9) → 60 s easy spin, log HR → cool-down</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="377">3-min stages</text>
+<text font-size="11" fill="#3c3489" x="490" y="392">stop at the first NEG</text>
+<text font-size="11" fill="#3c3489" x="490" y="406">HR monitor · metronome</text>
+
+<!-- ── C MAIN SET ── -->
+<rect x="30" y="445" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="461">C — Main set by week  (seated · beat 90 · 3 min easy between intervals and rounds)</text>
+
+<!-- C3 — H1 intervals -->
+<rect x="30" y="479" width="8" height="54" rx="2" fill="#26215c"/>
+<rect x="38" y="479" width="612" height="54" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="495">3</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="495">Base intervals at notch H1 — weeks 2, 3, 4 (cycling)</text>
+<text font-size="11" fill="#3c3489" x="72" y="510">Week 2: 3 × 3 min · week 3: 3 × 4 min · week 4: 4 × 4 min</text>
+<text font-size="11" fill="#3c3489" x="72" y="525">From minute 2: HR in the H1 band · end: talk "not sure" · 2+ min left</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="495">3–4 × 3–4 min</text>
+<text font-size="11" fill="#3c3489" x="490" y="510">≥2 min in reserve</text>
+<text font-size="11" fill="#3c3489" x="490" y="524">start at notch H1</text>
+
+<!-- C4 — H2 intervals -->
+<rect x="30" y="539" width="8" height="54" rx="2" fill="#26215c"/>
+<rect x="38" y="539" width="612" height="54" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="555">4</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="555">Aerobic-power intervals at notch H2 — weeks 6, 7, 8 (cycling)</text>
+<text font-size="11" fill="#3c3489" x="72" y="570">Week 6: 4 × 4 min · week 7: 5 × 4 min · week 8: 5 × 4 min</text>
+<text font-size="11" fill="#3c3489" x="72" y="585">From minute 2: HR in the H2 band · end: a few words only · 1+ min left</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="555">4–5 × 4 min</text>
+<text font-size="11" fill="#3c3489" x="490" y="570">≥1 min in reserve</text>
+<text font-size="11" fill="#3c3489" x="490" y="584">start at notch H2</text>
+
+<!-- C5 — H2 intervals and badminton rounds -->
+<rect x="30" y="599" width="8" height="70" rx="2" fill="#26215c"/>
+<rect x="38" y="599" width="612" height="70" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="615">5</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="615">H2 intervals, then badminton rounds — weeks 10, 11, 12 (cycling)</text>
+<text font-size="11" fill="#3c3489" x="72" y="630">Wk 10: 3 × 4 min + 2 rounds · wk 11: 3 × 4 + 3 rounds · wk 12: 2 × 4 + 4</text>
+<text font-size="11" fill="#3c3489" x="72" y="645">Round = 8 × (10 s quick / 20 s easy) on a timer app · HR cap: H2 band + 5</text>
+<text font-size="11" fill="#3c3489" x="72" y="659">Quick = faster than the beat, smooth, not all-out · a ragged rep ends it</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="490" y="615">4 min + rounds</text>
+<text font-size="11" fill="#3c3489" x="490" y="630">≥1 min in reserve</text>
+<text font-size="11" fill="#3c3489" x="490" y="644">start at notch H2</text>
+
+<!-- ── D COURT ── -->
+<rect x="30" y="683" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="699">D — Court walk-through  (weeks 9–12 · ~10 min · before A)</text>
+
+<!-- D6 — Court walk-through -->
+<rect x="30" y="717" width="8" height="70" rx="2" fill="#085041"/>
+<rect x="38" y="717" width="612" height="70" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="733">6</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="733">Court walk-through: footwork routes at walking pace</text>
+<text font-size="11" fill="#0f6e56" x="72" y="748">Walk to each corner and back to base, racket up in the ready position</text>
+<text font-size="11" fill="#0f6e56" x="72" y="763">No hop or split-step (R13) · no lunge: both feet share the load (R12)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="777">No swing (racket arm at stage 2) · step around, never pivot on one foot</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="733">10 min</text>
+<text font-size="11" fill="#0f6e56" x="490" y="748">walking pace only</text>
+<text font-size="11" fill="#0f6e56" x="490" y="762">Court · racket</text>
+
+<!-- POST-WORKOUT NOTE -->
+<rect x="30" y="799" width="620" height="62" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="816">After: 5 min easy spin or a walk · mobility post half · day after: no badminton</text>
+<text font-size="11" fill="#2272a8" x="50" y="829">Quads, glute max and calves work hard in the intervals — badminton's day-before muscles (R21)</text>
+<text font-size="11" fill="#2272a8" x="50" y="842">Archery: no limit — no archery muscle works here; the hands rest light on the bars</text>
+<text font-size="11" fill="#2272a8" x="50" y="855">Foam rolling: quads and calves from the lower-body menu · next morning: log the step gate (§2.6)</text>
+
+<!-- GLOBAL RULES -->
+<rect x="30" y="873" width="620" height="212" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="895">Every session — hypermobility and effort rules</text>
+<rect x="50" y="905" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="913">Saddle so the knee stays bent 25–30° with the pedal at the bottom; never stand on the pedals (R2)</text>
+<rect x="50" y="925" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="933">Sit upright, back neutral (spine at stage 1); hands light, soft elbows, no tight grip (R2)</text>
+<rect x="50" y="945" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="953">Spin, don't grind: can't keep up with the beat → one notch lighter (knee load)</text>
+<rect x="50" y="965" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="973">Skip the session if joints feel loose; stop the moment a joint feels unstable or hurts (R9)</text>
+<rect x="50" y="985" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="993">HR band first, talk test as the check; if they disagree, ride the easier one; never to exhaustion</text>
+<rect x="50" y="1005" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1013">One step a week as the cards list; notch settings change only at a test (weeks 1, 5, 9, 13)</text>
+<rect x="50" y="1025" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1033">Step gate next morning: a fail repeats that week; two fails in 4 weeks → one step back for 2 weeks (R43)</text>
+<rect x="50" y="1045" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1053">Test days: same bike, indoors, same time of day, same kind of day before; usual sleep, food and drink</text>
+<rect x="50" y="1065" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1073">Bike taken: walk the easy parts; ride outdoors for training only, never for a test (heat shifts HR)</text>
+
+<!-- TIMING SUMMARY -->
+<rect x="30" y="1097" width="620" height="84" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1117">Session timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="1134">Mobility pre half → (weeks 9–12: D) → A warm-up → B test or C main set → cool-down → mobility post half</text>
+<text font-size="11" fill="#2272a8" x="50" y="1151">Exercise time (R40: work + rests between) · weeks 2–4: 15 · 18 · 25 min · weeks 6–8: 25 · 32 · 32 min</text>
+<text font-size="11" fill="#2272a8" x="50" y="1168">Weeks 10–12: 32 · 39 · 39 min · test weeks ≤28 min · under ~60 min every week (R19)</text>
+
+<!-- SET COUNT -->
+<rect x="30" y="1193" width="620" height="146" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1215">Self-evaluation — weeks 5, 9 and 13 against week 1</text>
+<text font-size="11" fill="#26215c" x="50" y="1235">Gain if · log each test here</text>
+<text font-size="11" fill="#26215c" x="50" y="1253">EQ or NEG ≥1 notch higher</text>
+<text font-size="11" fill="#26215c" x="50" y="1271">HR at week 1's EQ notch ≥3% lower</text>
+<text font-size="11" fill="#26215c" x="50" y="1289">Check stage (card 1): HR trending down</text>
+<text font-size="11" fill="#26215c" x="50" y="1307">HR recovery at 60 s: log only</text>
+<text font-size="11" fill="#26215c" x="50" y="1325">Joints: no failed gate, no R9 stop</text>
+<text font-size="11" fill="#26215c" x="360" y="1235">Week 13 verdict</text>
+<text font-size="11" fill="#26215c" x="360" y="1253">Gains + clean joints → next period progresses</text>
+<text font-size="11" fill="#26215c" x="360" y="1271">Flat + clean → more intensity or a 2nd session</text>
+<text font-size="11" fill="#26215c" x="360" y="1289">Any flare → back to week 4's dose</text>
+<text font-size="11" fill="#26215c" x="360" y="1307">Hip, knee, ankle at stage 4 → ask for court drills</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="1359" text-anchor="middle">v2 — no bike display needed: lever notches, a 90 beat and HR bands; the test counts notches</text>
+
+</svg>

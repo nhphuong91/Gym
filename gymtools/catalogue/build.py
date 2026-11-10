@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 21 (2026-11-06): with the revision 20 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 21. gymspec/ is the source of truth: before a new revision, check that
+revision 22 (2026-11-09): with the revision 21 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 22. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,17 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 22,
+        "date": "2026-11-09",
+        "note": "the conditioning file: a court walk-through, and cycling's provenance",
+        "changes": [
+            "Harry confirmed a court walk-through for the conditioning file's weeks 9–12 (Stage 1 §3.2 · D-08; T23): C149, footwork "
+            "routes at walking pace with no hop, split-step, lunge or swing. Walking passes the load from foot to foot (Stage 0 R12 · "
+            "D-59), so it is open at loading stage 1; C128 and C129 still wait for stage 4 (R13).",
+            "Provenance from conditioning_bike v1 (2026-11-09): cards 1–5 cite C124, cycling, and card 6 cites C149.",
+        ],
+    },
+    {
         "n": 21,
         "date": "2026-11-06",
         "note": "the harvest sentence follows Stage 1 D-23",
@@ -33,6 +44,7 @@ REVISIONS = [
             "§6 Method's harvest sentence follows Stage 1 R35 as D-14 and D-23 read it: every synergist a row lists collects sets "
             "for Stage 0 R19–R21 and gives harvest, compound or isolation. No row changed.",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": []},
     },
     {
         "n": 20,
@@ -326,6 +338,7 @@ DECISIONS = {
     "T13": {"title": "Shoulder rotation in the prone W", "decision": "Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45°", "lands": "this catalogue: C108 cue (revision 9)"},
     "T14": {"title": "A front-delt row", "decision": "Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block", "lands": "this catalogue: C138 (revision 10)"},
     "T15": {"title": "Cues at upper-body stage 2", "decision": "Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3'", "lands": "this catalogue: revision 10"},
+    "T23": {"title": "Court walk-through row", "decision": "Harry (2026-11-03 and 2026-11-09, O4 B · O3 A): add a court walk-through at walking pace — no hop, lunge or swing — to the new conditioning file in its weeks 9–12", "lands": "this catalogue: C149 (revision 22); conditioning_bike v1 card 6"},
     "T22": {"title": "Abs L rows", "decision": "Harry (2026-11-06): add the reverse crunch with an AbMat and the face-away lat-pulldown cable crunch, and the AbMat to his kit; upper focus B keeps the dead bug hold (O6 D)", "lands": "this catalogue: C147, C148 (revision 20); Stage 0 §1.3 · D-95"},
     "T21": {"title": "Meaningful synergists", "decision": "Harry (2026-11-06, O4 C): a synergist of the joint action, or a muscle that EMG shows helping move the load at about 40% of a maximal contraction or more, is indirect; moderate co-activation is not counted", "lands": "this catalogue: the cuff indirect in C016, C017, C018, C140 and C144 (revision 19); Stage 1 §3.2 · §0.3 (h) · D-22"},
     "T20": {"title": "Stabilizers", "decision": "Harry (2026-11-05, O3): list what each exercise's posture holds still, so the superset check sees it; with no other pairing for B's lateral raise, the dead bug hold replaces the plank (A)", "lands": "this catalogue: the stabilizers field (revision 18); gymtools/plan/pair_check.py check (5); upper focus B v13"},
@@ -432,7 +445,7 @@ def used_in(corpus):
             tag = "joint protocol"
         elif c.startswith("stretching_"):
             tag = "mobility"
-        elif c.startswith("cardio"):
+        elif c.startswith(("cardio", "conditioning_")):
             tag = "cardio"
         else:
             fail("unknown corpus file: " + c)
@@ -693,7 +706,8 @@ def render_md(cat):
                                ("Stabilizers listed or changed ✏️", "stabilizers"),
                                ("Indirect muscles changed ✏️", "indirect"),
                                ("Notes reworded ✏️", "notes"),
-                               ("Corpus provenance: the upper focus file B v13", "provenance_b13")):
+                               ("Corpus provenance: the upper focus file B v13", "provenance_b13"),
+                               ("Corpus provenance: the conditioning file conditioning_bike v1", "provenance_conditioning")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
             a("")
@@ -986,6 +1000,10 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 22:  # revision 22: the conditioning file's provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_conditioning"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
         if REVISIONS[0]["n"] == 18:  # revision 18: the upper focus file B v13's provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}

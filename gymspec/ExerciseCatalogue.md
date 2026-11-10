@@ -1,15 +1,25 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 21, 2026-11-06: the harvest sentence follows Stage 1 D-23 (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 22, 2026-11-09: the conditioning file: a court walk-through, and cycling's provenance (§0). Where this file and the stage documents disagree, the stage documents govern.
 
-**148 rows** — open 100 · locked 44 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 19.
+**149 rows** — open 101 · locked 44 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 20.
 
 **Marks:** ✏️ changed from the corpus or added · ⚠️ warning that travels with the exercise · 🔖 reading for Harry to confirm (§5) · 📖 spec or corpus basis · 🌐 literature basis · 🧠 mechanics basis.
 
 ---
 
 ## 0. Revisions
+
+**Revision 22 — 2026-11-09: the conditioning file: a court walk-through, and cycling's provenance**
+
+- Harry confirmed a court walk-through for the conditioning file's weeks 9–12 (Stage 1 §3.2 · D-08; T23): C149, footwork routes at walking pace with no hop, split-step, lunge or swing. Walking passes the load from foot to foot (Stage 0 R12 · D-59), so it is open at loading stage 1; C128 and C129 still wait for stage 4 (R13).
+- Provenance from conditioning_bike v1 (2026-11-09): cards 1–5 cite C124, cycling, and card 6 cites C149.
+
+| Change from revision 21 | Rows |
+|---|---|
+| Added ✏️ | C149 |
+| Corpus provenance: the conditioning file conditioning_bike v1 | C124 |
 
 **Revision 21 — 2026-11-06: the harvest sentence follows Stage 1 D-23**
 
@@ -378,6 +388,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 | C146 | Band reverse wrist curl, both arms (forearms on the frame's safety arm) | Forearm extensors · S | — | open | confirmed ✏️ |
 | C147 | Reverse crunch on the AbMat, both legs (knees bent, the mat under the low back) | Abs · L | — | locked | confirmed ✏️ |
 | C148 | Face-away cable crunch on the lat-pulldown seat (back to the high pulley) | Abs · L | Cable machine | locked | confirmed ✏️ |
+| C149 | Court walk-through: footwork routes at walking pace | conditioning | — | open | confirmed ✏️ |
 
 ---
 
@@ -1860,7 +1871,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: bike · Joints (stage needed): knee 1 — deepest bend at the top of the stroke, where the pedal load is lowest (Stage 0 D-57); hip 1; ankle 1
 - Stands in for: C125 (locked)
 - Cues: saddle high enough that the knee keeps a soft bend at the bottom of the stroke (R2) · resistance low to moderate
-- Source: 📖 corpus — cardio_routine (no version) Phase 3 (default); cardio_routine (no version) Phase 4 (slow cycling)
+- Source: 📖 corpus — cardio_routine (no version) Phase 3 (default); cardio_routine (no version) Phase 4 (slow cycling); conditioning_bike v1 ex. 1–5
 - Basis: 📖 Stage 0 R15 pass example (12 min on the bike) · 📖 Stage 0 R12 · D-59: outside it, load passes from limb to limb
 
 **C125 · Swimming, freestyle or backstroke** — conditioning · locked
@@ -1900,6 +1911,14 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Notes: Routine work, not a sport session (Stage 0 D-52); opens only once the ankle, knee and hip reach loading stage 4 (R13).
 - Source: 📖 corpus — cardio_routine (no version) ex. 5–8 (4-corner shadow drill, multi-shuttle feeding, continuous rallies, modified match play; stationary feeding fallback)
 - Basis: 📖 Stage 0 R12 · R13 · §5.2 (D-52)
+
+**C149 · Court walk-through: footwork routes at walking pace** — conditioning · open ✏️
+
+- Stations: none · Equipment: court · Joints (stage needed): ankle 1 — walking: the load passes from foot to foot every step, with no hop or landing (R12 · R13 · Stage 0 D-59); knee 1 — no lunge: both feet share the load and the knees stay above parallel (R3 · R12); hip 1 — walking pace, no lunge (R12)
+- Cues: walk each route to a corner and back to base, racket up in the ready position · no hop or split-step (R13) and no lunge: both feet share the load (R12) · no swing: a one-arm stroke loads the racket arm alone, which waits for shoulder, elbow and wrist stage 3 (R12) · step around to turn; never pivot on a planted foot
+- Notes: Added for the conditioning file (T23): keeps badminton's court routes familiar while C128 and C129 wait for loading stage 4. Walking pace only; little conditioning value.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — conditioning_bike v1 ex. 6
+- Basis: 📖 Stage 0 R12 · D-59: outside it, load passes from limb to limb · 📖 Stage 0 R13: no hop, split-step or landing · 📖 Stage 0 D-52: court work in a routine is routine work, so the hard gates apply
 
 ---
 
@@ -1977,6 +1996,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 | T13 | Shoulder rotation in the prone W | Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45° | this catalogue: C108 cue (revision 9) |
 | T14 | A front-delt row | Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block | this catalogue: C138 (revision 10) |
 | T15 | Cues at upper-body stage 2 | Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3' | this catalogue: revision 10 |
+| T23 | Court walk-through row | Harry (2026-11-03 and 2026-11-09, O4 B · O3 A): add a court walk-through at walking pace — no hop, lunge or swing — to the new conditioning file in its weeks 9–12 | this catalogue: C149 (revision 22); conditioning_bike v1 card 6 |
 | T22 | Abs L rows | Harry (2026-11-06): add the reverse crunch with an AbMat and the face-away lat-pulldown cable crunch, and the AbMat to his kit; upper focus B keeps the dead bug hold (O6 D) | this catalogue: C147, C148 (revision 20); Stage 0 §1.3 · D-95 |
 | T21 | Meaningful synergists | Harry (2026-11-06, O4 C): a synergist of the joint action, or a muscle that EMG shows helping move the load at about 40% of a maximal contraction or more, is indirect; moderate co-activation is not counted | this catalogue: the cuff indirect in C016, C017, C018, C140 and C144 (revision 19); Stage 1 §3.2 · §0.3 (h) · D-22 |
 | T20 | Stabilizers | Harry (2026-11-05, O3): list what each exercise's posture holds still, so the superset check sees it; with no other pairing for B's lateral raise, the dead bug hold replaces the plank (A) | this catalogue: the stabilizers field (revision 18); gymtools/plan/pair_check.py check (5); upper focus B v13 |

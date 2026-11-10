@@ -27,6 +27,7 @@ SU4 = "stretching_upper_hEDS v4"
 SL3 = "stretching_lower_hEDS v3"
 SU5 = "stretching_upper_hEDS v5"
 CAR = "cardio_routine (no version)"
+CB1 = "conditioning_bike v1"
 
 
 def J(joint, needs=1, note=None):
@@ -1469,6 +1470,21 @@ ROWS = [
              "Stage 1 [W86]: the seated cable crunch with the back to a high pulley starts with the weight drawing the low back into slight extension"],
       notes="Added as an abs L option (T22), the one with a weight stack for load steps. Locked until spine stage 2; until then the dead "
             "bug hold covers the abs (M). If the seat does not let him face away, the bench makes it a two-station exercise (R41)."),
+    # ───────────── CONDITIONING, ADDED FOR THE CONDITIONING FILE (T23) ─────────────
+    R("court_walk_through", "Court walk-through: footwork routes at walking pace", "conditioning",
+      equipment=["court"],
+      joints=[J("ankle", 1, "walking: the load passes from foot to foot every step, with no hop or landing (R12 · R13 · Stage 0 D-59)"),
+              J("knee", 1, "no lunge: both feet share the load and the knees stay above parallel (R3 · R12)"),
+              J("hip", 1, "walking pace, no lunge (R12)")],
+      cues=["walk each route to a corner and back to base, racket up in the ready position",
+            "no hop or split-step (R13) and no lunge: both feet share the load (R12)",
+            "no swing: a one-arm stroke loads the racket arm alone, which waits for shoulder, elbow and wrist stage 3 (R12)",
+            "step around to turn; never pivot on a planted foot"],
+      source="confirmed",
+      basis=["Stage 0 R12 · D-59: outside it, load passes from limb to limb", "Stage 0 R13: no hop, split-step or landing",
+             "Stage 0 D-52: court work in a routine is routine work, so the hard gates apply"],
+      notes="Added for the conditioning file (T23): keeps badminton's court routes familiar while C128 and C129 wait for loading "
+            "stage 4. Walking pace only; little conditioning value."),
 ]
 
 
@@ -1714,3 +1730,15 @@ for _r in ROWS:
         assert "rotator_cuff" not in _r.get("stabilizers", []), _r["key"]
         _r["indirect"] = list(_r.get("indirect", [])) + ["rotator_cuff"]
         _r["basis"] = list(_r["basis"]) + [_B_CUFF]
+
+
+# Provenance from the conditioning file conditioning_bike v1 (2026-11-09, catalogue revision 22): cards 1–5 are the bike
+# session (warm-up and check stage, talk-test step test, H1 and H2 intervals, badminton rounds), card 6 the court walk-through
+COND22 = {
+    "cycling": [f"{CB1} ex. 1–5"],
+    "court_walk_through": [f"{CB1} ex. 6"],
+}
+assert set(COND22) <= _keys, set(COND22) - _keys
+for _r in ROWS:
+    if _r["key"] in COND22:
+        _r["corpus"] = list(_r.get("corpus", [])) + COND22[_r["key"]]

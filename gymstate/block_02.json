@@ -52,8 +52,8 @@
     ]
   },
   "plan": {
-    "version": "block 02 plan v3.1",
-    "approved": "2026-11-06",
+    "version": "block 02 plan v4.1",
+    "approved": "2026-11-09",
     "routines": [
       {
         "stem": "routine_upperbody_focus_A",
@@ -62,6 +62,10 @@
       {
         "stem": "routine_upperbody_focus_B",
         "version": 13
+      },
+      {
+        "stem": "conditioning_bike",
+        "version": 2
       }
     ],
     "checks": [
@@ -74,7 +78,18 @@
       "(7) PASS with gaps named: front delt L (A1, C139) + S (B1, C138); side delt S only — its L and M are one-arm, locked until shoulder and elbow stage 3 (R12); rear delt S only (C144 hold) — its L, C140, is one-arm, locked until stage 3; abs M only — its L options, C141, C147 and C148, wait for spine stage 2 (R28). R28 binds the hypertrophy targets; the endurance targets' zones are listed under zone coverage",
       "(8) PASS: upper 2 training sessions a week, lower none; no two current routines share no region, so the cross-routine guard has no pair; Harry keeps 48 h between them and sets the days (Stage 0 R20 · §0.1)",
       "(9) PASS: A and B name archery and badminton the day after — delts, abs, obliques, back, chest, triceps, cuff and forearms collect sets from archery's list, the cuff and forearms from badminton's (Stage 0 R21 names every sport with a profile); each file adds the day-after-shooting step gate (R21)",
-      "(10) PASS: every station exercise has two alternatives clear of its own and its partner's stations (pair_check.py): A5 lat pulldown → band lat pulldown, assisted pull-up; A8 cable pushdown → DB skull crusher, overhead DB extension ⚠ R6; B5 wide-grip cable row → chest-supported DB row, bent-over wide DB row (R41). Shortfall named: the pushdown's and the row's band variants would need a third long band while the crossover holds two, so their alternatives are dumbbell lifts without the guided path the endurance test prefers (Stage 1 R30 E2)"
+      "(10) PASS: every station exercise has two alternatives clear of its own and its partner's stations (pair_check.py): A5 lat pulldown → band lat pulldown, assisted pull-up; A8 cable pushdown → DB skull crusher, overhead DB extension ⚠ R6; B5 wide-grip cable row → chest-supported DB row, bent-over wide DB row (R41). Shortfall named: the pushdown's and the row's band variants would need a third long band while the crossover holds two, so their alternatives are dumbbell lifts without the guided path the endurance test prefers (Stage 1 R30 E2)",
+      "conditioning_bike — conditioning plan v0.2 (Harry, 2026-11-03 and 2026-11-09: O1 C, O3 A, O4 B, O5 B; a 12-week period): 1 session a week, not a training session (Stage 0 §2.7 · D-53), so outside R20 and the block's targets; Harry places it on a free day",
+      "conditioning_bike (1) PASS: C124 cycling on the stationary bike (Stage 0 §1.3) is open at hip, knee and ankle stage 1 — inside 'above parallel' (§2.5 · D-57), outside R12, no impact (R13), the knee bent 25–30° at the bottom (R2); R9 applies. C149, the court walk-through, is open by the walking exemption (R12 · D-59) with no hop (R13) and no swing. C127–C129 stay locked (stage 4). C125 swimming passes the gates at shoulder stage 2 but loads archery's day-before muscles — not planned. Archery verdict: cycling and the walk-through green",
+      "conditioning_bike (2) N/A: conditioning gives no direct sets; the lower body stays 'not trained' and its gate progression suspended (R24)",
+      "conditioning_bike (3) Deviation, named: no conditioning goal row exists (Stage 0 Supplement backlog; Stage 1 §0.1 doses on request), so the dose is sets × time + time in reserve (R16's hold format). The bike has no display (Harry, 2026-11-09, O1 A): lever notches counted from the lightest end and a metronome at 90 fix the workload in the test and the weekly check; HR bands (the test's HR at a notch, ±5) steer the intervals from minute 2, with the talk test as the check — the easier one wins when they disagree; no %1RM or RPE (R16); ≥2 min in reserve in weeks 2–4 and ≥1 min from week 6, nothing to exhaustion (R18 logic); a badminton round ends on a ragged rep or above the H2 band + 5; R25 N/A",
+      "conditioning_bike (4) N/A: no pairs; pair_check.py passes on v2, mapped through v1 — 6 conditioning cards, no working sets (Stage 0 §2.7)",
+      "conditioning_bike (5) N/A: no weekly set targets for conditioning (R33 · R34 bind training sessions)",
+      "conditioning_bike (6) PASS: exercise time by R40's method — weeks 2–4: 15 · 18 · 25 min; 6–8: 25 · 32 · 32; 10–12: 32 · 39 · 39; test weeks ≤28 — under Stage 0 R19's ~60",
+      "conditioning_bike (7) N/A: zone coverage binds hypertrophy only (R28)",
+      "conditioning_bike (8) PASS: outside R20 (D-53); it shares no muscle with focus A or B or with archery's day-before list, so any free day works",
+      "conditioning_bike (9) PASS, by convention: R21 keys on sets, which conditioning lacks; by its intent the file reads 'day after: no badminton' (quads, glute max and calves work hard); archery: no limit",
+      "conditioning_bike (10) N/A: the bike is no station (R41); the file names the fallbacks — walking for the easy parts, the outdoor bike for training only, never a test"
     ],
     "zone_coverage": [
       "front delt: L supine DB front raise on the floor (A1) · S DB front raise (B1)",
@@ -88,7 +103,9 @@
       "A2, B2 pull-apart hold, A4 and B4 dead bug hold (48–60 s): to 60 s with the reserve held → a harder variant, not longer — a stronger band for the pull-apart hold; the dead bug straightens both legs only while the back stays flat (R16)",
       "A5–A11, B5–B11 (endurance, 12–15 reps at 3 RIR): +1 rep a set to 15; 15 in two sessions in a row → the smallest load step, back to 12, the load still one liftable 15–18 times (R42 a, b · Stage 0 §2.2)",
       "Then +1 set every 2 weeks per target while (a) and (b) stay inside the step gate — hypertrophy up to 20 a week (R33), endurance up to 8 (R34), each exercise within its row's Sets (R48) and each session within Stage 0 R19: at ≈59 min a session about one step fits before 75 min, then progress runs on reps and load; never more load and more sets for a muscle in the same week; no restart ramp, as there was no layoff (R42 c · Stage 0 R22)",
-      "Competition week (mid-December, about block week 6–7) — advice, not a rule, as the spec stays unchanged (O4 A · O11): one gym session in the 7 days before, finished at least 72 h before the first shot; no new exercise in the last 14 days, already met, since every exercise starts in week 1"
+      "Competition week (mid-December, about block week 6–7) — advice, not a rule, as the spec stays unchanged (O4 A · O11): one gym session in the 7 days before, finished at least 72 h before the first shot; no new exercise in the last 14 days, already met, since every exercise starts in week 1",
+      "conditioning_bike: weeks 1, 5, 9 and 13 — the talk-test step test (card 2) at a 90 beat, +1 lever notch every 3 min, sets E, H1 (one notch below the first NEG) and H2 (the first NEG), each with its HR; weeks 2–4: 3 × 3 → 3 × 4 → 4 × 4 min at H1, ≥2 min in reserve; weeks 6–8: 4 × 4 → 5 × 4 → 5 × 4 min at H2, ≥1 min; weeks 10–12: H2 intervals, then 2, 3 and 4 badminton rounds of 8 × (10 s quick / 20 s easy), HR cap H2 band + 5; every interval starts at the test's notch and keeps HR in its band (±5) from minute 2; weeks 9–12: the court walk-through (card 6) first",
+      "conditioning_bike: notch settings change only at a test; a failed morning step gate repeats that week, two within 4 weeks take one step back for 2 weeks (R43 logic); the week-13 verdict follows the file's self-evaluation box (a gain: EQ or NEG ≥1 notch higher, or HR at week 1's EQ notch ≥3% lower); if court drills are still locked then, the next period repeats weeks 5–12 at the new settings"
     ],
     "suspensions": "Lower body not trained this block: the hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24)"
   },
@@ -164,6 +181,50 @@
         "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
         "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
         "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "changes": [
+        "Harry (2026-11-03 and 2026-11-09): conditioning plan v0.2 approved — O1 C (the talk test sets the levels, HR logged at each), O3 A (build conditioning_bike), O4 B (the court walk-through in weeks 9–12), O5 B (a lower-body block only after the archery competition); the period stays 12 weeks, Claude's call by his A1 (his 'O2: A' read as O3: A, which he then gave). Plan v3.1 → v4: conditioning_bike v1 with its checks and progression",
+        "conditioning_bike v1, new: gymplan/conditioning_bike.svg built by the generator from a definition script kept outside the Gym folder (Stage 2 R55), byte-identical on the PC and in the cloud workspace (md5 1b1b9cb3…); mirror gymtxt/conditioning_bike.txt identical (R57); register entry — conditioning, regions '—', generator (Stage 2 Supplement §9)",
+        "conditioning_bike sits in plan.routines, not in current_routines: Stage 0 §4.1 lists training sessions a week (§2.7) and state_check.py takes only regions the block trains, while a conditioning session trains no region; its 1 session a week is in the plan's lines",
+        "Catalogue revision 22: C149, the court walk-through at walking pace — open, Harry confirmed it (Stage 1 D-08; T23); provenance from conditioning_bike v1 on C124 (cards 1–5) and C149 (card 6); build.py tags a conditioning_ file as cardio; verify.py lists conditioning_bike v1; gymtools/README.md rows updated",
+        "Harry, later on 2026-11-09: the bike has no display — resistance by a lever with unnumbered notches (Q1) — and O1 A: conditioning_bike v1 → v2 by str_replace (text scope, Stage 2 R54), 28 text edits, byte-identical on the PC and in the cloud workspace (md5 bd9ea05a…), mirror identical. Lever notches counted from the lightest end and a metronome at 90 fix the workload in the test and the weekly check; HR bands (±5) steer the intervals, the talk test as the check; badminton rounds on a timer app with an HR cap; cards 1–5 add '(cycling)' so pair_check maps them to C124. Catalogue unchanged: a text-only version (R61 · Stage 2 D-04). Plan v4 → v4.1"
+      ],
+      "follow_ups": [
+        "A routine being worked on sits at gymplan/'s top level (Harry, 2026-11-06); while A v12 and B v13 sit in gymplan/Delt_Abs_archery/, verify.py check 6 and state_check.py report them missing",
+        "At spine stage 2 the abs' L gap can close: C141, C147 or C148 — C148, the face-away cable crunch, is the one with a weight stack for load steps (R28)",
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
+        "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)",
+        "Lower-body block after the archery competition (Harry, O5 B): the only route to court drills — hip, knee and ankle 1 → 4 one stage at a time (R14), at least ~6 weeks once the lower body trains; planned when Harry says",
+        "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')",
+        "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
+        "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds",
+        "pair_check.py reads the first number in a conditioning card's sets column as a set count (10 min → 10 sets): cosmetic, no effect on PASS or FAIL"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "changes": [
+        "Harry, F5: gymtools/plan/pair_check.py reads a set count only from an 'N × …' sets column — any other card without one FAILs — and lists a conditioning card with no working sets (Stage 0 §2.7). It had read conditioning_bike's \"10 min\" as 10 sets and crashed on a column starting with no digit. Output unchanged on all 8 lifting files in gymplan/ and its subfolders and on --selftest 18/18; conditioning_bike v2: 6 conditioning cards, 0 straight sets. README row updated",
+        "Plan v4.1: conditioning_bike's check (4) line reworded to the new output; no plan change"
+      ],
+      "follow_ups": [
+        "A routine being worked on sits at gymplan/'s top level (Harry, 2026-11-06); while A v12 and B v13 sit in gymplan/Delt_Abs_archery/, verify.py check 6 and state_check.py report them missing",
+        "At spine stage 2 the abs' L gap can close: C141, C147 or C148 — C148, the face-away cable crunch, is the one with a weight stack for load steps (R28)",
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
+        "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)",
+        "Lower-body block after the archery competition (Harry, O5 B): the only route to court drills — hip, knee and ankle 1 → 4 one stage at a time (R14), at least ~6 weeks once the lower body trains; planned when Harry says",
+        "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')",
+        "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
+        "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds"
       ]
     }
   ]

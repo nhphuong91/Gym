@@ -3,7 +3,7 @@
 Run: python3 -B verify.py <dir with ExerciseCatalogue.json + .md> <gymspec dir>
 Checks 1–2 list the routine files at the latest version the catalogue cites, with their card counts (2026-10-13; the
 mobility files' upper v4 and lower v3 IDs added 2026-10-26, catalogue revision 13; upper v5 2026-10-27, revision 14; the
-upper focus files A v11, B v11 and C v10 2026-10-28, revision 16; A v12 and B v12 2026-10-29, revision 17; B v13 2026-11-05, revision 18); a version that changes no exercise, card number or
+upper focus files A v11, B v11 and C v10 2026-10-28, revision 16; A v12 and B v12 2026-10-29, revision 17; B v13 2026-11-05, revision 18; the conditioning file conditioning_bike v1 2026-11-09, revision 22); a version that changes no exercise, card number or
 pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
 gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites; a stem found
 only in gymplan/PreviousOldRoutines/, Harry's archive, is skipped as retired (Stage 2 D-15). A FAIL exits 1.
@@ -89,6 +89,7 @@ cards = {
     "routine_upperbody_focus_C v10": range(1, 11), "routine_lowerbody_focus_A v3": range(1, 9),
     "routine_lowerbody_focus_B v3": range(1, 9), "routine_lowerbody_focus_C v3": range(1, 12),
     "popliteus_prevention_protocol v5": range(1, 11), "cardio_routine (no version)": range(1, 16),
+    "conditioning_bike v1": range(1, 7),
 }
 refs = [c for x in rows for c in x["corpus"]]
 missing = []
