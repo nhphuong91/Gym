@@ -1,0 +1,319 @@
+<svg width="100%" viewBox="0 0 680 2537" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+
+<text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Mobility protocol — archery day (hEDS / HSD safe)</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Pre: joint control before your first end · Post: joint check after your last end · active drills only (R7)</text>
+
+<!-- LEGEND -->
+<rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Target area — dashed cards are add-ons</text>
+<rect x="50" y="80" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="66" y="90">Shoulder / cuff</text>
+<rect x="166" y="80" width="10" height="10" rx="2" fill="#633806"/>
+<text font-size="11" fill="#333" x="182" y="90">Scapula / upper back</text>
+<rect x="310" y="80" width="10" height="10" rx="2" fill="#8b1a1a"/>
+<text font-size="11" fill="#333" x="326" y="90">Spine / neck</text>
+<rect x="410" y="80" width="10" height="10" rx="2" fill="#042c53"/>
+<text font-size="11" fill="#333" x="426" y="90">Wrist / hand</text>
+<rect x="510" y="80" width="10" height="10" rx="2" fill="#26215c"/>
+<text font-size="11" fill="#333" x="526" y="90">Ankles / breathing</text>
+
+<!-- PRINCIPLE -->
+<rect x="30" y="120" width="620" height="68" rx="8" fill="#fff3e0" stroke="#e8a020" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#8b5e00" x="50" y="139">⚠ Why active drills only — hEDS / HSD</text>
+<text font-size="11" fill="#9e6e10" x="50" y="156">Your joints have range to spare; what they lack is control. Muscles guard loose joints with</text>
+<text font-size="11" fill="#9e6e10" x="50" y="169">protective tension, and passive stretching switches that guard off. Every drill here is made by</text>
+<text font-size="11" fill="#9e6e10" x="50" y="182">your own muscles, inside the range they control, with nothing pushing further (R7).</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- PRE-WORKOUT: JOINT CONTROL -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="204" width="620" height="28" rx="6" fill="#2a7a5a" stroke="#1a5a3a" stroke-width="1"/>
+<text font-size="13" font-weight="600" fill="#ffffff" x="340" y="223" text-anchor="middle">PRE-SHOOTING — joint control  (core ~12 min · before your first end)</text>
+
+<text font-size="10" fill="#888" x="50" y="248">Core: every practice, in order · Add-ons: when the day calls for them · kit: a light band, a wall, a chair</text>
+
+<text font-size="11" font-weight="500" fill="#555" x="50" y="270">Core — every practice, in this order</text>
+<!-- P1. Shoulder CARs, both arms together (C097) — y=280, h=73 -->
+<rect x="30" y="280" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="280" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="294" text-anchor="middle">P1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="294">Shoulder CARs, both arms together</text>
+<text font-size="11" fill="#0f6e56" x="72" y="309">Shoulder capsule · rotator cuff · scapular stabilisers</text>
+<text font-size="11" fill="#0f6e56" x="72" y="324">Arms circle together, mirrored: the biggest circle you control (R12)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="339">Steady tension, short of end range; ribs down, low back still (R1 · R3)</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="294">2 each direction</text>
+<text font-size="11" fill="#0f6e56" x="510" y="309">~30 s per circle</text>
+<text font-size="11" fill="#0f6e56" x="510" y="324">standing</text>
+
+<!-- P2. Band external-rotation hold, 3 angles, both hands on one band (C100) — y=359, h=73 -->
+<rect x="30" y="359" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="359" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="373" text-anchor="middle">P2</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="373">Band external-rotation hold, 3 angles, both hands on one band</text>
+<text font-size="11" fill="#0f6e56" x="72" y="388">Infraspinatus · teres minor · back of the cuff</text>
+<text font-size="11" fill="#0f6e56" x="72" y="403">Elbows pinned to your sides; turn both forearms out against the band</text>
+<text font-size="11" fill="#0f6e56" x="72" y="418">Hold near neutral, mid-way, then at ~70–80% of your turn-out — 90° only if it's inside (R1)</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="373">8 s × 3 angles</text>
+<text font-size="11" fill="#0f6e56" x="510" y="388">× 2 rounds</text>
+<text font-size="11" fill="#0f6e56" x="510" y="403">light band</text>
+
+<!-- P3. Internal-rotation hold, both arms, palms pressed together (C143) — y=438, h=73 -->
+<rect x="30" y="438" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="438" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="452" text-anchor="middle">P3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="452">Internal-rotation hold, both arms, palms pressed together</text>
+<text font-size="11" fill="#0f6e56" x="72" y="467">Subscapularis · front of the cuff (front-of-shoulder stability)</text>
+<text font-size="11" fill="#0f6e56" x="72" y="482">Elbows pinned to your sides, bent 90°; hands meet in front of the belly</text>
+<text font-size="11" fill="#0f6e56" x="72" y="497">Press palm into palm ~20–30%: both shoulders turn in against each other, nothing moves</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="452">8 s hold</text>
+<text font-size="11" fill="#0f6e56" x="510" y="467">× 3</text>
+<text font-size="11" fill="#0f6e56" x="510" y="482">no kit</text>
+
+<!-- P4. Band pull-apart hold at chest height (C103) — y=517, h=73 -->
+<rect x="30" y="517" width="8" height="73" rx="2" fill="#633806"/>
+<rect x="38" y="517" width="612" height="73" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="531" text-anchor="middle">P4</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="531">Band pull-apart hold at chest height</text>
+<text font-size="11" fill="#633806" x="72" y="546">Rear delts · rhomboids · mid-trap — the muscles that pull the string back</text>
+<text font-size="11" fill="#633806" x="72" y="561">Hands stop in line with the shoulders, never behind the torso (R1)</text>
+<text font-size="11" fill="#633806" x="72" y="576">Elbows soft (R2); shoulder blades come together without a shrug (R8)</text>
+<text font-size="12" font-weight="500" fill="#412402" x="510" y="531">2 × 8 reps</text>
+<text font-size="11" fill="#633806" x="510" y="546">3 s hold each rep</text>
+<text font-size="11" fill="#633806" x="510" y="561">light band</text>
+
+<!-- P5. Scapular push-up hold, standing (fists on a wall at shoulder height) (C099) — y=596, h=73 -->
+<rect x="30" y="596" width="8" height="73" rx="2" fill="#633806"/>
+<rect x="38" y="596" width="612" height="73" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="610" text-anchor="middle">P5</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="610">Scapular push-up hold, standing (fists on a wall at shoulder height)</text>
+<text font-size="11" fill="#633806" x="72" y="625">Serratus anterior · lower trap — the bow arm's shoulder position</text>
+<text font-size="11" fill="#633806" x="72" y="640">Feet a step back, fists on the wall at shoulder height; wrists straight (R2)</text>
+<text font-size="11" fill="#633806" x="72" y="655">Push the shoulder blades apart ~80% and down; elbows soft, ~15° short of straight (R1 · R2)</text>
+<text font-size="12" font-weight="500" fill="#412402" x="510" y="610">3 × 10 s hold</text>
+<text font-size="11" fill="#633806" x="510" y="625">standing</text>
+<text font-size="11" fill="#633806" x="510" y="640">wall</text>
+
+<!-- P6. Seated thoracic rotation, arms crossed (C135) — y=675, h=73 -->
+<rect x="30" y="675" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="675" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="689" text-anchor="middle">P6</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="689">Seated thoracic rotation, arms crossed</text>
+<text font-size="11" fill="#a83030" x="72" y="704">Upper-back rotation · obliques</text>
+<text font-size="11" fill="#a83030" x="72" y="719">Sit tall on a chair or bench, arms crossed on the chest, pelvis still</text>
+<text font-size="11" fill="#a83030" x="72" y="734">Turn the upper back to ~70–80% of the range and pause 2 s; no bounce; spine at stage 1 (R1 · R3 · R7)</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="689">5 each side</text>
+<text font-size="11" fill="#a83030" x="510" y="704">2 s pause</text>
+<text font-size="11" fill="#a83030" x="510" y="719">seated</text>
+
+<!-- P7. Neck rotation holds, both hands resisting (C109) — y=754, h=73 -->
+<rect x="30" y="754" width="8" height="73" rx="2" fill="#8b1a1a"/>
+<rect x="38" y="754" width="612" height="73" rx="4" fill="#fce8e8" stroke="#c44040" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="768" text-anchor="middle">P7</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="72" y="768">Neck rotation holds, both hands resisting</text>
+<text font-size="11" fill="#a83030" x="72" y="783">Neck stabilisers — your head stays turned to the target every shot</text>
+<text font-size="11" fill="#a83030" x="72" y="798">Both hands stacked on the side of the head; turn into them ~20%</text>
+<text font-size="11" fill="#a83030" x="72" y="813">The head stays still; the hands only resist, never push the head further (R7)</text>
+<text font-size="12" font-weight="500" fill="#8b1a1a" x="510" y="768">5 s each way</text>
+<text font-size="11" fill="#a83030" x="510" y="783">× 2 rounds</text>
+<text font-size="11" fill="#a83030" x="510" y="798">seated</text>
+
+<!-- P8. Wrist CARs, both wrists together + palm press in 4 directions (C098) — y=833, h=73 -->
+<rect x="30" y="833" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="833" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="847" text-anchor="middle">P8</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="847">Wrist CARs, both wrists together + palm press in 4 directions</text>
+<text font-size="11" fill="#0c447c" x="72" y="862">Wrist capsule · forearm flexors and extensors — bow hand and draw hand</text>
+<text font-size="11" fill="#0c447c" x="72" y="877">Forearms on your thighs; both wrists circle slowly, ~70–80% of range</text>
+<text font-size="11" fill="#0c447c" x="72" y="892">Then palm into palm: bend up · bend down · thumb side · little-finger side, ~20–30% each</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="510" y="847">5 circles each way</text>
+<text font-size="11" fill="#0c447c" x="510" y="862">+ 5 s × 4 directions</text>
+<text font-size="11" fill="#0c447c" x="510" y="877">seated</text>
+
+<!-- P9. Finger tendon glides, both hands together (C150) — y=912, h=73 -->
+<rect x="30" y="912" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="912" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="926" text-anchor="middle">P9</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="926">Finger tendon glides, both hands together</text>
+<text font-size="11" fill="#0c447c" x="72" y="941">Finger flexors and extensors — the draw fingers' hook and release</text>
+<text font-size="11" fill="#0c447c" x="72" y="956">Forearms on your thighs, wrists straight; both hands move together (R12)</text>
+<text font-size="11" fill="#0c447c" x="72" y="971">Straight → hook → tabletop → soft fist → straight; never a tight fist, never bent backwards (R1 · R2)</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="510" y="926">5 slow cycles</text>
+<text font-size="11" fill="#0c447c" x="510" y="941">~2 s per position</text>
+<text font-size="11" fill="#0c447c" x="510" y="956">seated</text>
+
+<!-- P10. Band draw, both hands on one band, each side (shot simulation) (C151) — y=991, h=73 -->
+<rect x="30" y="991" width="8" height="73" rx="2" fill="#633806"/>
+<rect x="38" y="991" width="612" height="73" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1005" text-anchor="middle">P10</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="1005">Band draw, both hands on one band, each side (shot simulation)</text>
+<text font-size="11" fill="#633806" x="72" y="1020">Rear delt · mid and lower trap (draw side) · serratus (bow side)</text>
+<text font-size="11" fill="#633806" x="72" y="1035">Draw to anchor, elbow no further back than in a shot; bow elbow soft (R1 · R2)</text>
+<text font-size="11" fill="#633806" x="72" y="1050">⚠ One-arm work (R12): your stage-3 exception this season — the same reps drawing with each hand (R23)</text>
+<text font-size="12" font-weight="500" fill="#412402" x="510" y="1005">2 × 6 each side</text>
+<text font-size="11" fill="#633806" x="510" y="1020">3 s hold · 2–3 s back</text>
+<text font-size="11" fill="#633806" x="510" y="1035">light band, wrist loop</text>
+
+<text font-size="11" font-weight="500" fill="#555" x="50" y="1086">Add-ons — when the day calls for them</text>
+<!-- P11. Prone Y-T-W holds (C108) — y=1096, h=73 -->
+<rect x="30" y="1096" width="8" height="73" rx="2" fill="#633806"/>
+<rect x="38" y="1096" width="612" height="73" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1110" text-anchor="middle">P11</text>
+<text font-size="12" font-weight="500" fill="#412402" x="72" y="1110">Prone Y-T-W holds</text>
+<text font-size="11" fill="#633806" x="72" y="1125">Lower and mid trap · rhomboids · back of the cuff — floor or mat only</text>
+<text font-size="11" fill="#633806" x="72" y="1140">Face down, chest on the floor, thumbs up; no shrug (R8)</text>
+<text font-size="11" fill="#633806" x="72" y="1155">Y short of end range · T at the shoulder line · W with the arms angled, not spread wide (R1)</text>
+<text font-size="12" font-weight="500" fill="#412402" x="510" y="1110">1 round</text>
+<text font-size="11" fill="#633806" x="510" y="1125">8 s each letter</text>
+<text font-size="11" fill="#633806" x="510" y="1140">body weight</text>
+
+<!-- P12. Ankle CARs, both feet together (seated) (C112) — y=1175, h=73 -->
+<rect x="30" y="1175" width="8" height="73" rx="2" fill="#26215c"/>
+<rect x="38" y="1175" width="612" height="73" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1189" text-anchor="middle">P12</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="1189">Ankle CARs, both feet together (seated)</text>
+<text font-size="11" fill="#3c3489" x="72" y="1204">Ankle capsule · calves — after long standing or on a cold day</text>
+<text font-size="11" fill="#3c3489" x="72" y="1219">Seated, both feet lifted; both ankles circle slowly together (R12)</text>
+<text font-size="11" fill="#3c3489" x="72" y="1234">The biggest circle you control, short of end range; note any catching (R1 · R7)</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="510" y="1189">5 each direction</text>
+<text font-size="11" fill="#3c3489" x="510" y="1204">~10 s per circle</text>
+<text font-size="11" fill="#3c3489" x="510" y="1219">seated</text>
+
+<!-- ══════════════════════════════════════ -->
+<!-- POST-WORKOUT: JOINT CHECK -->
+<!-- ══════════════════════════════════════ -->
+
+<rect x="30" y="1268" width="620" height="28" rx="6" fill="#1a5c8a" stroke="#0e3d5c" stroke-width="1"/>
+<text font-size="13" font-weight="600" fill="#ffffff" x="340" y="1287" text-anchor="middle">POST-SHOOTING — joint check and wind-down  (core ~3 min · after your last end)</text>
+
+<text font-size="10" fill="#888" x="50" y="1312">Compare each joint with the pre half · log any change with the step gate (§2.6) · tightness → foam rolling (R7)</text>
+
+<text font-size="11" font-weight="500" fill="#555" x="50" y="1334">Core — every practice, in this order</text>
+<!-- S1. Shoulder CARs, slow scan, both arms together (C097) — y=1344, h=73 -->
+<rect x="30" y="1344" width="8" height="73" rx="2" fill="#085041"/>
+<rect x="38" y="1344" width="612" height="73" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1358" text-anchor="middle">S1</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="1358">Shoulder CARs, slow scan, both arms together</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1373">Joint check: compare with P1</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1388">One slow circle each way; note any new catch, click or looseness</text>
+<text font-size="11" fill="#0f6e56" x="72" y="1403">Worse than in P1 → note it in the step-gate log; a loose shoulder ends the drill (§2.6 · R9)</text>
+<text font-size="12" font-weight="500" fill="#085041" x="510" y="1358">1 each direction</text>
+<text font-size="11" fill="#0f6e56" x="510" y="1373">~45 s per circle</text>
+
+<!-- S2. Wrist CARs, slow scan, both wrists together (C098) — y=1423, h=73 -->
+<rect x="30" y="1423" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="1423" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1437" text-anchor="middle">S2</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1437">Wrist CARs, slow scan, both wrists together</text>
+<text font-size="11" fill="#0c447c" x="72" y="1452">Joint check: compare with P8</text>
+<text font-size="11" fill="#0c447c" x="72" y="1467">Forearms on your thighs; 3 slow circles each way, ~70–80% of range</text>
+<text font-size="11" fill="#0c447c" x="72" y="1482">New catching or pain compared with P8 → note it in the step-gate log (§2.6)</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="510" y="1437">3 each direction</text>
+<text font-size="11" fill="#0c447c" x="510" y="1452">seated</text>
+
+<!-- S3. Finger tendon glides, slow scan (C150) — y=1502, h=73 -->
+<rect x="30" y="1502" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="1502" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1516" text-anchor="middle">S3</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1516">Finger tendon glides, slow scan</text>
+<text font-size="11" fill="#0c447c" x="72" y="1531">Joint check: compare with P9</text>
+<text font-size="11" fill="#0c447c" x="72" y="1546">3 slow cycles, both hands together; note any new catching, locking or pain</text>
+<text font-size="11" fill="#0c447c" x="72" y="1561">Worse than in P9 → note it in the step-gate log (§2.6)</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="510" y="1516">3 slow cycles</text>
+<text font-size="11" fill="#0c447c" x="510" y="1531">seated</text>
+
+<text font-size="11" font-weight="500" fill="#555" x="50" y="1597">Add-ons — when you need them</text>
+<!-- S4. Biceps hold, both palms pressing forward (uprights or doorway) (C105) — y=1607, h=73 -->
+<rect x="30" y="1607" width="8" height="73" rx="2" fill="#042c53"/>
+<rect x="38" y="1607" width="612" height="73" rx="4" fill="#ddeeff" stroke="#185fa5" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1621" text-anchor="middle">S4</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="1621">Biceps hold, both palms pressing forward (uprights or doorway)</text>
+<text font-size="11" fill="#0c447c" x="72" y="1636">Biceps · brachialis — if the draw arm feels tight; foam rolling first (R7)</text>
+<text font-size="11" fill="#0c447c" x="72" y="1651">Facing a doorway: palms forward against the frame, arms at your sides (R5)</text>
+<text font-size="11" fill="#0c447c" x="72" y="1666">Elbows at ~140–150°; press forward ~30% and hold, both arms together (R1 · R12)</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="510" y="1621">2 × 15 s hold</text>
+<text font-size="11" fill="#0c447c" x="510" y="1636">doorway</text>
+
+<!-- S5. 90/90 breathing (feet on the bench or wall) (C110) — y=1686, h=73 -->
+<rect x="30" y="1686" width="8" height="73" rx="2" fill="#26215c"/>
+<rect x="38" y="1686" width="612" height="73" rx="4" fill="#eeedfe" stroke="#534ab7" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="1700" text-anchor="middle">S5</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="72" y="1700">90/90 breathing (feet on the bench or wall)</text>
+<text font-size="11" fill="#3c3489" x="72" y="1715">Diaphragm · deep core — winding down, at home after practice</text>
+<text font-size="11" fill="#3c3489" x="72" y="1730">On your back, hips and knees at 90°, feet resting on a chair, bench or wall</text>
+<text font-size="11" fill="#3c3489" x="72" y="1745">Breathe in 4 s through the nose, ribs widen · out 8 s, ribs drop; easy, unforced</text>
+<text font-size="12" font-weight="500" fill="#26215c" x="510" y="1700">5 breaths</text>
+<text font-size="11" fill="#3c3489" x="510" y="1715">4 s in / 8 s out</text>
+<text font-size="11" fill="#3c3489" x="510" y="1730">~1 min</text>
+
+<!-- BREATHING NOTE -->
+<rect x="30" y="1779" width="620" height="44" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1796">Holds: breathe in before, breathe out slowly during — never hold your breath</text>
+<text font-size="11" fill="#2272a8" x="50" y="1813">A slow exhale under tension keeps trunk pressure steady</text>
+
+<!-- TARGET INDEX -->
+<rect x="30" y="1837" width="620" height="240" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1857">Target index — what each drill prepares for the shot</text>
+<text font-size="11" font-weight="500" fill="#085041" x="50" y="1877">Shoulder capsule / cuff</text>
+<text font-size="11" fill="#444" x="250" y="1877">P1 · P2 · P3 · post S1</text>
+<text font-size="11" font-weight="500" fill="#633806" x="50" y="1897">Draw side: blades back</text>
+<text font-size="11" fill="#444" x="250" y="1897">P4 · P10 · add-on P11</text>
+<text font-size="11" font-weight="500" fill="#633806" x="50" y="1917">Bow arm: blade forward and down</text>
+<text font-size="11" fill="#444" x="250" y="1917">P5 · P10</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="1937">Elbow · biceps</text>
+<text font-size="11" fill="#444" x="250" y="1937">P5 (soft elbow) · post add-on S4</text>
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1957">Upper back / trunk</text>
+<text font-size="11" fill="#444" x="250" y="1957">P6</text>
+<text font-size="11" font-weight="500" fill="#8b1a1a" x="50" y="1977">Neck</text>
+<text font-size="11" fill="#444" x="250" y="1977">P7</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="1997">Wrist · forearm</text>
+<text font-size="11" fill="#444" x="250" y="1997">P8 · post S2</text>
+<text font-size="11" font-weight="500" fill="#042c53" x="50" y="2017">Fingers</text>
+<text font-size="11" fill="#444" x="250" y="2017">P9 · post S3</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="50" y="2037">Ankles / long standing</text>
+<text font-size="11" fill="#444" x="250" y="2037">add-on P12</text>
+<text font-size="11" font-weight="500" fill="#26215c" x="50" y="2057">Ribcage / winding down</text>
+<text font-size="11" fill="#444" x="250" y="2057">post add-on S5</text>
+
+<!-- SELF-CHECK -->
+<rect x="30" y="2089" width="620" height="114" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="2111">Before vs after — log any change with the step gate (§2.6)</text>
+<rect x="50" y="2121" width="7" height="7" rx="1" fill="#085041"/>
+<text font-size="11" fill="#444" x="64" y="2129">Shoulders: S1 vs P1 — any new click, catch or looseness?</text>
+<rect x="50" y="2139" width="7" height="7" rx="1" fill="#042c53"/>
+<text font-size="11" fill="#444" x="64" y="2147">Wrists and fingers: S2 vs P8 and S3 vs P9 — any new catching, locking or pain?</text>
+<rect x="50" y="2157" width="7" height="7" rx="1" fill="#633806"/>
+<text font-size="11" fill="#444" x="64" y="2165">Worse after a drill → log it and leave that drill out next practice</text>
+<rect x="50" y="2175" width="7" height="7" rx="1" fill="#8b1a1a"/>
+<text font-size="11" fill="#444" x="64" y="2183">Day after archery: a training session runs only if that morning's step gate passes (R21)</text>
+
+<!-- hEDS RULES -->
+<rect x="30" y="2215" width="620" height="208" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="2237">Every drill, every practice — hEDS / HSD rules</text>
+<rect x="50" y="2247" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2255">Active only: your own muscles move and hold; nothing pushes a joint further, no bounce (R7)</text>
+<rect x="50" y="2267" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2275">~70–80% of your range, never end range; a soft bend at every joint, no lockout (R1 · R2)</text>
+<rect x="50" y="2287" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2295">CARs: a spot catches or clicks → slow down there, never force through it (R7)</text>
+<rect x="50" y="2307" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2315">Both arms or both hands together, except P10: your stage-3 exception this season (R12 · R23)</text>
+<rect x="50" y="2327" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2335">Spine at stage 1: the trunk turns only part-way, ribs down, pelvis still (R3)</text>
+<rect x="50" y="2347" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2355">Light: holds at ~20–30% of a max push, moves slow and smooth — drills are not working sets (§2.3 · R19)</text>
+<rect x="50" y="2367" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2375">Loose or unstable joint → stop that drill; loose joints that day → no drills and no practice (R9)</text>
+<rect x="50" y="2387" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="2395">Shooting: a joint feels unstable → that end stops; pain or swelling → practice stops (R9)</text>
+
+<!-- TIMING SUMMARY -->
+<rect x="30" y="2435" width="620" height="66" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="2455">Practice-day timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="2472">Pre core (~12 min) → add-ons if needed → your shooting warm-up → practice → post core (~3 min)</text>
+<text font-size="11" fill="#2272a8" x="50" y="2489">Drills, not working sets: no sets counted (§2.3); tightness after practice → foam rolling (R7)</text>
+
+<!-- VERSION NOTE -->
+<text font-size="9" fill="#aaa" x="340" y="2521" text-anchor="middle">v2 — P10, the band draw each side (your stage-3 exception this season); add-ons now P11–P12; R9 covers the practice (catalogue rev 24)</text>
+
+</svg>

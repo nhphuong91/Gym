@@ -74,11 +74,13 @@ CARRYOVER = {
 }
 
 # Joints staged by the loading gate (Stage 0 §2.5). Control tests: knee; ankle and hip (D-61 · D-62);
-# shoulder, elbow, wrist and spine (D-63…D-66).
+# shoulder, elbow, wrist and spine (D-63…D-66); the fingers, placed at stage 4 by Harry (D-97), have none yet.
 JOINTS = {
     "shoulder": True, "elbow": True, "wrist": True, "spine": True,
-    "hip": True, "knee": True, "ankle": True,
+    "hip": True, "knee": True, "ankle": True, "fingers": False,
 }
+# A joint's default loading stage in Current state (Stage 0 §4.1): 1, but the fingers start at 4 (D-97)
+DEFAULT_STAGE = {"fingers": 4}
 
 # Stage 0 §1.3.
 STATIONS = {

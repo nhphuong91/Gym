@@ -176,6 +176,9 @@ CLAUDE_old.md, the rulebook before the scaffold (history only since D-74), was d
 | D-93 | Lacrosse ball (O2, chat 2026-10-27; raised in the foam-rolling rebuild) | B: Harry has a lacrosse ball as well as the tennis ball, and it joins the always-available kit. It differs from the tennis ball in pressure and grip: solid rubber, about 2.5 times the weight, no give, a bare rubber surface. Rolling harder adds nothing, so the foam-rolling files keep the tennis ball as the default and name the lacrosse ball as an option at the same 3–4/10 limit, with less lean. Why: R15 admits only §1.3 kit | §1.3 · R15 |
 | D-94 | Front delt and biceps in archery's profile (O1, chat 2026-10-29; raised in a consultation on upper-body hypertrophy alongside archery) | Harry: B — a "Demand — upper, partial" row names the front delt (bow arm) and the biceps (draw arm); "Avoid the day before" keeps the upper demand muscles, partial ones excluded, so R21, the catalogue's day-after lists and the routine files are unchanged. Why: both muscles work in the shot, on weaker or skill-dependent evidence — the front deltoid tires in the bow arm with repeated draws [W142], is almost silent before the clicker with a two-finger hook [W21] and does not separate skill groups [W144]; the draw-arm biceps fires near mid-draw [W143] but less in elite archers [W145] · [W146] (§5.5) | §1.2 · §4.2 · Terminology |
 | D-95 | AbMat (chat 2026-11-06; Harry's request while choosing an abs exercise for upper focus B) | Harry: the AbMat, a curved foam pad that supports the low back's curve, joins the always-available kit. Why: R15 admits only §1.3 kit, and the catalogue's reverse crunch on the AbMat (C147) needs it | §1.3 · R15 |
+| D-96 | A band draw under R12 (O1, chat 2026-11-10; raised by the archery-day mobility file, Stage 2) | Harry: B — a band draw is one-arm work: both hands hold one band, but each arm does its own job, so each works alone and needs stage 3 at shoulder, elbow and wrist. R12's text stands. His use of it in the archery-day file this season, with those joints treated as stage 3 untested, is a deviation logged in `gymstate/block_02.json` (2026-11-10); Current state keeps stage 2 | R12 |
+| D-97 | The fingers' loading stage (O2, chat 2026-11-10; raised by the archery-day mobility file, Stage 2) | Harry: the fingers become a staged joint, placed at stage 4 by his decision rather than unlocked through R14 — an exception to D-28's start at stage 1. They have no test line yet, so a finger flare leaves them at stage 3 until one is added (R14). Why: archery loads the fingers in every shot (§1.2), and without a stage the catalogue could only call them unloaded | §2.5 · §4.1 · R14 |
+| D-98 | R9 on sport days (O3, chat 2026-11-10; raised by the archery-day mobility file, Stage 2) | Harry: B — R9 binds sport sessions too: loose joints that day skip the session, the current end or rally stops the moment a joint feels unstable, and play stops on pain or swelling. Sport sessions stay undosed (§0.4 (d)). Why: full draw on a loose shoulder is the riskiest load of his week | R9 · §0.4 (d) |
 
 **Dissolved without a decision**
 
@@ -232,6 +235,9 @@ An X item from reference.md returns only with new, cited evidence.
 | `block_start` and `block_week` kept in Current state but out of the state file, the week asked when a plan needs it (Q3 B, chat 2026-10-25) | Harry counts the block weeks; plans and files state every week's values (D-91) |
 | The maintenance block widened to keeping every muscle group in shape at any time, not only during a fat-loss period (Q3, chat 2026-10-26) | Harry: no — D-23's wording stands; general fitness folds into the maintenance block as it is (D-92) |
 | Front delt and biceps joining archery's upper demand, and with it the day-before list (O1 A), or entered in §5.5 only (O1 C) (chat 2026-10-29) | A: R21 would fire on curls and front raises, needing a new catalogue revision and routine sport notes that name the biceps, on weaker or skill-dependent evidence; C: §1.2 would keep reading as if neither muscle works in the shot (D-94) |
+| Two arms on one band counted as two-limb work, whatever each does (O1 A, chat 2026-11-10) | Harry: each arm doing its own job works alone (D-96) |
+| The fingers staged with the wrist (O2 A), or left unstaged as an accepted limit (O2 C) (chat 2026-11-10) | Harry: their own joint, placed at stage 4 (D-97) |
+| R9's skip alone for sport sessions (O3 A), or R9 for training only (O3 C) (chat 2026-11-10) | Harry: all of R9 binds sport sessions (D-98) |
 
 ---
 
@@ -491,6 +497,7 @@ Checked Sep 2026. Grade: A peer-reviewed data on the sport · B related populati
 | A conditioning (aerobic) goal row, for future goals that need cardio (D-44) — awaiting Harry | Backlog |
 | T2 · limb-length research (feeds P4) | Backlog |
 | V · verification pass on §5.5 — P5 counts 10 unsourced and 15 partly sourced lines | Backlog |
+| A control test and symmetry test for the fingers (D-97): until one exists, a finger flare leaves them at stage 3 (R14) | Backlog |
 
 ---
 

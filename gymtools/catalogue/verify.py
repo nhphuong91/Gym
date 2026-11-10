@@ -3,7 +3,8 @@
 Run: python3 -B verify.py <dir with ExerciseCatalogue.json + .md> <gymspec dir>
 Checks 1–2 list the routine files at the latest version the catalogue cites, with their card counts (2026-10-13; the
 mobility files' upper v4 and lower v3 IDs added 2026-10-26, catalogue revision 13; upper v5 2026-10-27, revision 14; the
-upper focus files A v11, B v11 and C v10 2026-10-28, revision 16; A v12 and B v12 2026-10-29, revision 17; B v13 2026-11-05, revision 18; the conditioning file conditioning_bike v1 2026-11-09, revision 22); a version that changes no exercise, card number or
+upper focus files A v11, B v11 and C v10 2026-10-28, revision 16; A v12 and B v12 2026-10-29, revision 17; B v13 2026-11-05, revision 18; the conditioning file conditioning_bike v1 2026-11-09, revision 22; the archery-day mobility file stretching_archery_hEDS v1
+2026-11-10, revision 23, and v2 the same day, revision 24); a version that changes no exercise, card number or
 pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
 gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites; a stem found
 only in gymplan/PreviousOldRoutines/, Harry's archive, is skipped as retired (Stage 2 D-15). A FAIL exits 1.
@@ -110,7 +111,9 @@ for f, ids in {"stretching_upper_hEDS v2": [f"P{i}" for i in range(1, 8)] + [f"S
                "stretching_lower_hEDS v1": [f"P{i}" for i in range(1, 8)] + [f"S{i}" for i in range(1, 9)],
                "stretching_upper_hEDS v4": [f"P{i}" for i in range(1, 13)] + [f"S{i}" for i in range(1, 6)],
                "stretching_lower_hEDS v3": [f"P{i}" for i in range(1, 12)] + [f"S{i}" for i in range(1, 5)],
-               "stretching_upper_hEDS v5": [f"P{i}" for i in range(1, 13)] + [f"S{i}" for i in range(1, 7)]}.items():
+               "stretching_upper_hEDS v5": [f"P{i}" for i in range(1, 13)] + [f"S{i}" for i in range(1, 7)],
+               "stretching_archery_hEDS v1": [f"P{i}" for i in range(1, 12)] + [f"S{i}" for i in range(1, 6)],
+               "stretching_archery_hEDS v2": [f"P{i}" for i in range(1, 13)] + [f"S{i}" for i in range(1, 6)]}.items():
     for i in ids:
         if not any(c.startswith(f"{f} {i}") and (len(c) == len(f"{f} {i}") or c[len(f"{f} {i}")] == " ") for c in refs):
             missing.append(f"{f} {i}")

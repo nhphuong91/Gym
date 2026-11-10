@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 22 (2026-11-09): with the revision 21 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 22. gymspec/ is the source of truth: before a new revision, check that
+revision 24 (2026-11-10): with the revision 23 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 24. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -11,7 +11,7 @@ import re
 import sys
 import unicodedata
 
-from vocab import (MUSCLES, AVOID_DAY_BEFORE, CARRYOVER, JOINTS, STATIONS, EQUIPMENT,
+from vocab import (MUSCLES, AVOID_DAY_BEFORE, CARRYOVER, JOINTS, DEFAULT_STAGE, STATIONS, EQUIPMENT,
                    KINDS, STATUS, SOURCES)
 from rows import ROWS
 
@@ -26,6 +26,32 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 24,
+        "date": "2026-11-10",
+        "note": "the band draw, the fingers as a staged joint, and the archery-day file v2",
+        "changes": [
+            "Harry decided that a band draw is one-arm work (Stage 0 D-96): C151, the band draw on each side, needs shoulder, elbow and "
+            "wrist at stage 3, so it is locked at the default Current state; C103, the pull-apart hold, stands in for it. He runs it this "
+            "archery season in stretching_archery_hEDS v2 with those joints treated as stage 3, untested — a deviation logged in the state "
+            "file (T25).",
+            "The fingers join the joint vocabulary, placed at stage 4 with no control test yet (Stage 0 D-97); the screen reads their default "
+            "as 4, and C150 lists them as unloaded.",
+            "Provenance from stretching_archery_hEDS v2 (2026-11-10): P10 is the band draw, and the add-ons move to P11 and P12.",
+        ],
+    },
+    {
+        "n": 23,
+        "date": "2026-11-10",
+        "note": "the archery-day mobility file: finger tendon glides, the standing scapular push-up hold, and provenance",
+        "changes": [
+            "Harry confirmed a finger drill and a standing version of C099 for the archery-day mobility file (Stage 1 §3.2 · D-08; T24): "
+            "C150, finger tendon glides with both hands together — unloaded, the fist kept soft and no finger bent backwards (R1 · R2); "
+            "C099's new cue puts the hold on a wall at shoulder height, the bow arm's position, for a range with no floor to kneel on.",
+            "Provenance from stretching_archery_hEDS v1 (2026-11-10): thirteen drill rows cite its pre and post cards.",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C150"], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": ["C099"], "stabilizers": [], "indirect": [], "notes": ["C099"], "provenance_archery": ["C097", "C098", "C099", "C100", "C103", "C105", "C108", "C109", "C110", "C112", "C135", "C143"]},
+    },
+    {
         "n": 22,
         "date": "2026-11-09",
         "note": "the conditioning file: a court walk-through, and cycling's provenance",
@@ -35,6 +61,7 @@ REVISIONS = [
             "D-59), so it is open at loading stage 1; C128 and C129 still wait for stage 4 (R13).",
             "Provenance from conditioning_bike v1 (2026-11-09): cards 1–5 cite C124, cycling, and card 6 cites C149.",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C149"], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": [], "provenance_conditioning": ["C124"]},
     },
     {
         "n": 21,
@@ -338,6 +365,8 @@ DECISIONS = {
     "T13": {"title": "Shoulder rotation in the prone W", "decision": "Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45°", "lands": "this catalogue: C108 cue (revision 9)"},
     "T14": {"title": "A front-delt row", "decision": "Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block", "lands": "this catalogue: C138 (revision 10)"},
     "T15": {"title": "Cues at upper-body stage 2", "decision": "Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3'", "lands": "this catalogue: revision 10"},
+    "T25": {"title": "Band-draw row and the fingers", "decision": "Harry (2026-11-10, O1 B · O2 · Stage 0 D-96 · D-97): a band draw is one-arm work, run this archery season in the archery-day file with shoulder, elbow and wrist treated as stage 3, untested; the fingers become a joint at stage 4", "lands": "this catalogue: C151, the fingers in the joint vocabulary, C150's joints (revision 24); stretching_archery_hEDS v2 P10"},
+    "T24": {"title": "Archery-day mobility rows", "decision": "Harry (2026-11-10, O5 A): add finger tendon glides with both hands, and a standing version of the scapular push-up hold on fists against a wall at shoulder height, for the archery-day mobility file", "lands": "this catalogue: C150, C099 (revision 23); stretching_archery_hEDS v1 P5, P9, S3"},
     "T23": {"title": "Court walk-through row", "decision": "Harry (2026-11-03 and 2026-11-09, O4 B · O3 A): add a court walk-through at walking pace — no hop, lunge or swing — to the new conditioning file in its weeks 9–12", "lands": "this catalogue: C149 (revision 22); conditioning_bike v1 card 6"},
     "T22": {"title": "Abs L rows", "decision": "Harry (2026-11-06): add the reverse crunch with an AbMat and the face-away lat-pulldown cable crunch, and the AbMat to his kit; upper focus B keeps the dead bug hold (O6 D)", "lands": "this catalogue: C147, C148 (revision 20); Stage 0 §1.3 · D-95"},
     "T21": {"title": "Meaningful synergists", "decision": "Harry (2026-11-06, O4 C): a synergist of the joint action, or a muscle that EMG shows helping move the load at about 40% of a maximal contraction or more, is indirect; moderate co-activation is not counted", "lands": "this catalogue: the cuff indirect in C016, C017, C018, C140 and C144 (revision 19); Stage 1 §3.2 · §0.3 (h) · D-22"},
@@ -359,8 +388,9 @@ METHOD = [
     "primaries, alternatives and drills; duplicates merged into one row listing every source. The 2 foam-rolling files were read and left out: "
     "tissue release, not exercise (Stage 0 §2.7).",
     "Screen: each row is checked against the hard gates (Stage 0 §0.2: R1–R15) at the default Current state, every joint at loading stage 1 "
-    "(Stage 0 §4.1). 'joints' records the loading stage each loaded joint needs; status follows: open (all at stage 1), locked (a joint needs "
-    "more; every joint has a control test, Stage 0 §2.5 · D-61…D-66, so a locked row opens once Harry passes the tests its joints need, R14), "
+    "and the fingers at 4 (Stage 0 §4.1 · D-97). 'joints' records the loading stage each loaded joint needs; status follows: open (no joint "
+    "above its default), locked (a joint needs more; every joint but the fingers has a control test, Stage 0 §2.5 · D-61…D-66, so a locked "
+    "row opens once Harry passes the tests its joints need, R14), "
     "excluded (fails a gate in every form).",
     "Unilateral (Stage 0 R12 · D-54): one limb working alone — moving or held, in any plane, against an external load, body weight or its own weight — "
     "needs loading stage 3 for every joint of that limb, and a single-leg stance for the stance leg's hip, knee and ankle. Where a drill can run with "
@@ -369,7 +399,7 @@ METHOD = [
     "Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).",
     "New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). "
     "Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), "
-    "the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19) and the abs L rows C147–C148 (T22).",
+    "the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19), the abs L rows C147–C148 (T22), the finger tendon glides C150 (T24) and the band draw C151 (T25).",
     "Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; "
     "it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.",
     "Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), "
@@ -507,15 +537,14 @@ def build():
             if not r.get("excluded_why") or not r.get("replaced_by"):
                 fail(f"{k}: excluded row needs excluded_why and replaced_by")
         else:
-            maxneed = max([j["needs"] for j in joints] or [1])
-            status = "open" if maxneed == 1 else "locked"
+            over = [j for j in joints if j["needs"] > DEFAULT_STAGE.get(j["joint"], 1)]
+            status = "locked" if over else "open"
             unlock = None
             if status == "locked":
                 parts = []
-                for j in joints:
-                    if j["needs"] > 1:
-                        test = "control test exists" if JOINTS[j["joint"]] else "no control test yet, so it stays locked until one is added (R14)"
-                        parts.append(f"{j['joint']} → stage {j['needs']}, {test}")
+                for j in over:
+                    test = "control test exists" if JOINTS[j["joint"]] else "no control test yet, so it stays locked until one is added (R14)"
+                    parts.append(f"{j['joint']} → stage {j['needs']}, {test}")
                 unlock = "; ".join(parts)
         zone = r.get("zone")
         if zone not in ("L", "M", "S", None):
@@ -633,7 +662,7 @@ def catalogue(rows):
         "built": BUILT,
         "revisions": REVISIONS,
         "governed_by": "Stage0_PolicyDefinition.md (hard gates) · Stage1_Programming.md §3.2 (exercise facts) · Stage 1 D-03",
-        "screened_against": "default Current state: every joint at loading stage 1 (Stage 0 §4.1)",
+        "screened_against": "default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97)",
         "summary": {"rows": len(rows), "status": counts, "source": src},
         "fields": FIELDS,
         "method": METHOD,
@@ -707,7 +736,9 @@ def render_md(cat):
                                ("Indirect muscles changed ✏️", "indirect"),
                                ("Notes reworded ✏️", "notes"),
                                ("Corpus provenance: the upper focus file B v13", "provenance_b13"),
-                               ("Corpus provenance: the conditioning file conditioning_bike v1", "provenance_conditioning")):
+                               ("Corpus provenance: the conditioning file conditioning_bike v1", "provenance_conditioning"),
+                               ("Corpus provenance: the archery-day mobility file stretching_archery_hEDS v1", "provenance_archery"),
+                               ("Corpus provenance: the archery-day mobility file stretching_archery_hEDS v2", "provenance_archery_v2")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
             a("")
@@ -804,7 +835,8 @@ def render_md(cat):
     untested = [k for k, v in JOINTS.items() if not v]
     if untested:
         a(f"**Joints** — loading stages 1–4 (Stage 0 §2.5); control tests exist for the {', '.join(tested[:-1])} and {tested[-1]}; "
-          f"the {', '.join(untested[:-1])} and {untested[-1]} stay at stage 1 until theirs are added (R14).")
+          f"none yet for the {' and '.join(untested)}, placed at stage {DEFAULT_STAGE.get(untested[0], 1)} by Harry (Stage 0 D-97), "
+          f"which stay at their stage until one is added (R14).")
     else:
         a("**Joints** — loading stages 1–4 (Stage 0 §2.5); every joint has a control test (D-61…D-66), and each joint's stage-1 range is set there.")
     a("")
@@ -1000,6 +1032,14 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 24:  # revision 24: the archery-day mobility file v2's provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_archery_v2"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
+        if REVISIONS[0]["n"] == 23:  # revision 23: the archery-day mobility file's provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_archery"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
         if REVISIONS[0]["n"] == 22:  # revision 22: the conditioning file's provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}

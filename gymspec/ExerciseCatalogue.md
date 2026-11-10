@@ -1,15 +1,38 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1 (Stage 0 §4.1). Built 2026-10-02; revision 22, 2026-11-09: the conditioning file: a court walk-through, and cycling's provenance (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97). Built 2026-10-02; revision 24, 2026-11-10: the band draw, the fingers as a staged joint, and the archery-day file v2 (§0). Where this file and the stage documents disagree, the stage documents govern.
 
-**149 rows** — open 101 · locked 44 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 20.
+**151 rows** — open 102 · locked 45 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 22.
 
 **Marks:** ✏️ changed from the corpus or added · ⚠️ warning that travels with the exercise · 🔖 reading for Harry to confirm (§5) · 📖 spec or corpus basis · 🌐 literature basis · 🧠 mechanics basis.
 
 ---
 
 ## 0. Revisions
+
+**Revision 24 — 2026-11-10: the band draw, the fingers as a staged joint, and the archery-day file v2**
+
+- Harry decided that a band draw is one-arm work (Stage 0 D-96): C151, the band draw on each side, needs shoulder, elbow and wrist at stage 3, so it is locked at the default Current state; C103, the pull-apart hold, stands in for it. He runs it this archery season in stretching_archery_hEDS v2 with those joints treated as stage 3, untested — a deviation logged in the state file (T25).
+- The fingers join the joint vocabulary, placed at stage 4 with no control test yet (Stage 0 D-97); the screen reads their default as 4, and C150 lists them as unloaded.
+- Provenance from stretching_archery_hEDS v2 (2026-11-10): P10 is the band draw, and the add-ons move to P11 and P12.
+
+| Change from revision 23 | Rows |
+|---|---|
+| Added ✏️ | C151 |
+| Corpus provenance: the archery-day mobility file stretching_archery_hEDS v2 | C097, C098, C099, C100, C103, C105, C108, C109, C110, C112, C135, C143, C150 |
+
+**Revision 23 — 2026-11-10: the archery-day mobility file: finger tendon glides, the standing scapular push-up hold, and provenance**
+
+- Harry confirmed a finger drill and a standing version of C099 for the archery-day mobility file (Stage 1 §3.2 · D-08; T24): C150, finger tendon glides with both hands together — unloaded, the fist kept soft and no finger bent backwards (R1 · R2); C099's new cue puts the hold on a wall at shoulder height, the bow arm's position, for a range with no floor to kneel on.
+- Provenance from stretching_archery_hEDS v1 (2026-11-10): thirteen drill rows cite its pre and post cards.
+
+| Change from revision 22 | Rows |
+|---|---|
+| Added ✏️ | C150 |
+| Cues re-screened for the stage-1 ranges | C099 |
+| Notes reworded ✏️ | C099 |
+| Corpus provenance: the archery-day mobility file stretching_archery_hEDS v1 | C097, C098, C099, C100, C103, C105, C108, C109, C110, C112, C135, C143 |
 
 **Revision 22 — 2026-11-09: the conditioning file: a court walk-through, and cycling's provenance**
 
@@ -389,6 +412,8 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 | C147 | Reverse crunch on the AbMat, both legs (knees bent, the mat under the low back) | Abs · L | — | locked | confirmed ✏️ |
 | C148 | Face-away cable crunch on the lat-pulldown seat (back to the high pulley) | Abs · L | Cable machine | locked | confirmed ✏️ |
 | C149 | Court walk-through: footwork routes at walking pace | conditioning | — | open | confirmed ✏️ |
+| C150 | Finger tendon glides, both hands together | drill | — | open | confirmed ✏️ |
+| C151 | Band draw, both hands on one band, each side (shot simulation) | drill | — | locked | confirmed ✏️ |
 
 ---
 
@@ -1561,7 +1586,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): shoulder 1
 - Targets: shoulder capsule, rotator cuff, scapular stabilisers
 - Cues: at shoulder stage 1: no more than ~75% of overhead elevation, 45° of external rotation, and extension to neutral (§2.5 · D-63); from stage 2, the range you control, short of end range (R1 · R7) · slow down where the circle catches or clicks; never force through (R7; corpus) · both arms circle together (R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P1; stretching_upper_hEDS v2 S1; cardio_routine (no version) ex. 14; stretching_upper_hEDS v4 P1; stretching_upper_hEDS v4 S1; stretching_upper_hEDS v5 P1; stretching_upper_hEDS v5 S1
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P1; stretching_upper_hEDS v2 S1; cardio_routine (no version) ex. 14; stretching_upper_hEDS v4 P1; stretching_upper_hEDS v4 S1; stretching_upper_hEDS v5 P1; stretching_upper_hEDS v5 S1; stretching_archery_hEDS v1 P1; stretching_archery_hEDS v1 S1; stretching_archery_hEDS v2 P1; stretching_archery_hEDS v2 S1
 - Changed ✏️: Each arm in turn → both arms together: one arm circling alone is unilateral loading (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 and R12 pass examples (shoulder CARs with both arms together)
 
@@ -1570,7 +1595,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): wrist 1
 - Targets: wrist capsule, forearm flexors and extensors
 - Cues: circles stay inside ~70–80% of the wrist range (§2.5 · D-65) · forearms rest on the thighs; both wrists circle slowly together (corpus; R12 until stage 3) · press palm into palm in 4 directions, ~20–30% effort (corpus)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P2; stretching_upper_hEDS v2 S7; stretching_upper_hEDS v4 P5; stretching_upper_hEDS v4 S2; stretching_upper_hEDS v5 P5; stretching_upper_hEDS v5 S2
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P2; stretching_upper_hEDS v2 S7; stretching_upper_hEDS v4 P5; stretching_upper_hEDS v4 S2; stretching_upper_hEDS v5 P5; stretching_upper_hEDS v5 S2; stretching_archery_hEDS v1 P8; stretching_archery_hEDS v1 S2; stretching_archery_hEDS v2 P8; stretching_archery_hEDS v2 S2
 - Changed ✏️: One wrist circling, braced by the other hand → both wrists together, forearms resting (R12 · Stage 0 D-54); the palm-to-palm press already loads both.
 - Basis: 📖 Stage 0 R7 (active drill)
 
@@ -1578,8 +1603,9 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 
 - Stations: none · Equipment: dumbbells · Joints (stage needed): shoulder 1; wrist 1; elbow 1
 - Targets: serratus anterior, lower trapezius
-- Cues: hands on DB handles or fists: neutral wrists, since flat hands load the wrist near end-range extension (R2); knees down if needed · push the shoulder blades apart to ~80% and hold, not to end range (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P3; stretching_upper_hEDS v4 P6; stretching_upper_hEDS v5 P6
+- Cues: hands on DB handles or fists: neutral wrists, since flat hands load the wrist near end-range extension (R2); knees down if needed · push the shoulder blades apart to ~80% and hold, not to end range (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · standing version: fists on a wall at shoulder height, feet a step back — lighter than on the floor, and the bow arm's position (T24)
+- Notes: The standing wall version was added for the archery-day mobility file (T24), for a range with no floor to kneel on.
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P3; stretching_upper_hEDS v4 P6; stretching_upper_hEDS v5 P6; stretching_archery_hEDS v1 P5 (standing, fists on a wall at shoulder height); stretching_archery_hEDS v2 P5 (standing, fists on a wall at shoulder height)
 - Changed ✏️: 'Push shoulder blades apart maximally' → ~80%; hands on handles or fists (R1 · R2).
 - Basis: 📖 Stage 0 R7 (isometric hold)
 
@@ -1589,7 +1615,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Targets: infraspinatus, teres minor
 - Cues: the outer angle sits at 45° or ~75% of the external-rotation range, whichever is smaller, at shoulder stage 1 (§2.5 · D-63); ~70–80% of the range, 90° only if within it, from stage 2 (R1) · elbows pinned to the sides; both hands on one band (R12 until stage 3)
 - Sport: archery — carryover: cuff external rotation
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P4; stretching_upper_hEDS v4 P2; stretching_upper_hEDS v5 P2
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P4; stretching_upper_hEDS v4 P2; stretching_upper_hEDS v5 P2; stretching_archery_hEDS v1 P2; stretching_archery_hEDS v2 P2
 - Changed ✏️: Holds at 0°, 45° and 90° → the outer hold capped at ~70–80% of the range (R1); one arm against an anchored band → both hands on one band (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 (isometric hold)
 
@@ -1614,9 +1640,10 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 
 - Stations: none · Equipment: bands · Joints (stage needed): shoulder 1; elbow 1
 - Targets: rear delt, rhomboids active; pecs lengthened
+- Stands in for: C151 (locked)
 - Cues: hands stop in line with the shoulders, not behind the torso plane (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; isometric holds at shoulder height
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P7; stretching_upper_hEDS v4 P4; stretching_upper_hEDS v5 P4
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 P7; stretching_upper_hEDS v4 P4; stretching_upper_hEDS v5 P4; stretching_archery_hEDS v1 P4; stretching_archery_hEDS v2 P4
 - Changed ✏️: 'Pull band apart until mild stretch in chest' → hands stop at the shoulder line (R1).
 - Basis: 📖 Stage 0 R7 (active drill)
 
@@ -1637,7 +1664,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: frame · Joints (stage needed): elbow 1; shoulder 1
 - Targets: biceps, brachialis, forearm
 - Cues: facing the rack uprights or a doorway, palms forward against the uprights or the wall either side of the opening; arms at the sides, in line with the torso, never behind it (R5) · elbows at ~140–150°, about 70–80% toward full extension (R1) · press forward ~30% (corpus) and hold: the biceps works at a long length while nothing moves (R7) · both arms together (R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 S4; stretching_upper_hEDS v5 S6
+- Source: 📖 corpus-fixed ✏️ — stretching_upper_hEDS v2 S4; stretching_upper_hEDS v5 S6; stretching_archery_hEDS v1 S4; stretching_archery_hEDS v2 S4
 - Changed ✏️: Corpus ~160° keeps R2's soft bend but sits past R1's 70–80% (closes the Stage 0 §5.2 🔖); the arms stay at the torso line (R5); one arm on the wall → both palms on the rack uprights (R12 · Stage 0 D-54). The palms press forward, the direction that makes the biceps hold, and a doorway works as well as the uprights (T18).
 - Basis: 📖 Stage 0 R1 · R2 · R5 · R12
 
@@ -1668,7 +1695,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stands in for: C104 (locked)
 - Cues: no shrug (R8) · arms short of end range; the Y no higher than ~75% of overhead elevation at shoulder stage 1 (R1 · §2.5 · D-63), short of end range from stage 2 (R1) · W with the arms held at an angle, not spread wide, so the shoulders stay within 45° of external rotation at shoulder stage 1 (§2.5 · D-63; T13); ~70–80% of the external-rotation range from stage 2 (R1)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; isometric holds at shoulder height
-- Source: 📖 corpus — stretching_upper_hEDS v2 S8; stretching_upper_hEDS v4 P9; stretching_upper_hEDS v4 S4; stretching_upper_hEDS v5 P9; stretching_upper_hEDS v5 S4
+- Source: 📖 corpus — stretching_upper_hEDS v2 S8; stretching_upper_hEDS v4 P9; stretching_upper_hEDS v4 S4; stretching_upper_hEDS v5 P9; stretching_upper_hEDS v5 S4; stretching_archery_hEDS v1 P10; stretching_archery_hEDS v2 P11
 - Basis: 📖 Stage 0 R7 · R8
 
 **C109 · Neck rotation with isometric resistance from both hands** — drill · upper · open ✏️
@@ -1676,7 +1703,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): spine 1 — cervical
 - Targets: cervical stabilisers, SCM
 - Cues: both hands stacked on the side of the head; ~20% effort; the hands resist, never push the head further (R7)
-- Source: 📖 corpus-fixed ✏️ — cardio_routine (no version) ex. 15; stretching_upper_hEDS v4 P12; stretching_upper_hEDS v5 P12
+- Source: 📖 corpus-fixed ✏️ — cardio_routine (no version) ex. 15; stretching_upper_hEDS v4 P12; stretching_upper_hEDS v5 P12; stretching_archery_hEDS v1 P7; stretching_archery_hEDS v2 P7
 - Changed ✏️: One hand resisting → both hands stacked, so no arm holds alone (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 (isometric hold)
 
@@ -1685,7 +1712,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): —
 - Targets: diaphragm, deep core, rib position
 - Cues: inhale 4 s, exhale 8 s (corpus)
-- Source: 📖 corpus — stretching_upper_hEDS v2 S9; stretching_lower_hEDS v1 S8; stretching_upper_hEDS v4 S3; stretching_lower_hEDS v3 S3; stretching_upper_hEDS v5 S3
+- Source: 📖 corpus — stretching_upper_hEDS v2 S9; stretching_lower_hEDS v1 S8; stretching_upper_hEDS v4 S3; stretching_lower_hEDS v3 S3; stretching_upper_hEDS v5 S3; stretching_archery_hEDS v1 S5; stretching_archery_hEDS v2 S5
 - Basis: 📖 corpus
 
 **C111 · Hip CARs (standing, hand on the wall)** — drill · lower · locked
@@ -1703,7 +1730,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stations: none · Equipment: none · Joints (stage needed): ankle 1
 - Targets: ankle capsule, calves, tibialis
 - Cues: both feet circle slowly together; note catching (corpus; R12 until stage 3)
-- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P2; stretching_lower_hEDS v1 S2; stretching_lower_hEDS v3 P1; stretching_lower_hEDS v3 S1
+- Source: 📖 corpus-fixed ✏️ — stretching_lower_hEDS v1 P2; stretching_lower_hEDS v1 S2; stretching_lower_hEDS v3 P1; stretching_lower_hEDS v3 S1; stretching_archery_hEDS v1 P11; stretching_archery_hEDS v2 P12
 - Changed ✏️: One foot at a time → both feet together, seated (R12 · Stage 0 D-54).
 - Basis: 📖 Stage 0 R7 (active drill)
 
@@ -1841,7 +1868,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Stands in for: C107 (locked)
 - Cues: sit tall on the floor (cross-legged) or on the bench, arms crossed on the chest · turn the upper back to ~70–80% of the range, pelvis still, no bounce; rotation judged on video (R1 · R7 · §2.5 · D-66) · both directions equally (R23)
 - Sport: badminton — carryover: trunk rotation and anti-rotation
-- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_upper_hEDS v4 P11; stretching_upper_hEDS v5 P11
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_upper_hEDS v4 P11; stretching_upper_hEDS v5 P11; stretching_archery_hEDS v1 P6; stretching_archery_hEDS v2 P6
 - Basis: 📖 Stage 0 R7 (active drill) · 📖 Stage-1 replacement for C107 (Stage 1 D-09)
 
 **C142 · Supine windshield wipers, both knees together** — drill · lower · open ✏️
@@ -1861,8 +1888,29 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 - Cues: elbows pinned to the sides and bent ~90°; the hands meet in front of the belly, about mid-way through internal rotation (R1) · press palm into palm, ~20–30% effort: both shoulders turn in against each other and nothing moves (R7)
 - Sport: badminton — carryover: internal-rotation strength balanced by eccentric external rotation
 - Notes: Added for the mobility rebuild (T17): the cuff's internal rotators had no open drill; C022, the one-arm band internal rotation, waits for shoulder stage 3.
-- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_upper_hEDS v4 P3; stretching_upper_hEDS v5 P3
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_upper_hEDS v4 P3; stretching_upper_hEDS v5 P3; stretching_archery_hEDS v1 P3; stretching_archery_hEDS v2 P3
 - Basis: 📖 Stage 0 R7 (isometric hold) · 🧠 mechanics: with the elbows pinned, the hands can only press together by turning the shoulders in, so both internal rotators hold against each other
+
+**C150 · Finger tendon glides, both hands together** — drill · upper · open ✏️
+
+- Stations: none · Equipment: none · Joints (stage needed): wrist 1 — held straight with the forearms resting; fingers 1 — moved unloaded, inside their range (R1 · R7); the fingers sit at stage 4 (Stage 0 D-97)
+- Targets: finger flexors (flexor digitorum superficialis and profundus) and finger extensors; finger joints
+- Cues: forearms resting on the thighs, wrists straight; both hands move together (R12 until stage 3) · straight → hook → tabletop → soft fist → straight, about 2 s in each position · the fist stays soft, never squeezed tight, and no finger bends backwards past straight (R1 · R2) · a finger catches or locks → slow down there, never force through (R7)
+- Notes: Added for the archery-day mobility file (T24): the hand is loaded in every shot, and no catalogue drill covered the fingers. Kim et al. 2021 (Korean J Sports Med 39(4):146–53) found the hand among the injury sites of 16 of 58 elite and young archers.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_archery_hEDS v1 P9; stretching_archery_hEDS v1 S3; stretching_archery_hEDS v2 P9; stretching_archery_hEDS v2 S3
+- Basis: 📖 Stage 0 R7 (active drill): the finger muscles move the fingers, with nothing pushing them further · 📖 tendon gliding exercises (Wehbé 1987, Am J Occup Ther; PubMed 3318478): five hand positions that glide the flexor tendons; here the full fist is a soft fist (R1) · 🌐 Stage 0 §1.2: archery loads the fingers and wrists; the draw hand releases by active finger-extensor contraction (Stage 0 [W25])
+
+**C151 · Band draw, both hands on one band, each side (shot simulation)** — drill · upper · locked ✏️
+
+- Stations: none · Equipment: bands · Joints (stage needed): shoulder 3 — each arm does its own job on the band, so each works alone: one-arm work (R12 · Stage 0 D-96); elbow 3 — the draw elbow bends as in the shot, short of a full bend (R2); one-arm work (R12); wrist 3 — the band loops over the draw wrist, the hand relaxed; one-arm work (R12); spine 1 — the trunk stays upright and still
+- Targets: draw side: rear delt, mid and lower trapezius, rhomboids; bow side: serratus anterior, rotator cuff
+- Locked: shoulder → stage 3, control test exists; elbow → stage 3, control test exists; wrist → stage 3, control test exists
+- Until it opens, use: C103 (Stage 1 D-09)
+- Cues: light band: one end in the bow hand at shoulder height, the other looped over the draw wrist — no finger hook · bow arm: shoulder down, elbow soft, never locked (R2) · draw to your anchor with the shoulder blade, the elbow no further back than in your shot (R1); hold 3 s, return over 2–3 s (R25) · the same reps drawing with each hand (R23)
+- Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; isometric holds at shoulder height
+- Notes: Added for the archery-day mobility file (T25). Locked until shoulder, elbow and wrist reach stage 3; Harry runs it this archery season in stretching_archery_hEDS v2 with those joints treated as stage 3, untested — a deviation logged in gymstate/block_02.json (2026-11-10). It comes out when archery leaves his in-season list, unless the stage-3 tests have passed.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_archery_hEDS v2 P10
+- Basis: 📖 Stage 0 D-96: each arm doing its own job works alone, so the draw is one-arm work (R12) · 📖 the 'bow pull' in the warm-up of Team USA archery's medical contact, a physical therapist: a band drawn 15–20 times on each side (Archery360, 2021-11-04; coaching source)
 
 ### 3.4 Conditioning
 
@@ -1958,7 +2006,7 @@ Screened against the default Current state: every joint at loading stage 1 (Stag
 
 Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 
-**Joints** — loading stages 1–4 (Stage 0 §2.5); every joint has a control test (D-61…D-66), and each joint's stage-1 range is set there.
+**Joints** — loading stages 1–4 (Stage 0 §2.5); control tests exist for the shoulder, elbow, wrist, spine, hip, knee and ankle; none yet for the fingers, placed at stage 4 by Harry (Stage 0 D-97), which stay at their stage until one is added (R14).
 
 **Stations** (one each; a station in use is unavailable, Stage 0 §1.3): `smith` Smith machine · `cable` Cable machine (rows, pulldowns, pullover, curl, pushdown, overhead extension) · `hip_machine` Hip abductor/adductor machine · `bench` Adjustable bench.
 
@@ -1996,6 +2044,8 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 | T13 | Shoulder rotation in the prone W | Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45° | this catalogue: C108 cue (revision 9) |
 | T14 | A front-delt row | Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block | this catalogue: C138 (revision 10) |
 | T15 | Cues at upper-body stage 2 | Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3' | this catalogue: revision 10 |
+| T25 | Band-draw row and the fingers | Harry (2026-11-10, O1 B · O2 · Stage 0 D-96 · D-97): a band draw is one-arm work, run this archery season in the archery-day file with shoulder, elbow and wrist treated as stage 3, untested; the fingers become a joint at stage 4 | this catalogue: C151, the fingers in the joint vocabulary, C150's joints (revision 24); stretching_archery_hEDS v2 P10 |
+| T24 | Archery-day mobility rows | Harry (2026-11-10, O5 A): add finger tendon glides with both hands, and a standing version of the scapular push-up hold on fists against a wall at shoulder height, for the archery-day mobility file | this catalogue: C150, C099 (revision 23); stretching_archery_hEDS v1 P5, P9, S3 |
 | T23 | Court walk-through row | Harry (2026-11-03 and 2026-11-09, O4 B · O3 A): add a court walk-through at walking pace — no hop, lunge or swing — to the new conditioning file in its weeks 9–12 | this catalogue: C149 (revision 22); conditioning_bike v1 card 6 |
 | T22 | Abs L rows | Harry (2026-11-06): add the reverse crunch with an AbMat and the face-away lat-pulldown cable crunch, and the AbMat to his kit; upper focus B keeps the dead bug hold (O6 D) | this catalogue: C147, C148 (revision 20); Stage 0 §1.3 · D-95 |
 | T21 | Meaningful synergists | Harry (2026-11-06, O4 C): a synergist of the joint action, or a muscle that EMG shows helping move the load at about 40% of a maximal contraction or more, is indirect; moderate co-activation is not counted | this catalogue: the cuff indirect in C016, C017, C018, C140 and C144 (revision 19); Stage 1 §3.2 · §0.3 (h) · D-22 |
@@ -2016,11 +2066,11 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 ## 6. Method
 
 1. Pool: every exercise in 12 corpus files — the 8 lifting routines, the popliteus protocol, the 2 mobility protocols and the cardio routine — primaries, alternatives and drills; duplicates merged into one row listing every source. The 2 foam-rolling files were read and left out: tissue release, not exercise (Stage 0 §2.7).
-2. Screen: each row is checked against the hard gates (Stage 0 §0.2: R1–R15) at the default Current state, every joint at loading stage 1 (Stage 0 §4.1). 'joints' records the loading stage each loaded joint needs; status follows: open (all at stage 1), locked (a joint needs more; every joint has a control test, Stage 0 §2.5 · D-61…D-66, so a locked row opens once Harry passes the tests its joints need, R14), excluded (fails a gate in every form).
+2. Screen: each row is checked against the hard gates (Stage 0 §0.2: R1–R15) at the default Current state, every joint at loading stage 1 and the fingers at 4 (Stage 0 §4.1 · D-97). 'joints' records the loading stage each loaded joint needs; status follows: open (no joint above its default), locked (a joint needs more; every joint but the fingers has a control test, Stage 0 §2.5 · D-61…D-66, so a locked row opens once Harry passes the tests its joints need, R14), excluded (fails a gate in every form).
 3. Unilateral (Stage 0 R12 · D-54): one limb working alone — moving or held, in any plane, against an external load, body weight or its own weight — needs loading stage 3 for every joint of that limb, and a single-leg stance for the stance leg's hip, knee and ankle. Where a drill can run with both limbs together, the row is the bilateral variant (corpus-fixed ✏️). Walking, cycling and swimming stay outside R12 (D-59).
 4. End-range warning (Stage 0 R2 · D-55): a row whose resistance peaks at the end of a joint's range, the soft bend its only margin, carries the warning.
 5. Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).
-6. New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19) and the abs L rows C147–C148 (T22).
+6. New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19), the abs L rows C147–C148 (T22), the finger tendon glides C150 (T24) and the band draw C151 (T25).
 7. Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.
 8. Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), left–right balance (R23), soft bend at every joint (R2) unless the row needs a specific cue.
 9. Zones (Stage 1 R26) label where the resistance peaks in the prime mover's range within the gated range; R26's reference labels are used as given; every L is truncated by R1; the triceps has no S slot (R27), so the kickback's S label fills no coverage. Mechanics labels carry basis 'mechanics'.

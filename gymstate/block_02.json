@@ -29,7 +29,8 @@
       "spine": 1,
       "hip": 1,
       "knee": 1,
-      "ankle": 1
+      "ankle": 1,
+      "fingers": 4
     },
     "in_season": [
       "archery"
@@ -52,8 +53,8 @@
     ]
   },
   "plan": {
-    "version": "block 02 plan v4.1",
-    "approved": "2026-11-09",
+    "version": "block 02 plan v6",
+    "approved": "2026-11-10",
     "routines": [
       {
         "stem": "routine_upperbody_focus_A",
@@ -65,6 +66,10 @@
       },
       {
         "stem": "conditioning_bike",
+        "version": 2
+      },
+      {
+        "stem": "stretching_archery_hEDS",
         "version": 2
       }
     ],
@@ -89,7 +94,18 @@
       "conditioning_bike (7) N/A: zone coverage binds hypertrophy only (R28)",
       "conditioning_bike (8) PASS: outside R20 (D-53); it shares no muscle with focus A or B or with archery's day-before list, so any free day works",
       "conditioning_bike (9) PASS, by convention: R21 keys on sets, which conditioning lacks; by its intent the file reads 'day after: no badminton' (quads, glute max and calves work hard); archery: no limit",
-      "conditioning_bike (10) N/A: the bike is no station (R41); the file names the fallbacks — walking for the easy parts, the outdoor bike for training only, never a test"
+      "conditioning_bike (10) N/A: the bike is no station (R41); the file names the fallbacks — walking for the easy parts, the outdoor bike for training only, never a test",
+      "stretching_archery_hEDS — archery-day mobility (Harry, 2026-11-10: O1 A, O2 A, O3 A, O4 B, O5 A; v2 adds the band draw on his season exception): a pre half before the first end and a post half after the last, both at the range; drills only, so no training session (Stage 0 §2.3 · §2.7) and outside R20; built under a deviation (O1 A, amendment text in the log row of 2026-11-10)",
+      "stretching_archery_hEDS (1) PASS, with a deviation named: 14 catalogue drill rows. 13 need stage 1 at most and are open at block 02's stages, every one with both arms, both hands or both feet together (R12). P10, the band draw (C151), is one-arm work (Stage 0 D-96) that needs shoulder, elbow and wrist at stage 3: Harry runs it this archery season with those joints treated as stage 3, untested — a deviation from R12 and R14 (2026-11-10); Current state keeps them at 2. Kit: one light band, a wall, a chair or the floor, a doorway for S4 (Stage 0 §1.3); no other warnings. C150 and C099's wall version confirmed by Harry (O5 A · Stage 1 D-08)",
+      "stretching_archery_hEDS (2) N/A: drills are not working sets (Stage 0 §2.3), so no muscle gets sets; the block's counts are unchanged",
+      "stretching_archery_hEDS (3) N/A: no goal row; light holds (~20–30%) and slow reps, as in the mobility files; no RIR",
+      "stretching_archery_hEDS (4) N/A: no pairs; pair_check.py reads 0 cards and 0 sections in v2",
+      "stretching_archery_hEDS (5) N/A: 0 sets; targets, harvest and direct sets as in plan v4.1",
+      "stretching_archery_hEDS (6) PASS: exercise time 0, as mobility sits outside it (Stage 0 R19); pre core ~12 min, post core ~3 min",
+      "stretching_archery_hEDS (7) N/A: zone coverage unchanged",
+      "stretching_archery_hEDS (8) PASS by reading: no direct sets, so it counts toward no region (Stage 0 §2.7); the upper body stays at 2 training sessions a week. The spec does not say so for a sport day, hence the deviation (O1 A)",
+      "stretching_archery_hEDS (9) PASS by reading: it collects no sets, so it names no sport (R21); its self-check box carries R21's next-day step-gate line and its rules box R9 for the practice (Stage 0 D-98); R59's form for mobility files is a follow-up (U1)",
+      "stretching_archery_hEDS (10) N/A: no station exercise, so no alternatives (R41)"
     ],
     "zone_coverage": [
       "front delt: L supine DB front raise on the floor (A1) · S DB front raise (B1)",
@@ -105,7 +121,8 @@
       "Then +1 set every 2 weeks per target while (a) and (b) stay inside the step gate — hypertrophy up to 20 a week (R33), endurance up to 8 (R34), each exercise within its row's Sets (R48) and each session within Stage 0 R19: at ≈59 min a session about one step fits before 75 min, then progress runs on reps and load; never more load and more sets for a muscle in the same week; no restart ramp, as there was no layoff (R42 c · Stage 0 R22)",
       "Competition week (mid-December, about block week 6–7) — advice, not a rule, as the spec stays unchanged (O4 A · O11): one gym session in the 7 days before, finished at least 72 h before the first shot; no new exercise in the last 14 days, already met, since every exercise starts in week 1",
       "conditioning_bike: weeks 1, 5, 9 and 13 — the talk-test step test (card 2) at a 90 beat, +1 lever notch every 3 min, sets E, H1 (one notch below the first NEG) and H2 (the first NEG), each with its HR; weeks 2–4: 3 × 3 → 3 × 4 → 4 × 4 min at H1, ≥2 min in reserve; weeks 6–8: 4 × 4 → 5 × 4 → 5 × 4 min at H2, ≥1 min; weeks 10–12: H2 intervals, then 2, 3 and 4 badminton rounds of 8 × (10 s quick / 20 s easy), HR cap H2 band + 5; every interval starts at the test's notch and keeps HR in its band (±5) from minute 2; weeks 9–12: the court walk-through (card 6) first",
-      "conditioning_bike: notch settings change only at a test; a failed morning step gate repeats that week, two within 4 weeks take one step back for 2 weeks (R43 logic); the week-13 verdict follows the file's self-evaluation box (a gain: EQ or NEG ≥1 notch higher, or HR at week 1's EQ notch ≥3% lower); if court drills are still locked then, the next period repeats weeks 5–12 at the new settings"
+      "conditioning_bike: notch settings change only at a test; a failed morning step gate repeats that week, two within 4 weeks take one step back for 2 weeks (R43 logic); the week-13 verdict follows the file's self-evaluation box (a gain: EQ or NEG ≥1 notch higher, or HR at week 1's EQ notch ≥3% lower); if court drills are still locked then, the next period repeats weeks 5–12 at the new settings",
+      "stretching_archery_hEDS: no progression — the drills stay light. P10's band draw runs on Harry's season exception: when archery leaves his in-season list, it comes out (v3) unless shoulder, elbow and wrist pass their stage-3 tests (R14)"
     ],
     "suspensions": "Lower body not trained this block: the hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24)"
   },
@@ -214,6 +231,37 @@
         "Plan v4.1: conditioning_bike's check (4) line reworded to the new output; no plan change"
       ],
       "follow_ups": [
+        "A routine being worked on sits at gymplan/'s top level (Harry, 2026-11-06); while A v12 and B v13 sit in gymplan/Delt_Abs_archery/, verify.py check 6 and state_check.py report them missing",
+        "At spine stage 2 the abs' L gap can close: C141, C147 or C148 — C148, the face-away cable crunch, is the one with a weight stack for load steps (R28)",
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
+        "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)",
+        "Lower-body block after the archery competition (Harry, O5 B): the only route to court drills — hip, knee and ankle 1 → 4 one stage at a time (R14), at least ~6 weeks once the lower body trains; planned when Harry says",
+        "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')",
+        "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
+        "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "changes": [
+        "Harry, 2026-11-10: archery-day mobility approved — O1 A (build now under a deviation, the amendment kept for a spec round), O2 A (a new file, built by a copy of build_mobility_v2.py), O3 A (both halves at the range), O4 B (band draws in the routine once a spec round settles R12 for two arms doing different jobs on one band), O5 A (two catalogue changes). Plan v4.1 → v5: stretching_archery_hEDS v1 with its R46 checks and progression line",
+        "stretching_archery_hEDS v1, new: 16 cards — pre core P1–P9, add-ons P10–P11, post core S1–S3, add-ons S4–S5 — built by gymtools/svg/build_mobility_archery_v1.py, a copy of build_mobility_v2.py (Stage 2 R55), byte-identical on the PC and in the cloud workspace (md5 593c0fed…); mirror gymtxt/stretching_archery_hEDS.txt identical (R57); register entry — mobility, sport day, regions '—', build script (Stage 2 Supplement §9). It sits in plan.routines, not current_routines: its drills give no direct sets, so it trains no region (Stage 0 §2.7), as with conditioning_bike",
+        "Deviation (O1 A): Stage 0 §2.7 puts the mobility halves inside training sessions, and Stage 2 §3.1 names only stretching_<upper|lower>_hEDS. Amendment text kept for a spec round — Stage 0 §2.7, after 'Its pre and post mobility halves belong to it.', ADD: 'A sport day's mobility session — drills only, no working sets — counts toward no region and collects no sets; its pre and post halves sit around the sport session.' Stage 2 §3.1 naming pattern, REPLACE 'Mobility: `stretching_<upper|lower>_hEDS`' with 'Mobility: `stretching_<upper|lower>_hEDS`, or `stretching_<sport>_hEDS` for a sport day's fixed sequence'",
+        "Catalogue revision 23 (T24; Harry, O5 A · Stage 1 D-08): C150, finger tendon glides with both hands; C099 gains a standing version on fists against a wall at shoulder height; provenance from stretching_archery_hEDS v1 on 13 rows; revision 22's change table written into build.py; verify.py lists stretching_archery_hEDS v1; gymtools/README.md rows updated",
+        "Open items raised in the chat (2026-11-10), awaiting Harry, each with its exact Stage 0 text: O1 — whether R12 counts a band draw (both hands on one band, different jobs) as one-arm work (from O4 B), with the band-draw row C151 confirmed by A; O2 — the fingers' loading stage (U2); O3 — whether R9 covers a sport session (U3)",
+        "Harry, later the same day (O1–O3 of this chat): O1 B — a band draw is one-arm work (Stage 0 D-96; R12's text unchanged). For this archery season he treats shoulder, elbow and wrist as stage 3 for the archery-day file only, untested, and everything goes back to the current stages after it: Current state keeps them at 2, and the band draw is a logged deviation from R12 and R14. O2 — the fingers become a staged joint, placed at stage 4 (Stage 0 D-97): loading_stages gains fingers 4. O3 B — R9 binds sport sessions (Stage 0 D-98). Stage 0: §0.4 (d), §2.5, R9 with a sport example, §4.1; its Supplement: D-96…D-98, rejected options, a deferred row for a finger test; CLAUDE.md's Stage 0 line",
+        "stretching_archery_hEDS v1 → v2: P10, the band draw on each side (C151); the add-ons now P11–P12; the rules box with R9's practice lines; pre core ~12 min — regenerated by gymtools/svg/build_mobility_archery_v2.py, a copy of the v1 script (structure scope, Stage 2 R54 · R55), byte-identical on the PC and in the cloud workspace (md5 3c90adef…); mirror identical; the register entry's build is now the v2 script. Plan v5 → v6",
+        "Catalogue revision 24 (T25): C151, the band draw, locked until shoulder, elbow and wrist stage 3, with C103 standing in; the fingers in the joint vocabulary at stage 4 with no control test, the screen reading each joint's default stage; C150 lists the fingers; provenance from v2 on 14 rows; verify.py lists v2; gymtools/README.md rows updated"
+      ],
+      "follow_ups": [
+        "Season exception (Harry, 2026-11-10): when archery leaves in_season, P10's band draw comes out of stretching_archery_hEDS (v3) unless shoulder, elbow and wrist pass their stage-3 tests (R14); Current state stays at stage 2 throughout",
+        "A control test and symmetry test for the fingers (Stage 0 Supplement §6 · D-97): until one exists, a finger flare leaves them at stage 3 (R14)",
+        "Spec round, only if Harry wants one: the sport-day mobility amendment of O1 A (text in this row) — Stage 0 §2.7 and Stage 2 §3.1",
+        "R59: none of the three mobility files carries a sport-note line ('day after: no sport limit'); whether R59 binds mobility files is unstated (U1)",
+        "Catalogue §6 Method: the 'confirmed' sentence leaves out C149 (T23) — a wording fix for the next catalogue revision",
         "A routine being worked on sits at gymplan/'s top level (Harry, 2026-11-06); while A v12 and B v13 sit in gymplan/Delt_Abs_archery/, verify.py check 6 and state_check.py report them missing",
         "At spine stage 2 the abs' L gap can close: C141, C147 or C148 — C148, the face-away cable crunch, is the one with a weight stack for load steps (R28)",
         "Competition date not recorded (F5); in competition week, the taper advice under progression applies",

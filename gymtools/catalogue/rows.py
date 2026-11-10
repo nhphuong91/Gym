@@ -28,6 +28,8 @@ SL3 = "stretching_lower_hEDS v3"
 SU5 = "stretching_upper_hEDS v5"
 CAR = "cardio_routine (no version)"
 CB1 = "conditioning_bike v1"
+SA1 = "stretching_archery_hEDS v1"
+SA2 = "stretching_archery_hEDS v2"
 
 
 def J(joint, needs=1, note=None):
@@ -1009,10 +1011,12 @@ ROWS = [
     R("scap_push_up_hold", "Scapular push-up hold (protract and hold)", "drill",
       equipment=["dumbbells"], region="upper", targets="serratus anterior, lower trapezius",
       joints=[J("shoulder"), J("wrist"), J("elbow")],
-      cues=[NEUTRAL_WRIST + "; knees down if needed", "push the shoulder blades apart to ~80% and hold, not to end range (R1)", SOFT_ELBOW],
+      cues=[NEUTRAL_WRIST + "; knees down if needed", "push the shoulder blades apart to ~80% and hold, not to end range (R1)", SOFT_ELBOW,
+            "standing version: fists on a wall at shoulder height, feet a step back — lighter than on the floor, and the bow arm's position (T24)"],
       source="corpus-fixed", corpus=[f"{SU} P3"],
       changed="'Push shoulder blades apart maximally' → ~80%; hands on handles or fists (R1 · R2).",
-      basis=["Stage 0 R7 (isometric hold)"]),
+      basis=["Stage 0 R7 (isometric hold)"],
+      notes="The standing wall version was added for the archery-day mobility file (T24), for a range with no floor to kneel on."),
     R("band_iso_er_3_angles", "Band isometric external rotation, 3 angles, both arms (one band)", "drill",
       equipment=["bands"], region="upper", targets="infraspinatus, teres minor",
       joints=[J("shoulder")],
@@ -1485,6 +1489,42 @@ ROWS = [
              "Stage 0 D-52: court work in a routine is routine work, so the hard gates apply"],
       notes="Added for the conditioning file (T23): keeps badminton's court routes familiar while C128 and C129 wait for loading "
             "stage 4. Walking pace only; little conditioning value."),
+    # ───────────── DRILLS, ADDED FOR THE ARCHERY-DAY MOBILITY FILE (T24) ─────────────
+    R("finger_tendon_glides", "Finger tendon glides, both hands together", "drill",
+      region="upper", targets="finger flexors (flexor digitorum superficialis and profundus) and finger extensors; finger joints",
+      joints=[J("wrist", 1, "held straight with the forearms resting"),
+              J("fingers", 1, "moved unloaded, inside their range (R1 · R7); the fingers sit at stage 4 (Stage 0 D-97)")],
+      cues=["forearms resting on the thighs, wrists straight; both hands move together (R12 until stage 3)",
+            "straight → hook → tabletop → soft fist → straight, about 2 s in each position",
+            "the fist stays soft, never squeezed tight, and no finger bends backwards past straight (R1 · R2)",
+            "a finger catches or locks → slow down there, never force through (R7)"],
+      source="confirmed",
+      basis=["Stage 0 R7 (active drill): the finger muscles move the fingers, with nothing pushing them further",
+             "tendon gliding exercises (Wehbé 1987, Am J Occup Ther; PubMed 3318478): five hand positions that glide the flexor tendons; "
+             "here the full fist is a soft fist (R1)",
+             "Stage 0 §1.2: archery loads the fingers and wrists; the draw hand releases by active finger-extensor contraction (Stage 0 [W25])"],
+      notes="Added for the archery-day mobility file (T24): the hand is loaded in every shot, and no catalogue drill covered the fingers. "
+            "Kim et al. 2021 (Korean J Sports Med 39(4):146–53) found the hand among the injury sites of 16 of 58 elite and young archers."),
+    R("band_draw_each_side", "Band draw, both hands on one band, each side (shot simulation)", "drill",
+      equipment=["bands"], region="upper",
+      targets="draw side: rear delt, mid and lower trapezius, rhomboids; bow side: serratus anterior, rotator cuff",
+      joints=[J("shoulder", 3, "each arm does its own job on the band, so each works alone: one-arm work (R12 · Stage 0 D-96)"),
+              J("elbow", 3, "the draw elbow bends as in the shot, short of a full bend (R2); one-arm work (R12)"),
+              J("wrist", 3, "the band loops over the draw wrist, the hand relaxed; one-arm work (R12)"),
+              J("spine", 1, "the trunk stays upright and still")],
+      cues=["light band: one end in the bow hand at shoulder height, the other looped over the draw wrist — no finger hook",
+            "bow arm: shoulder down, elbow soft, never locked (R2)",
+            "draw to your anchor with the shoulder blade, the elbow no further back than in your shot (R1); hold 3 s, return over 2–3 s (R25)",
+            "the same reps drawing with each hand (R23)"],
+      replaced_by=["band_pull_apart_hold"],
+      source="confirmed",
+      basis=["Stage 0 D-96: each arm doing its own job works alone, so the draw is one-arm work (R12)",
+             "the 'bow pull' in the warm-up of Team USA archery's medical contact, a physical therapist: a band drawn 15–20 times on each "
+             "side (Archery360, 2021-11-04; coaching source)"],
+      notes="Added for the archery-day mobility file (T25). Locked until shoulder, elbow and wrist reach stage 3; Harry runs it this "
+            "archery season in stretching_archery_hEDS v2 with those joints treated as stage 3, untested — a deviation logged in "
+            "gymstate/block_02.json (2026-11-10). It comes out when archery leaves his in-season list, unless the stage-3 tests have passed.",
+      sport={"archery": {"carryover": ["RET", "HOLD"]}}),
 ]
 
 
@@ -1742,3 +1782,33 @@ assert set(COND22) <= _keys, set(COND22) - _keys
 for _r in ROWS:
     if _r["key"] in COND22:
         _r["corpus"] = list(_r.get("corpus", [])) + COND22[_r["key"]]
+
+
+# Provenance from the archery-day mobility file stretching_archery_hEDS v1 (2026-11-10, catalogue revision 23): a pre half
+# before the first end and a post half after the last, from the drill rows at block 02's loading stages (T24)
+ARCH23 = {
+    "shoulder_cars": [f"{SA1} P1", f"{SA1} S1"], "band_iso_er_3_angles": [f"{SA1} P2"], "palm_press_ir_hold": [f"{SA1} P3"],
+    "band_pull_apart_hold": [f"{SA1} P4"], "scap_push_up_hold": [f"{SA1} P5 (standing, fists on a wall at shoulder height)"],
+    "seated_t_spine_rotation": [f"{SA1} P6"], "neck_iso": [f"{SA1} P7"], "wrist_cars": [f"{SA1} P8", f"{SA1} S2"],
+    "finger_tendon_glides": [f"{SA1} P9", f"{SA1} S3"], "prone_ytw_holds": [f"{SA1} P10"], "ankle_cars": [f"{SA1} P11"],
+    "iso_biceps_hold": [f"{SA1} S4"], "breathing_90_90": [f"{SA1} S5"],
+}
+assert set(ARCH23) <= _keys, set(ARCH23) - _keys
+for _r in ROWS:
+    if _r["key"] in ARCH23:
+        _r["corpus"] = list(_r.get("corpus", [])) + ARCH23[_r["key"]]
+
+
+# Provenance from the archery-day mobility file stretching_archery_hEDS v2 (2026-11-10, catalogue revision 24): P10 is the band
+# draw, and the add-ons move to P11 and P12; the v1 lines stay as history
+ARCH24 = {
+    "shoulder_cars": [f"{SA2} P1", f"{SA2} S1"], "band_iso_er_3_angles": [f"{SA2} P2"], "palm_press_ir_hold": [f"{SA2} P3"],
+    "band_pull_apart_hold": [f"{SA2} P4"], "scap_push_up_hold": [f"{SA2} P5 (standing, fists on a wall at shoulder height)"],
+    "seated_t_spine_rotation": [f"{SA2} P6"], "neck_iso": [f"{SA2} P7"], "wrist_cars": [f"{SA2} P8", f"{SA2} S2"],
+    "finger_tendon_glides": [f"{SA2} P9", f"{SA2} S3"], "band_draw_each_side": [f"{SA2} P10"], "prone_ytw_holds": [f"{SA2} P11"],
+    "ankle_cars": [f"{SA2} P12"], "iso_biceps_hold": [f"{SA2} S4"], "breathing_90_90": [f"{SA2} S5"],
+}
+assert set(ARCH24) <= _keys, set(ARCH24) - _keys
+for _r in ROWS:
+    if _r["key"] in ARCH24:
+        _r["corpus"] = list(_r.get("corpus", [])) + ARCH24[_r["key"]]

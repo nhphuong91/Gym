@@ -5,6 +5,94 @@
   "built": "2026-10-02",
   "revisions": [
     {
+      "n": 24,
+      "date": "2026-11-10",
+      "note": "the band draw, the fingers as a staged joint, and the archery-day file v2",
+      "changes": [
+        "Harry decided that a band draw is one-arm work (Stage 0 D-96): C151, the band draw on each side, needs shoulder, elbow and wrist at stage 3, so it is locked at the default Current state; C103, the pull-apart hold, stands in for it. He runs it this archery season in stretching_archery_hEDS v2 with those joints treated as stage 3, untested — a deviation logged in the state file (T25).",
+        "The fingers join the joint vocabulary, placed at stage 4 with no control test yet (Stage 0 D-97); the screen reads their default as 4, and C150 lists them as unloaded.",
+        "Provenance from stretching_archery_hEDS v2 (2026-11-10): P10 is the band draw, and the add-ons move to P11 and P12."
+      ],
+      "diff": {
+        "locked": [],
+        "opened": [],
+        "bilateral": [],
+        "end_range": [],
+        "holds": [],
+        "added": [
+          "C151"
+        ],
+        "replaced": [],
+        "unlock_path": [],
+        "locked_range": [],
+        "corpus_fixed": [],
+        "cues": [],
+        "stabilizers": [],
+        "indirect": [],
+        "notes": [],
+        "provenance_archery_v2": [
+          "C097",
+          "C098",
+          "C099",
+          "C100",
+          "C103",
+          "C105",
+          "C108",
+          "C109",
+          "C110",
+          "C112",
+          "C135",
+          "C143",
+          "C150"
+        ]
+      }
+    },
+    {
+      "n": 23,
+      "date": "2026-11-10",
+      "note": "the archery-day mobility file: finger tendon glides, the standing scapular push-up hold, and provenance",
+      "changes": [
+        "Harry confirmed a finger drill and a standing version of C099 for the archery-day mobility file (Stage 1 §3.2 · D-08; T24): C150, finger tendon glides with both hands together — unloaded, the fist kept soft and no finger bent backwards (R1 · R2); C099's new cue puts the hold on a wall at shoulder height, the bow arm's position, for a range with no floor to kneel on.",
+        "Provenance from stretching_archery_hEDS v1 (2026-11-10): thirteen drill rows cite its pre and post cards."
+      ],
+      "diff": {
+        "locked": [],
+        "opened": [],
+        "bilateral": [],
+        "end_range": [],
+        "holds": [],
+        "added": [
+          "C150"
+        ],
+        "replaced": [],
+        "unlock_path": [],
+        "locked_range": [],
+        "corpus_fixed": [],
+        "cues": [
+          "C099"
+        ],
+        "stabilizers": [],
+        "indirect": [],
+        "notes": [
+          "C099"
+        ],
+        "provenance_archery": [
+          "C097",
+          "C098",
+          "C099",
+          "C100",
+          "C103",
+          "C105",
+          "C108",
+          "C109",
+          "C110",
+          "C112",
+          "C135",
+          "C143"
+        ]
+      }
+    },
+    {
       "n": 22,
       "date": "2026-11-09",
       "note": "the conditioning file: a court walk-through, and cycling's provenance",
@@ -931,19 +1019,19 @@
     }
   ],
   "governed_by": "Stage0_PolicyDefinition.md (hard gates) · Stage1_Programming.md §3.2 (exercise facts) · Stage 1 D-03",
-  "screened_against": "default Current state: every joint at loading stage 1 (Stage 0 §4.1)",
+  "screened_against": "default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97)",
   "summary": {
-    "rows": 149,
+    "rows": 151,
     "status": {
-      "open": 101,
-      "locked": 44,
+      "open": 102,
+      "locked": 45,
       "excluded": 4
     },
     "source": {
       "corpus": 75,
       "corpus-fixed": 36,
       "proposed": 18,
-      "confirmed": 20
+      "confirmed": 22
     }
   },
   "fields": [
@@ -983,11 +1071,11 @@
   ],
   "method": [
     "Pool: every exercise in 12 corpus files — the 8 lifting routines, the popliteus protocol, the 2 mobility protocols and the cardio routine — primaries, alternatives and drills; duplicates merged into one row listing every source. The 2 foam-rolling files were read and left out: tissue release, not exercise (Stage 0 §2.7).",
-    "Screen: each row is checked against the hard gates (Stage 0 §0.2: R1–R15) at the default Current state, every joint at loading stage 1 (Stage 0 §4.1). 'joints' records the loading stage each loaded joint needs; status follows: open (all at stage 1), locked (a joint needs more; every joint has a control test, Stage 0 §2.5 · D-61…D-66, so a locked row opens once Harry passes the tests its joints need, R14), excluded (fails a gate in every form).",
+    "Screen: each row is checked against the hard gates (Stage 0 §0.2: R1–R15) at the default Current state, every joint at loading stage 1 and the fingers at 4 (Stage 0 §4.1 · D-97). 'joints' records the loading stage each loaded joint needs; status follows: open (no joint above its default), locked (a joint needs more; every joint but the fingers has a control test, Stage 0 §2.5 · D-61…D-66, so a locked row opens once Harry passes the tests its joints need, R14), excluded (fails a gate in every form).",
     "Unilateral (Stage 0 R12 · D-54): one limb working alone — moving or held, in any plane, against an external load, body weight or its own weight — needs loading stage 3 for every joint of that limb, and a single-leg stance for the stance leg's hip, knee and ankle. Where a drill can run with both limbs together, the row is the bilateral variant (corpus-fixed ✏️). Walking, cycling and swimming stay outside R12 (D-59).",
     "End-range warning (Stage 0 R2 · D-55): a row whose resistance peaks at the end of a joint's range, the soft bend its only margin, carries the warning.",
     "Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).",
-    "New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19) and the abs L rows C147–C148 (T22).",
+    "New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19), the abs L rows C147–C148 (T22), the finger tendon glides C150 (T24) and the band draw C151 (T25).",
     "Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.",
     "Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), left–right balance (R23), soft bend at every joint (R2) unless the row needs a specific cue.",
     "Zones (Stage 1 R26) label where the resistance peaks in the prime mover's range within the gated range; R26's reference labels are used as given; every L is truncated by R1; the triceps has no S slot (R27), so the kickback's S label fills no coverage. Mechanics labels carry basis 'mechanics'.",
@@ -1087,6 +1175,16 @@
       "title": "Cues at upper-body stage 2",
       "decision": "Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3'",
       "lands": "this catalogue: revision 10"
+    },
+    "T25": {
+      "title": "Band-draw row and the fingers",
+      "decision": "Harry (2026-11-10, O1 B · O2 · Stage 0 D-96 · D-97): a band draw is one-arm work, run this archery season in the archery-day file with shoulder, elbow and wrist treated as stage 3, untested; the fingers become a joint at stage 4",
+      "lands": "this catalogue: C151, the fingers in the joint vocabulary, C150's joints (revision 24); stretching_archery_hEDS v2 P10"
+    },
+    "T24": {
+      "title": "Archery-day mobility rows",
+      "decision": "Harry (2026-11-10, O5 A): add finger tendon glides with both hands, and a standing version of the scapular push-up hold on fists against a wall at shoulder height, for the archery-day mobility file",
+      "lands": "this catalogue: C150, C099 (revision 23); stretching_archery_hEDS v1 P5, P9, S3"
     },
     "T23": {
       "title": "Court walk-through row",
@@ -1438,6 +1536,10 @@
       {
         "id": "ankle",
         "control_test": true
+      },
+      {
+        "id": "fingers",
+        "control_test": false
       }
     ],
     "patterns": [
@@ -4902,7 +5004,7 @@
       "alt_candidates": [],
       "targets": "shoulder capsule, rotator cuff, scapular stabilisers",
       "source": "corpus-fixed",
-      "corpus": ["stretching_upper_hEDS v2 P1", "stretching_upper_hEDS v2 S1", "cardio_routine (no version) ex. 14", "stretching_upper_hEDS v4 P1", "stretching_upper_hEDS v4 S1", "stretching_upper_hEDS v5 P1", "stretching_upper_hEDS v5 S1"],
+      "corpus": ["stretching_upper_hEDS v2 P1", "stretching_upper_hEDS v2 S1", "cardio_routine (no version) ex. 14", "stretching_upper_hEDS v4 P1", "stretching_upper_hEDS v4 S1", "stretching_upper_hEDS v5 P1", "stretching_upper_hEDS v5 S1", "stretching_archery_hEDS v1 P1", "stretching_archery_hEDS v1 S1", "stretching_archery_hEDS v2 P1", "stretching_archery_hEDS v2 S1"],
       "used_in": ["mobility", "cardio"],
       "changed": "Each arm in turn → both arms together: one arm circling alone is unilateral loading (R12 · Stage 0 D-54).",
       "basis": ["Stage 0 R7 and R12 pass examples (shoulder CARs with both arms together)"],
@@ -4937,7 +5039,7 @@
       "alt_candidates": [],
       "targets": "wrist capsule, forearm flexors and extensors",
       "source": "corpus-fixed",
-      "corpus": ["stretching_upper_hEDS v2 P2", "stretching_upper_hEDS v2 S7", "stretching_upper_hEDS v4 P5", "stretching_upper_hEDS v4 S2", "stretching_upper_hEDS v5 P5", "stretching_upper_hEDS v5 S2"],
+      "corpus": ["stretching_upper_hEDS v2 P2", "stretching_upper_hEDS v2 S7", "stretching_upper_hEDS v4 P5", "stretching_upper_hEDS v4 S2", "stretching_upper_hEDS v5 P5", "stretching_upper_hEDS v5 S2", "stretching_archery_hEDS v1 P8", "stretching_archery_hEDS v1 S2", "stretching_archery_hEDS v2 P8", "stretching_archery_hEDS v2 S2"],
       "used_in": ["mobility"],
       "changed": "One wrist circling, braced by the other hand → both wrists together, forearms resting (R12 · Stage 0 D-54); the palm-to-palm press already loads both.",
       "basis": ["Stage 0 R7 (active drill)"],
@@ -4964,7 +5066,7 @@
       "excluded_by": [],
       "excluded_why": null,
       "replaced_by": [],
-      "cues": ["hands on DB handles or fists: neutral wrists, since flat hands load the wrist near end-range extension (R2); knees down if needed", "push the shoulder blades apart to ~80% and hold, not to end range (R1)", "elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)"],
+      "cues": ["hands on DB handles or fists: neutral wrists, since flat hands load the wrist near end-range extension (R2); knees down if needed", "push the shoulder blades apart to ~80% and hold, not to end range (R1)", "elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)", "standing version: fists on a wall at shoulder height, feet a step back — lighter than on the floor, and the bow arm's position (T24)"],
       "warnings": [],
       "hyp_set": null,
       "day_after": [],
@@ -4972,11 +5074,11 @@
       "alt_candidates": [],
       "targets": "serratus anterior, lower trapezius",
       "source": "corpus-fixed",
-      "corpus": ["stretching_upper_hEDS v2 P3", "stretching_upper_hEDS v4 P6", "stretching_upper_hEDS v5 P6"],
+      "corpus": ["stretching_upper_hEDS v2 P3", "stretching_upper_hEDS v4 P6", "stretching_upper_hEDS v5 P6", "stretching_archery_hEDS v1 P5 (standing, fists on a wall at shoulder height)", "stretching_archery_hEDS v2 P5 (standing, fists on a wall at shoulder height)"],
       "used_in": ["mobility"],
       "changed": "'Push shoulder blades apart maximally' → ~80%; hands on handles or fists (R1 · R2).",
       "basis": ["Stage 0 R7 (isometric hold)"],
-      "notes": null,
+      "notes": "The standing wall version was added for the archery-day mobility file (T24), for a range with no floor to kneel on.",
       "attention": []
     },
     {
@@ -5007,7 +5109,7 @@
       "alt_candidates": [],
       "targets": "infraspinatus, teres minor",
       "source": "corpus-fixed",
-      "corpus": ["stretching_upper_hEDS v2 P4", "stretching_upper_hEDS v4 P2", "stretching_upper_hEDS v5 P2"],
+      "corpus": ["stretching_upper_hEDS v2 P4", "stretching_upper_hEDS v4 P2", "stretching_upper_hEDS v5 P2", "stretching_archery_hEDS v1 P2", "stretching_archery_hEDS v2 P2"],
       "used_in": ["mobility"],
       "changed": "Holds at 0°, 45° and 90° → the outer hold capped at ~70–80% of the range (R1); one arm against an anchored band → both hands on one band (R12 · Stage 0 D-54).",
       "basis": ["Stage 0 R7 (isometric hold)"],
@@ -5112,7 +5214,7 @@
       "alt_candidates": [],
       "targets": "rear delt, rhomboids active; pecs lengthened",
       "source": "corpus-fixed",
-      "corpus": ["stretching_upper_hEDS v2 P7", "stretching_upper_hEDS v4 P4", "stretching_upper_hEDS v5 P4"],
+      "corpus": ["stretching_upper_hEDS v2 P7", "stretching_upper_hEDS v4 P4", "stretching_upper_hEDS v5 P4", "stretching_archery_hEDS v1 P4", "stretching_archery_hEDS v2 P4"],
       "used_in": ["mobility"],
       "changed": "'Pull band apart until mild stretch in chest' → hands stop at the shoulder line (R1).",
       "basis": ["Stage 0 R7 (active drill)"],
@@ -5182,7 +5284,7 @@
       "alt_candidates": [],
       "targets": "biceps, brachialis, forearm",
       "source": "corpus-fixed",
-      "corpus": ["stretching_upper_hEDS v2 S4", "stretching_upper_hEDS v5 S6"],
+      "corpus": ["stretching_upper_hEDS v2 S4", "stretching_upper_hEDS v5 S6", "stretching_archery_hEDS v1 S4", "stretching_archery_hEDS v2 S4"],
       "used_in": ["mobility"],
       "changed": "Corpus ~160° keeps R2's soft bend but sits past R1's 70–80% (closes the Stage 0 §5.2 🔖); the arms stay at the torso line (R5); one arm on the wall → both palms on the rack uprights (R12 · Stage 0 D-54). The palms press forward, the direction that makes the biceps hold, and a doorway works as well as the uprights (T18).",
       "basis": ["Stage 0 R1 · R2 · R5 · R12"],
@@ -5287,7 +5389,7 @@
       "alt_candidates": [],
       "targets": "lower and mid trapezius, rhomboids, posterior cuff",
       "source": "corpus",
-      "corpus": ["stretching_upper_hEDS v2 S8", "stretching_upper_hEDS v4 P9", "stretching_upper_hEDS v4 S4", "stretching_upper_hEDS v5 P9", "stretching_upper_hEDS v5 S4"],
+      "corpus": ["stretching_upper_hEDS v2 S8", "stretching_upper_hEDS v4 P9", "stretching_upper_hEDS v4 S4", "stretching_upper_hEDS v5 P9", "stretching_upper_hEDS v5 S4", "stretching_archery_hEDS v1 P10", "stretching_archery_hEDS v2 P11"],
       "used_in": ["mobility"],
       "changed": null,
       "basis": ["Stage 0 R7 · R8"],
@@ -5322,7 +5424,7 @@
       "alt_candidates": [],
       "targets": "cervical stabilisers, SCM",
       "source": "corpus-fixed",
-      "corpus": ["cardio_routine (no version) ex. 15", "stretching_upper_hEDS v4 P12", "stretching_upper_hEDS v5 P12"],
+      "corpus": ["cardio_routine (no version) ex. 15", "stretching_upper_hEDS v4 P12", "stretching_upper_hEDS v5 P12", "stretching_archery_hEDS v1 P7", "stretching_archery_hEDS v2 P7"],
       "used_in": ["cardio", "mobility"],
       "changed": "One hand resisting → both hands stacked, so no arm holds alone (R12 · Stage 0 D-54).",
       "basis": ["Stage 0 R7 (isometric hold)"],
@@ -5357,7 +5459,7 @@
       "alt_candidates": [],
       "targets": "diaphragm, deep core, rib position",
       "source": "corpus",
-      "corpus": ["stretching_upper_hEDS v2 S9", "stretching_lower_hEDS v1 S8", "stretching_upper_hEDS v4 S3", "stretching_lower_hEDS v3 S3", "stretching_upper_hEDS v5 S3"],
+      "corpus": ["stretching_upper_hEDS v2 S9", "stretching_lower_hEDS v1 S8", "stretching_upper_hEDS v4 S3", "stretching_lower_hEDS v3 S3", "stretching_upper_hEDS v5 S3", "stretching_archery_hEDS v1 S5", "stretching_archery_hEDS v2 S5"],
       "used_in": ["mobility"],
       "changed": null,
       "basis": ["corpus"],
@@ -5427,7 +5529,7 @@
       "alt_candidates": [],
       "targets": "ankle capsule, calves, tibialis",
       "source": "corpus-fixed",
-      "corpus": ["stretching_lower_hEDS v1 P2", "stretching_lower_hEDS v1 S2", "stretching_lower_hEDS v3 P1", "stretching_lower_hEDS v3 S1"],
+      "corpus": ["stretching_lower_hEDS v1 P2", "stretching_lower_hEDS v1 S2", "stretching_lower_hEDS v3 P1", "stretching_lower_hEDS v3 S1", "stretching_archery_hEDS v1 P11", "stretching_archery_hEDS v2 P12"],
       "used_in": ["mobility"],
       "changed": "One foot at a time → both feet together, seated (R12 · Stage 0 D-54).",
       "basis": ["Stage 0 R7 (active drill)"],
@@ -6232,7 +6334,7 @@
       "alt_candidates": [],
       "targets": "thoracic rotation, obliques",
       "source": "confirmed",
-      "corpus": ["stretching_upper_hEDS v4 P11", "stretching_upper_hEDS v5 P11"],
+      "corpus": ["stretching_upper_hEDS v4 P11", "stretching_upper_hEDS v5 P11", "stretching_archery_hEDS v1 P6", "stretching_archery_hEDS v2 P6"],
       "used_in": ["mobility"],
       "changed": null,
       "basis": ["Stage 0 R7 (active drill)", "Stage-1 replacement for C107 (Stage 1 D-09)"],
@@ -6512,7 +6614,7 @@
       "alt_candidates": [],
       "targets": "subscapularis, front of the rotator cuff",
       "source": "confirmed",
-      "corpus": ["stretching_upper_hEDS v4 P3", "stretching_upper_hEDS v5 P3"],
+      "corpus": ["stretching_upper_hEDS v4 P3", "stretching_upper_hEDS v5 P3", "stretching_archery_hEDS v1 P3", "stretching_archery_hEDS v2 P3"],
       "used_in": ["mobility"],
       "changed": null,
       "basis": ["Stage 0 R7 (isometric hold)", "mechanics: with the elbows pinned, the hands can only press together by turning the shoulders in, so both internal rotators hold against each other"],
@@ -6727,6 +6829,76 @@
       "changed": null,
       "basis": ["Stage 0 R12 · D-59: outside it, load passes from limb to limb", "Stage 0 R13: no hop, split-step or landing", "Stage 0 D-52: court work in a routine is routine work, so the hard gates apply"],
       "notes": "Added for the conditioning file (T23): keeps badminton's court routes familiar while C128 and C129 wait for loading stage 4. Walking pace only; little conditioning value.",
+      "attention": []
+    },
+    {
+      "id": "C150",
+      "key": "finger_tendon_glides",
+      "name": "Finger tendon glides, both hands together",
+      "kind": "drill",
+      "region": "upper",
+      "pattern": null,
+      "prime_mover": null,
+      "indirect": [],
+      "stabilizers": [],
+      "zone": null,
+      "compound": null,
+      "stations": [],
+      "equipment": [],
+      "joints": [{"joint": "wrist", "needs": 1, "note": "held straight with the forearms resting"}, {"joint": "fingers", "needs": 1, "note": "moved unloaded, inside their range (R1 · R7); the fingers sit at stage 4 (Stage 0 D-97)"}],
+      "status": "open",
+      "unlock": null,
+      "excluded_by": [],
+      "excluded_why": null,
+      "replaced_by": [],
+      "cues": ["forearms resting on the thighs, wrists straight; both hands move together (R12 until stage 3)", "straight → hook → tabletop → soft fist → straight, about 2 s in each position", "the fist stays soft, never squeezed tight, and no finger bends backwards past straight (R1 · R2)", "a finger catches or locks → slow down there, never force through (R7)"],
+      "warnings": [],
+      "hyp_set": null,
+      "day_after": [],
+      "sport_notes": {},
+      "alt_candidates": [],
+      "targets": "finger flexors (flexor digitorum superficialis and profundus) and finger extensors; finger joints",
+      "source": "confirmed",
+      "corpus": ["stretching_archery_hEDS v1 P9", "stretching_archery_hEDS v1 S3", "stretching_archery_hEDS v2 P9", "stretching_archery_hEDS v2 S3"],
+      "used_in": ["mobility"],
+      "changed": null,
+      "basis": ["Stage 0 R7 (active drill): the finger muscles move the fingers, with nothing pushing them further", "tendon gliding exercises (Wehbé 1987, Am J Occup Ther; PubMed 3318478): five hand positions that glide the flexor tendons; here the full fist is a soft fist (R1)", "Stage 0 §1.2: archery loads the fingers and wrists; the draw hand releases by active finger-extensor contraction (Stage 0 [W25])"],
+      "notes": "Added for the archery-day mobility file (T24): the hand is loaded in every shot, and no catalogue drill covered the fingers. Kim et al. 2021 (Korean J Sports Med 39(4):146–53) found the hand among the injury sites of 16 of 58 elite and young archers.",
+      "attention": []
+    },
+    {
+      "id": "C151",
+      "key": "band_draw_each_side",
+      "name": "Band draw, both hands on one band, each side (shot simulation)",
+      "kind": "drill",
+      "region": "upper",
+      "pattern": null,
+      "prime_mover": null,
+      "indirect": [],
+      "stabilizers": [],
+      "zone": null,
+      "compound": null,
+      "stations": [],
+      "equipment": ["bands"],
+      "joints": [{"joint": "shoulder", "needs": 3, "note": "each arm does its own job on the band, so each works alone: one-arm work (R12 · Stage 0 D-96)"}, {"joint": "elbow", "needs": 3, "note": "the draw elbow bends as in the shot, short of a full bend (R2); one-arm work (R12)"}, {"joint": "wrist", "needs": 3, "note": "the band loops over the draw wrist, the hand relaxed; one-arm work (R12)"}, {"joint": "spine", "needs": 1, "note": "the trunk stays upright and still"}],
+      "status": "locked",
+      "unlock": "shoulder → stage 3, control test exists; elbow → stage 3, control test exists; wrist → stage 3, control test exists",
+      "excluded_by": [],
+      "excluded_why": null,
+      "replaced_by": ["C103"],
+      "cues": ["light band: one end in the bow hand at shoulder height, the other looped over the draw wrist — no finger hook", "bow arm: shoulder down, elbow soft, never locked (R2)", "draw to your anchor with the shoulder blade, the elbow no further back than in your shot (R1); hold 3 s, return over 2–3 s (R25)", "the same reps drawing with each hand (R23)"],
+      "warnings": [],
+      "hyp_set": null,
+      "day_after": [],
+      "sport_notes": {"archery": {"carryover": ["horizontal abduction and scapular retraction strength-endurance", "isometric holds at shoulder height"]}},
+      "alt_candidates": [],
+      "targets": "draw side: rear delt, mid and lower trapezius, rhomboids; bow side: serratus anterior, rotator cuff",
+      "source": "confirmed",
+      "corpus": ["stretching_archery_hEDS v2 P10"],
+      "used_in": ["mobility"],
+      "changed": null,
+      "basis": ["Stage 0 D-96: each arm doing its own job works alone, so the draw is one-arm work (R12)", "the 'bow pull' in the warm-up of Team USA archery's medical contact, a physical therapist: a band drawn 15–20 times on each side (Archery360, 2021-11-04; coaching source)"],
+      "notes": "Added for the archery-day mobility file (T25). Locked until shoulder, elbow and wrist reach stage 3; Harry runs it this archery season in stretching_archery_hEDS v2 with those joints treated as stage 3, untested — a deviation logged in gymstate/block_02.json (2026-11-10). It comes out when archery leaves his in-season list, unless the stage-3 tests have passed.",
       "attention": []
     }
   ]
