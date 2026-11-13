@@ -1,15 +1,28 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97). Built 2026-10-02; revision 24, 2026-11-10: the band draw, the fingers as a staged joint, and the archery-day file v2 (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97). Built 2026-10-02; revision 25, 2026-11-13: the lower strength block: two Romanian deadlifts with a mechanical stop, three proposed rows confirmed, and the lower focus files v5 (§0). Where this file and the stage documents disagree, the stage documents govern.
 
-**151 rows** — open 102 · locked 45 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 18 · confirmed ✏️ 22.
+**153 rows** — open 104 · locked 45 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 15 · confirmed ✏️ 27.
 
 **Marks:** ✏️ changed from the corpus or added · ⚠️ warning that travels with the exercise · 🔖 reading for Harry to confirm (§5) · 📖 spec or corpus basis · 🌐 literature basis · 🧠 mechanics basis.
 
 ---
 
 ## 0. Revisions
+
+**Revision 25 — 2026-11-13: the lower strength block: two Romanian deadlifts with a mechanical stop, three proposed rows confirmed, and the lower focus files v5**
+
+- Harry set strength as the lower body's goal for his next block, with every lower-body muscle a priority target (2026-11-13). A strength lift needs a heavy load, a mechanical stop and fine load steps (Stage 1 R30), which the dumbbell and banded RDLs lack, so he confirmed two hinge rows (Stage 1 §3.2 · D-08; T26): C152, the Smith Romanian deadlift with the safeties at the depth cap, and C153, the barbell Romanian deadlift to rack pins, its first alternative when the Smith is taken.
+- He confirmed three rows proposed in v1 (T26): C078 and C081, the hip abduction and adduction machine, and C096, the band ankle eversion with both feet. Their source now reads confirmed, and they leave the open reading A6.
+- Provenance from routine_lowerbody_focus_A v5 and routine_lowerbody_focus_B v5 (2026-11-13): A holds five strength lifts and four endurance lifts, B the five strength lifts. C064, C066 and C084 hold a bar on the back and stay locked at the default Current state; the plan re-checked them against Harry's shoulder stage 2 (§6 Method).
+- §6 Method's sentence on confirmed rows now names C149, the court walk-through (T23), which it had left out.
+
+| Change from revision 24 | Rows |
+|---|---|
+| Added ✏️ | C152, C153 |
+| Confirmed by Harry: rows proposed in v1 ✏️ | C078, C081, C096 |
+| Corpus provenance: the lower focus files A v5 and B v5 | C064, C065, C066, C070, C078, C081, C084, C085, C086, C092, C096, C131, C133, C136, C137 |
 
 **Revision 24 — 2026-11-10: the band draw, the fingers as a staged joint, and the archery-day file v2**
 
@@ -340,10 +353,10 @@ Screened against the default Current state: every joint at loading stage 1, the 
 | C075 | Glute bridge, floor (band above the knees; body weight or dumbbell), 3 s squeeze at the top | Glutes · S | — | open | corpus |
 | C076 | Glute bridge isometric hold (band above the knees) | Glutes · S | — | open | corpus |
 | C077 | Side-lying banded hip abduction | Hip abductors · S | — | locked | corpus |
-| C078 | Hip abduction machine (seated) | Hip abductors · M | Hip abductor/adductor machine | open | proposed ✏️ |
+| C078 | Hip abduction machine (seated) | Hip abductors · M | Hip abductor/adductor machine | open | confirmed ✏️ |
 | C079 | Standing banded hip external rotation / lateral step | Hip abductors · S | — | locked | corpus |
 | C080 | Copenhagen plank hold, short lever (knee on the bench) | Adductors · M | Adjustable bench | locked | corpus |
-| C081 | Hip adduction machine (seated) | Adductors · M | Hip abductor/adductor machine | open | proposed ✏️ |
+| C081 | Hip adduction machine (seated) | Adductors · M | Hip abductor/adductor machine | open | confirmed ✏️ |
 | C082 | Band hip adduction, standing (band anchored low on the frame) | Adductors · S | — | locked | proposed ✏️ |
 | C083 | Standing banded hip flexion (knee drive) | Hip flexors · S | — | locked | corpus |
 | C084 | Standing calf raise (Smith, optional deficit, pause at the bottom) | Calves · L | Smith machine | locked | corpus |
@@ -358,7 +371,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 | C093 | Popliteus banded internal rotation | Popliteus · S | — | locked | corpus |
 | C094 | Popliteus step task (stance foot on a 5–15 cm step) | Popliteus · M | — | locked | corpus |
 | C095 | Popliteus step task at speed | Popliteus · M | — | locked | corpus |
-| C096 | Band ankle eversion, both feet (seated, one band round both forefeet) | Ankle evertors · S | — | open | proposed ✏️ |
+| C096 | Band ankle eversion, both feet (seated, one band round both forefeet) | Ankle evertors · S | — | open | confirmed ✏️ |
 | C097 | Shoulder CARs, both arms together (pre, and slow recovery tempo post) | drill | — | open | corpus-fixed ✏️ |
 | C098 | Wrist CARs, both wrists together + palm-to-palm isometric press | drill | — | open | corpus-fixed ✏️ |
 | C099 | Scapular push-up hold (protract and hold) | drill | — | open | corpus-fixed ✏️ |
@@ -414,6 +427,8 @@ Screened against the default Current state: every joint at loading stage 1, the 
 | C149 | Court walk-through: footwork routes at walking pace | conditioning | — | open | confirmed ✏️ |
 | C150 | Finger tendon glides, both hands together | drill | — | open | confirmed ✏️ |
 | C151 | Band draw, both hands on one band, each side (shot simulation) | drill | — | locked | confirmed ✏️ |
+| C152 | Smith Romanian deadlift (safeties at the depth cap, both legs, soft knees) | Hamstrings · L | Smith machine | open | confirmed ✏️ |
+| C153 | Barbell Romanian deadlift to rack pins (pins at the depth cap, both legs, soft knees) | Hamstrings · L | — | open | confirmed ✏️ |
 
 ---
 
@@ -1204,7 +1219,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: bar on the upper back; the shoulders rotate out past 45° so the wrists stay straight, which needs shoulder stage 2 (§2.5 · D-63 · D-65; A9) · safeties set so the thighs stay above parallel at the deepest point (R3 · R11, knee at stage 1) · soft knee at the top, no lockout (R2) · both legs work together (R12 until stage 3)
 - Sport: badminton — carryover: eccentric quad and glute
 - Notes: Below parallel — the quads' L — opens at knee stage 2.
-- Source: 📖 corpus-fixed ✏️ — routine_lowerbody_focus_B v3 ex. 1 (Smith machine box squat, bench at 90° knee)
+- Source: 📖 corpus-fixed ✏️ — routine_lowerbody_focus_B v3 ex. 1 (Smith machine box squat, bench at 90° knee); routine_lowerbody_focus_A v5 ex. 1; routine_lowerbody_focus_B v5 ex. 1
 - Changed ✏️: Bench at 90° knee is parallel, past the knee's stage-1 range (R3 · R11); the Smith safeties set the depth instead, which also frees the bench.
 - Basis: 📖 Stage 1 R28 example: at knee stage 1 every quads L is blocked, so a squat above parallel is M · 🧠 mechanics — stabilizers: the upper back holds the bar on the back, and the erectors hold the trunk
 
@@ -1216,7 +1231,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stands in for: C064 (locked), C066 (locked)
 - Cues: thighs stay above parallel at the deepest point (R3 · R11, knee at stage 1) · soft knee at the top, no lockout (R2) · heels may sit on the low box or a plate to bias the quads (corpus) · both legs work together (R12 until stage 3)
 - Sport: badminton — carryover: eccentric quad and glute
-- Source: 📖 corpus-fixed ✏️ — routine_lowerbody_focus_B v3 ex. 3 (goblet box squat); routine_lowerbody_focus_B v3 alt. for Smith box squat (heel-elevated goblet squat)
+- Source: 📖 corpus-fixed ✏️ — routine_lowerbody_focus_B v3 ex. 3 (goblet box squat); routine_lowerbody_focus_B v3 alt. for Smith box squat (heel-elevated goblet squat); routine_lowerbody_focus_A v5 alt. for Smith squat; routine_lowerbody_focus_B v5 alt. for Smith squat
 - Changed ✏️: Depth set above parallel instead of 'controlled depth' to a box (R3 · R11).
 - Basis: 📖 Stage 1 §7 S1.4: goblet squat above parallel, M · 🧠 mechanics — stabilizers: the erectors hold the trunk upright under the dumbbell held at the chest
 
@@ -1230,7 +1245,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: wrists straight over the forearms, within ~70–80% of their range (§2.5 · D-65) · pins set so the thighs stay above parallel at the deepest point (R3 · R11, knee at stage 1) · high bar on the upper back; the shoulders rotate out past 45° so the wrists stay straight, which needs shoulder stage 2 (§2.5 · D-63 · D-65; A9) · soft knee at the top, no lockout (R2)
 - Sport: badminton — carryover: eccentric quad and glute
 - Notes: The bar on the back loads the shoulders in external rotation: more residual risk than the Smith or goblet squat (selection criterion 1).
-- Source: 📖 corpus-fixed ✏️ — routine_lowerbody_focus_B v3 alt. for Smith box squat (barbell box squat, free bar on back)
+- Source: 📖 corpus-fixed ✏️ — routine_lowerbody_focus_B v3 alt. for Smith box squat (barbell box squat, free bar on back); routine_lowerbody_focus_A v5 alt. for Smith squat; routine_lowerbody_focus_B v5 alt. for Smith squat
 - Changed ✏️: Box at the 90° depth replaced by rack pins above parallel (R3 · R11).
 - Basis: 📖 Stage 1 §2.1 S2: rack pins as the mechanical stop · 🧠 mechanics — stabilizers: the upper back holds the bar on the back (the erectors count as indirect)
 
@@ -1272,7 +1287,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stabilizers (held still; no sets): Upper back, Forearm flexors
 - Cues: dumbbells slide along the thighs and stop where the hamstrings reach ~70–80% of their range — about mid-shin (R1 · R11) · soft knees throughout (R2) · spine neutral
 - Notes: Erector sets come from the other region: they count toward no target (Stage 1 R35 · D-02) but Stage 0 R20's guard and R21 see them.
-- Source: 📖 corpus — routine_lowerbody v4 ex. 1; routine_lowerbody_focus_A v3 ex. 1
+- Source: 📖 corpus — routine_lowerbody v4 ex. 1; routine_lowerbody_focus_A v3 ex. 1; routine_lowerbody_focus_A v5 alt. for Smith Romanian deadlift; routine_lowerbody_focus_B v5 alt. for Smith Romanian deadlift
 - Basis: 📖 R26 reference label (RDL: L) · 📖 Stage 1 §5.3 M2: RDL gives the glutes indirect sets · 🧠 mechanics — stabilizers: the load hangs from the hands, so the grip holds it and the upper back holds the shoulders back (the erectors count as indirect)
 
 **C071 · Banded Romanian deadlift (long band under the feet)** — Hamstrings · M · hinge · compound · open
@@ -1299,6 +1314,27 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: soft knee at the bottom (R2) · stop at shin vertical, knee ~90°: deeper loaded knee flexion waits for knee stage 2 (R3 · R11; R3 example: parallel = 90° knee) · both legs work together (R12 until stage 3)
 - Source: 📖 corpus — routine_lowerbody v4 ex. 5; routine_lowerbody_focus_A v3 ex. 5; routine_lowerbody_focus_B v3 ex. 2
 - Basis: 🌐 Stage 1 [W54] · 🧠 mechanics: band tension peaks at the shortest gated length (R29)
+
+**C152 · Smith Romanian deadlift (safeties at the depth cap, both legs, soft knees)** — Hamstrings · L · hinge · compound · open ✏️
+
+- Stations: Smith machine · Equipment: none · Joints (stage needed): hip 1 — hinge depth to R1's range, stopped by the safeties (R11); knee 1 — soft bend, static; spine 1
+- Indirect: Glutes, Spinal erectors · Day after: archery (Spinal erectors); badminton (Glutes)
+- Stabilizers (held still; no sets): Upper back, Forearm flexors
+- Cues: safeties set where the hamstrings reach ~70–80% of their range — about mid-shin — so the bar stops there (R1 · R11) · bar close along the thighs; soft knees throughout (R2) · soft elbows: the bar hangs from the hands, never from a locked elbow (R2) · spine neutral · both legs work together (R12 until stage 3)
+- Alternative candidates (R41 filter): C070 (L), C153 (L), C071 (M)
+- Notes: Added for the lower strength block (T26): the dumbbell and banded RDLs have no mechanical stop, so neither passes the strength goal-fit test (Stage 1 R30, S2). Erector sets come from the other region: they count toward no target (Stage 1 R35 · D-02) but Stage 0 R20's guard and R21 see them.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_lowerbody_focus_A v5 ex. 2; routine_lowerbody_focus_B v5 ex. 2
+- Basis: 📖 R26 reference label (RDL: L) · 📖 Stage 1 §5.3 M2: RDL gives the glutes indirect sets · 📖 Stage 1 §2.1 S2: the Smith safeties are the mechanical stop a strength lift needs; in hypermobile joints a guided path and a mechanical stop matter most when loads are heavy (Stage 1 §5.5) · 🧠 mechanics — stabilizers: the load hangs from the hands, so the grip holds it and the upper back holds the shoulders back (the erectors count as indirect)
+
+**C153 · Barbell Romanian deadlift to rack pins (pins at the depth cap, both legs, soft knees)** — Hamstrings · L · hinge · compound · open ✏️
+
+- Stations: none · Equipment: barbell + plates, frame · Joints (stage needed): hip 1 — hinge depth to R1's range, stopped by the pins (R11); knee 1 — soft bend, static; spine 1
+- Indirect: Glutes, Spinal erectors · Day after: archery (Spinal erectors); badminton (Glutes)
+- Stabilizers (held still; no sets): Upper back, Forearm flexors
+- Cues: rack pins set where the hamstrings reach ~70–80% of their range — about mid-shin — so the bar stops there (R1 · R11) · bar close along the thighs; soft knees throughout (R2) · soft elbows: the bar hangs from the hands, never from a locked elbow (R2) · spine neutral · both legs work together (R12 until stage 3)
+- Notes: Added for the lower strength block (T26) as the Smith Romanian deadlift's first alternative: it reaches a strength load with the Smith taken. The bar path is free, so it carries more residual risk than the Smith version (selection criterion 1). Erector sets come from the other region: they count toward no target (Stage 1 R35 · D-02) but Stage 0 R20's guard and R21 see them.
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_lowerbody_focus_A v5 alt. for Smith Romanian deadlift; routine_lowerbody_focus_B v5 alt. for Smith Romanian deadlift
+- Basis: 📖 R26 reference label (RDL: L) · 📖 Stage 1 §5.3 M2: RDL gives the glutes indirect sets · 📖 Stage 1 §2.1 S2: rack pins as the mechanical stop · 🧠 mechanics — stabilizers: the load hangs from the hands, so the grip holds it and the upper back holds the shoulders back (the erectors count as indirect)
 
 #### Hips & gluteals
 
@@ -1352,9 +1388,8 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: badminton (Hip abductors)
 - Cues: pads on the thighs above the knees, not on the joint · open to ~70–80% of the abduction range (R1)
 - Alternative candidates (R41 filter): C131 (S)
-- Source: proposed ✏️
-- Basis: 📖 Stage 0 §1.3 station, unused by the corpus; Stage 0 §5.6 'available; programmed when relevant' · 📖 zone provisional: depends on the machine's cam
-- 🔖 A6
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_lowerbody_focus_A v5 ex. 4; routine_lowerbody_focus_B v5 ex. 4
+- Basis: 📖 Stage 0 §1.3 station, unused by the corpus; Stage 0 §5.6 'available; programmed when relevant' · 📖 zone provisional: depends on the machine's cam · 📖 proposed in v1; confirmed by Harry on 2026-11-13 for the lower strength block (T26)
 
 **C079 · Standing banded hip external rotation / lateral step** — Hip abductors · S · hip abduction · isolation · locked
 
@@ -1382,9 +1417,8 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: —
 - Cues: start with the legs open to ~70–80% of the abduction range, not end range (R1) · pads on the thighs above the knees
 - Alternative candidates (R41 filter): C133 (S)
-- Source: proposed ✏️
-- Basis: 📖 Stage 0 §1.3 station, unused by the corpus · 📖 zone provisional: depends on the machine's cam
-- 🔖 A6
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_lowerbody_focus_A v5 ex. 5; routine_lowerbody_focus_B v5 ex. 5
+- Basis: 📖 Stage 0 §1.3 station, unused by the corpus · 📖 zone provisional: depends on the machine's cam · 📖 proposed in v1; confirmed by Harry on 2026-11-13 for the lower strength block (T26)
 
 **C082 · Band hip adduction, standing (band anchored low on the frame)** — Adductors · S · hip adduction · isolation · locked ✏️
 
@@ -1415,7 +1449,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: badminton (Hip abductors)
 - Stands in for: C077 (locked), C113 (locked)
 - Cues: lying on the back, knees bent, feet flat hip-width apart, short band just above the knees · open both knees together to ~70–80% of the range, not to the floor (R1) · pelvis and lower back still
-- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P4
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P4; routine_lowerbody_focus_A v5 alt. for hip abduction machine; routine_lowerbody_focus_B v5 alt. for hip abduction machine
 - Basis: 🧠 mechanics: band tension peaks with the knees apart, where the abductors are shortest (R29) · 📖 Stage-1 replacement for C077 and C113 (Stage 1 D-09)
 
 **C133 · Supine banded hip adduction, both legs (two long bands from the frame)** — Adductors · S · hip adduction · isolation · open ✏️
@@ -1424,7 +1458,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: —
 - Stands in for: C080 (locked), C082 (locked)
 - Cues: lying on the back between the frame uprights, knees bent, feet flat · a long band round each knee just above the joint, anchored at knee height on that side; same anchor distance both sides (R23) · start with the knees open to ~70–80% of the range, not end range, and bring both together (R1)
-- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P11
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P11; routine_lowerbody_focus_A v5 alt. for hip adduction machine; routine_lowerbody_focus_B v5 alt. for hip adduction machine
 - Basis: 🧠 mechanics: band tension peaks with the knees together, where the adductors are shortest (R29) · 📖 Stage-1 replacement for C080 and C082 (Stage 1 D-09); a self-resisted squeeze was dropped: it has no failure point, so a hold's seconds in reserve cannot be set (Stage 0 R16 · D-60)
 
 **C137 · Supine bent-knee leg lift to tabletop, both legs** — Hip flexors · M · hip flexion · isolation · open ✏️
@@ -1433,7 +1467,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: Abs · Day after: archery (Abs)
 - Stands in for: C083 (locked), C123 (locked)
 - Cues: lying on the back, knees bent ~90°, feet on the floor · lift both feet together until the thighs are vertical (tabletop) · lower back stays flat; stop the lowering where it starts to arch (R1 · R2)
-- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P3
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — stretching_lower_hEDS v3 P3; routine_lowerbody_focus_A v5 ex. 9
 - Basis: 🧠 mechanics: the load peaks as the feet leave the floor, hip bent ~45°, mid-range (R26) · 📖 Stage-1 replacement for C083 and C123 (Stage 1 D-09); seated, the lift ends past R1's range
 
 #### Calves & shins
@@ -1447,7 +1481,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Until it opens, use: C086, C085 (Stage 1 D-09)
 - Cues: bar on the upper back; the shoulders rotate out past 45° so the wrists stay straight, which needs shoulder stage 2 (§2.5 · D-63 · D-65; A9) · deficit: heel drop ~3–5 cm, to ~70–80% of the dorsiflexion range (corpus; R1) · top just short of full plantarflexion (R2) · soft knees (R2) · both legs work together (R12 until stage 3)
 - Sport: badminton — carryover: calf–Achilles capacity
-- Source: 📖 corpus — routine_lowerbody_focus_A v3 ex. 4; routine_lowerbody_focus_B v3 ex. 6; routine_lowerbody_focus_C v3 ex. 5; popliteus_prevention_protocol v5 ex. 4
+- Source: 📖 corpus — routine_lowerbody_focus_A v3 ex. 4; routine_lowerbody_focus_B v3 ex. 6; routine_lowerbody_focus_C v3 ex. 5; popliteus_prevention_protocol v5 ex. 4; routine_lowerbody_focus_A v5 ex. 3; routine_lowerbody_focus_B v5 ex. 3
 - Basis: 🌐 Stage 1 [W12]: long-length calf partials grew more than short ones · 🧠 mechanics: a flat profile with the range moved toward length, so L (R26) · 🧠 mechanics — stabilizers: the upper back holds the bar on the back
 
 **C085 · Standing calf raise, body weight or dumbbells (hold the rack)** — Calves · M · plantarflexion · isolation · open
@@ -1457,7 +1491,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stands in for: C084 (locked)
 - Cues: top just short of full plantarflexion (R2) · hand on the rack for balance (corpus) · both legs work together (R12 until stage 3)
 - Sport: badminton — carryover: calf–Achilles capacity
-- Source: 📖 corpus — routine_lowerbody v4 ex. 6; routine_lowerbody_focus_A v3 alt. for Smith calf raise; routine_lowerbody_focus_B v3 alt. for Smith calf raise; routine_lowerbody_focus_C v3 alt. for Smith calf raise; popliteus_prevention_protocol v5 alt. for Smith calf raise
+- Source: 📖 corpus — routine_lowerbody v4 ex. 6; routine_lowerbody_focus_A v3 alt. for Smith calf raise; routine_lowerbody_focus_B v3 alt. for Smith calf raise; routine_lowerbody_focus_C v3 alt. for Smith calf raise; popliteus_prevention_protocol v5 alt. for Smith calf raise; routine_lowerbody_focus_A v5 alt. for Smith standing calf raise; routine_lowerbody_focus_B v5 alt. for Smith standing calf raise
 - Basis: 🧠 mechanics: flat floor, mid-range (R26)
 
 **C086 · Deficit calf raise on the step edge, both legs** — Calves · L · plantarflexion · isolation · open
@@ -1467,7 +1501,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stands in for: C084 (locked), C121 (locked)
 - Cues: heels drop to ~70–80% of the dorsiflexion range (R1) · top just short of full plantarflexion (R2) · both legs work together (R12 until stage 3)
 - Sport: badminton — carryover: calf–Achilles capacity
-- Source: 📖 corpus — popliteus_prevention_protocol v5 alt. for Smith calf raise
+- Source: 📖 corpus — popliteus_prevention_protocol v5 alt. for Smith calf raise; routine_lowerbody_focus_A v5 alt. for Smith standing calf raise; routine_lowerbody_focus_B v5 alt. for Smith standing calf raise
 - Basis: 🌐 Stage 1 [W12] · 🧠 mechanics (R26)
 
 **C087 · Seated calf raise (plate or dumbbell on the knees)** — Calves · M · plantarflexion · isolation · open
@@ -1525,7 +1559,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stations: none · Equipment: bands · Joints (stage needed): ankle 1; knee 1 — soft, static
 - Indirect: — · Day after: —
 - Cues: lift the toes to ~70–80% of the dorsiflexion range (R1) · both legs work together (R12 until stage 3)
-- Source: 📖 corpus — routine_lowerbody_focus_B v3 ex. 8; routine_lowerbody_focus_C v3 ex. 9
+- Source: 📖 corpus — routine_lowerbody_focus_B v3 ex. 8; routine_lowerbody_focus_C v3 ex. 9; routine_lowerbody_focus_A v5 ex. 8
 - Basis: 🧠 mechanics
 
 **C093 · Popliteus banded internal rotation** — Popliteus · S · knee rotation · isolation · locked
@@ -1566,9 +1600,8 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stations: none · Equipment: bands · Joints (stage needed): ankle 1
 - Indirect: — · Day after: —
 - Cues: turn both soles out to ~70–80% of the range (R1) · both feet together (R12 until stage 3)
-- Source: proposed ✏️
-- Basis: 📖 Stage 0 §1.2 badminton demand (ankle evertors; ankle sprains, Stage 0 §5.5) · 🧠 mechanics (R29)
-- 🔖 A6
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_lowerbody_focus_A v5 ex. 6
+- Basis: 📖 Stage 0 §1.2 badminton demand (ankle evertors; ankle sprains, Stage 0 §5.5) · 🧠 mechanics (R29) · 📖 proposed in v1; confirmed by Harry on 2026-11-13 for the lower strength block (T26)
 
 **C136 · Popliteus banded internal rotation, both legs (long sitting, two long bands)** — Popliteus · S · knee rotation · isolation · open ✏️
 
@@ -1576,7 +1609,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: —
 - Stands in for: C093 (locked), C094 (locked), C095 (locked)
 - Cues: sitting on the floor between the frame uprights, knees soft-bent ~20–40° over the foam roller (as C093) · a long band round each forefoot, anchored low on that side; same tension both sides (R23) · turn both shins in together, thighs still, within ~70–80% of the range (R1)
-- Source: confirmed by Harry ✏️ (Stage 1 D-08)
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_lowerbody_focus_A v5 ex. 7
 - Basis: 🧠 mechanics (R29) · 📖 Stage-1 replacement for C093–C095 (Stage 1 D-09); a band round both feet pulls them together, so it resists turning out, not in
 
 ### 3.3 Drills — mobility halves and warm-ups
@@ -2044,6 +2077,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 | T13 | Shoulder rotation in the prone W | Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45° | this catalogue: C108 cue (revision 9) |
 | T14 | A front-delt row | Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block | this catalogue: C138 (revision 10) |
 | T15 | Cues at upper-body stage 2 | Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3' | this catalogue: revision 10 |
+| T26 | Lower strength block rows | Harry (2026-11-13, O3 · O4 A · O5 A): use the hip abductor/adductor machine and the band ankle eversion with both feet, rows proposed in v1; add the Smith Romanian deadlift with the safeties at the depth cap, and the barbell Romanian deadlift to rack pins as its first alternative | this catalogue: C078, C081 and C096 confirmed; C152, C153 (revision 25); routine_lowerbody_focus_A v5 and routine_lowerbody_focus_B v5 |
 | T25 | Band-draw row and the fingers | Harry (2026-11-10, O1 B · O2 · Stage 0 D-96 · D-97): a band draw is one-arm work, run this archery season in the archery-day file with shoulder, elbow and wrist treated as stage 3, untested; the fingers become a joint at stage 4 | this catalogue: C151, the fingers in the joint vocabulary, C150's joints (revision 24); stretching_archery_hEDS v2 P10 |
 | T24 | Archery-day mobility rows | Harry (2026-11-10, O5 A): add finger tendon glides with both hands, and a standing version of the scapular push-up hold on fists against a wall at shoulder height, for the archery-day mobility file | this catalogue: C150, C099 (revision 23); stretching_archery_hEDS v1 P5, P9, S3 |
 | T23 | Court walk-through row | Harry (2026-11-03 and 2026-11-09, O4 B · O3 A): add a court walk-through at walking pace — no hop, lunge or swing — to the new conditioning file in its weeks 9–12 | this catalogue: C149 (revision 22); conditioning_bike v1 card 6 |
@@ -2059,7 +2093,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 
 | # | Topic | Reading | Rows |
 |---|---|---|---|
-| A6 | Proposed rows, kept for Harry's review | Rows marked 'proposed' are not in the routine files: some are named by the spec (R8, R26, R29, R41 examples; Stage 1 §7), the rest fill gaps — abs and obliques, forearms, cuff internal rotation, ankle evertors, the hip machine. Harry keeps them and reviews them later (Q5). | C005, C017, C022, C030, C039, C043, C044, C045, C057, C058, C059, C061, C062, C063, C078, C081, C082, C096 |
+| A6 | Proposed rows, kept for Harry's review | Rows marked 'proposed' are not in the routine files: some are named by the spec (R8, R26, R29, R41 examples; Stage 1 §7), the rest fill gaps — abs and obliques, forearms, cuff internal rotation, standing band adduction. Harry keeps them and reviews them later (Q5); the hip machine rows and the band ankle eversion left this reading when he confirmed them (T26). | C005, C017, C022, C030, C039, C043, C044, C045, C057, C058, C059, C061, C062, C063, C082 |
 
 ---
 
@@ -2070,7 +2104,7 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 3. Unilateral (Stage 0 R12 · D-54): one limb working alone — moving or held, in any plane, against an external load, body weight or its own weight — needs loading stage 3 for every joint of that limb, and a single-leg stance for the stance leg's hip, knee and ankle. Where a drill can run with both limbs together, the row is the bilateral variant (corpus-fixed ✏️). Walking, cycling and swimming stay outside R12 (D-59).
 4. End-range warning (Stage 0 R2 · D-55): a row whose resistance peaks at the end of a joint's range, the soft bend its only margin, carries the warning.
 5. Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).
-6. New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19), the abs L rows C147–C148 (T22), the finger tendon glides C150 (T24) and the band draw C151 (T25).
+6. New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19), the abs L rows C147–C148 (T22), the court walk-through C149 (T23), the finger tendon glides C150 (T24), the band draw C151 (T25) and the pinned Romanian deadlifts C152–C153 (T26); three rows proposed in v1 carry the mark since Harry confirmed them on review — C078, C081 and C096 (T26).
 7. Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.
 8. Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), left–right balance (R23), soft bend at every joint (R2) unless the row needs a specific cue.
 9. Zones (Stage 1 R26) label where the resistance peaks in the prime mover's range within the gated range; R26's reference labels are used as given; every L is truncated by R1; the triceps has no S slot (R27), so the kickback's S label fills no coverage. Mechanics labels carry basis 'mechanics'.

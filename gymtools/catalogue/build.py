@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 24 (2026-11-10): with the revision 23 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 24. gymspec/ is the source of truth: before a new revision, check that
+revision 25 (2026-11-13): with the revision 24 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 25. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,23 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 25,
+        "date": "2026-11-13",
+        "note": "the lower strength block: two Romanian deadlifts with a mechanical stop, three proposed rows confirmed, and the lower focus files v5",
+        "changes": [
+            "Harry set strength as the lower body's goal for his next block, with every lower-body muscle a priority target (2026-11-13). "
+            "A strength lift needs a heavy load, a mechanical stop and fine load steps (Stage 1 R30), which the dumbbell and banded RDLs "
+            "lack, so he confirmed two hinge rows (Stage 1 §3.2 · D-08; T26): C152, the Smith Romanian deadlift with the safeties at the "
+            "depth cap, and C153, the barbell Romanian deadlift to rack pins, its first alternative when the Smith is taken.",
+            "He confirmed three rows proposed in v1 (T26): C078 and C081, the hip abduction and adduction machine, and C096, the band "
+            "ankle eversion with both feet. Their source now reads confirmed, and they leave the open reading A6.",
+            "Provenance from routine_lowerbody_focus_A v5 and routine_lowerbody_focus_B v5 (2026-11-13): A holds five strength lifts and "
+            "four endurance lifts, B the five strength lifts. C064, C066 and C084 hold a bar on the back and stay locked at the default "
+            "Current state; the plan re-checked them against Harry's shoulder stage 2 (§6 Method).",
+            "§6 Method's sentence on confirmed rows now names C149, the court walk-through (T23), which it had left out.",
+        ],
+    },
+    {
         "n": 24,
         "date": "2026-11-10",
         "note": "the band draw, the fingers as a staged joint, and the archery-day file v2",
@@ -38,6 +55,7 @@ REVISIONS = [
             "as 4, and C150 lists them as unloaded.",
             "Provenance from stretching_archery_hEDS v2 (2026-11-10): P10 is the band draw, and the add-ons move to P11 and P12.",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C151"], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": [], "provenance_archery_v2": ["C097", "C098", "C099", "C100", "C103", "C105", "C108", "C109", "C110", "C112", "C135", "C143", "C150"]},
     },
     {
         "n": 23,
@@ -365,6 +383,7 @@ DECISIONS = {
     "T13": {"title": "Shoulder rotation in the prone W", "decision": "Harry (2026-10-06): his W holds the arms at an angle, not spread wide, so external rotation stays within 45°", "lands": "this catalogue: C108 cue (revision 9)"},
     "T14": {"title": "A front-delt row", "decision": "Harry (2026-10-13, O8 A): add the two-arm dumbbell front raise; an overhead press waits for a later block", "lands": "this catalogue: C138 (revision 10)"},
     "T15": {"title": "Cues at upper-body stage 2", "decision": "Harry (2026-10-12, F3): OK — say what applies from stage 2 where a cue gives only the stage-1 limit, and read R12 as 'until stage 3'", "lands": "this catalogue: revision 10"},
+    "T26": {"title": "Lower strength block rows", "decision": "Harry (2026-11-13, O3 · O4 A · O5 A): use the hip abductor/adductor machine and the band ankle eversion with both feet, rows proposed in v1; add the Smith Romanian deadlift with the safeties at the depth cap, and the barbell Romanian deadlift to rack pins as its first alternative", "lands": "this catalogue: C078, C081 and C096 confirmed; C152, C153 (revision 25); routine_lowerbody_focus_A v5 and routine_lowerbody_focus_B v5"},
     "T25": {"title": "Band-draw row and the fingers", "decision": "Harry (2026-11-10, O1 B · O2 · Stage 0 D-96 · D-97): a band draw is one-arm work, run this archery season in the archery-day file with shoulder, elbow and wrist treated as stage 3, untested; the fingers become a joint at stage 4", "lands": "this catalogue: C151, the fingers in the joint vocabulary, C150's joints (revision 24); stretching_archery_hEDS v2 P10"},
     "T24": {"title": "Archery-day mobility rows", "decision": "Harry (2026-11-10, O5 A): add finger tendon glides with both hands, and a standing version of the scapular push-up hold on fists against a wall at shoulder height, for the archery-day mobility file", "lands": "this catalogue: C150, C099 (revision 23); stretching_archery_hEDS v1 P5, P9, S3"},
     "T23": {"title": "Court walk-through row", "decision": "Harry (2026-11-03 and 2026-11-09, O4 B · O3 A): add a court walk-through at walking pace — no hop, lunge or swing — to the new conditioning file in its weeks 9–12", "lands": "this catalogue: C149 (revision 22); conditioning_bike v1 card 6"},
@@ -380,7 +399,8 @@ DECISIONS = {
 ATTENTION = {
     "A6": {"title": "Proposed rows, kept for Harry's review",
            "text": "Rows marked 'proposed' are not in the routine files: some are named by the spec (R8, R26, R29, R41 examples; Stage 1 §7), "
-                   "the rest fill gaps — abs and obliques, forearms, cuff internal rotation, ankle evertors, the hip machine. Harry keeps them and reviews them later (Q5)."},
+                   "the rest fill gaps — abs and obliques, forearms, cuff internal rotation, standing band adduction. Harry keeps them and reviews them later (Q5); "
+                   "the hip machine rows and the band ankle eversion left this reading when he confirmed them (T26)."},
 }
 
 METHOD = [
@@ -399,7 +419,9 @@ METHOD = [
     "Holds (kind 'hold') count as hypertrophy sets for any muscle (Stage 0 §2.2 · D-58); a plan prescribes them as sets × hold time + seconds in reserve (Stage 0 R16 · D-60).",
     "New rows enter only after Harry confirms them (Stage 1 §3.2 · D-08). Rows marked 'proposed' were added in v1, before D-08; Harry keeps them for later review (A6). "
     "Rows marked 'confirmed' entered through D-08: the stage-1 replacements C130–C137 (Q9 · Q10), the two-arm front raise C138 (T14), "
-    "the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19), the abs L rows C147–C148 (T22), the finger tendon glides C150 (T24) and the band draw C151 (T25).",
+    "the L rows C139–C141 (Stage 1 D-15), the mobility rows C142–C143 (T17) the block 02 rows C144–C146 (T19), the abs L rows C147–C148 (T22), the court walk-through C149 (T23), the finger tendon glides C150 (T24), the band draw C151 (T25) "
+    "and the pinned Romanian deadlifts C152–C153 (T26); three rows proposed in v1 carry the mark since Harry confirmed them on review — "
+    "C078, C081 and C096 (T26).",
     "Replacements (Stage 1 D-09): a locked row's replaced_by names the open rows that stand in for it until its joints reach the stage it needs; "
     "it then returns to the candidates beside them. An excluded row's replaced_by is permanent. The mirror shows the reverse link as 'Stands in for'.",
     "Cues name the rule they satisfy. Rules that bind every row are not repeated in each: lowering 2–3 s (R25), the in-session abort (R9), "
@@ -738,7 +760,9 @@ def render_md(cat):
                                ("Corpus provenance: the upper focus file B v13", "provenance_b13"),
                                ("Corpus provenance: the conditioning file conditioning_bike v1", "provenance_conditioning"),
                                ("Corpus provenance: the archery-day mobility file stretching_archery_hEDS v1", "provenance_archery"),
-                               ("Corpus provenance: the archery-day mobility file stretching_archery_hEDS v2", "provenance_archery_v2")):
+                               ("Corpus provenance: the archery-day mobility file stretching_archery_hEDS v2", "provenance_archery_v2"),
+                               ("Confirmed by Harry: rows proposed in v1 ✏️", "confirmed"),
+                               ("Corpus provenance: the lower focus files A v5 and B v5", "provenance_lower_v5")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
             a("")
@@ -1032,6 +1056,11 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 25:  # revision 25: the rows Harry confirmed and the lower focus files' provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["confirmed"] = [x["id"] for x in rows if x["key"] in prev and x["source"] == "confirmed" and prev[x["key"]]["source"] != "confirmed"]
+            d["provenance_lower_v5"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
         if REVISIONS[0]["n"] == 24:  # revision 24: the archery-day mobility file v2's provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}

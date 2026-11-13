@@ -1525,6 +1525,38 @@ ROWS = [
             "archery season in stretching_archery_hEDS v2 with those joints treated as stage 3, untested — a deviation logged in "
             "gymstate/block_02.json (2026-11-10). It comes out when archery leaves his in-season list, unless the stage-3 tests have passed.",
       sport={"archery": {"carryover": ["RET", "HOLD"]}}),
+    # ───────────── LOWER · hamstrings: hinge lifts with a mechanical stop (revision 25; T26) ─────────────
+    R("smith_rdl", "Smith Romanian deadlift (safeties at the depth cap, both legs, soft knees)", "resistance",
+      pattern="hinge",
+      prime="hamstrings", zone="L", compound=True, indirect=["glutes", "erectors"],
+      stations=["smith"], equipment=[],
+      joints=[J("hip", 1, "hinge depth to R1's range, stopped by the safeties (R11)"), J("knee", 1, "soft bend, static"), J("spine")],
+      cues=["safeties set where the hamstrings reach ~70–80% of their range — about mid-shin — so the bar stops there (R1 · R11)",
+            "bar close along the thighs; soft knees throughout (R2)",
+            "soft elbows: the bar hangs from the hands, never from a locked elbow (R2)",
+            "spine neutral", BOTH_LEGS],
+      source="confirmed",
+      basis=["R26 reference label (RDL: L)", "Stage 1 §5.3 M2: RDL gives the glutes indirect sets",
+             "Stage 1 §2.1 S2: the Smith safeties are the mechanical stop a strength lift needs; in hypermobile joints a guided path "
+             "and a mechanical stop matter most when loads are heavy (Stage 1 §5.5)"],
+      notes="Added for the lower strength block (T26): the dumbbell and banded RDLs have no mechanical stop, so neither passes the "
+            "strength goal-fit test (Stage 1 R30, S2). Erector sets come from the other region: they count toward no target "
+            "(Stage 1 R35 · D-02) but Stage 0 R20's guard and R21 see them."),
+    R("bb_rdl_pins", "Barbell Romanian deadlift to rack pins (pins at the depth cap, both legs, soft knees)", "resistance",
+      pattern="hinge",
+      prime="hamstrings", zone="L", compound=True, indirect=["glutes", "erectors"],
+      stations=[], equipment=["barbell", "frame"],
+      joints=[J("hip", 1, "hinge depth to R1's range, stopped by the pins (R11)"), J("knee", 1, "soft bend, static"), J("spine")],
+      cues=["rack pins set where the hamstrings reach ~70–80% of their range — about mid-shin — so the bar stops there (R1 · R11)",
+            "bar close along the thighs; soft knees throughout (R2)",
+            "soft elbows: the bar hangs from the hands, never from a locked elbow (R2)",
+            "spine neutral", BOTH_LEGS],
+      source="confirmed",
+      basis=["R26 reference label (RDL: L)", "Stage 1 §5.3 M2: RDL gives the glutes indirect sets",
+             "Stage 1 §2.1 S2: rack pins as the mechanical stop"],
+      notes="Added for the lower strength block (T26) as the Smith Romanian deadlift's first alternative: it reaches a strength load "
+            "with the Smith taken. The bar path is free, so it carries more residual risk than the Smith version (selection criterion 1). "
+            "Erector sets come from the other region: they count toward no target (Stage 1 R35 · D-02) but Stage 0 R20's guard and R21 see them."),
 ]
 
 
@@ -1812,3 +1844,44 @@ assert set(ARCH24) <= _keys, set(ARCH24) - _keys
 for _r in ROWS:
     if _r["key"] in ARCH24:
         _r["corpus"] = list(_r.get("corpus", [])) + ARCH24[_r["key"]]
+
+
+# Lower strength block (2026-11-13, catalogue revision 25; T26). Harry confirmed three rows proposed in v1 — the hip
+# abduction and adduction machine and the band ankle eversion — so their source reads confirmed; the two pinned Romanian
+# deadlifts take the stabilizers of the other RDL rows; and the lower focus files rebuilt as A v5 and B v5 give provenance.
+# The v3 lines stay as history, and C v3's stay too, as the file remains in gymplan/
+LFA5 = "routine_lowerbody_focus_A v5"
+LFB5 = "routine_lowerbody_focus_B v5"
+CONF25 = ["hip_abduction_machine", "hip_adduction_machine", "band_eversion"]
+_B_CONF25 = "proposed in v1; confirmed by Harry on 2026-11-13 for the lower strength block (T26)"
+assert set(CONF25) <= _keys, set(CONF25) - _keys
+for _r in ROWS:
+    if _r["key"] in CONF25:
+        assert _r["source"] == "proposed", _r["key"]
+        _r["source"] = "confirmed"
+        _r["basis"] = list(_r["basis"]) + [_B_CONF25]
+STAB25 = {"smith_rdl": (["upper_back", "forearm_flexors"], _B_RDL), "bb_rdl_pins": (["upper_back", "forearm_flexors"], _B_RDL)}
+assert set(STAB25) <= _keys, set(STAB25) - _keys
+for _r in ROWS:
+    if _r["key"] in STAB25:
+        _r["stabilizers"] = list(STAB25[_r["key"]][0])
+        _r["basis"] = list(_r.get("basis", [])) + [STAB25[_r["key"]][1]]
+V5L = {
+    "smith_squat": [f"{LFA5} ex. 1", f"{LFB5} ex. 1"], "smith_rdl": [f"{LFA5} ex. 2", f"{LFB5} ex. 2"],
+    "smith_calf_raise": [f"{LFA5} ex. 3", f"{LFB5} ex. 3"],
+    "hip_abduction_machine": [f"{LFA5} ex. 4", f"{LFB5} ex. 4"], "hip_adduction_machine": [f"{LFA5} ex. 5", f"{LFB5} ex. 5"],
+    "band_eversion": [f"{LFA5} ex. 6"], "popliteus_band_ir_both": [f"{LFA5} ex. 7"],
+    "tibialis_raise": [f"{LFA5} ex. 8"], "supine_bent_knee_leg_lift": [f"{LFA5} ex. 9"],
+    "bb_squat_pins": [f"{LFA5} alt. for Smith squat", f"{LFB5} alt. for Smith squat"],
+    "goblet_squat": [f"{LFA5} alt. for Smith squat", f"{LFB5} alt. for Smith squat"],
+    "bb_rdl_pins": [f"{LFA5} alt. for Smith Romanian deadlift", f"{LFB5} alt. for Smith Romanian deadlift"],
+    "db_rdl": [f"{LFA5} alt. for Smith Romanian deadlift", f"{LFB5} alt. for Smith Romanian deadlift"],
+    "deficit_calf_raise_box": [f"{LFA5} alt. for Smith standing calf raise", f"{LFB5} alt. for Smith standing calf raise"],
+    "standing_calf_raise": [f"{LFA5} alt. for Smith standing calf raise", f"{LFB5} alt. for Smith standing calf raise"],
+    "supine_band_butterfly": [f"{LFA5} alt. for hip abduction machine", f"{LFB5} alt. for hip abduction machine"],
+    "supine_band_adduction_both": [f"{LFA5} alt. for hip adduction machine", f"{LFB5} alt. for hip adduction machine"],
+}
+assert set(V5L) <= _keys, set(V5L) - _keys
+for _r in ROWS:
+    if _r["key"] in V5L:
+        _r["corpus"] = list(_r.get("corpus", [])) + V5L[_r["key"]]
