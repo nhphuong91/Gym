@@ -1404,12 +1404,18 @@ ROWS = [
       stations=[], equipment=["bands"],
       joints=[J("shoulder"), J("elbow")],
       cues=["standing, a band in both hands, palms down, arms out in front at shoulder height; pull the band apart",
+            "palms down, not thumbs up: thumbs up turns the upper arms out, which takes work off the rear delt and gives it to the "
+            "front delt (Stage 1 [W87] · [W88])",
             "hold with the hands in line with the shoulders, never behind the torso plane (R1)",
             SOFT_ELBOW, "shoulder blades back and braced, no shrug (R8)", BOTH_ARMS],
       source="confirmed",
       basis=["mechanics: the band pulls hardest with the arms out to the sides, where the rear delt is shortest, so S (R26 · R29)",
              "Stage 0 §2.2 · D-58: a timed hold counts as a hypertrophy set, prescribed as hold time + seconds in reserve (R16 · D-60)",
-             "the working-set form of C103, the mobility drill, held at shoulder height rather than chest height"],
+             "the working-set form of C103, the mobility drill, held at shoulder height rather than chest height",
+             "Stage 1 [W87]: in band pull-aparts the rear delt worked hardest palms down — pulling straight out to the sides, 48% of "
+             "a maximal contraction against 38% thumbs up and 33% palms up",
+             "Stage 1 [W88]: in raises, turning the upper arm out raised front- and middle-delt activity, and turning it in raised "
+             "the rear delt's"],
       notes="Added for block 02, archery in season (T19): it holds the rear delts and upper back at the height the draw holds them. "
             "Holds at short length grew less muscle than at long length (Oranchuk et al. 2019, systematic review, PMID 30580468), "
             "so block 02's plan v1 kept a moving rear-delt exercise, the band reverse fly C018, beside it; plan v2's two sessions "

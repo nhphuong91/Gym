@@ -1,7 +1,7 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97). Built 2026-10-02; revision 25, 2026-11-13: the lower strength block: two Romanian deadlifts with a mechanical stop, three proposed rows confirmed, and the lower focus files v5 (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97). Built 2026-10-02; revision 26, 2026-11-15: the pull-apart hold's grip, with its reason (§0). Where this file and the stage documents disagree, the stage documents govern.
 
 **153 rows** — open 104 · locked 45 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 15 · confirmed ✏️ 27.
 
@@ -10,6 +10,14 @@ Screened against the default Current state: every joint at loading stage 1, the 
 ---
 
 ## 0. Revisions
+
+**Revision 26 — 2026-11-15: the pull-apart hold's grip, with its reason**
+
+- Harry's front delt tired in both halves of upper focus A's superset 1 while he held the band pull-apart thumbs up (2026-11-15). C144 already said palms down; a cue now says why (N7): thumbs up turns the upper arms out, which takes work off the rear delt and gives it to the front delt, the front raise's prime mover in that superset (Stage 1 R38 · D-21). In band pull-aparts the rear delt worked hardest palms down (Stage 1 [W87]); in raises, turning the upper arm out raised front- and middle-delt activity (Stage 1 [W88]). The routine cards already read palms down and stay as they are.
+
+| Change from revision 25 | Rows |
+|---|---|
+| Cue added: palms down, not thumbs up, with the reason | C144 |
 
 **Revision 25 — 2026-11-13: the lower strength block: two Romanian deadlifts with a mechanical stop, three proposed rows confirmed, and the lower focus files v5**
 
@@ -693,11 +701,11 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stations: none · Equipment: bands · Joints (stage needed): shoulder 1; elbow 1
 - Indirect: Upper back, Rotator cuff · Day after: archery (Rear delt, Upper back, Rotator cuff); badminton (Rotator cuff)
 - Stabilizers (held still; no sets): Side delt
-- Cues: standing, a band in both hands, palms down, arms out in front at shoulder height; pull the band apart · hold with the hands in line with the shoulders, never behind the torso plane (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · shoulder blades back and braced, no shrug (R8) · both arms move together (R12 until stage 3)
+- Cues: standing, a band in both hands, palms down, arms out in front at shoulder height; pull the band apart · palms down, not thumbs up: thumbs up turns the upper arms out, which takes work off the rear delt and gives it to the front delt (Stage 1 [W87] · [W88]) · hold with the hands in line with the shoulders, never behind the torso plane (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · shoulder blades back and braced, no shrug (R8) · both arms move together (R12 until stage 3)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; isometric holds at shoulder height
 - Notes: Added for block 02, archery in season (T19): it holds the rear delts and upper back at the height the draw holds them. Holds at short length grew less muscle than at long length (Oranchuk et al. 2019, systematic review, PMID 30580468), so block 02's plan v1 kept a moving rear-delt exercise, the band reverse fly C018, beside it; plan v2's two sessions dropped the fly, as each moving shoulder raise pairs with a hold, and the hold took all the rear-delt sets.
 - Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_upperbody_focus_A v11 ex. 2; routine_upperbody_focus_B v11 ex. 2; routine_upperbody_focus_A v12 ex. 2; routine_upperbody_focus_B v12 ex. 2; routine_upperbody_focus_B v13 ex. 2
-- Basis: 🧠 mechanics: the band pulls hardest with the arms out to the sides, where the rear delt is shortest, so S (R26 · R29) · 📖 Stage 0 §2.2 · D-58: a timed hold counts as a hypertrophy set, prescribed as hold time + seconds in reserve (R16 · D-60) · 📖 the working-set form of C103, the mobility drill, held at shoulder height rather than chest height · 🧠 mechanics — stabilizers: the arms are held out at shoulder height, so the side delt holds them up · 🌐 Stage 1 [W81]: the cuff's infraspinatus worked 62–70% of a maximal contraction in a reverse fly, beside the rear delt's 86–90%, so it counts as indirect (T21)
+- Basis: 🧠 mechanics: the band pulls hardest with the arms out to the sides, where the rear delt is shortest, so S (R26 · R29) · 📖 Stage 0 §2.2 · D-58: a timed hold counts as a hypertrophy set, prescribed as hold time + seconds in reserve (R16 · D-60) · 📖 the working-set form of C103, the mobility drill, held at shoulder height rather than chest height · 🌐 Stage 1 [W87]: in band pull-aparts the rear delt worked hardest palms down — pulling straight out to the sides, 48% of a maximal contraction against 38% thumbs up and 33% palms up · 🌐 Stage 1 [W88]: in raises, turning the upper arm out raised front- and middle-delt activity, and turning it in raised the rear delt's · 🧠 mechanics — stabilizers: the arms are held out at shoulder height, so the side delt holds them up · 🌐 Stage 1 [W81]: the cuff's infraspinatus worked 62–70% of a maximal contraction in a reverse fly, beside the rear delt's 86–90%, so it counts as indirect (T21)
 
 #### Back
 
@@ -2146,6 +2154,8 @@ Badminton reading: glute max and glute med (Stage 0 §1.2 · D-56).
 | Stage 1 [W83] | Krause Neto, Vieira & Gama 2019, J Sports Sci Med 18(2):198–206 |
 | Stage 1 [W85] | Escamilla, Babb, DeWitt, Jew, Kelleher, Burnham, Busch, D'Anna, Mowbray & Imamura 2006, Phys Ther 86(5):656–71, DOI 10.1093/ptj/86.5.656 |
 | Stage 1 [W86] | Bodybuilding.com, Cable seated crunch (exercise guide), checked 2026-11-06 |
+| Stage 1 [W87] | Fukunaga, Fedge, Tyler, Mullaney, Schmitt, Orishimo, McHugh & Nicholas 2022, Int J Sports Phys Ther 17(3):400–08, DOI 10.26603/001c.33026 |
+| Stage 1 [W88] | Coratella, Tornatore, Longo, Esposito & Cè 2020, Int J Environ Res Public Health 17(17):6015, DOI 10.3390/ijerph17176015 |
 | Stage 0 [W51] | Mittal et al. 2021, GEAR program, Front Rehabil Sci, DOI 10.3389/fresc.2021.769792 |
 | Stage 0 [W75] | Hou et al. 2023, BMC Musculoskelet Disord 24:71, DOI 10.1186/s12891-023-06179-2 |
 

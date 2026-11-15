@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 25 (2026-11-13): with the revision 24 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 25. gymspec/ is the source of truth: before a new revision, check that
+revision 26 (2026-11-15): with the revision 25 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 26. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,18 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 26,
+        "date": "2026-11-15",
+        "note": "the pull-apart hold's grip, with its reason",
+        "changes": [
+            "Harry's front delt tired in both halves of upper focus A's superset 1 while he held the band pull-apart thumbs up "
+            "(2026-11-15). C144 already said palms down; a cue now says why (N7): thumbs up turns the upper arms out, which takes work "
+            "off the rear delt and gives it to the front delt, the front raise's prime mover in that superset (Stage 1 R38 · D-21). In "
+            "band pull-aparts the rear delt worked hardest palms down (Stage 1 [W87]); in raises, turning the upper arm out raised "
+            "front- and middle-delt activity (Stage 1 [W88]). The routine cards already read palms down and stay as they are.",
+        ],
+    },
+    {
         "n": 25,
         "date": "2026-11-13",
         "note": "the lower strength block: two Romanian deadlifts with a mechanical stop, three proposed rows confirmed, and the lower focus files v5",
@@ -41,6 +53,7 @@ REVISIONS = [
             "Current state; the plan re-checked them against Harry's shoulder stage 2 (§6 Method).",
             "§6 Method's sentence on confirmed rows now names C149, the court walk-through (T23), which it had left out.",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": ["C152", "C153"], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": [], "confirmed": ["C078", "C081", "C096"], "provenance_lower_v5": ["C064", "C065", "C066", "C070", "C078", "C081", "C084", "C085", "C086", "C092", "C096", "C131", "C133", "C136", "C137"]},
     },
     {
         "n": 24,
@@ -479,6 +492,8 @@ REFS = {
     "Stage 1 [W83]": "Krause Neto, Vieira & Gama 2019, J Sports Sci Med 18(2):198–206",
     "Stage 1 [W85]": "Escamilla, Babb, DeWitt, Jew, Kelleher, Burnham, Busch, D'Anna, Mowbray & Imamura 2006, Phys Ther 86(5):656–71, DOI 10.1093/ptj/86.5.656",
     "Stage 1 [W86]": "Bodybuilding.com, Cable seated crunch (exercise guide), checked 2026-11-06",
+    "Stage 1 [W87]": "Fukunaga, Fedge, Tyler, Mullaney, Schmitt, Orishimo, McHugh & Nicholas 2022, Int J Sports Phys Ther 17(3):400–08, DOI 10.26603/001c.33026",
+    "Stage 1 [W88]": "Coratella, Tornatore, Longo, Esposito & Cè 2020, Int J Environ Res Public Health 17(17):6015, DOI 10.3390/ijerph17176015",
     "Stage 0 [W51]": "Mittal et al. 2021, GEAR program, Front Rehabil Sci, DOI 10.3389/fresc.2021.769792",
     "Stage 0 [W75]": "Hou et al. 2023, BMC Musculoskelet Disord 24:71, DOI 10.1186/s12891-023-06179-2",
 }
@@ -762,7 +777,8 @@ def render_md(cat):
                                ("Corpus provenance: the archery-day mobility file stretching_archery_hEDS v1", "provenance_archery"),
                                ("Corpus provenance: the archery-day mobility file stretching_archery_hEDS v2", "provenance_archery_v2"),
                                ("Confirmed by Harry: rows proposed in v1 ✏️", "confirmed"),
-                               ("Corpus provenance: the lower focus files A v5 and B v5", "provenance_lower_v5")):
+                               ("Corpus provenance: the lower focus files A v5 and B v5", "provenance_lower_v5"),
+                               ("Cue added: palms down, not thumbs up, with the reason", "cue_grip")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
             a("")
@@ -1056,6 +1072,9 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 26:  # revision 26: C144's grip cue listed apart from the stage-1 cue re-screen
+            d = REVISIONS[0]["diff"]
+            d["cue_grip"], d["cues"] = d["cues"], []
         if REVISIONS[0]["n"] == 25:  # revision 25: the rows Harry confirmed and the lower focus files' provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
