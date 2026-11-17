@@ -4,7 +4,8 @@ Run: python3 -B verify.py <dir with ExerciseCatalogue.json + .md> <gymspec dir>
 Checks 1–2 list the routine files at the latest version the catalogue cites, with their card counts (2026-10-13; the
 mobility files' upper v4 and lower v3 IDs added 2026-10-26, catalogue revision 13; upper v5 2026-10-27, revision 14; the
 upper focus files A v11, B v11 and C v10 2026-10-28, revision 16; A v12 and B v12 2026-10-29, revision 17; B v13 2026-11-05, revision 18; the conditioning file conditioning_bike v1 2026-11-09, revision 22; the archery-day mobility file stretching_archery_hEDS v1
-2026-11-10, revision 23, and v2 the same day, revision 24; the lower focus files A v5 and B v5 2026-11-13, revision 25);
+2026-11-10, revision 23, and v2 the same day, revision 24; the lower focus files A v5 and B v5 2026-11-13, revision 25;
+B v6 and C v5 2026-11-17, revision 27);
 a version that changes no exercise, card number or
 pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
 gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites; a stem found
@@ -89,7 +90,7 @@ cards = {
     "routine_upperbody v6": range(1, 9), "routine_lowerbody v4": range(1, 8),
     "routine_upperbody_focus_A v12": range(1, 12), "routine_upperbody_focus_B v13": range(1, 12),
     "routine_upperbody_focus_C v10": range(1, 11), "routine_lowerbody_focus_A v5": range(1, 10),
-    "routine_lowerbody_focus_B v5": range(1, 6), "routine_lowerbody_focus_C v3": range(1, 12),
+    "routine_lowerbody_focus_B v6": range(1, 8), "routine_lowerbody_focus_C v5": range(1, 8),
     "popliteus_prevention_protocol v5": range(1, 11), "cardio_routine (no version)": range(1, 16),
     "conditioning_bike v1": range(1, 7),
 }
@@ -122,8 +123,8 @@ check(not missing, f"every corpus card and mobility item is catalogued ({len(mis
 
 # 2. Alternatives per file (counts from the alternatives tables)
 expected_alts = {"routine_upperbody v6": 18, "routine_upperbody_focus_A v12": 4, "routine_upperbody_focus_B v13": 2,
-                 "routine_upperbody_focus_C v10": 2, "routine_lowerbody_focus_A v5": 8, "routine_lowerbody_focus_B v5": 8,
-                 "routine_lowerbody_focus_C v3": 2, "popliteus_prevention_protocol v5": 2}
+                 "routine_upperbody_focus_C v10": 2, "routine_lowerbody_focus_A v5": 8, "routine_lowerbody_focus_B v6": 8,
+                 "routine_lowerbody_focus_C v5": 8, "popliteus_prevention_protocol v5": 2}
 for f, n in expected_alts.items():
     got = sum(1 for c in refs if c.startswith(f + " alt. for"))
     # a corpus-fixed variant may cite the same alternative as its locked original

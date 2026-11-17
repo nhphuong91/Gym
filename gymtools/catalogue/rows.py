@@ -1891,3 +1891,31 @@ assert set(V5L) <= _keys, set(V5L) - _keys
 for _r in ROWS:
     if _r["key"] in V5L:
         _r["corpus"] = list(_r.get("corpus", [])) + V5L[_r["key"]]
+
+
+
+# Provenance from the lower focus files B v6 and C v5 (2026-11-17, catalogue revision 27): plan v2 spreads the endurance work
+# over sessions A, B and C, once a week each — B gains eversion ↔ popliteus as cards 6–7, C is rebuilt with the five strength
+# lifts and tibialis ↔ leg lift as cards 6–7. A v6 changed only text (strength rest 2–4 min), so it maps through v5
+# (Stage 2 D-04). The B v5 and C v3 lines stay as history
+LFB6 = "routine_lowerbody_focus_B v6"
+LFC5 = "routine_lowerbody_focus_C v5"
+V_EVEN = {
+    "smith_squat": [f"{LFB6} ex. 1", f"{LFC5} ex. 1"], "smith_rdl": [f"{LFB6} ex. 2", f"{LFC5} ex. 2"],
+    "smith_calf_raise": [f"{LFB6} ex. 3", f"{LFC5} ex. 3"],
+    "hip_abduction_machine": [f"{LFB6} ex. 4", f"{LFC5} ex. 4"], "hip_adduction_machine": [f"{LFB6} ex. 5", f"{LFC5} ex. 5"],
+    "band_eversion": [f"{LFB6} ex. 6"], "popliteus_band_ir_both": [f"{LFB6} ex. 7"],
+    "tibialis_raise": [f"{LFC5} ex. 6"], "supine_bent_knee_leg_lift": [f"{LFC5} ex. 7"],
+    "bb_squat_pins": [f"{LFB6} alt. for Smith squat", f"{LFC5} alt. for Smith squat"],
+    "goblet_squat": [f"{LFB6} alt. for Smith squat", f"{LFC5} alt. for Smith squat"],
+    "bb_rdl_pins": [f"{LFB6} alt. for Smith Romanian deadlift", f"{LFC5} alt. for Smith Romanian deadlift"],
+    "db_rdl": [f"{LFB6} alt. for Smith Romanian deadlift", f"{LFC5} alt. for Smith Romanian deadlift"],
+    "deficit_calf_raise_box": [f"{LFB6} alt. for Smith standing calf raise", f"{LFC5} alt. for Smith standing calf raise"],
+    "standing_calf_raise": [f"{LFB6} alt. for Smith standing calf raise", f"{LFC5} alt. for Smith standing calf raise"],
+    "supine_band_butterfly": [f"{LFB6} alt. for hip abduction machine", f"{LFC5} alt. for hip abduction machine"],
+    "supine_band_adduction_both": [f"{LFB6} alt. for hip adduction machine", f"{LFC5} alt. for hip adduction machine"],
+}
+assert set(V_EVEN) <= _keys, set(V_EVEN) - _keys
+for _r in ROWS:
+    if _r["key"] in V_EVEN:
+        _r["corpus"] = list(_r.get("corpus", [])) + V_EVEN[_r["key"]]

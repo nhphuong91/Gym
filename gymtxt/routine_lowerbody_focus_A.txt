@@ -1,7 +1,7 @@
 <svg width="100%" viewBox="0 0 680 1870" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
 
 <text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Lower body strength + endurance — Session A</text>
-<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Focus block · 10 targets · hip, knee, ankle, spine at loading stage 1 · shoulder 2 · ~51.5 min · 18 working sets</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Focus block · 10 targets · hip, knee, ankle, spine at loading stage 1 · shoulder 2 · ~43.5 min · 18 working sets</text>
 
 <!-- LEGEND -->
 <rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
@@ -27,7 +27,7 @@
 
 <!-- ── A STRAIGHT SETS ── -->
 <rect x="30" y="209" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="225">A — Straight sets: Quads  (strength · ~10.5 min · 2 sets · 2–5 min rest after each)</text>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="225">A — Straight sets: Quads  (strength · ~8.5 min · 2 sets · 2–4 min rest after each)</text>
 
 <!-- A1 — Smith squat -->
 <rect x="30" y="243" width="8" height="70" rx="2" fill="#26215c"/>
@@ -43,7 +43,7 @@
 
 <!-- ── B STRAIGHT SETS ── -->
 <rect x="30" y="327" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="343">B — Straight sets: Hamstrings  (strength · ~10.5 min · 2 sets · 2–5 min rest after each)</text>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="343">B — Straight sets: Hamstrings  (strength · ~8.5 min · 2 sets · 2–4 min rest after each)</text>
 
 <!-- B2 — Smith RDL -->
 <rect x="30" y="361" width="8" height="70" rx="2" fill="#633806"/>
@@ -59,7 +59,7 @@
 
 <!-- ── C SUPERSET 1 ── -->
 <rect x="30" y="445" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="461">C — Superset 1: Calves + Hip abductors  (strength · ~11 min · 2 rounds · 2–5 min rest)</text>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="461">C — Superset 1: Calves + Hip abductors  (strength · ~9 min · 2 rounds · 2–4 min rest)</text>
 
 <!-- C3 — Smith calf raise -->
 <rect x="30" y="479" width="8" height="70" rx="2" fill="#185fa5"/>
@@ -88,7 +88,7 @@
 
 <!-- ── D STRAIGHT SETS ── -->
 <rect x="30" y="641" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="657">D — Straight sets: Adductors  (strength · ~10.5 min · 2 sets · 2–5 min rest after each)</text>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="657">D — Straight sets: Adductors  (strength · ~8.5 min · 2 sets · 2–4 min rest after each)</text>
 
 <!-- D5 — Hip adduction machine -->
 <rect x="30" y="675" width="8" height="54" rx="2" fill="#085041"/>
@@ -176,7 +176,7 @@
 <rect x="50" y="1273" width="7" height="7" rx="1" fill="#e8a020"/>
 <text font-size="11" fill="#444" x="64" y="1281">Strength: 3 reps with 3 in reserve, every week — from week 5 a load you could lift 6 times (R17 · R22)</text>
 <rect x="50" y="1293" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1301">Strength rest: 2–5 min after each set or pair, as the next set needs (Stage 0 §2.2)</text>
+<text font-size="11" fill="#444" x="64" y="1301">Strength rest: 2–4 min after each set or pair, as the next set needs (Stage 0 §2.2)</text>
 <rect x="50" y="1313" width="7" height="7" rx="1" fill="#e8a020"/>
 <text font-size="11" fill="#444" x="64" y="1321">Endurance: 12–15 reps with 3 in reserve, every week; rest ≤30 s after each pair (R17)</text>
 <rect x="50" y="1333" width="7" height="7" rx="1" fill="#e8a020"/>
@@ -192,7 +192,7 @@
 <rect x="30" y="1425" width="620" height="67" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
 <text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1445">Session timeline</text>
 <text font-size="11" fill="#2272a8" x="50" y="1462">Mobility pre half → warm-up sets → A → B → C → D → E → F → mobility post half</text>
-<text font-size="11" fill="#2272a8" x="50" y="1479">Exercise time ≈51.5 min (R40: 4 s a rep, top of every range, 5 min or 30 s rest by goal) · 18 working sets</text>
+<text font-size="11" fill="#2272a8" x="50" y="1479">Exercise time ≈43.5 min (R40: 4 s a rep, top of every range, 4 min or 30 s rest by goal) · 18 working sets</text>
 
 <!-- SET COUNT -->
 <rect x="30" y="1504" width="620" height="164" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
@@ -239,6 +239,6 @@
 <text font-size="10" fill="#444" x="470" y="1806">none: the others need stage 3</text>
 
 <!-- VERSION NOTE -->
-<text font-size="9" fill="#aaa" x="340" y="1838" text-anchor="middle">v5 — rebuilt for the lower strength block: 5 strength lifts at 2 × 3, 4 endurance lifts at 2 × 12–15 (catalogue rev 25)</text>
+<text font-size="9" fill="#aaa" x="340" y="1838" text-anchor="middle">v6 — strength rest 2–4 min; the endurance work spread over sessions A, B and C, once a week each</text>
 
 </svg>
