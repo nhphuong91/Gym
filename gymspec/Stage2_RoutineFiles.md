@@ -194,4 +194,4 @@ Invariants: the Stage 0 §4.1 invariants hold; every current routine is a file i
 
 ## 4. Open items
 
-None. Round 1 closed 2026-10-15 (Supplement §3, D-01…D-08); D-09 recorded 2026-10-22; D-10…D-14 recorded 2026-10-24 and 2026-10-25; D-15 recorded 2026-10-25.
+None.
