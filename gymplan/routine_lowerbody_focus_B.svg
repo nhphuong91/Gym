@@ -1,21 +1,19 @@
-<svg width="100%" viewBox="0 0 680 1674" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
+<svg width="100%" viewBox="0 0 680 1540" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif;">
 
 <text font-size="15" font-weight="500" fill="#1a1a1a" x="340" y="28" text-anchor="middle">Lower body strength + endurance — Session B</text>
-<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Focus block · 10 targets · hip, knee, ankle, spine at loading stage 1 · shoulder 2 · ~38.5 min · 14 working sets</text>
+<text font-size="11" fill="#666" x="340" y="44" text-anchor="middle">Focus block · 10 targets · hip, knee, ankle, spine at loading stage 1 · shoulder 2 · ~30 min · 12 working sets</text>
 
 <!-- LEGEND -->
 <rect x="30" y="54" width="620" height="56" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
 <text font-size="11" font-weight="500" fill="#1a1a1a" x="50" y="72">Muscle group</text>
 <rect x="50" y="89" width="10" height="10" rx="2" fill="#26215c"/>
 <text font-size="11" fill="#333" x="66" y="98">Quads</text>
-<rect x="109" y="89" width="10" height="10" rx="2" fill="#633806"/>
-<text font-size="11" fill="#333" x="125" y="98">Hamstrings</text>
-<rect x="196" y="89" width="10" height="10" rx="2" fill="#185fa5"/>
-<text font-size="11" fill="#333" x="212" y="98">Calves</text>
-<rect x="261" y="89" width="10" height="10" rx="2" fill="#085041"/>
-<text font-size="11" fill="#333" x="277" y="98">Hips</text>
-<rect x="315" y="89" width="10" height="10" rx="2" fill="#444441"/>
-<text font-size="11" fill="#333" x="331" y="98">Shin, ankle &amp; popliteus</text>
+<rect x="109" y="89" width="10" height="10" rx="2" fill="#185fa5"/>
+<text font-size="11" fill="#333" x="125" y="98">Calves</text>
+<rect x="174" y="89" width="10" height="10" rx="2" fill="#085041"/>
+<text font-size="11" fill="#333" x="190" y="98">Hips</text>
+<rect x="228" y="89" width="10" height="10" rx="2" fill="#444441"/>
+<text font-size="11" fill="#333" x="244" y="98">Shin, ankle &amp; popliteus</text>
 
 <!-- PRE-WORKOUT NOTE -->
 <rect x="30" y="122" width="620" height="75" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
@@ -41,175 +39,155 @@
 <text font-size="11" fill="#3c3489" x="490" y="274">3 RIR · every week</text>
 <text font-size="11" fill="#3c3489" x="490" y="288">Smith · safeties</text>
 
-<!-- ── B STRAIGHT SETS ── -->
+<!-- ── B SUPERSET 1 ── -->
 <rect x="30" y="327" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="343">B — Straight sets: Hamstrings  (strength · ~8.5 min · 2 sets · 2–4 min rest after each)</text>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="343">B — Superset 1: Calves + Adductors  (strength · ~9 min · 2 rounds · 2–4 min rest)</text>
 
-<!-- B2 — Smith RDL -->
-<rect x="30" y="361" width="8" height="70" rx="2" fill="#633806"/>
-<rect x="38" y="361" width="612" height="70" rx="4" fill="#faeeda" stroke="#854f0b" stroke-width="0.8"/>
+<!-- B2 — Smith calf raise -->
+<rect x="30" y="361" width="8" height="70" rx="2" fill="#185fa5"/>
+<rect x="38" y="361" width="612" height="70" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
 <text font-size="11" font-weight="500" fill="#555" x="54" y="377">2</text>
-<text font-size="12" font-weight="500" fill="#412402" x="72" y="377">Smith Romanian deadlift</text>
-<text font-size="11" fill="#633806" x="72" y="392">Hamstrings (L) · glutes and erectors assist</text>
-<text font-size="11" fill="#633806" x="72" y="407">Bar close along the thighs · spine neutral · soft knees and elbows</text>
-<text font-size="11" fill="#633806" x="72" y="421">Safeties near mid-shin, at ~70–80% of your range: the bar stops there</text>
-<text font-size="12" font-weight="500" fill="#412402" x="490" y="377">2 × 3</text>
-<text font-size="11" fill="#633806" x="490" y="392">3 RIR · every week</text>
-<text font-size="11" fill="#633806" x="490" y="406">Smith · safeties</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="72" y="377">Smith standing calf raise</text>
+<text font-size="11" fill="#185fa5" x="72" y="392">Calves (L) · bar on the upper back · soft knees</text>
+<text font-size="11" fill="#185fa5" x="72" y="407">Optional 3–5 cm heel drop, pause at the bottom · stop short of full height</text>
+<text font-size="11" fill="#185fa5" x="72" y="421">Safeties just under the lowest bar position</text>
+<text font-size="12" font-weight="500" fill="#042c53" x="490" y="377">2 × 3</text>
+<text font-size="11" fill="#185fa5" x="490" y="392">3 RIR · every week</text>
+<text font-size="11" fill="#185fa5" x="490" y="406">Smith · optional low step</text>
 
-<!-- ── C SUPERSET 1 ── -->
-<rect x="30" y="445" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="461">C — Superset 1: Calves + Hip abductors  (strength · ~9 min · 2 rounds · 2–4 min rest)</text>
+<text font-size="12" fill="#888" x="340" y="445" text-anchor="middle">↕ then immediately</text>
 
-<!-- C3 — Smith calf raise -->
-<rect x="30" y="479" width="8" height="70" rx="2" fill="#185fa5"/>
-<rect x="38" y="479" width="612" height="70" rx="4" fill="#e6f1fb" stroke="#378add" stroke-width="0.8"/>
-<text font-size="11" font-weight="500" fill="#555" x="54" y="495">3</text>
-<text font-size="12" font-weight="500" fill="#042c53" x="72" y="495">Smith standing calf raise</text>
-<text font-size="11" fill="#185fa5" x="72" y="510">Calves (L) · bar on the upper back · soft knees</text>
-<text font-size="11" fill="#185fa5" x="72" y="525">Optional 3–5 cm heel drop, pause at the bottom · stop short of full height</text>
-<text font-size="11" fill="#185fa5" x="72" y="539">Safeties just under the lowest bar position</text>
-<text font-size="12" font-weight="500" fill="#042c53" x="490" y="495">2 × 3</text>
-<text font-size="11" fill="#185fa5" x="490" y="510">3 RIR · every week</text>
-<text font-size="11" fill="#185fa5" x="490" y="524">Smith · optional low step</text>
+<!-- B3 — Hip adduction machine -->
+<rect x="30" y="455" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="455" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="471">3</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="471">Hip adduction machine</text>
+<text font-size="11" fill="#0f6e56" x="72" y="486">Adductors (M) · seated · pads on the thighs above the knees</text>
+<text font-size="11" fill="#0f6e56" x="72" y="501">Start with the legs open to ~70–80% of your range, not end range</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="471">2 × 3</text>
+<text font-size="11" fill="#0f6e56" x="490" y="486">3 RIR · every week</text>
+<text font-size="11" fill="#0f6e56" x="490" y="500">Hip machine</text>
 
-<text font-size="12" fill="#888" x="340" y="563" text-anchor="middle">↕ then immediately</text>
+<!-- ── C STRAIGHT SETS ── -->
+<rect x="30" y="523" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="539">C — Straight sets: Hip abductors  (strength · ~8.5 min · 2 sets · 2–4 min rest after each)</text>
 
 <!-- C4 — Hip abduction machine -->
-<rect x="30" y="573" width="8" height="54" rx="2" fill="#085041"/>
-<rect x="38" y="573" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
-<text font-size="11" font-weight="500" fill="#555" x="54" y="589">4</text>
-<text font-size="12" font-weight="500" fill="#085041" x="72" y="589">Hip abduction machine</text>
-<text font-size="11" fill="#0f6e56" x="72" y="604">Hip abductors (M) · seated · pads on the thighs above the knees</text>
-<text font-size="11" fill="#0f6e56" x="72" y="619">Open to ~70–80% of your range, never end range · both legs together</text>
-<text font-size="12" font-weight="500" fill="#085041" x="490" y="589">2 × 3</text>
-<text font-size="11" fill="#0f6e56" x="490" y="604">3 RIR · every week</text>
-<text font-size="11" fill="#0f6e56" x="490" y="618">Hip machine</text>
+<rect x="30" y="557" width="8" height="54" rx="2" fill="#085041"/>
+<rect x="38" y="557" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="573">4</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="573">Hip abduction machine</text>
+<text font-size="11" fill="#0f6e56" x="72" y="588">Hip abductors (M) · seated · pads on the thighs above the knees</text>
+<text font-size="11" fill="#0f6e56" x="72" y="603">Open to ~70–80% of your range, never end range · both legs together</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="573">2 × 3</text>
+<text font-size="11" fill="#0f6e56" x="490" y="588">3 RIR · every week</text>
+<text font-size="11" fill="#0f6e56" x="490" y="602">Hip machine</text>
 
-<!-- ── D STRAIGHT SETS ── -->
-<rect x="30" y="641" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="657">D — Straight sets: Adductors  (strength · ~8.5 min · 2 sets · 2–4 min rest after each)</text>
+<!-- ── D SUPERSET 2 ── -->
+<rect x="30" y="625" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="641">D — Superset 2: Tibialis + Hip flexors  (endurance · ~4.5 min · 2 rounds · ≤30 s rest)</text>
 
-<!-- D5 — Hip adduction machine -->
-<rect x="30" y="675" width="8" height="54" rx="2" fill="#085041"/>
-<rect x="38" y="675" width="612" height="54" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
-<text font-size="11" font-weight="500" fill="#555" x="54" y="691">5</text>
-<text font-size="12" font-weight="500" fill="#085041" x="72" y="691">Hip adduction machine</text>
-<text font-size="11" fill="#0f6e56" x="72" y="706">Adductors (M) · seated · pads on the thighs above the knees</text>
-<text font-size="11" fill="#0f6e56" x="72" y="721">Start with the legs open to ~70–80% of your range, not end range</text>
-<text font-size="12" font-weight="500" fill="#085041" x="490" y="691">2 × 3</text>
-<text font-size="11" fill="#0f6e56" x="490" y="706">3 RIR · every week</text>
-<text font-size="11" fill="#0f6e56" x="490" y="720">Hip machine</text>
+<!-- D5 — Tibialis raise -->
+<rect x="30" y="659" width="8" height="54" rx="2" fill="#444441"/>
+<rect x="38" y="659" width="612" height="54" rx="4" fill="#f1efe8" stroke="#888780" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="675">5</text>
+<text font-size="12" font-weight="500" fill="#2c2c2a" x="72" y="675">Tibialis raise (back against the wall)</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="690">Tibialis (M) · lift the toes to ~70–80% of your range · both legs together</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="705">Harder: stand with the feet further from the wall</text>
+<text font-size="12" font-weight="500" fill="#2c2c2a" x="490" y="675">2 × 12–15</text>
+<text font-size="11" fill="#5f5e5a" x="490" y="690">3 RIR · every week</text>
+<text font-size="11" fill="#5f5e5a" x="490" y="704">Wall</text>
 
-<!-- ── E SUPERSET 2 ── -->
-<rect x="30" y="743" width="620" height="24" rx="4" fill="#e8e8e8" stroke="#bbb" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="759">E — Superset 2: Evertors + Popliteus  (endurance · ~4.5 min · 2 rounds · ≤30 s rest)</text>
+<text font-size="12" fill="#888" x="340" y="727" text-anchor="middle">↕ then immediately</text>
 
-<!-- E6 — Band ankle eversion -->
-<rect x="30" y="777" width="8" height="54" rx="2" fill="#444441"/>
-<rect x="38" y="777" width="612" height="54" rx="4" fill="#f1efe8" stroke="#888780" stroke-width="0.8"/>
-<text font-size="11" font-weight="500" fill="#555" x="54" y="793">6</text>
-<text font-size="12" font-weight="500" fill="#2c2c2a" x="72" y="793">Band ankle eversion, both feet</text>
-<text font-size="11" fill="#5f5e5a" x="72" y="808">Evertors (S) · seated · one band round both forefeet</text>
-<text font-size="11" fill="#5f5e5a" x="72" y="823">Turn both soles out to ~70–80% of your range · both feet together</text>
-<text font-size="12" font-weight="500" fill="#2c2c2a" x="490" y="793">2 × 12–15</text>
-<text font-size="11" fill="#5f5e5a" x="490" y="808">3 RIR · every week</text>
-<text font-size="11" fill="#5f5e5a" x="490" y="822">Band</text>
-
-<text font-size="12" fill="#888" x="340" y="845" text-anchor="middle">↕ then immediately</text>
-
-<!-- E7 — Popliteus band IR -->
-<rect x="30" y="855" width="8" height="70" rx="2" fill="#444441"/>
-<rect x="38" y="855" width="612" height="70" rx="4" fill="#f1efe8" stroke="#888780" stroke-width="0.8"/>
-<text font-size="11" font-weight="500" fill="#555" x="54" y="871">7</text>
-<text font-size="12" font-weight="500" fill="#2c2c2a" x="72" y="871">Popliteus banded internal rotation, both legs</text>
-<text font-size="11" fill="#5f5e5a" x="72" y="886">Popliteus (S) · sit, knees soft-bent 20–40° over the foam roller</text>
-<text font-size="11" fill="#5f5e5a" x="72" y="901">A long band round each forefoot, anchored low on that side</text>
-<text font-size="11" fill="#5f5e5a" x="72" y="915">Turn both shins in together, thighs still · ~70–80% of your range</text>
-<text font-size="12" font-weight="500" fill="#2c2c2a" x="490" y="871">2 × 12–15</text>
-<text font-size="11" fill="#5f5e5a" x="490" y="886">3 RIR · every week</text>
-<text font-size="11" fill="#5f5e5a" x="490" y="900">2 long bands · frame · roller</text>
+<!-- D6 — Supine leg lift -->
+<rect x="30" y="737" width="8" height="70" rx="2" fill="#085041"/>
+<rect x="38" y="737" width="612" height="70" rx="4" fill="#e1f5ee" stroke="#0f6e56" stroke-width="0.8"/>
+<text font-size="11" font-weight="500" fill="#555" x="54" y="753">6</text>
+<text font-size="12" font-weight="500" fill="#085041" x="72" y="753">Supine bent-knee leg lift to tabletop, both legs</text>
+<text font-size="11" fill="#0f6e56" x="72" y="768">Hip flexors (M) · abs assist · knees bent ~90°, lift both feet to tabletop</text>
+<text font-size="11" fill="#0f6e56" x="72" y="783">Low back flat: stop the lowering where it starts to arch</text>
+<text font-size="11" fill="#0f6e56" x="72" y="797">Harder: knees a little straighter, only while the low back stays flat</text>
+<text font-size="12" font-weight="500" fill="#085041" x="490" y="753">2 × 12–15</text>
+<text font-size="11" fill="#0f6e56" x="490" y="768">3 RIR · every week</text>
+<text font-size="11" fill="#0f6e56" x="490" y="782">Floor</text>
 
 <!-- POST-WORKOUT NOTE -->
-<rect x="30" y="937" width="620" height="36" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
-<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="954">After: lower mobility routine, post half</text>
-<text font-size="11" fill="#2272a8" x="50" y="967">Next day, train only if that morning's step gate passes for every joint both sessions load (R20)</text>
+<rect x="30" y="819" width="620" height="36" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="836">After: lower mobility routine, post half</text>
+<text font-size="11" fill="#2272a8" x="50" y="849">Next day, train only if that morning's step gate passes for every joint both sessions load (R20)</text>
 
 <!-- GLOBAL RULES -->
-<rect x="30" y="985" width="620" height="232" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1007">Every rep, every set — hypermobility rules</text>
-<rect x="50" y="1017" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1025">Lower every rep over 2–3 s; keep a soft bend at every joint, no lockout (R25 · R2)</text>
-<rect x="50" y="1037" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1045">Work to ~70–80% of your range, never end range; the safeties end squat and hinge depth (R1 · R3 · R11)</text>
-<rect x="50" y="1057" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1065">Skip the session if joints feel loose; end a set the moment a joint feels unstable (R9)</text>
-<rect x="50" y="1077" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1085">Strength: 3 reps with 3 in reserve, every week — from week 5 a load you could lift 6 times (R17 · R22)</text>
-<rect x="50" y="1097" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1105">Strength rest: 2–4 min after each set or pair, as the next set needs (Stage 0 §2.2)</text>
-<rect x="50" y="1117" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1125">Endurance: 12–15 reps with 3 in reserve, every week; rest ≤30 s after each pair (R17)</text>
-<rect x="50" y="1137" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1145">Both legs together on every exercise: one-leg work waits for loading stage 3 (R12)</text>
-<rect x="50" y="1157" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1165">Progress strength from week 5: 3 reps leave over 3 in reserve, twice running → smallest load step (R42)</text>
-<rect x="50" y="1177" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1185">Progress endurance: 15 reps twice running → a harder band or position, reps back to 12 (R42)</text>
-<rect x="50" y="1197" width="7" height="7" rx="1" fill="#e8a020"/>
-<text font-size="11" fill="#444" x="64" y="1205">Log the step gate after each session; a fail repeats last week's dose for that joint (§2.6 · R43)</text>
+<rect x="30" y="867" width="620" height="232" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="889">Every rep, every set — hypermobility rules</text>
+<rect x="50" y="899" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="907">Lower every rep over 2–3 s; keep a soft bend at every joint, no lockout (R25 · R2)</text>
+<rect x="50" y="919" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="927">Work to ~70–80% of your range, never end range; the safeties end squat and hinge depth (R1 · R3 · R11)</text>
+<rect x="50" y="939" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="947">Skip the session if joints feel loose; end a set the moment a joint feels unstable (R9)</text>
+<rect x="50" y="959" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="967">Strength: 3 reps with 3 in reserve, every week — from week 5 a load you could lift 6 times (R17 · R22)</text>
+<rect x="50" y="979" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="987">Strength rest: 2–4 min after each set or pair, as the next set needs (Stage 0 §2.2)</text>
+<rect x="50" y="999" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1007">Endurance: 12–15 reps with 3 in reserve, every week; rest ≤30 s after each pair (R17)</text>
+<rect x="50" y="1019" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1027">Both legs together on every exercise: one-leg work waits for loading stage 3 (R12)</text>
+<rect x="50" y="1039" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1047">Progress strength from week 5: 3 reps leave over 3 in reserve, twice running → smallest load step (R42)</text>
+<rect x="50" y="1059" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1067">Progress endurance: 15 reps twice running → a harder band or position, reps back to 12 (R42)</text>
+<rect x="50" y="1079" width="7" height="7" rx="1" fill="#e8a020"/>
+<text font-size="11" fill="#444" x="64" y="1087">Log the step gate after each session; a fail repeats last week's dose for that joint (§2.6 · R43)</text>
 
 <!-- TIMING SUMMARY -->
-<rect x="30" y="1229" width="620" height="67" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
-<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1249">Session timeline</text>
-<text font-size="11" fill="#2272a8" x="50" y="1266">Mobility pre half → warm-up sets → A → B → C → D → E → mobility post half</text>
-<text font-size="11" fill="#2272a8" x="50" y="1283">Exercise time ≈38.5 min (R40: 4 s a rep, top of every range, 4 min or 30 s rest by goal) · 14 working sets</text>
+<rect x="30" y="1111" width="620" height="67" rx="8" fill="#e8f4fd" stroke="#5aabf0" stroke-width="1"/>
+<text font-size="12" font-weight="500" fill="#1a5c8a" x="50" y="1131">Session timeline</text>
+<text font-size="11" fill="#2272a8" x="50" y="1148">Mobility pre half → warm-up sets → A → B → C → D → mobility post half</text>
+<text font-size="11" fill="#2272a8" x="50" y="1165">Exercise time ≈30 min (R40: 4 s a rep, top of every range, 4 min or 30 s rest by goal) · 12 working sets</text>
 
 <!-- SET COUNT -->
-<rect x="30" y="1308" width="620" height="164" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1330">Working sets — here · week (direct + half-sets from compounds)</text>
-<text font-size="11" fill="#1a1a1a" x="50" y="1350">Strength · ≈4 a target (R34)</text>
-<text font-size="11" fill="#26215c" x="50" y="1368">Quads 2 · week 6 (2 above, R48)</text>
-<text font-size="11" fill="#633806" x="50" y="1386">Hamstrings 2 · week 6 (2 above, R48)</text>
-<text font-size="11" fill="#185fa5" x="50" y="1404">Calves 2 · week 6 (2 above, R48)</text>
-<text font-size="11" fill="#085041" x="50" y="1422">Hip abductors 2 · week 6 (2 above, R48)</text>
-<text font-size="11" fill="#085041" x="50" y="1440">Adductors 2 · week 6 (2 above, R48)</text>
-<text font-size="11" fill="#085041" x="50" y="1458">Glutes 0 · week 0 + 6.0 from cards 1 and 2 (R36)</text>
-<text font-size="11" fill="#1a1a1a" x="360" y="1350">Endurance · ≈4 a target (R34)</text>
-<text font-size="11" fill="#444441" x="360" y="1368">Evertors 2 · week 4</text>
-<text font-size="11" fill="#444441" x="360" y="1386">Popliteus 2 · week 4</text>
-<text font-size="11" fill="#444441" x="360" y="1404">Tibialis 0 · week 4</text>
-<text font-size="11" fill="#085041" x="360" y="1422">Hip flexors 0 · week 4</text>
+<rect x="30" y="1190" width="620" height="164" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1212">Working sets — here · week (direct + half-sets from compounds)</text>
+<text font-size="11" fill="#1a1a1a" x="50" y="1232">Strength · 4 a target (R34)</text>
+<text font-size="11" fill="#26215c" x="50" y="1250">Quads 2 · week 4</text>
+<text font-size="11" fill="#633806" x="50" y="1268">Hamstrings 0 · week 4</text>
+<text font-size="11" fill="#185fa5" x="50" y="1286">Calves 2 · week 4</text>
+<text font-size="11" fill="#085041" x="50" y="1304">Hip abductors 2 · week 4</text>
+<text font-size="11" fill="#085041" x="50" y="1322">Adductors 2 · week 4</text>
+<text font-size="11" fill="#085041" x="50" y="1340">Glutes 0 · week 0 + 4.0 from the squat and RDL (R36)</text>
+<text font-size="11" fill="#1a1a1a" x="360" y="1232">Endurance · 4 a target (R34)</text>
+<text font-size="11" fill="#444441" x="360" y="1250">Evertors 0 · week 4</text>
+<text font-size="11" fill="#444441" x="360" y="1268">Popliteus 0 · week 4</text>
+<text font-size="11" fill="#444441" x="360" y="1286">Tibialis 2 · week 4</text>
+<text font-size="11" fill="#085041" x="360" y="1304">Hip flexors 2 · week 4</text>
 
 <!-- ALTERNATIVES TABLE -->
-<rect x="30" y="1484" width="620" height="138" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
-<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1504">Alternatives — if a station is taken (R41) · ⚠ R30: cannot reach a strength load</text>
-<line x1="40" y1="1513" x2="640" y2="1513" stroke="#ccc" stroke-width="0.5"/>
-<text font-size="10" font-weight="500" fill="#666" x="50" y="1526">#  Primary exercise</text>
-<text font-size="10" font-weight="500" fill="#666" x="280" y="1526">Alternative 1</text>
-<text font-size="10" font-weight="500" fill="#666" x="470" y="1526">Alternative 2</text>
-<line x1="40" y1="1531" x2="640" y2="1531" stroke="#ccc" stroke-width="0.5"/>
-<text font-size="10" fill="#26215c" x="50" y="1546">1  Smith squat</text>
-<text font-size="10" fill="#444" x="280" y="1546">Barbell squat to rack pins</text>
-<text font-size="10" fill="#444" x="470" y="1546">Goblet squat, above parallel ⚠ R30</text>
+<rect x="30" y="1366" width="620" height="122" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="0.8"/>
+<text font-size="12" font-weight="500" fill="#1a1a1a" x="50" y="1386">Alternatives — if a station is taken (R41) · ⚠ R30: cannot reach a strength load</text>
+<line x1="40" y1="1395" x2="640" y2="1395" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" font-weight="500" fill="#666" x="50" y="1408">#  Primary exercise</text>
+<text font-size="10" font-weight="500" fill="#666" x="280" y="1408">Alternative 1</text>
+<text font-size="10" font-weight="500" fill="#666" x="470" y="1408">Alternative 2</text>
+<line x1="40" y1="1413" x2="640" y2="1413" stroke="#ccc" stroke-width="0.5"/>
+<text font-size="10" fill="#26215c" x="50" y="1428">1  Smith squat</text>
+<text font-size="10" fill="#444" x="280" y="1428">Barbell squat to rack pins</text>
+<text font-size="10" fill="#444" x="470" y="1428">Goblet squat, above parallel ⚠ R30</text>
 
-<text font-size="10" fill="#633806" x="50" y="1562">2  Smith Romanian deadlift</text>
-<text font-size="10" fill="#444" x="280" y="1562">Barbell RDL to rack pins</text>
-<text font-size="10" fill="#444" x="470" y="1562">Dumbbell RDL ⚠ R30</text>
+<text font-size="10" fill="#185fa5" x="50" y="1444">2  Smith standing calf raise</text>
+<text font-size="10" fill="#444" x="280" y="1444">Deficit calf raise, step edge ⚠ R30</text>
+<text font-size="10" fill="#444" x="470" y="1444">Standing calf raise, DBs ⚠ R30</text>
 
-<text font-size="10" fill="#185fa5" x="50" y="1578">3  Smith standing calf raise</text>
-<text font-size="10" fill="#444" x="280" y="1578">Deficit calf raise, step edge ⚠ R30</text>
-<text font-size="10" fill="#444" x="470" y="1578">Standing calf raise, DBs ⚠ R30</text>
+<text font-size="10" fill="#085041" x="50" y="1460">3  Hip adduction machine</text>
+<text font-size="10" fill="#444" x="280" y="1460">Supine banded hip adduction ⚠ R30</text>
+<text font-size="10" fill="#444" x="470" y="1460">none: the others need stage 3</text>
 
-<text font-size="10" fill="#085041" x="50" y="1594">4  Hip abduction machine</text>
-<text font-size="10" fill="#444" x="280" y="1594">Supine banded butterfly ⚠ R30</text>
-<text font-size="10" fill="#444" x="470" y="1594">none: the others need stage 3</text>
-
-<text font-size="10" fill="#085041" x="50" y="1610">5  Hip adduction machine</text>
-<text font-size="10" fill="#444" x="280" y="1610">Supine banded hip adduction ⚠ R30</text>
-<text font-size="10" fill="#444" x="470" y="1610">none: the others need stage 3</text>
+<text font-size="10" fill="#085041" x="50" y="1476">4  Hip abduction machine</text>
+<text font-size="10" fill="#444" x="280" y="1476">Supine banded butterfly ⚠ R30</text>
+<text font-size="10" fill="#444" x="470" y="1476">none: the others need stage 3</text>
 
 <!-- VERSION NOTE -->
-<text font-size="9" fill="#aaa" x="340" y="1642" text-anchor="middle">v6 — strength rest 2–4 min; eversion ↔ popliteus added, the endurance work spread over A, B and C (catalogue rev 27)</text>
+<text font-size="9" fill="#aaa" x="340" y="1508" text-anchor="middle">v7 — each lift in 2 of the 3 sessions (Stage 0 D-99): squat, calf ↔ hip adduction, hip abduction, tibialis ↔ leg lift (rev 28)</text>
 
 </svg>

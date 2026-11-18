@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 27 (2026-11-17): with the revision 26 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 27. gymspec/ is the source of truth: before a new revision, check that
+revision 28 (2026-11-18): with the revision 27 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 28. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,17 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 28,
+        "date": "2026-11-18",
+        "note": "the lower focus files A v7, B v7 and C v6: each lift in 2 of the 3 sessions",
+        "changes": [
+            "Harry changed Stage 0 §0.3 (D-99): a session may train only some of the priority targets, as long as each collects "
+            "sets over the week, and strength and power spread over at least two sessions instead of every one. Block 03's lower "
+            "files were rebuilt that way (2026-11-18), each lift in 2 of the 3 sessions: provenance from "
+            "routine_lowerbody_focus_A v7, B v7 and C v6. No row changed otherwise.",
+        ],
+    },
+    {
         "n": 27,
         "date": "2026-11-17",
         "note": "the lower focus files spread over three sessions: B v6 and C v5",
@@ -35,6 +46,7 @@ REVISIONS = [
             "gains eversion ↔ popliteus as cards 6–7, and routine_lowerbody_focus_C v5, rebuilt with the five strength lifts and "
             "tibialis ↔ leg lift as cards 6–7. A v6 changed only text, so it maps through v5 (Stage 2 D-04); no row changed otherwise.",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": [], "provenance_lower_even": ["C064", "C065", "C066", "C070", "C078", "C081", "C084", "C085", "C086", "C092", "C096", "C131", "C133", "C136", "C137", "C152", "C153"]},
     },
     {
         "n": 26,
@@ -791,6 +803,7 @@ def render_md(cat):
                                ("Confirmed by Harry: rows proposed in v1 ✏️", "confirmed"),
                                ("Corpus provenance: the lower focus files A v5 and B v5", "provenance_lower_v5"),
                                ("Corpus provenance: the lower focus files B v6 and C v5", "provenance_lower_even"),
+                               ("Corpus provenance: the lower focus files A v7, B v7 and C v6", "provenance_lower_v7"),
                                ("Cue added: palms down, not thumbs up, with the reason", "cue_grip")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
@@ -1085,6 +1098,10 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 28:  # revision 28: the lower focus files A v7, B v7 and C v6's provenance listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_lower_v7"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
         if REVISIONS[0]["n"] == 27:  # revision 27: the lower focus files B v6 and C v5's provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}

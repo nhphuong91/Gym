@@ -1,0 +1,158 @@
+{
+  "block": 3,
+  "current_state": {
+    "block_type": "focus",
+    "block_goal": {
+      "upper": "not trained",
+      "lower": "Strength"
+    },
+    "priority_targets": [
+      "glutes",
+      "hip_abductors",
+      "adductors",
+      "hip_flexors",
+      "quads",
+      "hamstrings",
+      "calves",
+      "tibialis",
+      "popliteus",
+      "evertors"
+    ],
+    "layoff": "~2 months — the lower body has not trained in blocks 01–02",
+    "loading_stages": {
+      "shoulder": 2,
+      "elbow": 2,
+      "wrist": 2,
+      "spine": 1,
+      "hip": 1,
+      "knee": 1,
+      "ankle": 1,
+      "fingers": 4
+    },
+    "in_season": [],
+    "current_routines": [
+      {
+        "stem": "routine_lowerbody_focus_A",
+        "regions": [
+          "lower"
+        ],
+        "sessions_week": 1
+      },
+      {
+        "stem": "routine_lowerbody_focus_B",
+        "regions": [
+          "lower"
+        ],
+        "sessions_week": 1
+      },
+      {
+        "stem": "routine_lowerbody_focus_C",
+        "regions": [
+          "lower"
+        ],
+        "sessions_week": 1
+      }
+    ]
+  },
+  "plan": {
+    "version": "block 03 plan v3",
+    "approved": "2026-11-18",
+    "routines": [
+      {
+        "stem": "routine_lowerbody_focus_A",
+        "version": 7
+      },
+      {
+        "stem": "routine_lowerbody_focus_B",
+        "version": 7
+      },
+      {
+        "stem": "routine_lowerbody_focus_C",
+        "version": 6
+      }
+    ],
+    "checks": [
+      "(1) PASS: the same 9 exercises as plan v2, on Stage 0 §1.3 kit and open at the loading stages in Current state — the Smith squat (C064) and the Smith calf raise (C084) need shoulder stage 2, which Current state holds (Harry, X1), the other seven stage 1; no primary carries a warning; the 8 alternatives are open too (C066 needs shoulder stage 2). No sport is in season (N3), so R31 asks only the joint-risk question: yellow for the Smith RDL, a heavy hinge on the low back, mitigated by the safeties at the depth cap, a neutral spine and 3 RIR, and for the hip adduction machine, which starts with the adductors at length, mitigated by a start at ~70–80% of range; the rest green",
+      "(2) PASS: every prime mover is one of the 10 priority targets (R32); no upper-body muscle gets direct sets — the erectors collect 2.0 half-sets a week from the Smith RDL and the abs 2.0 from the leg lift, toward no target (R35)",
+      "(3) PASS, with a deviation: strength — 2 sets an exercise, 3 reps at 3 RIR every week (R17 · R18), 2–4 min rest (O8 B); reps + RIR = 6 from week 5, unmet in weeks 1–4, where the ramp holds loads at ≈60% and ≈80% (Stage 0 R22); endurance — 2 sets of 12–15 at 3 RIR every week, a load liftable 15–18 times, ≤30 s rest. Goal fit (R30): the three Smith lifts pass S1–S3 with the safeties; the hip-machine lifts pass if the stack's step is ≤10% of the working load, which Harry checks at the machine; the 4 endurance lifts fail S2–S3, hence the endurance row. Deviation (O4 A): two goal rows in the lower region",
+      "(4) PASS: pair_check.py on A v7, B v7 and C v6 (catalogue rev 28): 2 pairs in each, all PASS, 0 REVIEW, 0 FAIL, no NOTE — the Smith calf raise ↔ hip abduction machine (A) and ↔ hip adduction machine (B), cross-joint ankle ↔ hip, the calf raise first; band ankle eversion ↔ popliteus rotation (A, C), cross-joint ankle ↔ knee, the eversion first; tibialis raise ↔ leg lift (B, C), cross-joint ankle ↔ hip, the tibialis raise first. Straight sets (R39): 4 a session — A the Smith squat and Smith RDL, B the Smith squat and hip abduction machine, C the Smith RDL and hip adduction machine — since the other strength pairings FAIL (same joint, shared glutes or a shared station), and pairing them with an endurance lift breaks that row's ≤30 s rest (convention: a superset stays within one goal row)",
+      "(5) PASS: every target at its weekly target of 4 (R34) — quads, hamstrings, calves, hip abductors and adductors 2 + 2 in two sessions (R34 · Stage 0 §0.3 as D-99 has it); glutes 0 direct + 4.0 harvest from the Smith squat and RDL (R35 · R36); evertors and popliteus 2 + 2 in A and C, tibialis and hip flexors 2 + 2 in B and C; no sets above a target (R48); 36 working sets a week",
+      "(6) PASS: exercise time A ≈30.1 min, B ≈30.1 min, C ≈26.3 min (R40: 1806, 1806 and 1578 s, at 4 min and 30 s rests), under ~60 and never past 75; ≈86.5 min a week; at most 2.0 fractional sets per muscle in a session (Stage 0 R19)",
+      "(7) N/A: zone coverage binds hypertrophy only (R28); the labels are listed under zone_coverage",
+      "(8) PASS: lower 3 training sessions a week — A, B and C once each — R20's maximum; upper none; Harry keeps 48 h between them and sets the days; no other current routine, so the cross-routine guard has no pair. A gate-test session counts as a lower training session (Stage 0 §2.5) and replaces one that week",
+      "(9) Deviation (Harry's X3): the files name no sport. By Stage 0 R21 all three would name badminton — quads, calves and hip abductors collect sets in A and B, the glutes in all three — and archery — the erectors collect half-sets from the Smith RDL in A and C, and the abs from the leg lift in B and C; the post-workout note keeps R20's next-day step-gate line",
+      "(10) PASS, with gaps named: Smith squat → barbell squat to rack pins (C066), goblet squat (C065); Smith RDL → barbell RDL to rack pins (C153), DB RDL (C070); Smith calf raise → deficit calf raise on the step edge (C086), standing calf raise with dumbbells (C085); hip abduction machine → supine banded butterfly (C131), no second; hip adduction machine → supine banded hip adduction (C133), no second — the other rows are one-leg work, locked until stage 3 (R12). Each file lists its own station lifts, each alternative clear of its primary's and its partner's stations (pair_check.py). Shortfall named: only C066 and C153 reach a strength load; the others are lighter stand-ins, marked ⚠ R30 in the files"
+    ],
+    "zone_coverage": [
+      "R28 binds hypertrophy only; the labels, for the record: quads M (Smith squat above parallel; the L waits for knee stage 2) · hamstrings L (Smith RDL) · calves L (Smith calf raise) · hip abductors M · adductors M (hip machine, zone provisional on its cam)",
+      "Endurance targets: evertors S (band eversion) · popliteus S (band rotation) · tibialis M (tibialis raise) · hip flexors M (leg lift)",
+      "Glutes: no direct lift — 4.0 half-sets a week from the Smith squat and RDL"
+    ],
+    "progression": [
+      "Strength, the 5 strength lifts (3 reps at 3 RIR): weeks 1–4 hold the restart ramp at ≈60% then ≈80%, no step (Stage 0 R22); from week 5, 3 reps leaving more than 3 in reserve in two sessions running → Harry's smallest load step, reps staying at 3 (R42 b)",
+      "Endurance, the 4 endurance lifts (12–15 reps at 3 RIR): +1 rep a set to 15; 15 in two sessions running → a harder band or position — feet further from the wall for the tibialis raise, knees a little straighter for the leg lift only while the low back stays flat — back to 12 (R42 a, b)",
+      "Then +1 set every 2 weeks per target while (a) and (b) stay inside the step gate, strength and endurance up to 8 a week (R34), each exercise within its row's Sets (R48) and each session within Stage 0 R19 — every session has at least 44 min of room before 75 min; never more load and more sets for a muscle in the same week (R42 c)",
+      "Flares: a flare repeats the week's dose for the exercises loading that joint; two within 4 weeks → 5% less load, or a lighter band, for 2 weeks, since every exercise sits at its row's floor of 2 sets (R43). Deloads only on their trigger — at the same load, the reserve felt after 3 reps falls by 2 or more, or the endurance reps at 3 RIR fall by 2 or more, for two sessions — one week at half the sets, same loads (R44)"
+    ],
+    "suspensions": "Upper body not trained this block: the shoulder, elbow, wrist and fingers keep their loading stages, and their loading-gate progression is suspended (Stage 0 R24 · §2.1); the spine, hip, knee and ankle, the lower body's joints since D-100, progress in this block"
+  },
+  "log": [
+    {
+      "date": "2026-11-17",
+      "changes": [
+        "Written on 2026-11-17 from plan block 03 v2, approved that day, and handed to Harry in the chat: block 03 has not started, and gymstate/block_02.json stays the current block until he places this file in gymstate/ (Stage 2 R67)",
+        "Current state from Harry's answers of 2026-11-13 — O1 Strength for the lower body, O2 all 10 lower-body muscles as priority targets, O6 A upper body not trained, X1 shoulder at stage 2, N3 no sport in season — and the loading stages of block_02.json; layoff at its default, ~2 months, as the lower body has not trained in blocks 01–02, so the restart ramp applies (Stage 0 R22)",
+        "Plan v1 (2026-11-13: focus A twice and B once a week) → v2 (2026-11-17): the lower work spread over A, B and C once a week each ('distribute them evenly'), strength rest 2–4 min (O8 B); A ≈43.5 min, B and C ≈38.5 min",
+        "Files: routine_lowerbody_focus_A v6, _B v6 and _C v5, mirrors identical; catalogue revision 27; the block 03 rows of block_02.json (2026-11-13 and 2026-11-17) hold the same plan",
+        "Deviations, at Harry's decisions and kept out of the spec: two goal rows in the lower region (O4 A); no sport named in the files (X3)",
+        "Non-gym routines: neither conditioning_bike nor stretching_archery_hEDS is part of block 03 (Harry, 2026-11-17)"
+      ],
+      "follow_ups": [
+        "Place this file in gymstate/ the day block 03 starts, with a log row for the start; upper focus A and B leave the current routines then (Stage 2 R67)",
+        "stretching_archery_hEDS is not part of block 03 and no sport is in season: before the file is used again with archery out of season, P10's band draw comes out (v3), unless shoulder, elbow and wrist pass their stage-3 tests (R14) — Harry's season exception of 2026-11-10",
+        "Upper focus A v12 and B v13 sit in gymplan/Delt_Abs_archery/, not at gymplan/'s top level (Harry, 2026-11-06): verify.py check 6 reports them missing",
+        "A control test and symmetry test for the fingers (Stage 0 Supplement §6 · D-97): until one exists, a finger flare leaves them at stage 3 (R14)",
+        "Spec round, only if Harry wants one: the sport-day mobility amendment of O1 A (text in this row) — Stage 0 §2.7 and Stage 2 §3.1",
+        "R59: none of the three mobility files carries a sport-note line ('day after: no sport limit'); whether R59 binds mobility files is unstated (U1)",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)",
+        "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')",
+        "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
+        "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds",
+        "Block 03 gate progress: the hip, knee and ankle move 1 → 4 one stage at a time (R14) — the only route to court drills; stage 1 → 2 needs two clean step-gate weeks, then evaluation_lowerbody's control and symmetry tests, in a session that replaces one lower session that week (R20)",
+        "Hip machine: its pin step must be ≤10% of the working load for cards 4 and 5 to pass the strength test's S3 (Stage 1 R30) — Harry checks at the machine",
+        "Spec round, only if Harry wants one — gaps the block 03 plan met: R30 says nothing when no lift for a target passes a 'must'; R22 has no anchor when a row has no pre-layoff load; R42 (a) has no step in the strength row at 3 RIR; two goal rows in a region, again; R21 and R59 when Harry wants no sport named",
+        "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision",
+        "Spec round, only if Harry wants one: strength targets spread over at least 2 sessions instead of every session (Stage 0 §0.3) would hold each at its target of 4 sets and save 10 strength sets a week (T2, 2026-11-13)",
+        "Stage 0 R24 in block 03: plan v2 keeps plan v1's reading — the spine's progression suspended with the upper region — though the Smith squat and RDL load the spine and the Smith bar the shoulders; whether R24 counts the spine with the upper region is unstated"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "changes": [
+        "Not started (Harry, 2026-11-18): he placed this file in gymstate/ as the prepared next block — 'we only build the routines and leave them there'. gymstate/block_02.json is still the block he trains: read it for the current routines until a row here records the start. A deviation from Stage 2 R67, which reads the highest number as the current block",
+        "Plan v2 → v3 (Harry, 2026-11-18, the balanced layout): Stage 0 D-99 lets a session train only some of the priority targets, as long as each collects sets over the week, and spreads strength over at least two sessions instead of every one — so each strength lift runs in 2 of the 3 sessions at 2 × 3 and each endurance lift in 2 at 2 × 12–15; every target sits at its 4 sets a week, 36 working sets instead of 46. R40: A ≈30.1, B ≈30.1, C ≈26.3 min",
+        "Stage 0 D-100: the spine counts with the lower body, so it progresses in this block with the hip, knee and ankle; the shoulder, elbow, wrist and fingers are suspended (R24) — plan.suspensions rewritten",
+        "Files: routine_lowerbody_focus_A v7, _B v7 and _C v6, regenerated (structure scope, Stage 2 R54 · R55), mirrors identical; catalogue revision 28"
+      ],
+      "follow_ups": [
+        "When block 03 starts: add a row here that records it; upper focus A and B leave the current routines then",
+        "stretching_archery_hEDS is not part of block 03 and no sport is in season: before the file is used again with archery out of season, P10's band draw comes out (v3), unless shoulder, elbow and wrist pass their stage-3 tests (R14) — Harry's season exception of 2026-11-10",
+        "Upper focus A v12 and B v13 sit in gymplan/Delt_Abs_archery/, not at gymplan/'s top level (Harry, 2026-11-06): verify.py check 6 reports them missing",
+        "A control test and symmetry test for the fingers (Stage 0 Supplement §6 · D-97): until one exists, a finger flare leaves them at stage 3 (R14)",
+        "Spec round, only if Harry wants one: the sport-day mobility amendment of O1 A (text in this row) — Stage 0 §2.7 and Stage 2 §3.1",
+        "R59: none of the three mobility files carries a sport-note line ('day after: no sport limit'); whether R59 binds mobility files is unstated (U1)",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)",
+        "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')",
+        "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
+        "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds",
+        "Block 03 gate progress: the hip, knee and ankle move 1 → 4 one stage at a time (R14) — the only route to court drills; stage 1 → 2 needs two clean step-gate weeks, then evaluation_lowerbody's control and symmetry tests, in a session that replaces one lower session that week (R20)",
+        "Hip machine: its pin step must be ≤10% of the working load for cards 4 and 5 to pass the strength test's S3 (Stage 1 R30) — Harry checks at the machine",
+        "Spec round, only if Harry wants one — gaps the block 03 plan met: R30 says nothing when no lift for a target passes a 'must'; R22 has no anchor when a row has no pre-layoff load; R42 (a) has no step in the strength row at 3 RIR; two goal rows in a region, again; R21 and R59 when Harry wants no sport named",
+        "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision",
+        "Stage 2 R67 and a prepared block: block_03.json sits in gymstate/ before block 03 starts, while R67 reads the highest number as the current block and state_check.py checks the newest file by default — an R67 amendment for a prepared next block, in a spec round if Harry wants one"
+      ]
+    }
+  ]
+}

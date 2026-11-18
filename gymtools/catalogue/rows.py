@@ -1919,3 +1919,32 @@ assert set(V_EVEN) <= _keys, set(V_EVEN) - _keys
 for _r in ROWS:
     if _r["key"] in V_EVEN:
         _r["corpus"] = list(_r.get("corpus", [])) + V_EVEN[_r["key"]]
+
+
+
+# Provenance from the lower focus files A v7, B v7 and C v6 (2026-11-18, catalogue revision 28): plan v3 runs each lift in 2
+# of the 3 sessions (Stage 0 D-99) — A: squat, RDL, calf ↔ hip abduction, eversion ↔ popliteus; B: squat, calf ↔ hip
+# adduction, hip abduction, tibialis ↔ leg lift; C: RDL, hip adduction, eversion ↔ popliteus, tibialis ↔ leg lift. The
+# earlier lines stay as history
+LFA7 = "routine_lowerbody_focus_A v7"
+LFB7 = "routine_lowerbody_focus_B v7"
+LFC6 = "routine_lowerbody_focus_C v6"
+V7L = {
+    "smith_squat": [f"{LFA7} ex. 1", f"{LFB7} ex. 1"], "smith_rdl": [f"{LFA7} ex. 2", f"{LFC6} ex. 1"],
+    "smith_calf_raise": [f"{LFA7} ex. 3", f"{LFB7} ex. 2"],
+    "hip_abduction_machine": [f"{LFA7} ex. 4", f"{LFB7} ex. 4"], "hip_adduction_machine": [f"{LFB7} ex. 3", f"{LFC6} ex. 2"],
+    "band_eversion": [f"{LFA7} ex. 5", f"{LFC6} ex. 3"], "popliteus_band_ir_both": [f"{LFA7} ex. 6", f"{LFC6} ex. 4"],
+    "tibialis_raise": [f"{LFB7} ex. 5", f"{LFC6} ex. 5"], "supine_bent_knee_leg_lift": [f"{LFB7} ex. 6", f"{LFC6} ex. 6"],
+    "bb_squat_pins": [f"{LFA7} alt. for Smith squat", f"{LFB7} alt. for Smith squat"],
+    "goblet_squat": [f"{LFA7} alt. for Smith squat", f"{LFB7} alt. for Smith squat"],
+    "bb_rdl_pins": [f"{LFA7} alt. for Smith Romanian deadlift", f"{LFC6} alt. for Smith Romanian deadlift"],
+    "db_rdl": [f"{LFA7} alt. for Smith Romanian deadlift", f"{LFC6} alt. for Smith Romanian deadlift"],
+    "deficit_calf_raise_box": [f"{LFA7} alt. for Smith standing calf raise", f"{LFB7} alt. for Smith standing calf raise"],
+    "standing_calf_raise": [f"{LFA7} alt. for Smith standing calf raise", f"{LFB7} alt. for Smith standing calf raise"],
+    "supine_band_butterfly": [f"{LFA7} alt. for hip abduction machine", f"{LFB7} alt. for hip abduction machine"],
+    "supine_band_adduction_both": [f"{LFB7} alt. for hip adduction machine", f"{LFC6} alt. for hip adduction machine"],
+}
+assert set(V7L) <= _keys, set(V7L) - _keys
+for _r in ROWS:
+    if _r["key"] in V7L:
+        _r["corpus"] = list(_r.get("corpus", [])) + V7L[_r["key"]]
