@@ -29,7 +29,7 @@ Section numbers found only here (§5.1–§5.6, §6, §7) refer to this Suppleme
 | Joint-control limits | R18–R22: limits set by joint control, never raised to fit a plan; R19's exercise time is Harry's own cap, held the same way (D-49) | "joint-control limits" (session ceilings only) |
 | Current state | The per-block input record, kept in the block's state file (§4.1 · D-90) | `<athlete>` Current state |
 | Block · block week | The weeks one goal set stays in force, and the count from its start, which Harry keeps (§2.4 · D-91) | "weeks a routine or set/rep scheme stays unchanged" (CLAUDE_old.md `<dosing>`) |
-| Region | Upper body, trunk included, or lower body (§2.1) | — |
+| Region | Upper body, trunk muscles included, or lower body (§2.1); each joint belongs to one — the shoulder, elbow, wrist and fingers to the upper body, the spine, hip, knee and ankle to the lower body (D-100) | — |
 | Muscle group | One of the seven groups in §2.1 — upper: abs & obliques, back, chest & shoulders, arms & hands; lower: hips & gluteals, thighs, calves & shins | — |
 | Focus block | A block that programs only its priority targets (§0.3) | — |
 | Maintenance block | A separate block whose main focus is keeping every muscle group activated during a fat-loss period (§0.3) | "maintenance targets", a later phase (CLAUDE_old.md `<dosing>`); also the "general fitness" goal row, dropped as the same thing (D-92) |
@@ -179,6 +179,8 @@ CLAUDE_old.md, the rulebook before the scaffold (history only since D-74), was d
 | D-96 | A band draw under R12 (O1, chat 2026-11-10; raised by the archery-day mobility file, Stage 2) | Harry: B — a band draw is one-arm work: both hands hold one band, but each arm does its own job, so each works alone and needs stage 3 at shoulder, elbow and wrist. R12's text stands. His use of it in the archery-day file this season, with those joints treated as stage 3 untested, is a deviation logged in `gymstate/block_02.json` (2026-11-10); Current state keeps stage 2 | R12 |
 | D-97 | The fingers' loading stage (O2, chat 2026-11-10; raised by the archery-day mobility file, Stage 2) | Harry: the fingers become a staged joint, placed at stage 4 by his decision rather than unlocked through R14 — an exception to D-28's start at stage 1. They have no test line yet, so a finger flare leaves them at stage 3 until one is added (R14). Why: archery loads the fingers in every shot (§1.2), and without a stage the catalogue could only call them unloaded | §2.5 · §4.1 · R14 |
 | D-98 | R9 on sport days (O3, chat 2026-11-10; raised by the archery-day mobility file, Stage 2) | Harry: B — R9 binds sport sessions too: loose joints that day skip the session, the current end or rally stops the moment a joint feels unstable, and play stops on pain or swelling. Sport sessions stay undosed (§0.4 (d)). Why: full draw on a loose shoulder is the riskiest load of his week | R9 · §0.4 (d) |
+| D-99 | Spreading the targets over the week (F2, chat 2026-11-18; raised while planning block 03, Stage 1) | Harry: a session may train only some of the priority targets, as long as every one collects sets over the week's sessions; strength and power spread each target's sets over at least two training sessions of its region instead of every one, the two that Stage 1 R34 already requires. Why: at three lower sessions a week, 'every session' with Stage 1 R48's two-set floor gave each strength target 6 sets a week, 2 above its target of 4, and brought session A near an hour (block 03 plan v1) | §0.3 |
+| D-100 | The spine's region (F3, chat 2026-11-18; raised while planning block 03, Stage 1) | Harry: the spine counts with the lower body, as the upper-body plans never listed it among the upper joints. §2.1 now gives each joint its region: a block that excludes the upper body suspends the shoulder, elbow, wrist and fingers, one that excludes the lower body the spine, hip, knee and ankle (R24). Why: R24 suspends 'that region's joints', but no joint had a region, and block 03 plans v1–v2 had read the spine as upper | §2.1 · R24 · Terminology |
 
 **Dissolved without a decision**
 
@@ -238,6 +240,8 @@ An X item from reference.md returns only with new, cited evidence.
 | Two arms on one band counted as two-limb work, whatever each does (O1 A, chat 2026-11-10) | Harry: each arm doing its own job works alone (D-96) |
 | The fingers staged with the wrist (O2 A), or left unstaged as an accepted limit (O2 C) (chat 2026-11-10) | Harry: their own joint, placed at stage 4 (D-97) |
 | R9's skip alone for sport sessions (O3 A), or R9 for training only (O3 C) (chat 2026-11-10) | Harry: all of R9 binds sport sessions (D-98) |
+| Strength and power spread over every training session of their region (D-27's reading, until 2026-11-18) | With three lower sessions and Stage 1 R48's two-set floor it held each strength target 2 sets above its target of 4 and lengthened every session (D-99) |
+| The spine counted with the upper body, as block 03 plans v1–v2 read it (until 2026-11-18) | Harry: the upper-body plans never listed it among the upper joints (D-100) |
 
 ---
 

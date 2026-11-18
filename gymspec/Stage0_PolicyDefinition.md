@@ -41,7 +41,7 @@ Rationale, evidence, closed decisions and deferred material → `Stage0_Suppleme
 | Block types | **A block is either a focus block or a maintenance block** (§4.1 `block_type`). |
 | Focus blocks | **A focus block programs only its priority targets.** Any exercise whose prime mover is a priority target is eligible; those that load other muscles least are preferred, unless that extra load is harvest used on purpose to get another priority target enough sets (§2.3 · D-22). Every other muscle gets zero direct sets and no target; harvest that lands on it is incidental. Rules → Stage 1. |
 | Maintenance blocks | **A maintenance block is a separate block whose main focus is keeping every muscle group (§2.1) activated during a fat-loss period** (D-23). Its volume, goal rows and exercise rules → Stage 1 (Supplement §6). |
-| Volume | **Volume is counted in weekly sets per muscle, and sessions split them freely within R19 and R20** (§2.3 · D-27). Strength and power spread each target's sets over every training session of its region (§2.7 · R20), since per-session returns flatten early. The goal table's Sets are per exercise per session, for the exercise's target muscle (§2.2 · D-29); which goals carry a weekly target is set in Stage 1. |
+| Volume | **Volume is counted in weekly sets per muscle, and sessions split them freely within R19 and R20: a session may train only some of the priority targets, as long as every priority target collects sets over the week's sessions** (§2.3 · D-27 · D-99). Strength and power spread each target's sets over at least two training sessions of its region (§2.7 · R20), since per-session returns flatten early. The goal table's Sets are per exercise per session, for the exercise's target muscle (§2.2 · D-29); which goals carry a weekly target is set in Stage 1. |
 
 ### 0.4 Accepted limits
 
@@ -101,10 +101,10 @@ One profile per sport (§4.2), muscles grouped by region. Read by R21 and by the
 
 ### 2.1 Regions
 
-| Region | Muscles |
-|---|---|
-| Upper body | Upper-body + trunk muscles group (Entire Abs & Obliques, Entire Back, Chest & Shoulders, Arms & Hands). |
-| Lower body | Lower-body muscles group (Hips and Gluteals, Thighs, Calves and Shins). |
+| Region | Muscles | Joints (R24) |
+|---|---|---|
+| Upper body | Upper-body + trunk muscles group (Entire Abs & Obliques, Entire Back, Chest & Shoulders, Arms & Hands). | Shoulder, elbow, wrist, fingers |
+| Lower body | Lower-body muscles group (Hips and Gluteals, Thighs, Calves and Shins). | Spine, hip, knee, ankle (D-100) |
 
 ### 2.2 Goal table (for each target muscle)
 
@@ -222,7 +222,7 @@ What a fail changes in the dose → Stage 1 (Supplement §6).
 | R21 — Sport days | **Every routine names each sport with a profile (§1.2) whose "avoid the day before" muscles collect sets in it (§2.3), and that sport is not played the day after the routine. The day after a sport session, a training session runs only if the step gate (§2.6) passed that morning for every joint the sport loaded and the session will load** (D-51). |
 | R22 — Restart ramp | **After a layoff of 3 weeks or more, working loads run at ≈60% of pre-layoff working loads in weeks 1–2, ≈80% in weeks 3–4 and 100% from week 5; progression starts after that.** Volume stays at the bottom of the range throughout. RIR is a ceiling on effort, not a target: RIR well above the row's range is expected in weeks 1–4 and is not a reason to add load. Load rises only when all prescribed reps complete inside the step gate (§2.6). Eccentric tempo: R25. |
 | R23 — Left–right balance | **Training is left–right balanced: exercises are bilateral, or unilateral ones are done equally on each side** (D-07). |
-| R24 — Suspended progression | **A block that excludes a region suspends the loading-gate progression of that region's joints, and the plan says so when the block is set.** The exit criteria need loading to evaluate. |
+| R24 — Suspended progression | **A block that excludes a region suspends the loading-gate progression of that region's joints (§2.1), and the plan says so when the block is set.** The exit criteria need loading to evaluate. |
 | R25 — Eccentric tempo | **The lowering (eccentric) phase of every loaded rep takes 2–3 s, in every goal** (D-32). Plyometric and impact reps are exempt; their landings stay under R10 and R13 (D-38). |
 
 ### Rule examples
