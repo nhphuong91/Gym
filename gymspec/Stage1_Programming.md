@@ -169,4 +169,4 @@ Invariant: every exercise in a plan takes its facts from the exercise catalogue 
 
 ## 4. Open items
 
-None. Round 1 closed 2026-10-02 (Supplement §3, D-01…D-07); D-08 and D-09 recorded 2026-10-03; D-10 recorded 2026-10-06; D-11 recorded 2026-10-13; D-12…D-18 recorded 2026-10-25; D-19 and D-20 recorded 2026-10-26; D-21…D-23 recorded 2026-11-06.
+None.
