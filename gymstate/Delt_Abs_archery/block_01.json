@@ -1,5 +1,8 @@
 {
-  "block": 2,
+  "track": "Delt_Abs_archery",
+  "block": 1,
+  "status": "active",
+  "builds_on": null,
   "current_state": {
     "block_type": "focus",
     "block_goal": {
@@ -22,29 +25,16 @@
       "erectors"
     ],
     "layoff": "none — block 01 trained up to this block",
-    "loading_stages": {
-      "shoulder": 2,
-      "elbow": 2,
-      "wrist": 2,
-      "spine": 1,
-      "hip": 1,
-      "knee": 1,
-      "ankle": 1,
-      "fingers": 4
-    },
-    "in_season": [
-      "archery"
-    ],
     "current_routines": [
       {
-        "stem": "routine_upperbody_focus_A",
+        "path": "Delt_Abs_archery/routine_upperbody_focus_A",
         "regions": [
           "upper"
         ],
         "sessions_week": 1
       },
       {
-        "stem": "routine_upperbody_focus_B",
+        "path": "Delt_Abs_archery/routine_upperbody_focus_B",
         "regions": [
           "upper"
         ],
@@ -57,19 +47,19 @@
     "approved": "2026-11-10",
     "routines": [
       {
-        "stem": "routine_upperbody_focus_A",
+        "path": "Delt_Abs_archery/routine_upperbody_focus_A",
         "version": 12
       },
       {
-        "stem": "routine_upperbody_focus_B",
+        "path": "Delt_Abs_archery/routine_upperbody_focus_B",
         "version": 13
       },
       {
-        "stem": "conditioning_bike",
+        "path": "conditioning_bike",
         "version": 2
       },
       {
-        "stem": "stretching_archery_hEDS",
+        "path": "stretching_archery_hEDS",
         "version": 2
       }
     ],
@@ -124,7 +114,22 @@
       "conditioning_bike: notch settings change only at a test; a failed morning step gate repeats that week, two within 4 weeks take one step back for 2 weeks (R43 logic); the week-13 verdict follows the file's self-evaluation box (a gain: EQ or NEG ≥1 notch higher, or HR at week 1's EQ notch ≥3% lower); if court drills are still locked then, the next period repeats weeks 5–12 at the new settings",
       "stretching_archery_hEDS: no progression — the drills stay light. P10's band draw runs on Harry's season exception: when archery leaves his in-season list, it comes out (v3) unless shoulder, elbow and wrist pass their stage-3 tests (R14)"
     ],
-    "suspensions": "Lower body not trained this block: the spine, hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24 · §2.1; the spine joined the lower body by D-100 on 2026-11-18)"
+    "suspensions": "Lower body not trained this block: the spine, hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24 · §2.1; the spine joined the lower body by D-100 on 2026-11-18)",
+    "built_with": {
+      "loading_stages": {
+        "shoulder": 2,
+        "elbow": 2,
+        "wrist": 2,
+        "spine": 1,
+        "hip": 1,
+        "knee": 1,
+        "ankle": 1,
+        "fingers": 4
+      },
+      "in_season": [
+        "archery"
+      ]
+    }
   },
   "log": [
     {
@@ -142,7 +147,8 @@
         "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
         "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
         "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-10-29",
@@ -159,7 +165,8 @@
         "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
         "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
         "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-05",
@@ -177,7 +184,8 @@
         "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
         "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
         "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-06",
@@ -198,7 +206,8 @@
         "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
         "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change",
         "routine_upperbody_focus_C v10 is not current; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-09",
@@ -222,7 +231,8 @@
         "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
         "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds",
         "pair_check.py reads the first number in a conditioning card's sets column as a set count (10 min → 10 sets): cosmetic, no effect on PASS or FAIL"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-10",
@@ -242,7 +252,8 @@
         "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')",
         "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
         "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-10",
@@ -273,7 +284,8 @@
         "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')",
         "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
         "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-13",
@@ -321,7 +333,8 @@
         "routine_lowerbody_focus_C v4 is not part of block 03; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)",
         "Spec round, only if Harry wants one — gaps the block 03 plan met: R30 says nothing when no lift for a target passes a 'must'; R22 has no anchor when a row has no pre-layoff load; R42 (a) has no step in the strength row at 3 RIR; two goal rows in a region, again; R21 and R59 when Harry wants no sport named",
         "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-15",
@@ -350,7 +363,8 @@
         "routine_lowerbody_focus_C v4 is not part of block 03; Harry moves it to gymplan/PreviousOldRoutines/ if he wants it archived (Stage 2 D-15)",
         "Spec round, only if Harry wants one — gaps the block 03 plan met: R30 says nothing when no lift for a target passes a 'must'; R22 has no anchor when a row has no pre-layoff load; R42 (a) has no step in the strength row at 3 RIR; two goal rows in a region, again; R21 and R59 when Harry wants no sport named",
         "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-17",
@@ -401,7 +415,8 @@
         "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision",
         "Spec round, only if Harry wants one: strength targets spread over at least 2 sessions instead of every session (Stage 0 §0.3) would hold each at its target of 4 sets and save 10 strength sets a week (T2, 2026-11-13)",
         "Stage 0 R24 in block 03: plan v2 keeps plan v1's reading — the spine's progression suspended with the upper region — though the Smith squat and RDL load the spine and the Smith bar the shoulders; whether R24 counts the spine with the upper region is unstated"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-18",
@@ -435,6 +450,29 @@
         "Spec round, only if Harry wants one — gaps the block 03 plan met: R30 says nothing when no lift for a target passes a 'must'; R22 has no anchor when a row has no pre-layoff load; R42 (a) has no step in the strength row at 3 RIR; two goal rows in a region, again; R21 and R59 when Harry wants no sport named",
         "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision",
         "Stage 2 R67 and a prepared block: block_03.json sits in gymstate/ before block 03 starts, while R67 reads the highest number as the current block and state_check.py checks the newest file by default — an R67 amendment for a prepared next block, in a spec round if Harry wants one"
+      ],
+      "spec_gaps": []
+    },
+    {
+      "date": "2026-11-20",
+      "changes": [
+        "Migrated from gymstate/block_02.json into the track Delt_Abs_archery (Harry, 2026-11-20: M1 A · Stage 0 D-102 · Stage 2 D-16): block_01, status active, builds_on null — a track of its own, not Upper_HYP's next block",
+        "Loading stages and in_season moved to gymstate/athlete.json; this block's values are kept as plan.built_with (Stage 2 R68)",
+        "Paths: Delt_Abs_archery/routine_upperbody_focus_A v12 and _B v13 in gymplan/Delt_Abs_archery/, their mirrors moved to gymtxt/Delt_Abs_archery/; conditioning_bike v2 and stretching_archery_hEDS v2 stay shared, directly in gymplan/ (M2 A)",
+        "Follow-ups split (Stage 0 D-101 · D-102): the season exception, the finger test and the spine question moved to gymstate/athlete.json; the five block 03 items moved to Lower_STR/block_01.json; four spec-round items moved to spec_gaps",
+        "Closed: upper focus A and B reported missing (the checks read track folders now); routine_upperbody_focus_C v10 (its mirror archived to gymtxt/PreviousOldRoutines/, M4 A); the block 03 start row with upper focus A and B leaving (tracks are independent); the R67 amendment for a prepared block (Stage 2 D-16)"
+      ],
+      "follow_ups": [
+        "At spine stage 2 the abs' L gap can close: C141, C147 or C148 — C148, the face-away cable crunch, is the one with a weight stack for load steps (R28)",
+        "Competition date not recorded (F5); in competition week, the taper advice under progression applies",
+        "Lower back (erectors): no endurance work until a fitting exercise is confirmed or the spine reaches stage 2 (O7 A)",
+        "Set progression (R42 c) fits about one step before Stage 0 R19's 75 min ceiling; after it, progress by reps and load, or ask for a plan change"
+      ],
+      "spec_gaps": [
+        "Spec round, only if Harry wants one: the sport-day mobility amendment of O1 A (text in this row) — Stage 0 §2.7 and Stage 2 §3.1",
+        "R59: none of the three mobility files carries a sport-note line ('day after: no sport limit'); whether R59 binds mobility files is unstated (U1)",
+        "Spec amendments for two goal rows in a region, same-row pairing and harvest, and a competition taper (texts E1–E10): only in a spec round, if Harry wants one (O11)",
+        "Spec round, only if Harry wants one: conditioning dosing (a Stage 0 Supplement deferred row for Stage 1, and the backlog conditioning goal row) — the talk-test scale, time in reserve and the conditioning test — and whether Stage 0 §4.1's current_routines lists conditioning routines (regions '—')"
       ]
     }
   ]

@@ -5,11 +5,16 @@ Checks 1–2 list the routine files at the latest version the catalogue cites, w
 mobility files' upper v4 and lower v3 IDs added 2026-10-26, catalogue revision 13; upper v5 2026-10-27, revision 14; the
 upper focus files A v11, B v11 and C v10 2026-10-28, revision 16; A v12 and B v12 2026-10-29, revision 17; B v13 2026-11-05, revision 18; the conditioning file conditioning_bike v1 2026-11-09, revision 22; the archery-day mobility file stretching_archery_hEDS v1
 2026-11-10, revision 23, and v2 the same day, revision 24; the lower focus files A v5 and B v5 2026-11-13, revision 25;
-B v6 and C v5 2026-11-17, revision 27; A v7, B v7 and C v6 2026-11-18, revision 28);
+B v6 and C v5 2026-11-17, revision 27; A v7, B v7 and C v6 2026-11-18, revision 28; Upper_HYP's A v11 and C v10, cited
+by path, 2026-11-20, revision 29);
 a version that changes no exercise, card number or
 pairing leaves them as they are (Stage 2 D-04). Check 6 reads the files in
-gymplan/ (beside the gymspec dir given) and confirms each one still matches the version the catalogue cites; a stem found
-only in gymplan/PreviousOldRoutines/, Harry's archive, is skipped as retired (Stage 2 D-15). A FAIL exits 1.
+gymplan/ (beside the gymspec dir given), directly in it and in each track folder (Stage 2 D-16), and confirms each one
+still matches the latest version the catalogue cites up to its own; a stem, or a version, found only in Harry's archive —
+gymplan/PreviousOldRoutines/ or gymtxt/PreviousOldRoutines/ — is skipped as retired (Stage 2 D-15). A track's file the
+catalogue cites by its path ("<track>/<file> vN ex. n") is checked against those lines only, and lines citing a bare file
+name serve the files with no path lines, since two tracks can hold the same name at the same version (Stage 2 D-16,
+2026-11-20). A FAIL exits 1.
 """
 import json
 import os
@@ -93,6 +98,7 @@ cards = {
     "routine_lowerbody_focus_B v7": range(1, 7), "routine_lowerbody_focus_C v6": range(1, 7),
     "popliteus_prevention_protocol v5": range(1, 11), "cardio_routine (no version)": range(1, 16),
     "conditioning_bike v1": range(1, 7),
+    "Upper_HYP/routine_upperbody_focus_A v11": range(1, 9), "Upper_HYP/routine_upperbody_focus_C v10": range(1, 7),
 }
 refs = [c for x in rows for c in x["corpus"]]
 missing = []
@@ -124,7 +130,8 @@ check(not missing, f"every corpus card and mobility item is catalogued ({len(mis
 # 2. Alternatives per file (counts from the alternatives tables)
 expected_alts = {"routine_upperbody v6": 18, "routine_upperbody_focus_A v12": 4, "routine_upperbody_focus_B v13": 2,
                  "routine_upperbody_focus_C v10": 2, "routine_lowerbody_focus_A v7": 7, "routine_lowerbody_focus_B v7": 6,
-                 "routine_lowerbody_focus_C v6": 3, "popliteus_prevention_protocol v5": 2}
+                 "routine_lowerbody_focus_C v6": 3, "popliteus_prevention_protocol v5": 2,
+                 "Upper_HYP/routine_upperbody_focus_A v11": 8, "Upper_HYP/routine_upperbody_focus_C v10": 6}
 for f, n in expected_alts.items():
     got = sum(1 for c in refs if c.startswith(f + " alt. for"))
     # a corpus-fixed variant may cite the same alternative as its locked original
@@ -234,36 +241,78 @@ def card_ok(title, full, cites):
     return False
 
 
+ARCHIVE = "PreviousOldRoutines"
+gymtxt = os.path.join(spec, "..", "gymtxt")
+
+
+def version_of(path):
+    m = re.search(r">v(\d+) — ", open(path, encoding="utf-8").read())
+    return int(m.group(1)) if m else 0
+
+
+def live_files(stem):
+    """The stem's files directly in gymplan/ (shared) and in each track folder (Stage 2 D-16), the archive aside."""
+    out = [os.path.join(plan, stem + ".svg")] if os.path.exists(os.path.join(plan, stem + ".svg")) else []
+    for d in sorted(os.listdir(plan)):
+        q = os.path.join(plan, d, stem + ".svg")
+        if d != ARCHIVE and os.path.isdir(os.path.join(plan, d)) and os.path.exists(q):
+            out.append(q)
+    return out
+
+
+def archived(stem):
+    """Versions of the stem in Harry's archive, gymplan/ or gymtxt/ PreviousOldRoutines/ (Stage 2 D-15)."""
+    return {version_of(p) for p in (os.path.join(plan, ARCHIVE, stem + ".svg"), os.path.join(gymtxt, ARCHIVE, stem + ".txt"))
+            if os.path.exists(p)}
+
+
+path_keys = {k for k in cite if "/" in k}
 if not os.path.isdir(plan):
     print(f"SKIP routine files: no {plan}")
 for stem, by_ver in sorted(cite.items()):
     if not os.path.isdir(plan):
         break
-    use = max(by_ver)
-    path = os.path.join(plan, stem + ".svg")
-    if not os.path.exists(path):
-        if os.path.exists(os.path.join(plan, "PreviousOldRoutines", stem + ".svg")):
-            print(f"SKIP {stem}: retired to gymplan/PreviousOldRoutines/ (Stage 2 D-15)")
+    if "/" in stem:  # a track's file cited by its path (Stage 2 D-16)
+        one = os.path.join(plan, stem + ".svg")
+        files, arch = ([one] if os.path.exists(one) else []), set()
+    else:
+        files = [f for f in live_files(stem) if os.path.relpath(f, plan).replace(os.sep, "/")[:-4] not in path_keys]
+        arch = archived(stem)
+    if not files:
+        if arch:
+            print(f"SKIP {stem}: retired to the archive, PreviousOldRoutines/ (Stage 2 D-15)")
         else:
-            check(False, f"{stem}: cited by the catalogue, but gymplan/ has no such file")
+            check(False, f"{stem}: cited by the catalogue, but gymplan/ has no such file, shared or in a track folder")
         continue
-    t = [(int(a_), bool(b_), int(x_), int(y_), html_unesc(s_)) for a_, b_, x_, y_, s_ in TEXT.findall(open(path, encoding="utf-8").read())]
-    ver = next((int(m.group(1)) for *_, s_ in t if (m := re.match(r"v(\d+) — ", s_))), 0)
-    nums = [(y, s_) for size, bold, x_, y, s_ in t if size == 11 and bold and x_ == 54 and re.fullmatch(r"[PS]?\d+", s_)]
-    ys = sorted({y for y, _ in nums})
-    have = {}
-    for y, k in nums:
-        if k in have:
+    top, newest = max(by_ver), max(version_of(f) for f in files)
+    if newest < top:
+        if top in arch:
+            print(f"SKIP {stem} {vtag(top)}: kept only in the archive (Stage 2 D-15)")
+        else:
+            check(False, f"{stem}: the catalogue cites {vtag(top)}, newer than every file of the stem (v{newest})")
+    for path in files:
+        rel = os.path.relpath(path, plan).replace(os.sep, "/")[:-4]
+        t = [(int(a_), bool(b_), int(x_), int(y_), html_unesc(s_)) for a_, b_, x_, y_, s_ in TEXT.findall(open(path, encoding="utf-8").read())]
+        ver = next((int(m.group(1)) for *_, s_ in t if (m := re.match(r"v(\d+) — ", s_))), 0)
+        use = max((v_ for v_ in by_ver if v_ <= ver), default=None)
+        if use is None:
+            check(False, f"{rel} v{ver}: the catalogue cites no version of {stem} up to v{ver}")
             continue
-        end = next((y2 for y2 in ys if y2 > y), y + 90)
-        title = next((s_ for size, bold, x_, y2, s_ in t if size == 12 and bold and 60 <= x_ <= 80 and y2 == y), "")
-        full = " ".join(s_ for size, bold, x_, y2, s_ in t if 60 <= x_ <= 480 and y <= y2 < end)
-        have[k] = (title, full)
-    missing = [k for k in by_ver[use] if k not in have]
-    bad = [k for k, cs in by_ver[use].items() if k in have and not card_ok(have[k][0], have[k][1], cs)]
-    check(ver >= use and not missing and not bad,
-          f"{stem} v{ver}: cards match the catalogue's {vtag(use)}" + (f" — missing {missing}" if missing else "")
-          + (f" — no match for {bad}" if bad else "") + ("" if ver >= use else f" — the file is older than {vtag(use)}"))
+        nums = [(y, s_) for size, bold, x_, y, s_ in t if size == 11 and bold and x_ == 54 and re.fullmatch(r"[PS]?\d+", s_)]
+        ys = sorted({y for y, _ in nums})
+        have = {}
+        for y, k in nums:
+            if k in have:
+                continue
+            end = next((y2 for y2 in ys if y2 > y), y + 90)
+            title = next((s_ for size, bold, x_, y2, s_ in t if size == 12 and bold and 60 <= x_ <= 80 and y2 == y), "")
+            full = " ".join(s_ for size, bold, x_, y2, s_ in t if 60 <= x_ <= 480 and y <= y2 < end)
+            have[k] = (title, full)
+        missing = [k for k in by_ver[use] if k not in have]
+        bad = [k for k, cs in by_ver[use].items() if k in have and not card_ok(have[k][0], have[k][1], cs)]
+        check(not missing and not bad,
+              f"{rel} v{ver}: cards match the catalogue's {vtag(use)}" + (f" — missing {missing}" if missing else "")
+              + (f" — no match for {bad}" if bad else ""))
 
 print("ALL PASS" if ok else "SOME CHECKS FAILED")
 sys.exit(0 if ok else 1)

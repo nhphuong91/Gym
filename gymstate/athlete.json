@@ -1,0 +1,30 @@
+{
+  "loading_stages": {
+    "shoulder": 2,
+    "elbow": 2,
+    "wrist": 2,
+    "spine": 1,
+    "hip": 1,
+    "knee": 1,
+    "ankle": 1,
+    "fingers": 4
+  },
+  "in_season": [
+    "archery"
+  ],
+  "log": [
+    {
+      "date": "2026-11-20",
+      "changes": [
+        "Athlete record started (Harry, 2026-11-20: Stage 0 D-102 · Stage 2 D-16 · R67): the loading stages of gymstate/block_02.json and block_03.json, which agree — shoulder, elbow and wrist 2; spine, hip, knee and ankle 1; fingers 4",
+        "in_season: archery (M3 A) — block 02, the block Harry trains, holds it; block 03's 'no sport in season' (2026-11-13) was its own planning answer and stays in Lower_STR/block_01.json as plan.built_with",
+        "Follow-ups that concern Harry's joints or the season, moved here from the block files: the archery season exception, the finger control test and the spine's stage"
+      ],
+      "follow_ups": [
+        "Season exception (Harry, 2026-11-10): when archery leaves in_season, P10's band draw comes out of stretching_archery_hEDS (v3) unless shoulder, elbow and wrist pass their stage-3 tests (R14); Current state stays at stage 2 throughout",
+        "A control test and symmetry test for the fingers (Stage 0 Supplement §6 · D-97): until one exists, a finger flare leaves them at stage 3 (R14)",
+        "Spine loading stage: this file reads 1 (Harry, 2026-10-25); an older catalogue revision note reads 2 — Harry to confirm which holds"
+      ]
+    }
+  ]
+}

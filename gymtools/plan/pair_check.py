@@ -16,7 +16,9 @@ judgement the catalogue cannot make). NOTE: joint-control note to state with the
 sets straight) and checks every alternative of a paired exercise against both partners' stations. Cards map to rows through
 the catalogue's provenance lines ("<file> vN ex. n"): the file's own version when the catalogue cites it, otherwise the
 latest cited version below it, as a version that changed no exercise, card number or pairing leaves the catalogue as it is
-(Stage 2 D-04 · R61). Mapped that way, every card's title must match a row cited for its number, or the file FAILs: the
+(Stage 2 D-04 · R61). A file in a track folder that the catalogue cites by its path ("<track>/<file> vN ex. n") maps through
+those lines only, since another track can hold the same file name at the same version; any other file maps through the
+lines citing its bare name (Stage 2 D-16, 2026-11-20). Mapped that way, every card's title must match a row cited for its number, or the file FAILs: the
 catalogue then needs the new version. A set count is read only from an "N × …" sets column, so minutes or stages are
 never counted as sets, and any other card without one FAILs; a card whose catalogue row is conditioning is listed with no
 working sets (Stage 0 §2.7) and adds nothing to the straight-set count (2026-11-10).
@@ -237,7 +239,11 @@ def unesc(s):
 
 
 def check_file(path, rows):
-    stem = re.sub(r"\.(svg|txt)$", "", path.replace("\\", "/").split("/")[-1])
+    parts = path.replace("\\", "/").split("/")
+    stem = re.sub(r"\.(svg|txt)$", "", parts[-1])
+    folder = parts[-2] if len(parts) > 1 else ""
+    if folder not in ("", ".", "gymplan", "gymtxt", "PreviousOldRoutines") and cited_versions(f"{folder}/{stem}", rows):
+        stem = f"{folder}/{stem}"  # a track's file cited by its path (Stage 2 D-16)
     texts = [(int(m.group(1)), bool(m.group(2)), int(m.group(3)), int(m.group(4)), unesc(m.group(5)))
              for m in TEXT.finditer(open(path, encoding="utf-8").read())]
     ver = next((m.group(1) for *_, t in texts if (m := re.match(r"v(\d+) — ", t))), None)

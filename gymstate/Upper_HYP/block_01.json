@@ -1,5 +1,8 @@
 {
+  "track": "Upper_HYP",
   "block": 1,
+  "status": "finished",
+  "builds_on": null,
   "current_state": {
     "block_type": "focus",
     "block_goal": {
@@ -18,33 +21,23 @@
       "abs"
     ],
     "layoff": "~2 months",
-    "loading_stages": {
-      "shoulder": 2,
-      "elbow": 2,
-      "wrist": 2,
-      "spine": 1,
-      "hip": 1,
-      "knee": 1,
-      "ankle": 1
-    },
-    "in_season": [],
     "current_routines": [
       {
-        "stem": "routine_upperbody_focus_A",
+        "path": "Upper_HYP/routine_upperbody_focus_A",
         "regions": [
           "upper"
         ],
         "sessions_week": 1
       },
       {
-        "stem": "routine_upperbody_focus_B",
+        "path": "Upper_HYP/routine_upperbody_focus_B",
         "regions": [
           "upper"
         ],
         "sessions_week": 1
       },
       {
-        "stem": "routine_upperbody_focus_C",
+        "path": "Upper_HYP/routine_upperbody_focus_C",
         "regions": [
           "upper"
         ],
@@ -53,52 +46,64 @@
     ]
   },
   "plan": {
-    "version": "upper focus v8",
-    "approved": "2026-10-13",
+    "version": "upper focus v9",
+    "approved": "2026-11-20",
     "routines": [
       {
-        "stem": "routine_upperbody_focus_A",
+        "path": "Upper_HYP/routine_upperbody_focus_A",
+        "version": 11
+      },
+      {
+        "path": "Upper_HYP/routine_upperbody_focus_B",
         "version": 10
       },
       {
-        "stem": "routine_upperbody_focus_B",
+        "path": "Upper_HYP/routine_upperbody_focus_C",
         "version": 10
-      },
-      {
-        "stem": "routine_upperbody_focus_C",
-        "version": 9
       }
     ],
     "checks": [
-      "(1) PASS: all 18 exercises are open in the catalogue at the current loading stages (each needs stage 1 at most) and use Stage 0 §1.3 kit. Warnings: B3 pullover ⚠ R6, mitigated by braced blades and ~70–80% of flexion; the alternative overhead DB extension (A5) ⚠ R6. The spine is at stage 1, and the 3 exercises that load it (A2 cable row, A8 and C6 plank, B8 dead bug hold) need stage 1 only; the subtitles name each joint's stage since A v10, B v10, C v9",
+      "(1) PASS: all 18 exercises are open in the catalogue at the current loading stages (each needs stage 1 at most) and use Stage 0 §1.3 kit. Warnings: B3 pullover ⚠ R6, mitigated by braced blades and ~70–80% of flexion; the alternative overhead DB extension (A5) ⚠ R6. The spine is at stage 1, and the 4 exercises that load it (A2 cable row, A8, B8 and C6 dead bug hold) need stage 1 only; v9's dead bug hold in A8 and C6 also needs hip and shoulder stage 1, both legs and both arms together (R12); the subtitles name each joint's stage since A v10, B v10, C v9",
       "(2) PASS: every prime mover is one of the 9 priority targets; no lower-body muscle gets direct sets (R32)",
       "(3) PASS: 3–4 sets an exercise; compounds 10–12 at 3 RIR, from week 5 at 2; isolation 10–12 or 12–15 at 2 RIR, from week 5 at 1; holds 48–60 s ending 8 s before failure, from week 5 4 s (Stage 0 D-87); 60–90 s rest",
-      "(4) PASS: pair_check.py on A v9, B v9, C v8: all 11 pairs pass (10 PASS, 1 REVIEW), 0 straight sets. B1 REVIEW, chest-supported DB row ↔ band crossover: the bench carries the row's bracing and the light band fly leaves grip and stabilizers fresh; the row goes first. B2 NOTE, pullover ↔ prone Y raise both brace the blades overhead: the pullover goes first, and the Y raise runs straight if the shoulder feels unstable (its card, R9)",
-      "(5) REVIEW, decided (Stage 1 D-14): the files count half-sets from compounds only — chest 10 + 0, front delt 7 + 3.5, side delt 10, rear delt 7 + 3, lats 7 + 3, upper back 9 + 2 (1 above, R48), biceps 7 + 5, triceps 7 + 3.5, abs 10. Counted with every synergist the catalogue lists (R35), chest is 10 + 5.0, triceps 7 + 5.0 and upper back 9 + 5.5; at the next plan change chest and upper back drop to 7 direct sets each (R36), and the set-count boxes count every listed synergist",
-      "(6) PASS: exercise time A ≈41.5, B ≈38.5, C ≈38 min (R40 re-run: 2484, 2322, 2286 s), under ~60 and never past 75; at most 6 fractional sets per muscle in a session, under 8 (Stage 0 R19)",
-      "(7) PASS with gaps named: chest, lats and biceps L + M or S; triceps L + M, no S (R27). Gaps (R28): front delt S only, its L C139 added to the catalogue for the next plan change; rear delt S only, its L C140 one-arm, locked until stage 3 (R12); side delt S only, its L and M one-arm, locked until stage 3; upper back M + S, no L with the kit; abs M only, its L C141 locked until spine stage 2 (Stage 1 D-15)",
+      "(4) PASS: pair_check.py on A v11, B v10, C v10 (2026-11-20, catalogue revision 29): all 11 pairs pass (8 PASS, 3 REVIEW, 2 NOTE), 0 straight sets. A-D and C-C, lateral raise → dead bug hold: PASS — the forearm plank they had held the side delt still, pre-fatiguing the lateral raise (Stage 1 R38 · D-21), so the hold took its card in v9. B1 REVIEW, chest-supported DB row ↔ band crossover: the bench carries the row's bracing and the light band fly leaves grip and stabilizers fresh; the row goes first. B2 NOTE, pullover ↔ prone Y raise both brace the blades overhead: the pullover goes first, and the Y raise runs straight if the shoulder feels unstable (its card, R9). A-C and C-B REVIEW (stabilizer data since catalogue revision 18): the overhead triceps extension holds the cuff and upper back still, which the rear-delt fly after it trains as synergists — kept, as the extension holds them only to steady the shoulder and the fly's prime mover is the rear delt, in light S-zone sets; triceps first, then the fly, which runs straight after 60–90 s if the shoulder feels unstable (R9). A-C NOTE, both hold the front and side delt still: the same order and fallback",
+      "(5) REVIEW, decided (Stage 1 D-14): the files count half-sets from compounds only — chest 10 + 0, front delt 7 + 3.5, side delt 10, rear delt 7 + 3, lats 7 + 3, upper back 9 + 2 (1 above, R48), biceps 7 + 5, triceps 7 + 3.5, abs 10. Counted with every synergist the catalogue lists (R35), chest is 10 + 5.0, triceps 7 + 5.0 and upper back 9 + 5.5; at a full re-plan of Upper_HYP chest and upper back drop to 7 direct sets each (R36), and the set-count boxes count every listed synergist (Harry, 2026-11-20, Q2 A: not in v9)",
+      "(6) PASS: exercise time A ≈41.5, B ≈38.5, C ≈38 min, unchanged in v9 (the hold keeps the plank's 48–60 s) (R40 re-run: 2484, 2322, 2286 s), under ~60 and never past 75; at most 6 fractional sets per muscle in a session, under 8 (Stage 0 R19)",
+      "(7) PASS with gaps named: chest, lats and biceps L + M or S; triceps L + M, no S (R27). Gaps (R28): front delt S only, its L C139 added to the catalogue, for a full re-plan of Upper_HYP (Q2 A); rear delt S only, its L C140 one-arm, locked until stage 3 (R12); side delt S only, its L and M one-arm, locked until stage 3; upper back M + S, no L with the kit; abs M only, its L C141 locked until spine stage 2 (Stage 1 D-15)",
       "(8) PASS: upper 3 training sessions a week, lower none; no two current routines share no region, so the cross-routine guard has no pair; Harry keeps 48 h between them (Stage 0 R20)",
       "(9) PASS: each file names archery the day after, as chest, delts, back, triceps and abs are its day-before muscles; badminton's collect no sets (Stage 0 R21)",
       "(10) PASS: every station exercise has two alternatives clear of its own and its partner's stations (pair_check.py); no-station exercises carry none (R41)"
     ],
     "zone_coverage": [
       "chest: L Smith flat bench (A1), Smith incline press (C1) · S band crossover (B2)",
-      "front delt: S front raise (A4, B6); its L, C139 supine DB front raise on the floor, joined the catalogue on 2026-10-25 and enters at the next plan change (Stage 1 D-15) — gap named until then",
+      "front delt: S front raise (A4, B6); its L, C139 supine DB front raise on the floor, joined the catalogue on 2026-10-25 and enters at a full re-plan of Upper_HYP (Stage 1 D-15 · Q2 A) — gap named until then",
       "side delt: S lateral raise (A7, B7, C5); L side-lying and M leaning lateral raise are one-arm, locked until shoulder and elbow stage 3 (R12) — gap named",
       "rear delt: S band reverse fly (A6), chest-supported rear delt fly (C4); its L, C140 side-lying DB rear delt raise, is one-arm, locked until shoulder and elbow stage 3 (R12) — gap named",
       "lats: L pullover (B3) · M lat pulldown (C2)",
       "upper back: M wide-grip cable row (A2) · S chest-supported DB row (B1), prone Y raise (B4); no L exists with the kit (searched 2026-10-25, Stage 1 D-15) — gap named",
       "biceps: L preacher curl (A3) · M hammer curl (B5)",
       "triceps: L overhead cable extension (A5) · M band overhead extension (C3); no S, a permanent shortfall (R27)",
-      "abs: M plank (A8, C6), dead bug hold (B8); its L, C141 crunch over the foam roller, is locked until spine stage 2 — gap named"
+      "abs: M dead bug hold (A8, B8, C6); its L, C141 crunch over the foam roller, is locked until spine stage 2 — gap named"
     ],
     "progression": [
       "A1, A2, A3, A5, B1, B3, B5, C1, C2, C3 (10–12 reps): +1 rep a set to 12 at the week's RIR; twice in a row → Harry's smallest load step, back to 10 (R42 a, b)",
       "A4, A6, A7, B2, B4, B6, B7, C4, C5 (12–15 reps): +1 rep a set to 15; twice in a row → the smallest load step, back to 12 (R42 a, b)",
-      "A8, C6 plank (48–60 s): to 60 s with the reserve held → a harder variant, not longer; B8 dead bug hold: straighten both legs only while the back stays flat (R16)",
+      "A8, B8, C6 dead bug hold (48–60 s): to 60 s with the reserve held → straighten both legs only while the back stays flat — a harder variant, not longer (R16)",
       "Then +1 set every 2 weeks per target, up to 20 a week, while (a) and (b) stay inside the step gate; never more load and more sets for a muscle in the same week; nothing progresses during the restart ramp (R42 c · R33 · Stage 0 R22)"
     ],
-    "suspensions": "Lower body not trained this block: the hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24)"
+    "suspensions": "Lower body not trained this block: the hip, knee and ankle keep loading stage 1, and their loading-gate progression is suspended (Stage 0 R24)",
+    "built_with": {
+      "loading_stages": {
+        "shoulder": 2,
+        "elbow": 2,
+        "wrist": 2,
+        "spine": 1,
+        "hip": 1,
+        "knee": 1,
+        "ankle": 1
+      },
+      "in_season": []
+    }
   },
   "log": [
     {
@@ -116,7 +121,8 @@
       "follow_ups": [
         "Next plan change: chest and upper back to 7 direct sets each, and the set-count boxes count every catalogue synergist (Stage 1 D-14)",
         "Next plan change: C139 into the front delt's L slot (R28), together with the chest and upper back trim"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-10-26",
@@ -128,7 +134,8 @@
       ],
       "follow_ups": [
         "Foam-rolling files: the same review once Harry gives the go (2026-10-26)"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-10-27",
@@ -139,7 +146,34 @@
         "Foam-rolling files rebuilt as Harry approved on 2026-10-27 (O1 A, O3 A, O4 A): foam_rolling_upperbody_hEDS v2 → v3 (8 areas) and foam_rolling_lowerbody_hEDS v3 → v4 (7 areas, shins added); muscle-only areas by target, light pressure (~3–4/10), 30–60 s an area, after training or on rest days and never before a session; no roll across the spine, no arm straight overhead or swept behind, fists and soft elbows when seated (Stage 0 R1 · R2 · R7); built by a throwaway script, so both stay hand-laid",
         "Lacrosse ball (Harry's O2 B): it joins the always-available kit (Stage 0 §1.3 · D-93) and the catalogue's equipment vocabulary (revision 15); foam_rolling_upperbody_hEDS v3 → v4 and foam_rolling_lowerbody_hEDS v4 → v5 name it as an option at the same 3–4/10 limit, with less lean (text edits)"
       ],
-      "follow_ups": []
+      "follow_ups": [],
+      "spec_gaps": []
+    },
+    {
+      "date": "2026-11-20",
+      "changes": [
+        "Migrated from gymstate/block_01.json into the track Upper_HYP (Harry, 2026-11-20: M1 A · Stage 0 D-102 · Stage 2 D-16): block_01, status finished — block 02, now Delt_Abs_archery/block_01, followed it from 2026-10-28 — and builds_on null",
+        "Loading stages and in_season moved to gymstate/athlete.json; this block's own values — shoulder, elbow and wrist 2, spine, hip, knee and ankle 1, no stage for the fingers yet, no sport in season — are kept as plan.built_with (Stage 2 R68)",
+        "current_routines and plan.routines name each routine by path: Upper_HYP/routine_upperbody_focus_A v10, _B v10 and _C v9, in gymplan/Upper_HYP/; their mirrors written to gymtxt/Upper_HYP/ byte for byte (Stage 2 R57)",
+        "Log rows gain spec_gaps (Stage 2 §3.4): none for this block"
+      ],
+      "follow_ups": [],
+      "spec_gaps": []
+    },
+    {
+      "date": "2026-11-20",
+      "changes": [
+        "R68, named first: since plan v8 the fingers gained a stage, 4 (reaches no routine), and archery came into season (reaches A, B and C through the sport verdicts, Stage 1 R31, and selection criterion 5). This edit is checked against the athlete record; built_with keeps v8's values until a full re-plan",
+        "Plan upper focus v8 → v9 (Harry, 2026-11-20: F1, Q1 A · Q2 A): the dead bug hold (C134) takes card 8 of A and card 6 of C from the forearm plank, which held still the side delt that its superset partner, the lateral raise, trains (Stage 1 R38 · D-21) — the same abs zone (M), dose (48–60 s holds, 8 s in reserve) and exercise time; plan checks (1), (4)–(7), the abs and front-delt zone lines and the hold's progression line updated",
+        "Files: Upper_HYP/routine_upperbody_focus_A v10 → v11 and _C v9 → v10, text-scope edits on working copies (Stage 2 §2.1 · R54): the card and the version note; width estimate and render check passed; mirrors in gymtxt/Upper_HYP/ identical; register unchanged; B v10 unchanged",
+        "Catalogue revision 29: every card and alternative of A v11 and C v10 cited by path (Stage 2 D-16), since Delt_Abs_archery holds routine_upperbody_focus_A at v11 and the archive holds C at v10; pair_check.py and verify.py read path citations, and build.py's used_in reads a path (2026-11-20)"
+      ],
+      "follow_ups": [
+        "At a full re-plan of Upper_HYP: chest and upper back to 7 direct sets each, with set-count boxes that count every listed synergist (Stage 1 D-14), and C139 into the front delt's L slot (R28) — left for then by Harry (Q2 A, 2026-11-20)",
+        "At a full re-plan of Upper_HYP while archery is in season: the archery sport verdicts and selection criterion 5 (Stage 1 R31); until then built_with keeps v8's values, and R68 flags the track",
+        "The plan's R24 statement predates Stage 0 D-100: the spine now counts with the lower body, so it is suspended with the hip, knee and ankle; the files are unaffected, as the spine stays at stage 1"
+      ],
+      "spec_gaps": []
     }
   ]
 }

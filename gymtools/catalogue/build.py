@@ -2,8 +2,8 @@
 
 Run: python3 -B build.py <out_dir> [<previous ExerciseCatalogue.json>]
 The second argument adds the change-from-previous-revision table. rows.py, vocab.py and REVISIONS hold
-revision 28 (2026-11-18): with the revision 27 JSON as the second argument the output is byte-identical
-to gymspec/ExerciseCatalogue.json rev 28. gymspec/ is the source of truth: before a new revision, check that
+revision 29 (2026-11-20): with the revision 28 JSON as the second argument the output is byte-identical
+to gymspec/ExerciseCatalogue.json rev 29. gymspec/ is the source of truth: before a new revision, check that
 rows.py still matches it (gymtools/README.md), add a REVISIONS entry, then build and run verify.py.
 """
 import json
@@ -26,6 +26,20 @@ FIELDS = ["id", "key", "name", "kind", "region", "pattern", "prime_mover", "indi
 
 REVISIONS = [
     {
+        "n": 29,
+        "date": "2026-11-20",
+        "note": "Upper_HYP's focus files A v11 and C v10, cited by path: the dead bug hold for the plank",
+        "changes": [
+            "Upper_HYP's focus files A and C superset the lateral raise with the forearm plank, which holds the side delt still "
+            "and so pre-fatigues it (Stage 1 R38 · D-21). Harry (2026-11-20): the dead bug hold takes the plank's card — card 8 of "
+            "A, card 6 of C — as in routine_upperbody_focus_B v13 (revision 18). Provenance from "
+            "Upper_HYP/routine_upperbody_focus_A v11 and Upper_HYP/routine_upperbody_focus_C v10, cited by path: since Stage 2 "
+            "D-16 each track keeps its own folder, and Delt_Abs_archery holds routine_upperbody_focus_A at v11 while the archive "
+            "holds C at v10. No row changed otherwise.",
+        ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": [], "provenance_upper_hyp": ["C001", "C002", "C005", "C006", "C012", "C016", "C017", "C018", "C024", "C026", "C027", "C028", "C035", "C037", "C038", "C040", "C042", "C045", "C049", "C050", "C051", "C053", "C134", "C138"]},
+    },
+    {
         "n": 28,
         "date": "2026-11-18",
         "note": "the lower focus files A v7, B v7 and C v6: each lift in 2 of the 3 sessions",
@@ -35,6 +49,7 @@ REVISIONS = [
             "files were rebuilt that way (2026-11-18), each lift in 2 of the 3 sessions: provenance from "
             "routine_lowerbody_focus_A v7, B v7 and C v6. No row changed otherwise.",
         ],
+        "diff": {"locked": [], "opened": [], "bilateral": [], "end_range": [], "holds": [], "added": [], "replaced": [], "unlock_path": [], "locked_range": [], "corpus_fixed": [], "cues": [], "stabilizers": [], "indirect": [], "notes": [], "provenance_lower_v7": ["C064", "C065", "C066", "C070", "C078", "C081", "C084", "C085", "C086", "C092", "C096", "C131", "C133", "C136", "C137", "C152", "C153"]},
     },
     {
         "n": 27,
@@ -530,6 +545,7 @@ def fail(msg):
 def used_in(corpus):
     out = []
     for c in corpus:
+        c = c.split(" ", 1)[0].rsplit("/", 1)[-1]  # a track's file is cited by its path (Stage 2 D-16)
         if c.startswith("routine_"):
             tag = "lifting"
         elif c.startswith("popliteus"):
@@ -804,7 +820,8 @@ def render_md(cat):
                                ("Corpus provenance: the lower focus files A v5 and B v5", "provenance_lower_v5"),
                                ("Corpus provenance: the lower focus files B v6 and C v5", "provenance_lower_even"),
                                ("Corpus provenance: the lower focus files A v7, B v7 and C v6", "provenance_lower_v7"),
-                               ("Cue added: palms down, not thumbs up, with the reason", "cue_grip")):
+                               ("Cue added: palms down, not thumbs up, with the reason", "cue_grip"),
+                               ("Corpus provenance: Upper_HYP's focus files A v11 and C v10, cited by path", "provenance_upper_hyp")):
                 if d.get(key):
                     a(f"| {label} | {', '.join(d[key])} |")
             a("")
@@ -1098,6 +1115,10 @@ def main():
     rows = build()
     if len(sys.argv) > 2:
         REVISIONS[0]["diff"] = revision_diff(rows, sys.argv[2])
+        if REVISIONS[0]["n"] == 29:  # revision 29: Upper_HYP's A v11 and C v10 provenance, cited by path, listed apart
+            d = REVISIONS[0]["diff"]
+            prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}
+            d["provenance_upper_hyp"] = [x["id"] for x in rows if x["key"] in prev and x["corpus"] != prev[x["key"]]["corpus"]]
         if REVISIONS[0]["n"] == 28:  # revision 28: the lower focus files A v7, B v7 and C v6's provenance listed apart
             d = REVISIONS[0]["diff"]
             prev = {x["key"]: x for x in json.load(open(sys.argv[2], encoding="utf-8"))["rows"]}

@@ -129,13 +129,13 @@
 
 <text font-size="12" fill="#888" x="340" y="812" text-anchor="middle">↕ then immediately</text>
 
-<!-- D8 — Plank -->
+<!-- D8 — Dead bug hold -->
 <rect x="30" y="822" width="8" height="54" rx="2" fill="#444441"/>
 <rect x="38" y="822" width="612" height="54" rx="4" fill="#f1efe8" stroke="#888780" stroke-width="0.8"/>
 <text font-size="11" font-weight="500" fill="#555" x="54" y="838">8</text>
-<text font-size="12" font-weight="500" fill="#2c2c2a" x="72" y="838">Plank (on the forearms)</text>
-<text font-size="11" fill="#5f5e5a" x="72" y="853">Abs (M) · spine neutral, no sag into the low back</text>
-<text font-size="11" fill="#5f5e5a" x="72" y="868">Too easy at 60 s → harder variant, not longer</text>
+<text font-size="12" font-weight="500" fill="#2c2c2a" x="72" y="838">Dead bug hold, both arms and both legs up</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="853">Abs (M) · low back flat; arms over shoulders, hips 90°</text>
+<text font-size="11" fill="#5f5e5a" x="72" y="868">Progress: straighten both legs only while the back stays flat</text>
 <text font-size="12" font-weight="500" fill="#2c2c2a" x="490" y="838">3 × 48–60 s</text>
 <text font-size="11" fill="#5f5e5a" x="490" y="853">8 s in reserve · wk 5+: 4</text>
 <text font-size="11" fill="#5f5e5a" x="490" y="867">Floor</text>
@@ -210,6 +210,6 @@
 <text font-size="10" fill="#444" x="470" y="1482">DB skull crusher</text>
 
 <!-- VERSION NOTE -->
-<text font-size="9" fill="#aaa" x="340" y="1514" text-anchor="middle">v10 — subtitle names the loading stage per joint: shoulder, elbow, wrist 2 · spine 1 (Stage 2 R58)</text>
+<text font-size="9" fill="#aaa" x="340" y="1514" text-anchor="middle">v11 — dead bug hold for the plank (card 8): the plank pre-fatigued the lateral raise's side delt (Stage 1 R38 · D-21)</text>
 
 </svg>

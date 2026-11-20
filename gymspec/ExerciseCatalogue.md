@@ -1,7 +1,7 @@
 # Exercise Catalogue
 
 **Non-normative · draft.** Seed data for Stage 1 (`Stage1_Programming.md` §3.2 · D-03): the exercise facts every plan takes. `ExerciseCatalogue.json` (schema `stage1-exercise-catalogue/1`) is the source; this file mirrors it and is regenerated from it — edit the JSON, not this file.
-Screened against the default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97). Built 2026-10-02; revision 28, 2026-11-18: the lower focus files A v7, B v7 and C v6: each lift in 2 of the 3 sessions (§0). Where this file and the stage documents disagree, the stage documents govern.
+Screened against the default Current state: every joint at loading stage 1, the fingers at 4 (Stage 0 §4.1 · D-97). Built 2026-10-02; revision 29, 2026-11-20: Upper_HYP's focus files A v11 and C v10, cited by path: the dead bug hold for the plank (§0). Where this file and the stage documents disagree, the stage documents govern.
 
 **153 rows** — open 104 · locked 45 · excluded 4 · from the corpus 75 · corpus-fixed ✏️ 36 · proposed ✏️ 15 · confirmed ✏️ 27.
 
@@ -10,6 +10,14 @@ Screened against the default Current state: every joint at loading stage 1, the 
 ---
 
 ## 0. Revisions
+
+**Revision 29 — 2026-11-20: Upper_HYP's focus files A v11 and C v10, cited by path: the dead bug hold for the plank**
+
+- Upper_HYP's focus files A and C superset the lateral raise with the forearm plank, which holds the side delt still and so pre-fatigues it (Stage 1 R38 · D-21). Harry (2026-11-20): the dead bug hold takes the plank's card — card 8 of A, card 6 of C — as in routine_upperbody_focus_B v13 (revision 18). Provenance from Upper_HYP/routine_upperbody_focus_A v11 and Upper_HYP/routine_upperbody_focus_C v10, cited by path: since Stage 2 D-16 each track keeps its own folder, and Delt_Abs_archery holds routine_upperbody_focus_A at v11 while the archive holds C at v10. No row changed otherwise.
+
+| Change from revision 28 | Rows |
+|---|---|
+| Corpus provenance: Upper_HYP's focus files A v11 and C v10, cited by path | C001, C002, C005, C006, C012, C016, C017, C018, C024, C026, C027, C028, C035, C037, C038, C040, C042, C045, C049, C050, C051, C053, C134, C138 |
 
 **Revision 28 — 2026-11-18: the lower focus files A v7, B v7 and C v6: each lift in 2 of the 3 sessions**
 
@@ -468,7 +476,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: Front delt, Triceps · Day after: archery (Chest, Triceps)
 - Cues: wrists straight over the forearms, within ~70–80% of their range (§2.5 · D-65) · safeties set so the bar stops with the upper arms level with the torso, short of the chest (R1 · R3) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · no bounce at the bottom (R10)
 - Alternative candidates (R41 filter): C005 (L), C006 (L), C007 (L)
-- Source: 📖 corpus — routine_upperbody v6 ex. 1; routine_upperbody_focus_A v6 ex. 1; routine_upperbody_focus_A v7 ex. 1; routine_upperbody_focus_A v8 ex. 1
+- Source: 📖 corpus — routine_upperbody v6 ex. 1; routine_upperbody_focus_A v6 ex. 1; routine_upperbody_focus_A v7 ex. 1; routine_upperbody_focus_A v8 ex. 1; Upper_HYP/routine_upperbody_focus_A v11 ex. 1
 - Basis: 🧠 mechanics: the bottom of the press is its hardest point; L is truncated by R1 (R26)
 
 **C002 · Smith machine incline press (30° bench)** — Chest · L · horizontal press · compound · open
@@ -478,7 +486,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: wrists straight over the forearms, within ~70–80% of their range (§2.5 · D-65) · safeties set so the bar stops with the upper arms level with the torso (R1 · R3) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · no bounce at the bottom (R10)
 - Alternative candidates (R41 filter): C005 (L), C006 (L), C007 (L)
 - Notes: Clavicular-head emphasis (corpus).
-- Source: 📖 corpus — routine_upperbody_focus_B v6 ex. 1; routine_upperbody_focus_C v7 ex. 1; routine_upperbody_focus_C v8 ex. 1
+- Source: 📖 corpus — routine_upperbody_focus_B v6 ex. 1; routine_upperbody_focus_C v7 ex. 1; routine_upperbody_focus_C v8 ex. 1; Upper_HYP/routine_upperbody_focus_C v10 ex. 1
 - Basis: 🧠 mechanics: hardest at the bottom (R26)
 
 **C003 · Dumbbell flat bench press** — Chest · L · horizontal press · compound · open
@@ -506,7 +514,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: Front delt, Triceps · Day after: archery (Chest, Triceps)
 - Cues: upper arms touch the floor lightly, which stops them at torso level (R1) · no bounce off the floor (R10) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both arms move together (R12 until stage 3)
 - Notes: No station: the alternative for Smith and bench presses (R41).
-- Source: proposed ✏️ — routine_upperbody_focus_A v7 alt. for Smith flat bench press; routine_upperbody_focus_C v7 alt. for Smith incline press; routine_upperbody_focus_A v8 alt. for Smith flat bench press; routine_upperbody_focus_C v8 alt. for Smith incline press
+- Source: proposed ✏️ — routine_upperbody_focus_A v7 alt. for Smith flat bench press; routine_upperbody_focus_C v7 alt. for Smith incline press; routine_upperbody_focus_A v8 alt. for Smith flat bench press; routine_upperbody_focus_C v8 alt. for Smith incline press; Upper_HYP/routine_upperbody_focus_A v11 alt. for Smith flat bench press; Upper_HYP/routine_upperbody_focus_C v10 alt. for Smith incline press
 - Basis: 📖 Stage 1 R41 pass example · 🧠 mechanics: the floor stops the upper arms at torso level — the same stop as the bench presses, where the press is hardest — so L (R26)
 - 🔖 A6
 
@@ -516,7 +524,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: Front delt, Triceps · Day after: archery (Chest, Triceps)
 - Stabilizers (held still; no sets): Side delt, Rear delt, Rotator cuff, Serratus anterior, Abs, Obliques
 - Cues: hands on DB handles or fists: neutral wrists, since flat hands load the wrist near end-range extension (R2) · chest stops a fist above the floor, upper arms about level with the torso (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 alt. for Smith flat bench press (Push-ups, feet elevated); routine_upperbody_focus_A v6 alt. for Smith flat bench press (Push-ups, feet elevated); stretching_upper_hEDS v2 S2 (slow eccentric push-up, 8 s lowering); cardio_routine (no version) ex. 13 (slow eccentric push-up); routine_upperbody_focus_A v7 alt. for Smith flat bench press (push-up on DB handles); routine_upperbody_focus_C v7 alt. for Smith incline press (push-up, feet on the low box); routine_upperbody_focus_A v8 alt. for Smith flat bench press (push-up on DB handles); routine_upperbody_focus_C v8 alt. for Smith incline press (push-up, feet on the low box)
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 alt. for Smith flat bench press (Push-ups, feet elevated); routine_upperbody_focus_A v6 alt. for Smith flat bench press (Push-ups, feet elevated); stretching_upper_hEDS v2 S2 (slow eccentric push-up, 8 s lowering); cardio_routine (no version) ex. 13 (slow eccentric push-up); routine_upperbody_focus_A v7 alt. for Smith flat bench press (push-up on DB handles); routine_upperbody_focus_C v7 alt. for Smith incline press (push-up, feet on the low box); routine_upperbody_focus_A v8 alt. for Smith flat bench press (push-up on DB handles); routine_upperbody_focus_C v8 alt. for Smith incline press (push-up, feet on the low box); Upper_HYP/routine_upperbody_focus_A v11 alt. for Smith flat bench press (push-up on DB handles); Upper_HYP/routine_upperbody_focus_C v10 alt. for Smith incline press (push-up, feet on the low box)
 - Changed ✏️: Hands on DB handles (R2); feet raised on the low box, not the bench, so it stays an alternative to bench presses (R41); the corpus 8 s lowering becomes 2–3 s (R25).
 - Basis: 📖 Stage 1 R41 pass example · 🧠 mechanics (R26) · 🌐 stabilizers — weight on the hands: in a push-up the abs and obliques hold the trunk at 20–27% of a maximal contraction (Stage 1 [W79]); the middle and rear delt of a weight-bearing arm worked 31–37% on the hands while the other arm lifted (Stage 1 [W77]); shoulder and scapular muscles work harder the more weight the arms bear (Stage 1 [W78])
 
@@ -574,7 +582,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: archery (Side delt)
 - Stands in for: C015 (excluded)
 - Cues: cap at 80°, below shoulder height (corpus) · both arms simultaneously (corpus; R12 until stage 3) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
-- Source: 📖 corpus — routine_upperbody v6 ex. 7; routine_upperbody_focus_A v6 ex. 7; routine_upperbody_focus_B v6 ex. 4; routine_upperbody_focus_C v6 ex. 9; routine_upperbody_focus_A v7 ex. 5; routine_upperbody_focus_B v7 ex. 5; routine_upperbody_focus_C v7 ex. 7; routine_upperbody_focus_A v8 ex. 7; routine_upperbody_focus_B v8 ex. 7; routine_upperbody_focus_C v8 ex. 5; routine_upperbody_focus_A v11 ex. 3; routine_upperbody_focus_B v11 ex. 3; routine_upperbody_focus_C v10 ex. 3; routine_upperbody_focus_A v12 ex. 3; routine_upperbody_focus_B v12 ex. 3; routine_upperbody_focus_B v13 ex. 3
+- Source: 📖 corpus — routine_upperbody v6 ex. 7; routine_upperbody_focus_A v6 ex. 7; routine_upperbody_focus_B v6 ex. 4; routine_upperbody_focus_C v6 ex. 9; routine_upperbody_focus_A v7 ex. 5; routine_upperbody_focus_B v7 ex. 5; routine_upperbody_focus_C v7 ex. 7; routine_upperbody_focus_A v8 ex. 7; routine_upperbody_focus_B v8 ex. 7; routine_upperbody_focus_C v8 ex. 5; routine_upperbody_focus_A v11 ex. 3; routine_upperbody_focus_B v11 ex. 3; routine_upperbody_focus_C v10 ex. 3; routine_upperbody_focus_A v12 ex. 3; routine_upperbody_focus_B v12 ex. 3; routine_upperbody_focus_B v13 ex. 3; Upper_HYP/routine_upperbody_focus_A v11 ex. 7; Upper_HYP/routine_upperbody_focus_C v10 ex. 5
 - Basis: 🌐 Stage 1 [W6]: the dumbbell raise peaks at short length; it grew the side delt like the cable version
 
 **C013 · Leaning dumbbell lateral raise (hold the frame)** — Side delt · M · shoulder abduction · isolation · locked
@@ -612,7 +620,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: arms stop in line with the shoulders, not behind the torso plane (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both arms move together (R12 until stage 3) · torso ~45°, spine neutral, knees soft (R2)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance
 - Notes: Unsupported hinge: more residual risk than the chest-supported version (selection criterion 1).
-- Source: 📖 corpus — routine_upperbody_focus_A v6 alt. for reverse cable fly; routine_upperbody_focus_B v6 alt. for reverse cable fly; routine_upperbody_focus_C v6 alt. for reverse cable fly; routine_upperbody_focus_C v7 alt. for chest-supported rear delt fly; routine_upperbody_focus_C v8 alt. for chest-supported rear delt fly
+- Source: 📖 corpus — routine_upperbody_focus_A v6 alt. for reverse cable fly; routine_upperbody_focus_B v6 alt. for reverse cable fly; routine_upperbody_focus_C v6 alt. for reverse cable fly; routine_upperbody_focus_C v7 alt. for chest-supported rear delt fly; routine_upperbody_focus_C v8 alt. for chest-supported rear delt fly; Upper_HYP/routine_upperbody_focus_C v10 alt. for chest-supported rear delt fly
 - Basis: 🧠 mechanics: gravity peaks at the top, so S (R26) · 🧠 mechanics — stabilizers: bent over at ~45°, the erectors and hamstrings hold the hinge · 🌐 Stage 1 [W81]: the cuff's infraspinatus worked 62–70% of a maximal contraction in a reverse fly, beside the rear delt's 86–90%, so it counts as indirect (T21)
 
 **C017 · Chest-supported dumbbell rear delt fly (incline bench)** — Rear delt · S · horizontal abduction · isolation · open ✏️
@@ -623,7 +631,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: arms stop in line with the shoulders (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both arms move together (R12 until stage 3)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance
 - Alternative candidates (R41 filter): C018 (S), C016 (S)
-- Source: proposed ✏️ — routine_upperbody_focus_C v7 ex. 6; routine_upperbody_focus_C v8 ex. 4
+- Source: proposed ✏️ — routine_upperbody_focus_C v7 ex. 6; routine_upperbody_focus_C v8 ex. 4; Upper_HYP/routine_upperbody_focus_C v10 ex. 4
 - Basis: 🧠 mechanics (R26) · 📖 supported version of the corpus bent-over fly (selection criterion 1) · 🌐 Stage 1 [W81]: the cuff's infraspinatus worked 62–70% of a maximal contraction in a reverse fly, beside the rear delt's 86–90%, so it counts as indirect (T21)
 - 🔖 A6
 
@@ -635,7 +643,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stands in for: C019 (excluded)
 - Cues: arms stop at the torso plane (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both arms move together (R12 until stage 3)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance
-- Source: 📖 corpus — routine_upperbody_focus_A v6 alt. for reverse cable fly; routine_upperbody_focus_B v6 alt. for reverse cable fly; routine_upperbody_focus_C v6 alt. for reverse cable fly; routine_upperbody_focus_A v7 ex. 8; routine_upperbody_focus_C v7 alt. for chest-supported rear delt fly; routine_upperbody_focus_A v8 ex. 6; routine_upperbody_focus_C v8 alt. for chest-supported rear delt fly; routine_upperbody_focus_C v10 ex. 4
+- Source: 📖 corpus — routine_upperbody_focus_A v6 alt. for reverse cable fly; routine_upperbody_focus_B v6 alt. for reverse cable fly; routine_upperbody_focus_C v6 alt. for reverse cable fly; routine_upperbody_focus_A v7 ex. 8; routine_upperbody_focus_C v7 alt. for chest-supported rear delt fly; routine_upperbody_focus_A v8 ex. 6; routine_upperbody_focus_C v8 alt. for chest-supported rear delt fly; routine_upperbody_focus_C v10 ex. 4; Upper_HYP/routine_upperbody_focus_A v11 ex. 6; Upper_HYP/routine_upperbody_focus_C v10 alt. for chest-supported rear delt fly
 - Basis: 🧠 mechanics: band tension peaks at short length (R29) · 🧠 mechanics — stabilizers: the arms are held out at chest height as they open, so the front delt, then the side delt holds them up · 🌐 Stage 1 [W81]: the cuff's infraspinatus worked 62–70% of a maximal contraction in a reverse fly, beside the rear delt's 86–90%, so it counts as indirect (T21)
 
 **C019 · Reverse cable fly (single arm, low pulley, cross-body start)** — Rear delt · — · horizontal abduction · isolation · excluded
@@ -690,7 +698,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: Chest · Day after: archery (Chest)
 - Cues: thumbs up (neutral grip); raise to shoulder height, about 90° of flexion, no higher (Stage 1 [W59]) · both arms move together (R12 until stage 3) · no torso swing · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
 - Notes: Long humerus: a long lever, so light dumbbells. An overhead press for the M slot waits for a later block (Stage 1 [W60]).
-- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_upperbody_focus_A v7 ex. 7; routine_upperbody_focus_C v7 ex. 5; routine_upperbody_focus_A v8 ex. 4; routine_upperbody_focus_B v8 ex. 6; routine_upperbody_focus_B v11 ex. 1; routine_upperbody_focus_B v12 ex. 1; routine_upperbody_focus_B v13 ex. 1
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_upperbody_focus_A v7 ex. 7; routine_upperbody_focus_C v7 ex. 5; routine_upperbody_focus_A v8 ex. 4; routine_upperbody_focus_B v8 ex. 6; routine_upperbody_focus_B v11 ex. 1; routine_upperbody_focus_B v12 ex. 1; routine_upperbody_focus_B v13 ex. 1; Upper_HYP/routine_upperbody_focus_A v11 ex. 4
 - Basis: 🧠 mechanics: gravity torque peaks with the arms horizontal, at the top of the arc, so S (R26) · 🌐 Stage 1 [W59] · [W60]: in multidirectional instability the anterior deltoid is trained first by flexion raises; controlled overhead presses come later
 
 **C139 · Supine dumbbell front raise on the floor, both arms** — Front delt · L · shoulder flexion · isolation · open ✏️
@@ -734,7 +742,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: top of each rep: at stage 1 the arms rise to no more than ~75% of overhead elevation and the elbows stay 20–30% of their range short of straight (§2.5 · D-63 · D-64), ~90–95% arm extension from stage 2; shoulder blades braced: held by muscle, never pulled up to the ears or left hanging (R4) · at shoulder stage 1, hands about 1.25× shoulder width, just outside the shoulders: a wider grip reaches 45° of external rotation as the hands near the chest (§2.5 · D-63; Stage 1 [W56] · [W57]); any width from stage 2, the lats working the same (Stage 1 [W58]) · lean back ~30° from the hips, spine neutral, and pull to the upper chest (Stage 1 [W57])
 - Sport: archery — carryover: shoulder extension and adduction; pulling strength
 - Alternative candidates (R41 filter): C027 (M), C028 (S)
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 ex. 3; routine_upperbody_focus_B v6 ex. 2; routine_upperbody_focus_C v7 ex. 2; routine_upperbody_focus_C v8 ex. 2; routine_upperbody_focus_A v11 ex. 5; routine_upperbody_focus_A v12 ex. 5
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 ex. 3; routine_upperbody_focus_B v6 ex. 2; routine_upperbody_focus_C v7 ex. 2; routine_upperbody_focus_C v8 ex. 2; routine_upperbody_focus_A v11 ex. 5; routine_upperbody_focus_A v12 ex. 5; Upper_HYP/routine_upperbody_focus_C v10 ex. 2
 - Changed ✏️: The corpus cue 'let shoulder elevate at top' and 'stretch at top' fail R4; replaced by R4's braced stop (Stage 0 D-42). Corpus label 'lengthened bias' → M by resistance profile.
 - Basis: 🧠 mechanics: resistance peaks with the upper arm near horizontal; the top is truncated by R4 (R26) · 🌐 Stage 1 [W56]: wide-grip pull-ups reached 90° of abduction with 45° of external rotation · 🌐 Stage 1 [W57]: front pulldown with the grip at 1.25–1.5× shoulder width and a ~30° lean, clear of abduction with external rotation · 🌐 Stage 1 [W58]: lat activation alike from 1× to 1.5× shoulder width · 🧠 mechanics — stabilizers: the grip holds the bar, handle or band the pull moves
 
@@ -759,7 +767,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: top of each rep: at stage 1 the arms rise to no more than ~75% of overhead elevation and the elbows stay 20–30% of their range short of straight (§2.5 · D-63 · D-64), ~90–95% arm extension from stage 2; shoulder blades braced: held by muscle, never pulled up to the ears or left hanging (R4) — no dead hang
 - Sport: archery — carryover: shoulder extension and adduction; pulling strength
 - Notes: Full body weight; the assisted version scales it to the rep range.
-- Source: 📖 corpus — routine_upperbody v6 alt. for lat pulldown (Pull-ups, frame, soft elbow); routine_upperbody_focus_C v7 alt. for lat pulldown (pull-up); routine_upperbody_focus_C v8 alt. for lat pulldown (pull-up)
+- Source: 📖 corpus — routine_upperbody v6 alt. for lat pulldown (Pull-ups, frame, soft elbow); routine_upperbody_focus_C v7 alt. for lat pulldown (pull-up); routine_upperbody_focus_C v8 alt. for lat pulldown (pull-up); Upper_HYP/routine_upperbody_focus_C v10 alt. for lat pulldown (pull-up)
 - Basis: 🧠 mechanics (R26) · 🧠 mechanics — stabilizers: the grip holds the bar, handle or band the pull moves
 
 **C027 · Assisted pull-up (band or feet on the low box)** — Lats · M · vertical pull · compound · open ✏️
@@ -770,7 +778,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stands in for: C026 (locked)
 - Cues: top of each rep: at stage 1 the arms rise to no more than ~75% of overhead elevation and the elbows stay 20–30% of their range short of straight (§2.5 · D-63 · D-64), ~90–95% arm extension from stage 2; shoulder blades braced: held by muscle, never pulled up to the ears or left hanging (R4) · at shoulder stage 1, hands about 1.25× shoulder width, just outside the shoulders: a wider grip reaches 45° of external rotation as the hands near the chest (§2.5 · D-63; Stage 1 [W56] · [W57]); any width from stage 2, the lats working the same (Stage 1 [W58])
 - Sport: archery — carryover: shoulder extension and adduction; pulling strength
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody_focus_B v6 alt. for lat pulldown (stretch top); routine_upperbody_focus_C v6 alt. for neutral-grip pulldown (neutral grip, stretch top); routine_upperbody_focus_C v7 alt. for lat pulldown (assisted pull-up); routine_upperbody_focus_C v8 alt. for lat pulldown (assisted pull-up); routine_upperbody_focus_A v11 alt. for lat pulldown (assisted pull-up); routine_upperbody_focus_A v12 alt. for lat pulldown (assisted pull-up)
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody_focus_B v6 alt. for lat pulldown (stretch top); routine_upperbody_focus_C v6 alt. for neutral-grip pulldown (neutral grip, stretch top); routine_upperbody_focus_C v7 alt. for lat pulldown (assisted pull-up); routine_upperbody_focus_C v8 alt. for lat pulldown (assisted pull-up); routine_upperbody_focus_A v11 alt. for lat pulldown (assisted pull-up); routine_upperbody_focus_A v12 alt. for lat pulldown (assisted pull-up); Upper_HYP/routine_upperbody_focus_C v10 alt. for lat pulldown (assisted pull-up)
 - Changed ✏️: 'Stretch top' replaced by R4's braced stop.
 - Basis: 🧠 mechanics (R26) · 🌐 Stage 1 [W56]: wide-grip pull-ups reached 90° of abduction with 45° of external rotation · 🌐 Stage 1 [W57]: front pulldown with the grip at 1.25–1.5× shoulder width and a ~30° lean, clear of abduction with external rotation · 🌐 Stage 1 [W58]: lat activation alike from 1× to 1.5× shoulder width · 🧠 mechanics — stabilizers: the grip holds the bar, handle or band the pull moves
 
@@ -781,7 +789,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stabilizers (held still; no sets): Forearm flexors
 - Cues: kneel or sit (corpus) · top of each rep: at stage 1 the arms rise to no more than ~75% of overhead elevation and the elbows stay 20–30% of their range short of straight (§2.5 · D-63 · D-64), ~90–95% arm extension from stage 2; shoulder blades braced: held by muscle, never pulled up to the ears or left hanging (R4) · at shoulder stage 1, hands about 1.25× shoulder width, just outside the shoulders: a wider grip reaches 45° of external rotation as the hands near the chest (§2.5 · D-63; Stage 1 [W56] · [W57]); any width from stage 2, the lats working the same (Stage 1 [W58]) · lean back ~30° from the hips, spine neutral, and pull to the upper chest (Stage 1 [W57]) · both arms move together (R12 until stage 3)
 - Sport: archery — carryover: shoulder extension and adduction; pulling strength
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody_focus_B v6 ex. 3; routine_upperbody_focus_C v6 alt. for neutral-grip pulldown; routine_upperbody_focus_C v7 alt. for lat pulldown; routine_upperbody_focus_C v8 alt. for lat pulldown; routine_upperbody_focus_A v11 alt. for lat pulldown; routine_upperbody_focus_A v12 alt. for lat pulldown
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody_focus_B v6 ex. 3; routine_upperbody_focus_C v6 alt. for neutral-grip pulldown; routine_upperbody_focus_C v7 alt. for lat pulldown; routine_upperbody_focus_C v8 alt. for lat pulldown; routine_upperbody_focus_A v11 alt. for lat pulldown; routine_upperbody_focus_A v12 alt. for lat pulldown; Upper_HYP/routine_upperbody_focus_C v10 alt. for lat pulldown
 - Changed ✏️: Band anchored on the frame instead of the Smith upright, so the exercise occupies no station.
 - Basis: 🧠 mechanics: light at the top, heaviest at the chest (corpus; R29) · 🌐 Stage 1 [W56]: wide-grip pull-ups reached 90° of abduction with 45° of external rotation · 🌐 Stage 1 [W57]: front pulldown with the grip at 1.25–1.5× shoulder width and a ~30° lean, clear of abduction with external rotation · 🌐 Stage 1 [W58]: lat activation alike from 1× to 1.5× shoulder width · 🧠 mechanics — stabilizers: the grip holds the bar, handle or band the pull moves
 
@@ -858,7 +866,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: arms reach forward until the elbows are 20–30% of their range short of straight at stage 1, ~90–95% extension from stage 2 (R1 · R2 · §2.5 · D-64) · elbows stop about in line with the shoulders (R1)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; pulling strength
 - Alternative candidates (R41 filter): C038 (S), C036 (S), C037 (S), C033 (S)
-- Source: 📖 corpus — routine_upperbody_focus_C v6 ex. 2; routine_upperbody_focus_A v7 ex. 2; routine_upperbody_focus_B v7 alt. for chest-supported DB row; routine_upperbody_focus_A v8 ex. 2; routine_upperbody_focus_B v8 alt. for chest-supported DB row; routine_upperbody_focus_C v10 ex. 5; routine_upperbody_focus_B v12 ex. 5; routine_upperbody_focus_B v13 ex. 5
+- Source: 📖 corpus — routine_upperbody_focus_C v6 ex. 2; routine_upperbody_focus_A v7 ex. 2; routine_upperbody_focus_B v7 alt. for chest-supported DB row; routine_upperbody_focus_A v8 ex. 2; routine_upperbody_focus_B v8 alt. for chest-supported DB row; routine_upperbody_focus_C v10 ex. 5; routine_upperbody_focus_B v12 ex. 5; routine_upperbody_focus_B v13 ex. 5; Upper_HYP/routine_upperbody_focus_A v11 ex. 2
 - Basis: 🧠 mechanics (R26) · 🧠 mechanics — stabilizers: seated upright against the cable's pull, the erectors hold the trunk, and the grip the handle
 
 **C036 · Chest-supported dumbbell row (incline bench)** — Upper back · S · horizontal pull · compound · open
@@ -880,7 +888,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · elbows stop at the torso line; past it is loaded shoulder extension behind the torso (R5 cap) · both arms move together (R12 until stage 3) · torso ~45°, spine neutral, knees soft (R2)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; pulling strength
 - Notes: Unsupported hinge: more residual risk than the chest-supported row (selection criterion 1).
-- Source: 📖 corpus — routine_upperbody_focus_C v6 alt. for wide-grip cable row; routine_upperbody_focus_A v8 alt. for wide-grip cable row; routine_upperbody_focus_C v10 alt. for wide-grip cable row; routine_upperbody_focus_B v12 alt. for wide-grip cable row; routine_upperbody_focus_B v13 alt. for wide-grip cable row
+- Source: 📖 corpus — routine_upperbody_focus_C v6 alt. for wide-grip cable row; routine_upperbody_focus_A v8 alt. for wide-grip cable row; routine_upperbody_focus_C v10 alt. for wide-grip cable row; routine_upperbody_focus_B v12 alt. for wide-grip cable row; routine_upperbody_focus_B v13 alt. for wide-grip cable row; Upper_HYP/routine_upperbody_focus_A v11 alt. for wide-grip cable row
 - Basis: 🧠 mechanics (R26) · 🧠 mechanics — stabilizers: bent over, the hamstrings hold the hinge (the erectors count as indirect), and the grip holds the load
 
 **C038 · Band wide row (anchored low)** — Upper back · S · horizontal pull · compound · open
@@ -890,7 +898,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stabilizers (held still; no sets): Forearm flexors
 - Cues: elbows stop about in line with the shoulders (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both arms move together (R12 until stage 3)
 - Sport: archery — carryover: horizontal abduction and scapular retraction strength-endurance; pulling strength
-- Source: 📖 corpus — routine_upperbody_focus_C v6 alt. for wide-grip cable row; routine_upperbody_focus_A v7 alt. for wide-grip cable row; routine_upperbody_focus_B v7 alt. for chest-supported DB row; routine_upperbody_focus_A v8 alt. for wide-grip cable row; routine_upperbody_focus_B v8 alt. for chest-supported DB row
+- Source: 📖 corpus — routine_upperbody_focus_C v6 alt. for wide-grip cable row; routine_upperbody_focus_A v7 alt. for wide-grip cable row; routine_upperbody_focus_B v7 alt. for chest-supported DB row; routine_upperbody_focus_A v8 alt. for wide-grip cable row; routine_upperbody_focus_B v8 alt. for chest-supported DB row; Upper_HYP/routine_upperbody_focus_A v11 alt. for wide-grip cable row
 - Basis: 🧠 mechanics (R29) · 🧠 mechanics — stabilizers: the grip holds the bar, handle or band the pull moves
 
 **C039 · Prone Y raise (on the floor, light dumbbells or none)** — Upper back · S · scapular upward rotation · isolation · open ✏️
@@ -913,7 +921,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: —
 - Cues: lower to ~70–80% of the elbow range — never hang in the stretch (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both arms move together (R12 until stage 3)
 - Alternative candidates (R41 filter): C045 (M), C043 (M), C046 (M), C044 (S)
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 ex. 5 (rounds 1 and 3); routine_upperbody_focus_A v7 ex. 3; routine_upperbody_focus_A v8 ex. 3
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 ex. 5 (rounds 1 and 3); routine_upperbody_focus_A v7 ex. 3; routine_upperbody_focus_A v8 ex. 3; Upper_HYP/routine_upperbody_focus_A v11 ex. 3
 - Changed ✏️: Corpus equipment 'EZ-bar / DB' → dumbbells only: there is no EZ-bar (Stage 0 D-30). Corpus label 'shortened bias' → L (Stage 1 R26 · §5.2).
 - Basis: 📖 R26 reference label (preacher curl: L) · 🌐 Stage 1 [W2] · [W3]: preacher curls grew the distal biceps
 
@@ -936,7 +944,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Until it opens, use: C043 (Stage 1 D-09)
 - Cues: elbows slightly behind the torso on the cable's fixed line (R5 pass example) · lower to ~70–80% of the elbow range — the cable loads the bottom (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both hands on the bar (R12)
 - Sport: archery — conflict: loads the biceps long head at length — a tissue archery loads (Stage 0 §1.2 Loads)
-- Source: 📖 corpus — routine_upperbody_focus_A v6 ex. 5; routine_upperbody v6 alt. for preacher curl (cable curl behind body); routine_upperbody_focus_A v7 alt. for preacher curl; routine_upperbody_focus_A v8 alt. for preacher curl
+- Source: 📖 corpus — routine_upperbody_focus_A v6 ex. 5; routine_upperbody v6 alt. for preacher curl (cable curl behind body); routine_upperbody_focus_A v7 alt. for preacher curl; routine_upperbody_focus_A v8 alt. for preacher curl; Upper_HYP/routine_upperbody_focus_A v11 alt. for preacher curl
 - Basis: 📖 Stage 0 R5 pass example · 📖 Stage 1 §7 S1.10: behind-body cable curl, L
 
 **C043 · Standing cable curl (low pulley, elbows at the sides)** — Biceps · M · elbow flexion · isolation · open ✏️
@@ -965,7 +973,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stations: none · Equipment: bands · Joints (stage needed): elbow 1; shoulder 1; wrist 1
 - Indirect: — · Day after: —
 - Cues: elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · band under both feet, both arms (R12)
-- Source: proposed ✏️ — routine_upperbody_focus_A v7 alt. for preacher curl; routine_upperbody_focus_A v8 alt. for preacher curl
+- Source: proposed ✏️ — routine_upperbody_focus_A v7 alt. for preacher curl; routine_upperbody_focus_A v8 alt. for preacher curl; Upper_HYP/routine_upperbody_focus_A v11 alt. for preacher curl
 - Basis: 📖 Stage 1 §7 S1.10: band curl as the spider curl's alternative (M) · 🧠 mechanics: the band's rise meets a shrinking moment arm near the top, so M (R26 · R29)
 - 🔖 A6
 
@@ -1012,7 +1020,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: shoulder blades braced overhead (R6); at shoulder stage 1 the arms rise to no more than ~75% of overhead elevation (§2.5 · D-63); from stage 2, peak tension at ~70–80% of the range, never end range (R1) · elbow bend at the bottom to ~70–80% of the range (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
 - Sport: badminton — carryover: overhead triceps (secondary)
 - Alternative candidates (R41 filter): C053 (L), C051 (L), C050 (M), C054 (M)
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 ex. 6 (rounds 2 and 4); routine_upperbody_focus_B v6 ex. 6; routine_upperbody_focus_A v7 ex. 4; routine_upperbody_focus_A v8 ex. 5
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 ex. 6 (rounds 2 and 4); routine_upperbody_focus_B v6 ex. 6; routine_upperbody_focus_A v7 ex. 4; routine_upperbody_focus_A v8 ex. 5; Upper_HYP/routine_upperbody_focus_A v11 ex. 5
 - Changed ✏️: Arms overhead → no higher than ~75% of overhead elevation at shoulder stage 1 (§2.5 · D-63).
 - Basis: 📖 R26 reference label (overhead cable extension: L) · 🌐 Stage 1 [W7]: overhead extensions grew the long head ~1.5-fold · 🧠 mechanics — stabilizers: the upper arms are held overhead, so the front and side delt hold them up, the cuff keeps the shoulder centred, and the serratus and lower traps keep the shoulder blades turned up (R6)
 
@@ -1023,7 +1031,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stabilizers (held still; no sets): Front delt, Side delt, Rotator cuff, Serratus anterior, Upper back
 - Cues: shoulder blades braced overhead (R6); at shoulder stage 1 the arms rise to no more than ~75% of overhead elevation (§2.5 · D-63); from stage 2, peak tension at ~70–80% of the range, never end range (R1) · elbow stays 20–30% of its range short of straight at elbow stage 1 — a soft bend from stage 2 — at the top, where the band is heaviest (§2.5 · D-64 · R2) · one band, both hands (R12)
 - Sport: badminton — carryover: overhead triceps (secondary)
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 alt. for overhead cable extension; routine_upperbody_focus_C v7 ex. 3; routine_upperbody_focus_C v8 ex. 3
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody v6 alt. for overhead cable extension; routine_upperbody_focus_C v7 ex. 3; routine_upperbody_focus_C v8 ex. 3; Upper_HYP/routine_upperbody_focus_C v10 ex. 3
 - Changed ✏️: Arms overhead → no higher than ~75% of overhead elevation at shoulder stage 1 (§2.5 · D-63).
 - Basis: 🧠 mechanics: the band moves the peak toward the top, so M (R26 · R29) · 🧠 mechanics — stabilizers: the upper arms are held overhead, so the front and side delt hold them up, the cuff keeps the shoulder centred, and the serratus and lower traps keep the shoulder blades turned up (R6)
 
@@ -1035,7 +1043,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Cues: shoulder blades braced overhead (R6); at shoulder stage 1 the arms rise to no more than ~75% of overhead elevation (§2.5 · D-63); from stage 2, peak tension at ~70–80% of the range, never end range (R1) · elbow bend at the bottom to ~70–80% of the range (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2)
 - ⚠️ R6: free dumbbell overhead — the overhead cable extension ranks above it
 - Sport: badminton — carryover: overhead triceps (secondary)
-- Source: 📖 corpus-fixed ✏️ — routine_upperbody_focus_B v6 alt. for overhead cable extension (single-arm overhead DB ext.); routine_upperbody_focus_A v7 alt. for overhead cable triceps extension; routine_upperbody_focus_A v8 alt. for overhead cable triceps extension; routine_upperbody_focus_A v11 alt. for cable triceps pushdown; routine_upperbody_focus_A v12 alt. for cable triceps pushdown
+- Source: 📖 corpus-fixed ✏️ — routine_upperbody_focus_B v6 alt. for overhead cable extension (single-arm overhead DB ext.); routine_upperbody_focus_A v7 alt. for overhead cable triceps extension; routine_upperbody_focus_A v8 alt. for overhead cable triceps extension; routine_upperbody_focus_A v11 alt. for cable triceps pushdown; routine_upperbody_focus_A v12 alt. for cable triceps pushdown; Upper_HYP/routine_upperbody_focus_A v11 alt. for overhead cable triceps extension
 - Changed ✏️: Two hands on one dumbbell instead of one arm, so both elbows load together (R12 at stage 1). Arms overhead → no higher than ~75% of overhead elevation at shoulder stage 1 (§2.5 · D-63).
 - Basis: 🧠 mechanics (R26) · 🧠 mechanics — stabilizers: the upper arms are held overhead, so the front and side delt hold them up, the cuff keeps the shoulder centred, and the serratus and lower traps keep the shoulder blades turned up (R6)
 
@@ -1056,7 +1064,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Indirect: — · Day after: archery (Triceps)
 - Cues: lower toward the forehead to ~70–80% of the elbow range (R1) · elbow stays 20–30% of its bending range short of straight at elbow stage 1 — a soft bend from stage 2 (§2.5 · D-64 · R2) · both arms move together (R12 until stage 3)
 - Alternative candidates (R41 filter): C049 (L), C051 (L), C050 (M), C054 (M)
-- Source: 📖 corpus — routine_upperbody v6 alt. for overhead cable extension (skull crusher to forehead); routine_upperbody_focus_A v6 alt. for cable pushdown; routine_upperbody_focus_B v6 alt. for overhead cable extension; routine_upperbody_focus_C v6 alt. for cable pushdown; routine_upperbody_focus_A v7 alt. for overhead cable triceps extension; routine_upperbody_focus_A v8 alt. for overhead cable triceps extension; routine_upperbody_focus_A v11 alt. for cable triceps pushdown; routine_upperbody_focus_A v12 alt. for cable triceps pushdown
+- Source: 📖 corpus — routine_upperbody v6 alt. for overhead cable extension (skull crusher to forehead); routine_upperbody_focus_A v6 alt. for cable pushdown; routine_upperbody_focus_B v6 alt. for overhead cable extension; routine_upperbody_focus_C v6 alt. for cable pushdown; routine_upperbody_focus_A v7 alt. for overhead cable triceps extension; routine_upperbody_focus_A v8 alt. for overhead cable triceps extension; routine_upperbody_focus_A v11 alt. for cable triceps pushdown; routine_upperbody_focus_A v12 alt. for cable triceps pushdown; Upper_HYP/routine_upperbody_focus_A v11 alt. for overhead cable triceps extension
 - Basis: 🧠 mechanics: gravity peaks with the forearm horizontal, near the bottom, so L (R26)
 
 **C054 · Band pushdown (anchored high)** — Triceps · M · elbow extension · isolation · open
@@ -1195,7 +1203,7 @@ Screened against the default Current state: every joint at loading stage 1, the 
 - Stands in for: C061 (locked)
 - Cues: arms up over the shoulders, elbows bent 20–30% of their range short of straight (§2.5 · D-64), hips and knees at 90° (tabletop) · lower back stays flat; to progress, straighten both legs together only as far as it stays so (R1 · R2)
 - Sport: archery — carryover: trunk anti-rotation and anti-extension holds
-- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_upperbody_focus_B v7 ex. 6; routine_upperbody_focus_B v8 ex. 8; routine_upperbody_focus_A v11 ex. 4; routine_upperbody_focus_A v12 ex. 4; routine_upperbody_focus_B v13 ex. 4
+- Source: confirmed by Harry ✏️ (Stage 1 D-08) — routine_upperbody_focus_B v7 ex. 6; routine_upperbody_focus_B v8 ex. 8; routine_upperbody_focus_A v11 ex. 4; routine_upperbody_focus_A v12 ex. 4; routine_upperbody_focus_B v13 ex. 4; Upper_HYP/routine_upperbody_focus_A v11 ex. 8; Upper_HYP/routine_upperbody_focus_C v10 ex. 6
 - Basis: 📖 Stage 0 §1.2 archery carryover (anti-extension) · 🌐 Stage 0 [W51] GEAR: mid-range control, short lever first · 📖 Stage-1 replacement for C061 (Stage 1 D-09) · 🧠 mechanics — stabilizers: the hip flexors hold the legs off the floor
 
 **C141 · Crunch over the foam roller (roller under the mid-back)** — Abs · L · trunk flexion · isolation · locked ✏️

@@ -1,5 +1,8 @@
 {
-  "block": 3,
+  "track": "Lower_STR",
+  "block": 1,
+  "status": "prepared",
+  "builds_on": null,
   "current_state": {
     "block_type": "focus",
     "block_goal": {
@@ -19,34 +22,23 @@
       "evertors"
     ],
     "layoff": "~2 months — the lower body has not trained in blocks 01–02",
-    "loading_stages": {
-      "shoulder": 2,
-      "elbow": 2,
-      "wrist": 2,
-      "spine": 1,
-      "hip": 1,
-      "knee": 1,
-      "ankle": 1,
-      "fingers": 4
-    },
-    "in_season": [],
     "current_routines": [
       {
-        "stem": "routine_lowerbody_focus_A",
+        "path": "Lower_STR/routine_lowerbody_focus_A",
         "regions": [
           "lower"
         ],
         "sessions_week": 1
       },
       {
-        "stem": "routine_lowerbody_focus_B",
+        "path": "Lower_STR/routine_lowerbody_focus_B",
         "regions": [
           "lower"
         ],
         "sessions_week": 1
       },
       {
-        "stem": "routine_lowerbody_focus_C",
+        "path": "Lower_STR/routine_lowerbody_focus_C",
         "regions": [
           "lower"
         ],
@@ -59,15 +51,15 @@
     "approved": "2026-11-18",
     "routines": [
       {
-        "stem": "routine_lowerbody_focus_A",
+        "path": "Lower_STR/routine_lowerbody_focus_A",
         "version": 7
       },
       {
-        "stem": "routine_lowerbody_focus_B",
+        "path": "Lower_STR/routine_lowerbody_focus_B",
         "version": 7
       },
       {
-        "stem": "routine_lowerbody_focus_C",
+        "path": "Lower_STR/routine_lowerbody_focus_C",
         "version": 6
       }
     ],
@@ -94,7 +86,20 @@
       "Then +1 set every 2 weeks per target while (a) and (b) stay inside the step gate, strength and endurance up to 8 a week (R34), each exercise within its row's Sets (R48) and each session within Stage 0 R19 — every session has at least 44 min of room before 75 min; never more load and more sets for a muscle in the same week (R42 c)",
       "Flares: a flare repeats the week's dose for the exercises loading that joint; two within 4 weeks → 5% less load, or a lighter band, for 2 weeks, since every exercise sits at its row's floor of 2 sets (R43). Deloads only on their trigger — at the same load, the reserve felt after 3 reps falls by 2 or more, or the endurance reps at 3 RIR fall by 2 or more, for two sessions — one week at half the sets, same loads (R44)"
     ],
-    "suspensions": "Upper body not trained this block: the shoulder, elbow, wrist and fingers keep their loading stages, and their loading-gate progression is suspended (Stage 0 R24 · §2.1); the spine, hip, knee and ankle, the lower body's joints since D-100, progress in this block"
+    "suspensions": "Upper body not trained this block: the shoulder, elbow, wrist and fingers keep their loading stages, and their loading-gate progression is suspended (Stage 0 R24 · §2.1); the spine, hip, knee and ankle, the lower body's joints since D-100, progress in this block",
+    "built_with": {
+      "loading_stages": {
+        "shoulder": 2,
+        "elbow": 2,
+        "wrist": 2,
+        "spine": 1,
+        "hip": 1,
+        "knee": 1,
+        "ankle": 1,
+        "fingers": 4
+      },
+      "in_season": []
+    }
   },
   "log": [
     {
@@ -125,7 +130,8 @@
         "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision",
         "Spec round, only if Harry wants one: strength targets spread over at least 2 sessions instead of every session (Stage 0 §0.3) would hold each at its target of 4 sets and save 10 strength sets a week (T2, 2026-11-13)",
         "Stage 0 R24 in block 03: plan v2 keeps plan v1's reading — the spine's progression suspended with the upper region — though the Smith squat and RDL load the spine and the Smith bar the shoulders; whether R24 counts the spine with the upper region is unstated"
-      ]
+      ],
+      "spec_gaps": []
     },
     {
       "date": "2026-11-18",
@@ -152,6 +158,26 @@
         "Spec round, only if Harry wants one — gaps the block 03 plan met: R30 says nothing when no lift for a target passes a 'must'; R22 has no anchor when a row has no pre-layoff load; R42 (a) has no step in the strength row at 3 RIR; two goal rows in a region, again; R21 and R59 when Harry wants no sport named",
         "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision",
         "Stage 2 R67 and a prepared block: block_03.json sits in gymstate/ before block 03 starts, while R67 reads the highest number as the current block and state_check.py checks the newest file by default — an R67 amendment for a prepared next block, in a spec round if Harry wants one"
+      ],
+      "spec_gaps": []
+    },
+    {
+      "date": "2026-11-20",
+      "changes": [
+        "Migrated from gymstate/block_03.json into the track Lower_STR (Harry, 2026-11-20: M1 A · Stage 0 D-102 · Stage 2 D-16): block_01, status prepared — built, not started, and active once Harry says so — builds_on null; 'block 03' in the rows above is this block",
+        "Loading stages and in_season moved to gymstate/athlete.json; this block's values are kept as plan.built_with — no sport in season, while the athlete record holds archery (M3 A), so the next conversation on this track names that change first (Stage 2 R68)",
+        "Paths: Lower_STR/routine_lowerbody_focus_A v7, _B v7 and _C v6, moved to gymplan/Lower_STR/ with their mirrors to gymtxt/Lower_STR/",
+        "Follow-ups split (Stage 0 D-101 · D-102): the plan's spec-round gaps moved to spec_gaps; the season exception, the finger test and the spine question are kept once, in gymstate/athlete.json, and the four spec-round items from block 02 in Delt_Abs_archery/block_01.json",
+        "Closed: the block 03 start row with upper focus A and B leaving (tracks are independent); upper focus A v12 and B v13 reported missing; routine_upperbody_focus_C v10 (M4 A); the R67 amendment for a prepared block (Stage 2 D-16)"
+      ],
+      "follow_ups": [
+        "Catalogue C129 lists only hip, knee and ankle: one-arm strokes also need shoulder, elbow and wrist at stage 3 (R12), and overhead strokes take the low back toward its range limit (spine at stage 1, R3) — fix on Harry's OK",
+        "Block 03 gate progress: the hip, knee and ankle move 1 → 4 one stage at a time (R14) — the only route to court drills; stage 1 → 2 needs two clean step-gate weeks, then evaluation_lowerbody's control and symmetry tests, in a session that replaces one lower session that week (R20)",
+        "Hip machine: its pin step must be ≤10% of the working load for cards 4 and 5 to pass the strength test's S3 (Stage 1 R30) — Harry checks at the machine",
+        "The catalogue mirror's §5 'Decided' line lists chat dates up to 2026-11-06 only — a wording fix for a later revision"
+      ],
+      "spec_gaps": [
+        "Spec round, only if Harry wants one — gaps the block 03 plan met: R30 says nothing when no lift for a target passes a 'must'; R22 has no anchor when a row has no pre-layoff load; R42 (a) has no step in the strength row at 3 RIR; two goal rows in a region, again; R21 and R59 when Harry wants no sport named"
       ]
     }
   ]

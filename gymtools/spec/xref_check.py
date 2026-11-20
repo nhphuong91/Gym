@@ -1,19 +1,20 @@
-"""Cross-reference check for CLAUDE.md and the stage docs in gymspec/.
+"""Cross-reference check for the two prompts and the stage docs in gymspec/.
 
 Run from gymspec/: python3 -B ../gymtools/spec/xref_check.py   (or pass the gymspec path)
 Prints a summary, then ISSUES and RESULT. Exit code 0 when clean, 1 when issues are listed.
 
-Reads ../CLAUDE.md, every Stage<n>_<Name>.md with its Stage<n>_SupplementInfo.md, and the
+Reads ../CLAUDE.md (the routine prompt), gymspec/SpecPrompt.md (the spec prompt, Stage 0 D-101) when it
+exists, every Stage<n>_<Name>.md with its Stage<n>_SupplementInfo.md, and the
 "## R#" headings of ../reference.md. A stage is checked as soon as both of its files exist.
 
 How a reference resolves (each Supplement's header states its § convention):
 - §x.y by its own prefix: a stage file name or "Policy Definition" -> that doc; "Supplement"
   -> the citing stage's Supplement; §R# -> reference.md. "Stage N", and no prefix in a
   Supplement, follow the Supplements' convention: the normative doc's headings, then the
-  Supplement's. No prefix in a normative doc -> its own headings; in CLAUDE.md -> Stage 0.
+  Supplement's. No prefix in a normative doc -> its own headings; in either prompt -> Stage 0.
 - §x.y (a): when §x.y is an Accepted limits table, the letter must be one of its rows.
 - D-##: by its own "Stage N" prefix or the last one earlier in the same chain
-  ("Stage 0 D-47 · D-48"); otherwise the citing stage's log (Stage 0 for CLAUDE.md).
+  ("Stage 0 D-47 · D-48"); otherwise the citing stage's log (Stage 0 for either prompt).
   Ranges such as D-70…D-76 are expanded.
 - [W#] and M#: by their own "Stage N" prefix only ("Stage 0 [W64] · [W37]": W37 is the
   citing stage's); otherwise the citing stage's Supplement.
@@ -21,7 +22,8 @@ How a reference resolves (each Supplement's header states its § convention):
 Also checked: R-numbers run on without gaps from stage to stage; every rule not marked
 withdrawn has an example row with a pass and a fail; every step row has Input, Action items
 and Output; no "should" or "may" in a Rules section; duplicate IDs; each stage's Open items
-against its "Open items:" note in CLAUDE.md <stages> and its open round in the Supplement.
+against its "Open items:" note in SpecPrompt.md <stages> (CLAUDE.md's when SpecPrompt.md is absent)
+and its open round in the Supplement.
 Known false positives: none (checked 2026-10-09).
 """
 import collections
@@ -91,6 +93,8 @@ def expand(tok, prefix):
 P = read(GYMSPEC / '..' / 'CLAUDE.md')
 if P is None:
     sys.exit('CLAUDE.md not found: run from gymspec/ or pass the gymspec path')
+SP = read(GYMSPEC / 'SpecPrompt.md')
+STAGES_TEXT, STAGES_NAME = (SP, 'SpecPrompt.md') if SP is not None else (P, 'CLAUDE.md')
 REFMD = read(GYMSPEC / '..' / 'reference.md') or ''
 REF_HEADS = set(re.findall(r'^## (R\d+)\b', REFMD, re.M))
 
@@ -246,7 +250,7 @@ def check_section(where, text, pos, kind, own, q, qs, r):
     issue(where, text, pos, f'§{sec} is not a heading in {names}')
 
 
-DOCS = [('CLAUDE.md', P, 0, 'prompt')]
+DOCS = [('CLAUDE.md', P, 0, 'prompt')] + ([('SpecPrompt.md', SP, 0, 'prompt')] if SP is not None else [])
 for n, st in sorted(ST.items()):
     DOCS += [(st['norm_name'], st['norm'], n, 'norm'), (st['sup_name'], st['sup'], n, 'sup')]
 cited_R = {}
@@ -298,7 +302,7 @@ for x, (where, text, pos) in sorted(cited_R.items()):
 
 # ---- open items ------------------------------------------------------------------
 notes = {}
-blk = re.search(r'<stages>(.*?)</stages>', P, re.S)
+blk = re.search(r'<stages>(.*?)</stages>', STAGES_TEXT, re.S)
 for m in re.finditer(r'^- Stage (\d+) .*$', blk.group(1) if blk else '', re.M):
     om = re.search(r'Open items: ([^;\n]*)', m.group(0))
     notes[int(m.group(1))] = om.group(1).strip() if om else None
@@ -327,7 +331,7 @@ for n, st in sorted(ST.items()):
         if not note_none:
             cited_O |= set(int(x) for x in re.findall(r'\bO(\d+)\b', note))
         if note_none != is_none:
-            issue('CLAUDE.md', None, None, f'<stages> gives Stage {n} "Open items: {note[:30]}", '
+            issue(STAGES_NAME, None, None, f'<stages> gives Stage {n} "Open items: {note[:30]}", '
                   f'but {nn} {"reads None" if is_none else "lists open items"}')
     for x in sorted(cited_O - defined_O):
         issue(nn, None, None, f'O{x} is cited but is not an open item')
@@ -338,7 +342,7 @@ if old_oi:
     issue('docs', None, None, f'{old_oi} open-item reference(s) still in the old OI- form')
 
 # ---- report ------------------------------------------------------------------------
-print('Docs: CLAUDE.md · ' + ' · '.join(f'{st["norm_name"]} + {st["sup_name"]}' for _, st in sorted(ST.items()))
+print('Docs: CLAUDE.md · ' + ('SpecPrompt.md · ' if SP is not None else '') + ' · '.join(f'{st["norm_name"]} + {st["sup_name"]}' for _, st in sorted(ST.items()))
       + (' · reference.md (## R headings)' if REF_HEADS else ''))
 for n, st in sorted(ST.items()):
     rs = [r for r, _ in st['rules']]

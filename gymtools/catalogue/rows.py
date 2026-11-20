@@ -1948,3 +1948,41 @@ assert set(V7L) <= _keys, set(V7L) - _keys
 for _r in ROWS:
     if _r["key"] in V7L:
         _r["corpus"] = list(_r.get("corpus", [])) + V7L[_r["key"]]
+
+
+# Provenance from Upper_HYP's focus files A v11 and C v10 (2026-11-20, catalogue revision 29): the dead bug hold takes card 8
+# of A and card 6 of C from the plank, which holds still the side delt that its partner, the lateral raise, trains (Stage 1
+# D-21), as B v13 did on 2026-11-05. Both are cited by path: since Stage 2 D-16 each track keeps its own folder, and
+# Delt_Abs_archery holds routine_upperbody_focus_A at v11 while the archive holds C at v10. The earlier lines stay as history
+UHA11 = "Upper_HYP/routine_upperbody_focus_A v11"
+UHC10 = "Upper_HYP/routine_upperbody_focus_C v10"
+V_UH = {
+    "smith_flat_bench": [f"{UHA11} ex. 1"],
+    "wide_cable_row": [f"{UHA11} ex. 2"],
+    "preacher_curl": [f"{UHA11} ex. 3"],
+    "db_front_raise": [f"{UHA11} ex. 4"],
+    "cable_overhead_ext": [f"{UHA11} ex. 5"],
+    "band_reverse_fly": [f"{UHA11} ex. 6", f"{UHC10} alt. for chest-supported rear delt fly"],
+    "db_lateral_raise": [f"{UHA11} ex. 7", f"{UHC10} ex. 5"],
+    "dead_bug_hold": [f"{UHA11} ex. 8", f"{UHC10} ex. 6"],
+    "smith_incline": [f"{UHC10} ex. 1"],
+    "lat_pulldown": [f"{UHC10} ex. 2"],
+    "band_overhead_ext": [f"{UHC10} ex. 3"],
+    "chest_supported_rear_fly": [f"{UHC10} ex. 4"],
+    "db_floor_press": [f"{UHA11} alt. for Smith flat bench press", f"{UHC10} alt. for Smith incline press"],
+    "push_up": [f"{UHA11} alt. for Smith flat bench press (push-up on DB handles)", f"{UHC10} alt. for Smith incline press (push-up, feet on the low box)"],
+    "band_wide_row": [f"{UHA11} alt. for wide-grip cable row"],
+    "bent_over_db_row_wide": [f"{UHA11} alt. for wide-grip cable row"],
+    "cable_curl_behind": [f"{UHA11} alt. for preacher curl"],
+    "band_curl_sides": [f"{UHA11} alt. for preacher curl"],
+    "db_overhead_ext_two_hands": [f"{UHA11} alt. for overhead cable triceps extension"],
+    "db_skull_crusher": [f"{UHA11} alt. for overhead cable triceps extension"],
+    "pull_up": [f"{UHC10} alt. for lat pulldown (pull-up)"],
+    "assisted_pull_up": [f"{UHC10} alt. for lat pulldown (assisted pull-up)"],
+    "band_lat_pulldown": [f"{UHC10} alt. for lat pulldown"],
+    "bent_over_rear_fly": [f"{UHC10} alt. for chest-supported rear delt fly"],
+}
+assert set(V_UH) <= _keys, set(V_UH) - _keys
+for _r in ROWS:
+    if _r["key"] in V_UH:
+        _r["corpus"] = list(_r.get("corpus", [])) + V_UH[_r["key"]]
